@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>赛前分析 · AI 球赛观察</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header compact">
+    <div class="wrap">
+      <a class="back" href="index.html">← 返回列表</a>
+      <h1 id="title">赛前分析</h1>
+      <p id="subtitle" class="tagline"></p>
+    </div>
+  </header>
+
+  <main class="wrap report-layout">
+    <article id="report" class="report markdown-body">加载中…</article>
+    <aside class="sidebar">
+      <h2>版本时间线</h2>
+      <ol id="versions" class="versions"></ol>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>分析由 LLM 代理生成，仅供研究参考，非投注建议</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
+  <script src="app.js" defer></script>
+</body>
+</html>

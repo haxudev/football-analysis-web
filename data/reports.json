@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-06-13T13:11:35.049Z",
+  "count": 1,
+  "reports": [
+    {
+      "matchId": "20260616-spain-cape-verde",
+      "title": "Spain vs Cape Verde",
+      "home": "Spain",
+      "away": "Cape Verde",
+      "competition": "International Friendly",
+      "kickoff": "2026-06-16T03:00:00+08:00",
+      "probs": {
+        "home": 0.87,
+        "draw": 0.09,
+        "away": 0.04
+      },
+      "generatedAt": "2026-06-13T12:34:47.669Z",
+      "validationPass": true,
+      "current": "reports/20260616-spain-cape-verde/current.md",
+      "history": [
+        {
+          "timestamp": "2026-06-14T002000Z",
+          "path": "reports/20260616-spain-cape-verde/history/2026-06-14T002000Z.md"
+        },
+        {
+          "timestamp": "2026-06-13T103434Z",
+          "path": "reports/20260616-spain-cape-verde/history/2026-06-13T103434Z.md"
+        }
+      ]
+    }
+  ]
+}

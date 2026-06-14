@@ -3,10 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f1115" />
   <title>赛前分析 · AI 球赛观察</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <a class="skip-link" href="#report">跳到报告正文</a>
+
   <header class="site-header compact">
     <div class="wrap">
       <a class="back" href="index.html">← 返回列表</a>
@@ -16,10 +19,19 @@
   </header>
 
   <main class="wrap report-layout">
-    <article id="report" class="report markdown-body">加载中…</article>
+    <section class="report-main">
+      <div id="match-summary" class="match-summary" aria-live="polite"></div>
+      <article id="report" class="report markdown-body">加载中…</article>
+    </section>
     <aside class="sidebar">
-      <h2>版本时间线</h2>
-      <ol id="versions" class="versions"></ol>
+      <section class="side-panel">
+        <h2>版本时间线</h2>
+        <ol id="versions" class="versions"></ol>
+      </section>
+      <section class="side-panel toc-panel">
+        <h2>报告目录</h2>
+        <nav id="toc" class="toc" aria-label="报告目录"></nav>
+      </section>
     </aside>
   </main>
 

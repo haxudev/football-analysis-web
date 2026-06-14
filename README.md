@@ -18,9 +18,10 @@ data/
     └── history/<timestamp>.md          ← archived prior versions
 ```
 
-The page fetches `data/reports.json` and renders the Markdown client-side
-(via the `marked` CDN). `.nojekyll` is present so the raw `.md` payload is
-served as-is.
+The page fetches `data/reports.json`, groups matches by kickoff date in
+Asia/Shanghai time, sorts each group by kickoff time, and renders report
+Markdown client-side (via the `marked` CDN). `.nojekyll` is present so the raw
+`.md` payload is served as-is.
 
 ## Local preview
 
@@ -30,6 +31,13 @@ npx serve .      # then open http://localhost:3000
 
 (With an empty `data/` the list will simply be empty until the harness delivers
 a payload.)
+
+## Checks
+
+```bash
+node --check app.js
+node --test tests/app-behavior.test.mjs
+```
 
 ## Deployment
 

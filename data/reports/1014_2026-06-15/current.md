@@ -1,299 +1,217 @@
-> 生成时间：2026-06-14T00:39:33.464Z
-# 世界杯分析报告：比利时 VS 埃及
+> 生成时间：2026-06-14T12:37:55.499Z
+
+# 比利时 vs 埃及 — 2026 FIFA 世界杯 G 组第 1 轮
 
 ## 基本信息
 
-| 项目 | 详情 |
+| 项目 | 内容 |
 |------|------|
-| **赛事** | 2026 FIFA 世界杯小组赛（G组第1轮） |
-| **对阵** | 比利时（Belgium） VS 埃及（Egypt） |
-| **竞彩编号** | 周一014 |
-| **开球时间** | 2026-06-16 03:00（北京时间） |
-| **比赛地点** | Seattle Stadium / Lumen Field，西雅图，美国 |
-| **比赛性质** | 小组赛首轮，90分钟积分赛，中立场 |
+| 赛事 | 2026 FIFA 世界杯 G 组第 1 轮 |
+| 主队 | 比利时（Belgium） |
+| 客队 | 埃及（Egypt） |
+| 开球时间 | 2026-06-16 03:00 北京时间（2026-06-15 19:00 UTC） |
+| 场地 | 西雅图体育场，美国 |
+| 竞彩销售日 | 2026-06-15 |
+| 竞彩编号 | 1014 |
+| 置信度 | High（主流盘口数据完整，舆情充分） |
 
 ---
 
 ## 一、赔率分析
 
-### 1.1 主流机构初盘与即时盘对比
+### 1.1 欧赔（1X2）
 
-> **数据来源说明：** Tier 1 采用用户提供的真实欧赔/亚盘/大小球快照，并用 500.com fenxi/lottery 数据核对中国体彩与百家变盘；未使用估算赔率。
+| 公司 | 主（比利时） | 平 | 客（埃及） | 备注 |
+|------|-----------|----|-----------|----|
+| 竞彩官方 | 1.46 | 3.65 | 5.85 | 开 1.43 / 3.84 / 5.90 |
+| Bet365 | 1.60 | 3.80 | 5.00 | 开 1.62 / 3.80 / 5.75 |
+| 威廉希尔 | 1.57 | 4.00 | 4.80 | 开 1.62 / 3.75 / 5.00 |
+| 澳门 | 1.58 | 3.88 | 4.45 | 开 1.57 / 3.75 / 4.72 |
+| 皇冠 | 1.65 | 4.00 | 4.50 | 开 1.60 / 3.90 / 5.80 (**EGY 大幅降赔**) |
+| 必发（Betfair） | 1.67 | 4.10 | 6.40 | 交易所实时价 |
 
-| 玩法 | 机构 | 初盘 (主) | 初盘 (平) | 初盘 (客) | 即时盘 (主) | 即时盘 (平) | 即时盘 (客) | 变化方向 |
-|------|------|:---------:|:--------:|:---------:|:----------:|:-----------:|:----------:|:--------:|
-| **1X2 (欧赔)** | 竞彩官方 | 1.43 | 3.84 | 5.90 | 1.46 | 3.65 | 5.85 | 主胜微升、平赔压低 |
-| **1X2 (欧赔)** | William Hill | 1.62 | 3.75 | 5.00 | 1.57 | 4.00 | 4.80 | 主客双向压低、平赔抬高 |
-| **1X2 (欧赔)** | 澳门 | 1.60 | 3.75 | 4.47 | 1.58 | 3.88 | 4.45 | 轻微向主胜倾斜 |
-| **1X2 (欧赔)** | 立博 | 1.61 | 3.90 | 5.50 | 1.61 | 3.90 | 5.25 | 客胜压低 |
-| **1X2 (欧赔)** | Bet365 | 1.60 | 3.80 | 5.75 | 1.60 | 3.80 | 5.00 | 客胜明显压低 |
-| **亚盘** | William Hill | -0.75 / 0.73 | — | 1.03 | -0.75 / 0.72 | — | 0.92 | 盘口不升，仍未到一球 |
-| **亚盘** | 澳门 | -0.75 / 0.85 | — | 0.99 | -0.75 / 0.80 | — | 1.04 | 热门方水位下调 |
-| **亚盘** | 立博 | -0.5 / 0.61 | — | 1.15 | -0.5 / 0.61 | — | 1.15 | 平盘 |
-| **大小球** | William Hill | 2.5 / 0.73 | — | 1.00 | 2.5 / 0.91 | — | 0.80 | 盘口不动、资金偏向小球 |
-| **大小球** | 澳门 | 2.5 / 0.82 | — | 0.98 | 2.5 / 0.95 | — | 0.85 | 小球侧更受保护 |
-| **大小球** | 立博 | 2.5 / 0.73 | — | 1.00 | 2.5 / 0.91 | — | 0.80 | 同样转向小球 |
-| **竞彩胜平负** | 中国体彩 | 1.43 | 3.84 | 5.90 | 1.46 | 3.65 | 5.85 | 与欧赔相比明显压低比利时 |
+**注意：皇冠埃及赔率从 5.80 大幅收短至 4.50（约 20%），显示较强方向性信号。**
 
-**赔率变化趋势解读：**
+**Devig — 以必发为基准（总隐含 99.9%，约零水差）：**
 
-1. **竞彩与欧赔出现分歧。** 中国体彩把主胜从 1.43 放到 1.46，但同时把平赔从 3.84 压到 3.65，说明运营方在“比利时不败”主叙事下，对平局/胶着走势并不放松。
-2. **欧洲盘面仍承认比利时是强势方，但没有形成大胜共识。** WH、澳门对比利时主胜都有轻微压低，可亚盘始终停在 -0.75 / -0.5，迟迟没走到 -1，说明市场认可实力差，但不愿为两球胜付更高确定性溢价。
-3. **客胜一侧被持续修短。** 立博与 Bet365 都把埃及胜赔从高位往下收，意味着市场接受“埃及至少比票面更难对付”的路径，尤其是萨拉赫单点爆发的冷门线。
-4. **大小球的真实信号偏向小球。** 2.5 线没动，但 over 水位从 0.73/0.82 升到 0.91/0.95，under 则从 1.00/0.98 压到 0.80/0.85，说明市场从开盘时的乐观进球预期，转为更谨慎的 2-3 球中枢。
+| 结果 | 公平概率 |
+|------|---------|
+| 比利时胜 | **59.9%** |
+| 平局 | **24.4%** |
+| 埃及胜 | **15.6%** |
 
-### 1.2 隐含概率换算
+竞彩官方 Devig（总 113.0%）：比利时 60.6%、平局 24.3%、埃及 15.1%。
+Δ（竞彩 - 必发）：比利时 +0.7pp、平局 -0.1pp、埃及 -0.5pp — 均低于 3pp 阈值。
 
-| 结果 | 竞彩隐含概率 | 欧赔均值隐含概率 | Devig后公平概率 |
-|------|:-----------:|:--------------:|:---------------:|
-| 比利时胜 | 68.5% | 62.9% | 54.8% |
-| 平局 | 27.4% | 25.7% | 24.8% |
-| 埃及胜 | 17.1% | 20.5% | 20.4% |
-| **margin** | **13.0%** | **9.1%** | **100.0%** |
+### 1.2 亚盘（让球）
 
-> Devig 计算剔除庄家利润后，竞彩当前盘给出的公平概率约为 **60.6 / 24.2 / 15.1**，欧赔四家均值约为 **57.6 / 23.5 / 18.9**。在此基础上，我再把“中立场 + 埃及动力 + 中国票面偏热比利时”纳入主观修正，得到最终比赛概率 **54.8 / 24.8 / 20.4**。这意味着：**最可能结果仍是比利时赢，但赔率价值更偏向埃及方向。**
+- 主流：比利时让半球/一球（−0.75）
+- **Bet365 升盘：开 −0.75 → 现 −1.00（一球）** → 强力升盘信号
+- 多数书庄维持 −0.75，Bet365 当前 H 1.10 / A 0.78（一球让球）
+- **升盘表明市场增强了对比利时赢球幅度的信心**
 
-### 1.3 中国竞彩市场结构验证 (CN market-structure prior)
+### 1.3 大小球
 
-按中国竞彩市场结构验证流程：
+- 多数开 2.75（两球半/三球），现多降至 **2.5**（两球半）→ **降盘信号**
+- 澳门现价 2.5：Over HK 0.95 / Under HK 0.85；市场略偏 Over
+- O/U降盘符合"双方有效进攻降档"的市场判断
 
-- 竞彩 vs EU Devig 后 Δ：主 **+3.0pp** / 平 **+0.7pp** / 客 **-3.7pp**
-- 结论：**CONFIRMED（国家队名气/公募票面偏差，非经典 EPL 偏差）**
-- 若 confirmed：**埃及方向存在结构性价值**，尤其是竞彩客胜与让球客胜
+### 1.4 投注分析
+
+- 竞彩隐含：比利时 58.7%、平局 24.1%、埃及 17.2%（接近必发）
+- 北单隐含：比利时 70.7%、平局 19.9%、埃及 9.4%
+- Δ（北单 - 必发）比利时：+10.8pp → **CN 市场对比利时存在情绪性过热**
+- 必发备注："成交量倾向于主胜，与欧赔相差不大" — 交易所支持比利时但无极端乖离
+
+### 1.5 赔率变化解读（Volume Signal）
+
+| 市场 | 变化 | 解读 |
+|------|------|------|
+| AH | Bet365 −0.75 → −1.00（升盘） | **强烈信号：对比利时赢球差额信心增强** |
+| 1X2 | 皇冠 EGY 5.80→4.50（降赔） | 埃及赔率普遍收短（莫·萨拉赫因伤影响市场预期） |
+| O/U | 2.75→2.5（降盘） | 低进球预期增强 |
+
+AH升盘 + 1X2 埃及收短 + O/U降盘组合：整体指向**比利时占优，但进球数偏少**的格局。
+
+### 1.6 凯利计算（Half-Kelly）
+
+以必发公平概率（BEL 59.9%、平 24.4%、EGY 15.6%）为基准：
+
+| 选项 | 赔率 | Edge | Half-Kelly |
+|------|------|------|------------|
+| 比利时胜 @ 竞彩 1.46 | 1.46 | 59.9%×1.46−1 = **−12.6%** | N/A |
+| 比利时胜 @ Bet365 1.60 | 1.60 | 59.9%×1.60−1 = **−4.2%** | N/A |
+| 平局 @ 竞彩 3.65 | 3.65 | 24.4%×3.65−1 = **−10.9%** | N/A |
+| 平局 @ Bet365 3.80 | 3.80 | 24.4%×3.80−1 = **−7.3%** | N/A |
+| 埃及胜 @ Bet365 5.00 | 5.00 | 15.6%×5.00−1 = **−22.0%** | N/A |
+
+**所有选项均为负 Edge → 无凯利价值。**
 
 ---
 
 ## 二、互联网舆情分析
 
-### 2.1 媒体预测汇总
+### 2.1 主队（比利时）舆情
 
-| 媒体/机构 | 预测比分 | 倾向 | 预测依据 |
-|-----------|:--------:|------|---------|
-| Goal 预览 | 2-1 / 比利时险胜 | 比利时 | 强调 De Bruyne + Doku 的纵向推进，但同时点名 Egypt 低位防守 + Salah 反击威胁 |
-| Sports Mole | 低比分胶着 | 比利时略优 | 预计萨拉赫可以出场，埃及会长时间退守，比赛节奏更可能被压低 |
-| 公开模型/预览汇总（web search） | 2-0 / 2-1 最常见 | 比利时 | 市场/模型大多给比利时 58%-61% 胜率，埃及约 17%-20% |
-| 500.com 必发摘要 | 非比分模型 | 主胜热、客胜冷 | 成交倾向主胜，交易比例约主 64.0% / 平 26.3% / 客 9.7% |
+来源：RotoWire（2026-06-14）、SportsMole（2026-06-14）、Yahoo Sports（2026-06-14）
 
-**媒体预测倾向：比利时 3/4，平局 0/4，埃及 1/4（价值视角）**
+- **Jeremy Doku 存疑**（SportsMole 标题："amid Jeremy Doku concern"）
+- 预计首发阵容（4-2-3-1）：**Thibaut Courtois（GK）**；Timothy Castagne、Brandon Mechele、Nathan Ngoy、Thomas Meunier（DEF）；Amadou Onana、Youri Tielemans（DM）；Jeremy Doku（若适合）、Kevin De Bruyne、Leandro Trossard
+- Kevin De Bruyne 是核心创造力，即将迎来 2026 世界杯，职业生涯可能的最后一届
+- 比利时本届被认为是"黄金一代之后的重建期"，核心仍在但已过巅峰
 
-### 2.2 球迷情绪分析
+### 2.2 客队（埃及）舆情
 
-**比利时球迷**
-- 整体情绪：**谨慎乐观**
-- 关键论点：
-  - De Bruyne、Lukaku、Courtois 这批核心可能是最后一次世界杯冲刺窗口
-  - Doku、Trossard、Tielemans、Onana 让球队并未完全“老去” 
-- 担忧点：老将健康状况、Lukaku 比赛节奏、面对低位防守时是否会陷入传控停滞
+来源：SportsMole（2026-06-14 02:43 最新更新）、fwctimes.com
 
-**埃及球迷**
-- 整体情绪：**高亢且带黑马期待**
-- 关键论点：
-  - 萨拉赫恢复健康，配合 Marmoush 的冲击力，具备单场偷袭上限
-  - Hossam Hassan 的思路非常适合打小组赛首轮的“先守后偷” 
-- 担忧点：若被比利时早早进球，埃及被迫压出后，阵容深度和持球能力会迅速暴露
+- **Mohamed Salah 因伤恢复中** — SportsMole 标题确认："Mo Salah nurses injury"
+- SportsMole Egypt 文章（2026-06-14 更新）：莫·萨拉赫伤势状态待进一步观察
+- FWCTimes：暂无确认伤停，但战术层面高度依赖萨拉赫
+- 埃及最危险输出来源若受损，进攻端将显著弱化
 
-**综合舆情情感评分：**
-- 比利时 支持度：7.5/10
-- 埃及 支持度：7.0/10
-- 中立观点比例：约 35%
+### 2.3 整体情绪
 
-### 2.3 社交媒体热度
+来源互相印证（SportsMole + RotoWire + Yahoo Sports + FWCTimes = ≥2 来源）：
+1. SportsMole（BEL）：Doku 存疑，但 De Bruyne 等核心预期出场
+2. SportsMole（EGY）：萨拉赫带伤，影响埃及进攻效率
+3. RotoWire：比利时预计首发阵容完整，压力较低
+4. Yahoo Sports：团队全面赛前预告，两队均有特定球员出场问题
 
-| 平台/代理信号 | 比利时相关讨论量 | 埃及相关讨论量 | 热点话题 |
-|------|:------------------:|:------------------:|----------|
-| Goal / Google News 预览热度 | 中高 | 高 | “金色一代尾声” vs “萨拉赫带队冲击首胜” |
-| 500.com 交易热度 | 主胜 64.0% | 客胜 9.7% | 票面明显偏主，冷门方向交易冷但赔率更甜 |
-| 中文市场观察 | 偏热 | 中高 | 比利时名气更大；萨拉赫个人号召力显著高于埃及整体票面 |
-
-> **中国市场特点：** 本场不是俱乐部 EPL 偏差，而更像“强名气国家队 + 萨拉赫个人热度”共同作用。结果是：**大众更愿意买比利时正路，但真正被拉长价格的是埃及方向。**
+**两大关键伤停（Doku 存疑 + 萨拉赫带伤）削弱了比赛观赏性，但并不改变比利时优势方向，而 AH 升盘与"低进球"O/U降盘则与此吻合。**
 
 ---
 
 ## 三、球队基本面分析
 
-### 3.1 球队近期状态
+### 3.1 比利时（Belgium）
 
-**Belgium**
-- 战术风格：Rudi Garcia 倾向 4-2-3-1 / 3-4-2-1 切换，强调高位压迫、纵向推进和边路爆点
-- 近期状态：公开预览一致认为比利时资格赛走得平稳，基本盘依旧是欧洲上游强队
-- 体能状况：**⚠️劣势**（De Bruyne、Lukaku 都带着伤病恢复背景进入大赛）
-- 世界杯经验：**✅优势**
-- 中立场表现：经验足、但“主队名义”并不会带来真实主场红利
+- FIFA 世界排名约第 3–8 位（2026 估算）
+- ClubElo：national team — not covered（http://clubelo.com 仅覆盖俱乐部）
+- FBref xG：国家队 xG 数据不可获取 — https://fbref.com/en/national/BE/Belgium
+- 当前状态：De Bruyne 领衔；拥有 Courtois、Onana 等欧洲顶级球员
+- 本届比利时是后"黄金一代"核心球员的"最后一搏"，职业生涯末期但经验仍为一流
 
-**Egypt**
-- 战术风格：Hossam Hassan 更偏 4-3-3 / 4-1-4-1 低位防守，靠 Salah、Marmoush 的转换速度制造杀伤
-- 近期状态：资格赛与备战口径稳定，6 月热身赛对巴西 1-2 落败但完成了高强度对抗演练
-- 体能状况：**✅优势**（萨拉赫已恢复比赛状态，整体赛前叙事比比利时更整齐）
-- 世界杯经验：**⚠️劣势**（历史突破有限）
-- 中立场表现：更适合在中立场做“先稳住”的比赛脚本
+### 3.2 埃及（Egypt）
 
-### 3.2 关键球员动态
+- FIFA 世界排名约第 35–50 位
+- ClubElo：national team — not covered（http://clubelo.com）
+- FBref xG：国家队 xG 数据不可获取 — https://fbref.com/en/national/EG/Egypt
+- 高度依赖萨拉赫（Liverpool）；若带伤出战，效能打折
+- 其余球员多供职于埃及超级联赛及欧洲中低级别联赛
 
-| 球员 | 俱乐部 | 状态 | 影响 |
-|------|--------|------|------|
-| Kevin De Bruyne | Napoli | ⚠️恢复中 | 仍是比利时最重要的节奏器，若状态未满会直接影响前场最后一传效率 |
-| Romelu Lukaku | Napoli | ⚠️恢复中 | 若支点能力在线，比利时就能压住埃及禁区；若节奏不足，阵地战会变钝 |
-| Jérémy Doku | Man City | ✅确认 | 边路 1v1 是比利时撕开低位最现实的武器 |
-| Mohamed Salah | Liverpool | ✅确认 | 已被主帅明确表示“ready for matches”，是埃及反击上限所在 |
-| Omar Marmoush | Man City | ✅确认 | 负责纵深冲刺与二点补刀，是埃及客胜线的关键搭档 |
-| Marwan Attia / Hamdy Fathy | Al Ahly / Al-Wakrah | ✅确认 | 这组中场屏障决定埃及能否限制 De Bruyne 的半空间出球 |
+### 3.3 战术/形势分析
 
-### 3.3 战术 matchup 分析
-
-**核心矛盾：**
-1. **De Bruyne 的半空间输送 vs 埃及双后腰屏障**：如果埃及能把 De Bruyne 逼到边路，比利时阵地战效率会下降。
-2. **Doku 的爆点能力 vs 埃及低位宽度保护**：埃及最怕被边路一对一撕开，但这恰恰是比利时最强武器。
-3. **Salah/Marmoush 反击 vs 比利时高位防线**：比利时压得越高，埃及的单次反击质量越高。
-
-**风格克制：**
-- 比利时克制点在于球员个体能力更强，能在长期控球里不断重复施压。
-- 埃及克制点在于脚本简单清晰：低位守、定点爆，尤其适合首轮杯赛的波动环境。
-
-### 3.4 历史交锋记录
-
-| 日期 | 赛事 | 主场 | 比分 | 客场 |
-|------|------|------|:----:|------|
-| 2022-11-18 | 国际友谊赛 | 比利时 | 1-2 | 埃及 |
-| 2018-06-06 | 国际友谊赛 | 比利时 | 3-0 | 埃及 |
-| 2005-02-09 | 国际友谊赛 | 埃及 | 4-0 | 比利时 |
-| 1999-03-30 | 国际友谊赛 | 比利时 | 0-1 | 埃及 |
-
-**交锋记录：埃及 3胜1负占优，但 4 场全部是友谊赛，且跨度过大，只能作为背景，不足以推翻当前实力盘。**
-
-### 3.5 公开强度数据：ClubElo / xG / FIFA 排名
-
-| 球队 | 指标 | 数值 | 来源 | 新鲜度 | 解读 |
-|------|------|------|------|--------|------|
-| 比利时 | ClubElo rating | not covered（国家队） | `intent: club-elo` 检查；ClubElo 不覆盖国家队 | 当前规则 | 不能把俱乐部 Elo 硬套到国家队 |
-| 埃及 | ClubElo rating | not covered（国家队） | `intent: club-elo` 检查；ClubElo 不覆盖国家队 | 当前规则 | 同上 |
-| 比利时 | FIFA 排名 / 国家队 Elo | FIFA #9；Elo #15（1894） | whereig / eloratings.net 公开信息 | 2026-06 | 基础实力明显在埃及之上 |
-| 埃及 | FIFA 排名 / 国家队 Elo | FIFA #29；Elo #29（1562.37） | FIFA / World Football Rankings 公开信息 | 2026-06 | 低于比利时，但不是弱旅级别 |
-| 比利时 | xG / xGA / recent xG trend | blocked；公开代理值：2.08 GF、0.92 GA/场 | FBref 403；Footlab team profile | mixed | 找不到稳定开放 xG 聚合，但公开代理数据仍指向“攻强于守” |
-| 埃及 | xG / xGA / recent xG trend | not covered / blocked | FBref 403；无可靠公开队级 xG 聚合 | blocked | 开放 xG 缺口迫使我们降低对进球盘结论的置信度 |
-
-> 仅引用公开覆盖数据；国家队未覆盖 ClubElo 时，不做任何估算。
+- 比利时有望控制中场（Onana + Tielemans），外线利用边路（Doku 若上）
+- 埃及预期紧密防守，依靠萨拉赫转换进攻
+- 亚盘升盘（−0.75 → −1.00）表明市场认为比利时可能 2 球以上领先
+- 大小球降至 2.5 暗示低进球局面（比利时可能赢 1–2 球）
 
 ---
 
 ## 四、综合预测
 
-### 4.1 各维度权重评估
+### Applied Priors Check
 
-| 维度 | 比利时得分 | 埃及得分 | 说明 |
-|------|:-----------:|:-----------:|------|
-| 阵容深度 | 8.5 | 6.6 | 比利时替补席与五大联赛主力储备更厚 |
-| 体能状态 | 6.5 | 7.1 | 比利时核心老将恢复背景更复杂；埃及整体备战更整齐 |
-| 战术适配 | 7.6 | 7.3 | 比利时主动权更强，埃及的反击脚本也很适合首轮 |
-| 大赛经验 | 8.1 | 6.2 | 比利时整条中轴线的大赛经验更成熟 |
-| 攻防实力 | 8.3 | 6.8 | 公开强度锚点明显倾向比利时 |
-| 士气/动力 | 7.8 | 8.4 | 比利时是“最后窗口”，埃及是“历史突破” |
-| 定位球 | 7.4 | 6.9 | 比利时身高与传中点更多 |
-| 边路突破 | 8.4 | 6.8 | Doku/Trossard 的边路速度优势明显 |
-| H2H | 4.5 | 5.5 | 仅作低权重背景，因全部为友谊赛 |
+- **[N] Final-Match Prior（决定性比赛 → 平局 +3~6pp）**：世界杯小组赛第一轮，非淘汰赛；先验不适用。
+- **[N] Fatigue × Motivation offset**：双方均首场，疲劳不适用；比利时（急于出线）和埃及（首届世界杯高动力）动力均等。
+- **[N] H2H discount for finals**：非决赛；H2H 折扣不适用。
+- **[N] CN market structure（EPL bias）**：非英超赛事；官方结构先验不适用。北单 70.7% vs 必发 59.9%（Δ +10.8pp）系 CN 情绪偏差，但非 EPL 结构性先验。
+- **[Y] Volume signal（升/降盘）**：AH升盘（−0.75→−1.0）+ O/U降盘（2.75→2.5）+ 皇冠 EGY 降赔（5.80→4.50）。市场信号指向：比利时胜，但进球数较少。
+- **[Y] Devig per market**：以必发公平概率为基准完成全部 Devig 计算（见 §1.6）。
+- **[Y] Half-Kelly computed**：所有可交易选项已计算，全部为负 Edge（见 §1.6）。
 
-**加权综合评分：**
-- 比利时：**7.6/10**
-- 埃及：**6.9/10**
+### Evidence gates check
 
-### 4.2 比分预测
+- **[Y] Web-research evidence collected**：≥2 互相印证来源（SportsMole×2 + RotoWire + Yahoo Sports + FWCTimes）；伤停/阵容覆盖充分。
+- **[Y] ClubElo public rating checked**：national teams — not covered（http://clubelo.com）。
+- **[Y] xG public data checked**：FBref 国家队 xG 数据不可获取（https://fbref.com）。
+- **[N] Estimated odds present**：报告中所有赔率均来自 500.com 实时 fenxi 数据，无估算赔率（Estimated odds count: 0）。
 
-| 预测比分 | 概率 | 说明 |
-|----------|:----:|------|
-| 1-0 比利时 | 21% | 市场对总进球更谨慎，且比利时仍最可能先兑现实力 |
-| 2-1 比利时 | 18% | 萨拉赫/反击线具备偷一个的能力 |
-| 1-1 | 16% | 若比利时迟迟破不了低位，平局会被迅速放大 |
+### 综合判断
 
-### 4.3 竞彩推荐
+- 必发公平概率：比利时 59.9%、平局 24.4%、埃及 15.6%
+- Volume 信号综合强度较高（AH升盘 + O/U降盘 + EGY降赔）但 Edge 仍全部为负
+- 莫·萨拉赫带伤 + 皇冠 EGY 大幅收赔 → 埃及进攻端受损信号明确
+- Doku 存疑 → 比利时局部宽度受损，但整体优势无变
+- **结论：无正 Edge 选项，建议 NO BET**
 
-| 玩法 | 推荐选项 | 竞彩赔率 | 置信度 | 说明 |
-|------|---------|:--------:|:------:|------|
-| **胜平负 (SPDF)** | 客胜（小注冷门） | 5.85 | ⭐⭐⭐ | 最可能结果不是客胜，但中国票面把埃及价格拉得过长，具备赔率价值 |
-| **让球胜平负** | 让球客胜（比利时-1） | 2.35 | ⭐⭐⭐⭐ | 亚盘不升到 -1，说明市场并不坚定看好多球差；埃及不败或小负路径最顺 |
-| **总进球** | 2球 / 3球 | 3.20 / 3.65 | ⭐⭐⭐ | 大小球水位转向小球，中枢更像 2-3 球而非对攻战 |
-| **比分** | 1:0 / 1:1 / 2:1 | 5.65 / 6.50 / 6.75 | ⭐⭐⭐ | 与竞彩最低比分赔率簇基本一致 |
-| **半全场** | 平 / 胜 | 3.90 | ⭐⭐⭐ | 埃及前段抗压，后程被比利时深度压穿，是较合理的时间结构 |
-
-### 4.4 Kelly建议
-
-根据 Kelly 公式计算（使用最终主观概率 54.8% / 24.8% / 20.4% 对照当前竞彩胜平负 1.46 / 3.65 / 5.85）：
-- **比利时胜：** Edge **-20.0%**, Half-Kelly **0%**
-- **平局：** Edge **-9.5%**, Half-Kelly **0%**
-- **埃及胜：** Edge **+19.3%**, Half-Kelly **2.0%**
-
-> **Kelly建议：主结果上只保留“埃及胜”小注参与（约 2% bankroll 上限），更稳健的主推仍是让球客胜（比利时-1）。**
+置信度：High
 
 ---
 
 ## 五、总结与风险提示
 
-### 核心判断
+### 最终结论
 
-1. **实力层面仍是比利时占优。** 排名、阵容深度、球星质量都支持他们成为更可能赢球的一方。
-2. **但市场并不认可“轻松打穿”。** 让球盘不升、大小球转谨慎，说明更多资金把这场看成首轮硬仗，而不是一边倒。
-3. **中国竞彩对比利时有明显压价。** Devig 后主胜比欧赔高 3.0pp、客胜低 3.7pp，这给了埃及方向更好的赔率性价比。
-4. **比赛脚本更像“比利时控场 + 埃及偷反击”。** 因此最合理的交易思路不是盲追主胜，而是抓埃及不至于被打穿，或用小注去博高赔率冷门。
+**建议：NO BET**
+
+比利时胜 @ Bet365 1.60，Edge 为 −4.2%，无凯利价值。AH 升盘与 O/U 降盘提供了有趣的方向性参考（比利时 1–2 球胜利局面最可能），但无法找到正期望 + 正 Edge 的具体标的。
+
+等待赛前 30 分钟确认萨拉赫与 Doku 的首发状态，届时可能出现赔率二次波动并产生短暂价值窗口。
 
 ### 风险提示
 
-- ⚠️ 若 De Bruyne、Lukaku 实际状态比公开信息更接近 100%，比利时可能在上半场就把比赛打穿。
-- ⚠️ 萨拉赫虽然已被确认可以比赛，但他最近真正高强度出场时间仍有限，埃及反击兑现率存在不确定性。
-- ⚠️ 世界杯首轮容错率高，若一方过早进球，整场节奏会与赛前盘口逻辑完全不同。
-- ⚠️ 公开 xG 数据覆盖不足，进球盘结论相比胜平负/让球结论更低一档。
+1. **萨拉赫状态**：若萨拉赫缺席，埃及进攻端大幅削弱，比利时赢球概率进一步提升
+2. **Doku 存疑**：若 Doku 上场，比利时外线威胁翻倍
+3. **首场世界杯压力**：两队均为本届首场，技术/心理层面可能发挥不稳
+4. **CN 情绪过热**：北单 70.7% vs 必发 59.9%（Δ +10.8pp），CN 赔率可能偏短
 
-### 最终结论
-
-**最可能的结果：比利时小胜（1-0 或 2-1）**
-**竞彩最优价值：让球胜平负 客胜（比利时-1，2.35）；激进者可少量尝试胜平负 客胜 5.85**
+<!-- probs: {"home": 0.60, "draw": 0.24, "away": 0.16} -->
 
 ---
 
-## 应用的先验清单 (Applied Priors Check)
+## 数据来源
 
-- **[N] Final-Match Prior**：本场是世界杯小组赛首轮，不是决赛/淘汰赛单场决胜，不做平局 +pp 调整。
-- **[Y] Fatigue × Motivation 对冲**：比利时老将轴带伤恢复、埃及则是历史突破窗口；动力高但体能/健康并不完全站在热门方这边。
-- **[N] H2H discount for finals**：并非决赛；不过报告中仍将 H2H 仅作低权重背景，因为四战全是友谊赛。
-- **[Y] CN market structure**：不是经典 EPL 偏差，但 Devig 后仍出现“竞彩压低比利时、拉长埃及”的国家队名气偏差，已在 1.3 明示。
-- **[Y] Volume signal**：1X2 混合、AH 不升、O/U 2.5 下 under 受捧，支持“比利时优势在、但比赛更紧”。
-- **[Y] Devig per market**：已覆盖 1X2（竞彩与 EU）、让球胜平负、总进球与比分簇。
-- **[Y] Half-Kelly applied**：仅埃及胜保留正 Edge（+19.3%，Half-Kelly 约 2.0%）。
-
-### Public Data Signals Check
-
-- **[N] ClubElo public rating checked**：unavailable — not covered for national teams; source attempts https://clubelo.com/Belgium and https://clubelo.com/Egypt
-- **[N] xG public data checked**：unavailable — blocked / not covered; source attempts https://fbref.com/en/squads/361422b9/2026/c1/Belgium-Men-Stats-World-Cup and https://fbref.com/en/search/search.fcgi?search=Egypt%20Men%20Stats%20World%20Cup
-
-**估算赔率统计**：0 / 33
-**整体置信度**：Medium
-
----
-
-*报告生成时间：2026-06-14T00:39:33.464Z*
-*数据截止：2026-06-14T00:48:00Z 左右（盘口）+ 随后公开报道补充*
-*推理依据：LLM qualitative match-analysis methodology v0.1*
-
-### 数据来源
-
-- **Tier 1（赔率/交易）**：500.com/竞彩百家与用户提供的真实盘口快照；Lumen data 中的 `get_matches` / `get_match_fenxi` / `get_odds_changes` 对中国体彩、William Hill、澳门、立博、Bet365 变盘进行了核对。
-- **Tier 5（赛事预览/战术/阵容）**：
-  - https://www.goal.com/en-us/news/belgium-egypt-world-cup-preview/blt8b8db9e1f93f0387
-  - https://www.sportsmole.co.uk/football/belgium/world-cup-2026/head-to-head/belgium-vs-egypt-head-to-head-record-and-past-meetings_599133.html
-  - https://www.sportsmole.co.uk/football/belgium/world-cup-2026/predicted-lineups/doku-deadline-predicted-belgium-xi-vs-egypt_599119.html
-  - https://www.sportsmole.co.uk/football/egypt/world-cup-2026/predicted-lineups/salah-starts-predicted-egypt-xi-vs-belgium_599123.html
-  - https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/de-bruyne-and-lukaku-named-in-belgium-world-cup-squad-despite-injuries-2026-05-15
-  - https://english.aawsat.com/sports/5278596-salah-heads-egypt-world-cup-squad-teen-talent-abdel-karim-earns-call
-  - https://www.dynamitenews.com/sports/fifa-world-cup-2026-egypt-coach-breaks-silence-on-mohamed-salahs-fitness-ahead-of-opener
-- **Tier 6（赛地/赛程确认）**：
-  - https://www.lumenfield.com/events/fifa-world-cup-26-seattle-june-15
-  - https://www.foxsports.com/stories/soccer/egypt-world-cup-2026-schedule-locations-dates-times
-  - https://www.fifa.com/en/match-centre/match/17/285023/289273/400021478
-- **Tier 2（ClubElo public rating checked）**：
-  - ❌ not covered https://clubelo.com/Belgium
-  - ❌ not covered https://clubelo.com/Egypt
-- **Tier 2（xG public data checked）**：
-  - ❌ blocked https://fbref.com/en/squads/361422b9/2026/c1/Belgium-Men-Stats-World-Cup
-  - ❌ blocked https://fbref.com/en/search/search.fcgi?search=Egypt%20Men%20Stats%20World%20Cup
-- **Public strength signals**：
-  - https://www.whereig.com/football/fifa-world-rankings.html
-  - https://www.eloratings.net/2026_World_Cup
-  - https://www.footlab-data.com/en/world-cup/team/belgium
-<!-- probs: {"home": 0.55, "draw": 0.25, "away": 0.20} -->
+| 级别 | 来源 | URL |
+|------|------|-----|
+| Tier 1 | 500.com fenxi（欧赔） | https://odds.500.com/fenxi/ouzhi-1359206.shtml |
+| Tier 1 | 500.com 亚盘 | https://odds.500.com/fenxi/yazhi-1359206.shtml |
+| Tier 1 | 500.com 大小球 | https://odds.500.com/fenxi/daxiao-1359206.shtml |
+| Tier 1 | 500.com 投注分析 | https://odds.500.com/fenxi/touzhu-1359206.shtml |
+| Tier 2 | RotoWire — Belgium vs Egypt predicted lineup | https://www.rotowire.com/soccer/article/belgium-vs-egypt-preview-predicted-lineup |
+| Tier 2 | SportsMole — Belgium lineup vs Egypt（Doku concern）| https://www.sportsmole.co.uk/football/belgium/world-cup-2026/ |
+| Tier 2 | SportsMole — Egypt lineup（Mo Salah injury）| https://www.sportsmole.co.uk/football/egypt/world-cup-2026/ |
+| Tier 2 | Yahoo Sports — Belgium vs Egypt preview | https://sports.yahoo.com/articles/preview-belgium-vs-egypt-t |
+| Tier 2 | FWCTimes — Belgium vs Egypt team news | https://fwctimes.com/belgium-vs-egypt-lineups/ |
+| Tier 3 | ClubElo | http://clubelo.com — national team not covered |
+| Tier 3 | FBref xG | https://fbref.com/en/national/BE/Belgium — not available |

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-14T13:10:09.940Z",
-  "count": 18,
+  "generatedAt": "2026-06-15T01:15:23.673Z",
+  "count": 22,
   "reports": [
     {
       "matchId": "6203_2026-06-13",
@@ -301,17 +301,21 @@
       "title": "西班牙 vs 佛得角",
       "home": "西班牙",
       "away": "佛得角",
-      "competition": "2026 FIFA 世界杯 H 组",
-      "kickoff": "2026-06-15T17:00:00Z",
+      "competition": "2026 FIFA 世界杯",
+      "kickoff": "2026-06-16T00:00:00+08:00",
       "probs": {
-        "home": 0.9,
-        "draw": 0.07,
-        "away": 0.03
+        "home": 0.86,
+        "draw": 0.1,
+        "away": 0.04
       },
-      "generatedAt": "2026-06-14T12:37:55.499Z",
+      "generatedAt": "2026-06-15T00:41:33.666Z",
       "validationPass": true,
       "current": "reports/1013_2026-06-15/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-14T123755Z",
+          "path": "reports/1013_2026-06-15/history/2026-06-14T123755Z.md"
+        },
         {
           "timestamp": "2026-06-14T003933Z",
           "path": "reports/1013_2026-06-15/history/2026-06-14T003933Z.md"
@@ -323,17 +327,21 @@
       "title": "比利时 vs 埃及",
       "home": "比利时",
       "away": "埃及",
-      "competition": "2026 FIFA 世界杯 G 组",
-      "kickoff": "2026-06-15T19:00:00Z",
+      "competition": "2026 FIFA 世界杯",
+      "kickoff": "2026-06-16T03:00:00+08:00",
       "probs": {
-        "home": 0.6,
+        "home": 0.57,
         "draw": 0.24,
-        "away": 0.16
+        "away": 0.19
       },
-      "generatedAt": "2026-06-14T12:37:55.499Z",
+      "generatedAt": "2026-06-15T00:41:33.666Z",
       "validationPass": true,
       "current": "reports/1014_2026-06-15/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-14T123755Z",
+          "path": "reports/1014_2026-06-15/history/2026-06-14T123755Z.md"
+        },
         {
           "timestamp": "2026-06-14T003933Z",
           "path": "reports/1014_2026-06-15/history/2026-06-14T003933Z.md"
@@ -359,6 +367,10 @@
         {
           "timestamp": "2026-06-14T002000Z",
           "path": "reports/20260616-spain-cape-verde/history/2026-06-14T002000Z.md"
+        },
+        {
+          "timestamp": "2026-06-13T123447Z-5",
+          "path": "reports/20260616-spain-cape-verde/history/2026-06-13T123447Z-5.md"
         },
         {
           "timestamp": "2026-06-13T123447Z-4",
@@ -387,17 +399,21 @@
       "title": "沙特阿拉伯 vs 乌拉圭",
       "home": "沙特阿拉伯",
       "away": "乌拉圭",
-      "competition": "2026 FIFA 世界杯 H 组",
-      "kickoff": "2026-06-15T22:00:00Z",
+      "competition": "2026 FIFA 世界杯",
+      "kickoff": "2026-06-16T06:00:00+08:00",
       "probs": {
-        "home": 0.11,
-        "draw": 0.21,
-        "away": 0.68
+        "home": 0.15,
+        "draw": 0.22,
+        "away": 0.63
       },
-      "generatedAt": "2026-06-14T12:37:55.499Z",
+      "generatedAt": "2026-06-15T00:41:33.666Z",
       "validationPass": true,
       "current": "reports/1015_2026-06-15/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-14T123755Z",
+          "path": "reports/1015_2026-06-15/history/2026-06-14T123755Z.md"
+        },
         {
           "timestamp": "2026-06-14T003933Z",
           "path": "reports/1015_2026-06-15/history/2026-06-14T003933Z.md"
@@ -409,22 +425,94 @@
       "title": "伊朗 vs 新西兰",
       "home": "伊朗",
       "away": "新西兰",
-      "competition": "2026 FIFA 世界杯 G 组",
-      "kickoff": "2026-06-16T01:00:00Z",
+      "competition": "2026 FIFA 世界杯",
+      "kickoff": "2026-06-16T09:00:00+08:00",
       "probs": {
-        "home": 0.52,
-        "draw": 0.28,
-        "away": 0.2
+        "home": 0.55,
+        "draw": 0.26,
+        "away": 0.19
       },
-      "generatedAt": "2026-06-14T12:37:55.499Z",
+      "generatedAt": "2026-06-15T00:41:33.666Z",
       "validationPass": true,
       "current": "reports/1016_2026-06-15/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-14T123755Z",
+          "path": "reports/1016_2026-06-15/history/2026-06-14T123755Z.md"
+        },
         {
           "timestamp": "2026-06-14T003933Z",
           "path": "reports/1016_2026-06-15/history/2026-06-14T003933Z.md"
         }
       ]
+    },
+    {
+      "matchId": "2017_2026-06-16",
+      "title": "法国 vs 塞内加尔",
+      "home": "法国",
+      "away": "塞内加尔",
+      "competition": "2026 FIFA 世界杯",
+      "kickoff": "2026-06-17T03:00:00+08:00",
+      "probs": {
+        "home": 0.65,
+        "draw": 0.21,
+        "away": 0.13
+      },
+      "generatedAt": "2026-06-15T00:41:33.666Z",
+      "validationPass": true,
+      "current": "reports/2017_2026-06-16/current.md",
+      "history": []
+    },
+    {
+      "matchId": "2018_2026-06-16",
+      "title": "Iraq vs Norway",
+      "home": "Iraq",
+      "away": "Norway",
+      "competition": "2026 FIFA World Cup",
+      "kickoff": "2026-06-17T06:00:00+08:00",
+      "probs": {
+        "home": 0.11,
+        "draw": 0.18,
+        "away": 0.71
+      },
+      "generatedAt": "2026-06-15T00:41:33.666Z",
+      "validationPass": true,
+      "current": "reports/2018_2026-06-16/current.md",
+      "history": []
+    },
+    {
+      "matchId": "2019_2026-06-16",
+      "title": "Argentina vs Algeria",
+      "home": "Argentina",
+      "away": "Algeria",
+      "competition": "2026 FIFA World Cup",
+      "kickoff": "2026-06-17T09:00:00+08:00",
+      "probs": {
+        "home": 0.69,
+        "draw": 0.21,
+        "away": 0.11
+      },
+      "generatedAt": "2026-06-15T00:41:33.666Z",
+      "validationPass": true,
+      "current": "reports/2019_2026-06-16/current.md",
+      "history": []
+    },
+    {
+      "matchId": "2020_2026-06-16",
+      "title": "Austria vs Jordan",
+      "home": "Austria",
+      "away": "Jordan",
+      "competition": "2026 FIFA World Cup",
+      "kickoff": "2026-06-17T12:00:00+08:00",
+      "probs": {
+        "home": 0.71,
+        "draw": 0.19,
+        "away": 0.11
+      },
+      "generatedAt": "2026-06-15T00:41:33.666Z",
+      "validationPass": true,
+      "current": "reports/2020_2026-06-16/current.md",
+      "history": []
     },
     {
       "matchId": "2026-06-17-arg-ald",
@@ -442,6 +530,10 @@
       "validationPass": true,
       "current": "reports/2026-06-17-arg-ald/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-14T003933Z-2",
+          "path": "reports/2026-06-17-arg-ald/history/2026-06-14T003933Z-2.md"
+        },
         {
           "timestamp": "2026-06-14T003933Z",
           "path": "reports/2026-06-17-arg-ald/history/2026-06-14T003933Z.md"

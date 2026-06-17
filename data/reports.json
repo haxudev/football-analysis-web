@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-16T14:02:05.707Z",
-  "count": 26,
+  "generatedAt": "2026-06-17T01:17:50.019Z",
+  "count": 30,
   "reports": [
     {
       "matchId": "6203_2026-06-13",
@@ -535,6 +535,10 @@
       "current": "reports/2019_2026-06-16/current.md",
       "history": [
         {
+          "timestamp": "2026-06-16T134143Z",
+          "path": "reports/2019_2026-06-16/history/2026-06-16T134143Z.md"
+        },
+        {
           "timestamp": "2026-06-15T140543Z",
           "path": "reports/2019_2026-06-16/history/2026-06-15T140543Z.md"
         },
@@ -560,6 +564,10 @@
       "validationPass": true,
       "current": "reports/2020_2026-06-16/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-16T134143Z",
+          "path": "reports/2020_2026-06-16/history/2026-06-16T134143Z.md"
+        },
         {
           "timestamp": "2026-06-15T140543Z",
           "path": "reports/2020_2026-06-16/history/2026-06-15T140543Z.md"
@@ -588,6 +596,10 @@
       "current": "reports/2026-06-17-arg-ald/current.md",
       "history": [
         {
+          "timestamp": "2026-06-16T134143Z",
+          "path": "reports/2026-06-17-arg-ald/history/2026-06-16T134143Z.md"
+        },
+        {
           "timestamp": "2026-06-14T003933Z-4",
           "path": "reports/2026-06-17-arg-ald/history/2026-06-14T003933Z-4.md"
         },
@@ -607,54 +619,69 @@
     },
     {
       "matchId": "3021_2026-06-17",
-      "title": "Portugal vs DR Congo",
-      "home": "Portugal",
-      "away": "DR Congo",
-      "competition": "FIFA World Cup 2026",
-      "kickoff": "2026-06-17T17:00:00Z",
+      "title": "葡萄牙 vs 刚果(金)",
+      "home": "葡萄牙",
+      "away": "刚果(金)",
+      "competition": "2026 FIFA 世界杯",
+      "kickoff": "2026-06-18T01:00:00+08:00",
       "probs": {
-        "home": 0.7,
-        "draw": 0.2,
-        "away": 0.1
+        "home": 0.72,
+        "draw": 0.185,
+        "away": 0.095
       },
-      "generatedAt": "2026-06-16T13:41:43.389Z",
+      "generatedAt": "2026-06-17T00:41:50.987Z",
       "validationPass": true,
       "current": "reports/3021_2026-06-17/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-06-16T134143Z",
+          "path": "reports/3021_2026-06-17/history/2026-06-16T134143Z.md"
+        }
+      ]
     },
     {
       "matchId": "3022_2026-06-17",
-      "title": "England vs Croatia",
-      "home": "England",
-      "away": "Croatia",
-      "competition": "FIFA World Cup 2026",
-      "kickoff": "2026-06-17T20:00:00Z",
+      "title": "英格兰 vs 克罗地亚",
+      "home": "英格兰",
+      "away": "克罗地亚",
+      "competition": "2026 FIFA 世界杯",
+      "kickoff": "2026-06-18T04:00:00+08:00",
       "probs": {
-        "home": 0.58,
-        "draw": 0.25,
-        "away": 0.17
+        "home": 0.567,
+        "draw": 0.246,
+        "away": 0.187
       },
-      "generatedAt": "2026-06-16T13:41:43.389Z",
+      "generatedAt": "2026-06-17T00:41:50.987Z",
       "validationPass": true,
       "current": "reports/3022_2026-06-17/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-06-16T134143Z",
+          "path": "reports/3022_2026-06-17/history/2026-06-16T134143Z.md"
+        }
+      ]
     },
     {
       "matchId": "3023_2026-06-17",
-      "title": "Ghana vs Panama",
-      "home": "Ghana",
-      "away": "Panama",
-      "competition": "FIFA World Cup 2026",
-      "kickoff": "2026-06-17T23:00:00Z",
+      "title": "加纳 vs 巴拿马",
+      "home": "加纳",
+      "away": "巴拿马",
+      "competition": "2026 FIFA 世界杯",
+      "kickoff": "2026-06-18T07:00:00+08:00",
       "probs": {
-        "home": 0.44,
-        "draw": 0.295,
-        "away": 0.265
+        "home": 0.48,
+        "draw": 0.27,
+        "away": 0.25
       },
-      "generatedAt": "2026-06-16T13:41:43.389Z",
+      "generatedAt": "2026-06-17T00:41:50.987Z",
       "validationPass": true,
       "current": "reports/3023_2026-06-17/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-06-16T134143Z",
+          "path": "reports/3023_2026-06-17/history/2026-06-16T134143Z.md"
+        }
+      ]
     },
     {
       "matchId": "3024_2026-06-17",
@@ -671,6 +698,79 @@
       "generatedAt": "2026-06-16T13:41:43.389Z",
       "validationPass": true,
       "current": "reports/3024_2026-06-17/current.md",
+      "history": [
+        {
+          "timestamp": "2026-06-16T134143Z",
+          "path": "reports/3024_2026-06-17/history/2026-06-16T134143Z.md"
+        }
+      ]
+    },
+    {
+      "matchId": "4025_2026-06-18",
+      "title": "捷克 vs 南非",
+      "home": "捷克",
+      "away": "南非",
+      "competition": "2026 FIFA 世界杯",
+      "kickoff": "2026-06-19T00:00:00+08:00",
+      "probs": {
+        "home": 0.46,
+        "draw": 0.32,
+        "away": 0.22
+      },
+      "generatedAt": "2026-06-17T00:41:50.987Z",
+      "validationPass": true,
+      "current": "reports/4025_2026-06-18/current.md",
+      "history": []
+    },
+    {
+      "matchId": "4026_2026-06-18",
+      "title": "瑞士 vs 波黑",
+      "home": "瑞士",
+      "away": "波黑",
+      "competition": "2026 FIFA 世界杯",
+      "kickoff": "2026-06-19T03:00:00+08:00",
+      "probs": {
+        "home": 0.59,
+        "draw": 0.24,
+        "away": 0.17
+      },
+      "generatedAt": "2026-06-17T00:41:50.987Z",
+      "validationPass": true,
+      "current": "reports/4026_2026-06-18/current.md",
+      "history": []
+    },
+    {
+      "matchId": "4027_2026-06-18",
+      "title": "加拿大 vs 卡塔尔",
+      "home": "加拿大",
+      "away": "卡塔尔",
+      "competition": "2026 FIFA 世界杯",
+      "kickoff": "2026-06-19T06:00:00+08:00",
+      "probs": {
+        "home": 0.59,
+        "draw": 0.24,
+        "away": 0.17
+      },
+      "generatedAt": "2026-06-17T00:41:50.987Z",
+      "validationPass": true,
+      "current": "reports/4027_2026-06-18/current.md",
+      "history": []
+    },
+    {
+      "matchId": "4028_2026-06-18",
+      "title": "墨西哥 vs 韩国",
+      "home": "墨西哥",
+      "away": "韩国",
+      "competition": "2026 FIFA 世界杯",
+      "kickoff": "2026-06-19T09:00:00+08:00",
+      "probs": {
+        "home": 0.5,
+        "draw": 0.29,
+        "away": 0.21
+      },
+      "generatedAt": "2026-06-17T00:41:50.987Z",
+      "validationPass": true,
+      "current": "reports/4028_2026-06-18/current.md",
       "history": []
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T01:19:33.271Z",
+  "generatedAt": "2026-06-19T13:50:03.640Z",
   "count": 40,
   "reports": [
     {
@@ -896,14 +896,18 @@
       "competition": "2026 FIFA World Cup",
       "kickoff": "2026-06-20T03:00:00+08:00",
       "probs": {
-        "home": 0.53,
-        "draw": 0.27,
+        "home": 0.54,
+        "draw": 0.26,
         "away": 0.2
       },
-      "generatedAt": "2026-06-19T00:46:20.958Z",
+      "generatedAt": "2026-06-19T13:09:31.893Z",
       "validationPass": true,
       "current": "reports/5029_2026-06-19/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-19T004620Z",
+          "path": "reports/5029_2026-06-19/history/2026-06-19T004620Z.md"
+        },
         {
           "timestamp": "2026-06-18T130702Z",
           "path": "reports/5029_2026-06-19/history/2026-06-18T130702Z.md"
@@ -922,14 +926,18 @@
       "competition": "2026 FIFA World Cup",
       "kickoff": "2026-06-20T06:00:00+08:00",
       "probs": {
-        "home": 0.26,
-        "draw": 0.3,
-        "away": 0.44
+        "home": 0.25,
+        "draw": 0.29,
+        "away": 0.46
       },
-      "generatedAt": "2026-06-19T00:46:20.958Z",
+      "generatedAt": "2026-06-19T13:09:31.893Z",
       "validationPass": true,
       "current": "reports/5030_2026-06-19/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-19T004620Z",
+          "path": "reports/5030_2026-06-19/history/2026-06-19T004620Z.md"
+        },
         {
           "timestamp": "2026-06-18T130702Z",
           "path": "reports/5030_2026-06-19/history/2026-06-18T130702Z.md"
@@ -946,16 +954,20 @@
       "home": "巴西",
       "away": "海地",
       "competition": "2026 FIFA World Cup",
-      "kickoff": "2026-06-20T08:30:00+08:00",
+      "kickoff": "2026-06-20T00:30:00Z",
       "probs": {
         "home": 0.88,
-        "draw": 0.09,
-        "away": 0.03
+        "draw": 0.08,
+        "away": 0.04
       },
-      "generatedAt": "2026-06-19T00:46:20.958Z",
+      "generatedAt": "2026-06-19T13:09:31.893Z",
       "validationPass": true,
       "current": "reports/5031_2026-06-19/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-19T004620Z",
+          "path": "reports/5031_2026-06-19/history/2026-06-19T004620Z.md"
+        },
         {
           "timestamp": "2026-06-18T130702Z",
           "path": "reports/5031_2026-06-19/history/2026-06-18T130702Z.md"
@@ -972,16 +984,20 @@
       "home": "土耳其",
       "away": "巴拉圭",
       "competition": "2026 FIFA World Cup",
-      "kickoff": "2026-06-20T11:00:00+08:00",
+      "kickoff": "2026-06-20T03:00:00Z",
       "probs": {
-        "home": 0.42,
+        "home": 0.43,
         "draw": 0.3,
-        "away": 0.28
+        "away": 0.27
       },
-      "generatedAt": "2026-06-19T00:46:20.958Z",
+      "generatedAt": "2026-06-19T13:09:31.893Z",
       "validationPass": true,
       "current": "reports/5032_2026-06-19/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-19T004620Z",
+          "path": "reports/5032_2026-06-19/history/2026-06-19T004620Z.md"
+        },
         {
           "timestamp": "2026-06-18T130702Z",
           "path": "reports/5032_2026-06-19/history/2026-06-18T130702Z.md"
@@ -998,16 +1014,21 @@
       "home": "荷兰",
       "away": "瑞典",
       "competition": "2026 FIFA World Cup",
-      "kickoff": "2026-06-21T01:00:00+08:00",
+      "kickoff": "2026-06-20T17:00:00Z",
       "probs": {
-        "home": 0.54,
-        "draw": 0.26,
-        "away": 0.2
+        "home": 0.56,
+        "draw": 0.25,
+        "away": 0.19
       },
-      "generatedAt": "2026-06-19T00:46:20.958Z",
+      "generatedAt": "2026-06-19T13:09:31.893Z",
       "validationPass": true,
       "current": "reports/6033_2026-06-20/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-06-19T004620Z",
+          "path": "reports/6033_2026-06-20/history/2026-06-19T004620Z.md"
+        }
+      ]
     },
     {
       "matchId": "6034_2026-06-20",
@@ -1015,16 +1036,21 @@
       "home": "德国",
       "away": "科特迪瓦",
       "competition": "2026 FIFA World Cup",
-      "kickoff": "2026-06-21T04:00:00+08:00",
+      "kickoff": "2026-06-20T20:00:00Z",
       "probs": {
-        "home": 0.6,
+        "home": 0.61,
         "draw": 0.23,
-        "away": 0.17
+        "away": 0.16
       },
-      "generatedAt": "2026-06-19T00:46:20.958Z",
+      "generatedAt": "2026-06-19T13:09:31.893Z",
       "validationPass": true,
       "current": "reports/6034_2026-06-20/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-06-19T004620Z",
+          "path": "reports/6034_2026-06-20/history/2026-06-19T004620Z.md"
+        }
+      ]
     },
     {
       "matchId": "6035_2026-06-20",
@@ -1032,16 +1058,21 @@
       "home": "厄瓜多尔",
       "away": "库拉索",
       "competition": "2026 FIFA World Cup",
-      "kickoff": "2026-06-21T08:00:00+08:00",
+      "kickoff": "2026-06-21T00:00:00Z",
       "probs": {
-        "home": 0.74,
-        "draw": 0.17,
-        "away": 0.09
+        "home": 0.77,
+        "draw": 0.16,
+        "away": 0.07
       },
-      "generatedAt": "2026-06-19T00:46:20.958Z",
+      "generatedAt": "2026-06-19T13:09:31.893Z",
       "validationPass": true,
       "current": "reports/6035_2026-06-20/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-06-19T004620Z",
+          "path": "reports/6035_2026-06-20/history/2026-06-19T004620Z.md"
+        }
+      ]
     },
     {
       "matchId": "6036_2026-06-20",
@@ -1049,16 +1080,21 @@
       "home": "突尼斯",
       "away": "日本",
       "competition": "2026 FIFA World Cup",
-      "kickoff": "2026-06-21T12:00:00+08:00",
+      "kickoff": "2026-06-21T04:00:00Z",
       "probs": {
-        "home": 0.23,
-        "draw": 0.29,
-        "away": 0.48
+        "home": 0.21,
+        "draw": 0.28,
+        "away": 0.51
       },
-      "generatedAt": "2026-06-19T00:46:20.958Z",
+      "generatedAt": "2026-06-19T13:09:31.893Z",
       "validationPass": true,
       "current": "reports/6036_2026-06-20/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-06-19T004620Z",
+          "path": "reports/6036_2026-06-20/history/2026-06-19T004620Z.md"
+        }
+      ]
     }
   ]
 }

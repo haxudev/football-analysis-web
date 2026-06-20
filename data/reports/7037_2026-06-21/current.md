@@ -1,269 +1,249 @@
-> 生成时间：2026-06-20T00:37:06.330Z
+> 生成时间：2026-06-20T12:34:53.531Z
 
-# 世界杯 分析报告：西班牙 VS 沙特阿拉伯
+# 西班牙 vs 沙特阿拉伯 — 2026 FIFA 世界杯 H 组第 2 轮
 
 ## 基本信息
 
-| 项目 | 详情 |
+| 项目 | 内容 |
 |------|------|
-| **赛事** | 2026 FIFA 世界杯 小组赛 H 组 第2轮 |
-| **对阵** | 西班牙 (ESP) VS 沙特阿拉伯 (KSA) |
-| **竞彩编号** | 周日037（7037） |
-| **开球时间** | 2026-06-22 00:00（北京时间） |
-| **比赛地点** | 亚特兰大体育场（美国亚特兰大） |
-| **比赛性质** | 世界杯小组赛第2轮，90分钟；H组积分形势：**四队同积1分**（西班牙0-0平佛得角；沙特1-1平乌拉圭），双方必须争胜以主导出线命运 |
+| 赛事 | 2026 FIFA 世界杯 H 组小组赛第 2 轮 |
+| 主队 | 西班牙（Spain） |
+| 客队 | 沙特阿拉伯（Saudi Arabia） |
+| 开球时间 | 2026-06-22 00:00（北京时间）/ 2026-06-21 12:00 ET |
+| 场地 | 奔驰体育场，亚特兰大，佐治亚州（Mercedes-Benz Stadium, Atlanta, GA） |
+| 当前积分 | 西班牙 1 分（0-0 vs 佛得角），沙特 1 分（1-1 vs 乌拉圭） |
+
+**赛事背景**：H 组首轮四队均 1 分，本场"六分战"对晋级 32 强至关重要。西班牙若赢球可基本锁定出线；沙特则凭借 2022 年 2-1 击败阿根廷的历史底气，寄望复制奇迹。
 
 ---
 
 ## 一、赔率分析
 
-### 1.1 主流机构赔率汇总
+### 1.1 当前盘口（实时拉取）
 
-> **数据来源说明：** 本场欧赔fenxi500数据（百家盘口聚合）**尚未发布**（截至2026-06-19T22:30 UTC，匹配赔率聚合为空）。仅竞彩让球胜平负（HHAD）市场可用（lottery500-trade单关，fetchedAt 2026-06-19T21:00 UTC）。胜平负（HAD/1X2）在竞彩标注 **not_offered**；澳门/海外盘口 **pending**（尚未发布）。以下1X2赔率均基于市场常规水位和比赛背景估算，均标注(估算)。
+| 来源 | 西班牙（主） | 平局 | 沙特（客） |
+|------|-------------|------|-----------|
+| 澳门（当前） | 1.10 | 7.20 | 17.00 |
+| Bet365（当前） | 1.10 | 9.00 | 26.00 |
+| 立博（当前） | 1.13 | 8.00 | 21.00 |
+| 百家均值（当前） | 1.105 | 8.50 | 21.00 |
+| 百家均值（开盘） | 1.09 | 10.50 | 26.00 |
 
-| 玩法 | 机构 | 数值 | 说明 |
-|------|------|------|------|
-| **1X2 (欧赔估算)** | EU均值 (估算) | ESP **1.40(估算)** / 平 **4.50(估算)** / KSA **10.0(估算)** | 基于背景估算；Yamal伤缺（待确认）后适当扩大到1.40 |
-| **1X2 (竞彩)** | lottery500 | **not_offered** | 本场不提供1X2单关 |
-| **让球1X2 (HHAD)** | lottery500 (竞彩) | ESP(-2) **1.83** / 平**4.00** / KSA **3.00** | ✅ **单关可用**，西班牙让2球；3.00=沙特覆盖让球 |
-| **大小球** | 全渠道 | **pending** | 尚未发布 |
+**亚盘（澳门）**：开盘 -2.25（西班牙让两球/两球半），当前 **-2.5**（升至两球半），水位 0.88/0.96（西班牙轻微负水）。
 
-**注：** 欧赔fenxi数据完全缺失，估算仅供方向参考，不执行全量Devig；置信度相应下调。
+**大/小球（澳门）**：开盘 3 球线 Over 0.91/Under 0.89，当前 3.25 线 Over 0.84/Under 0.96 → **Under 趋势**，市场认为比赛进球适中。
 
-### 1.2 隐含概率换算（基于估算1X2）
+### 1.2 赔率变化解读
 
-| 结果 | 估算赔率 | 隐含概率 | Devig后(估算) |
-|------|:-------:|:-------:|:-----------:|
-| 西班牙胜 | 1.40(估算) | 71.4% | **68.5%**(估算) |
-| 平局 | 4.50(估算) | 22.2% | **21.3%**(估算) |
-| 沙特阿拉伯胜 | 10.0(估算) | 10.0% | **9.6%**(估算) |
-| margin | — | 3.6%(估算) | — |
+**1X2 变动（开盘→当前）**：
+- 西班牙：1.09 → 1.105（+1.4%，微幅漂移，几乎不变）
+- 平局：10.50 → 8.50（-19%，**明显收短**）
+- 沙特：26.00 → 21.00（-19%，**明显收短**）
 
-> 由于欧赔数据缺失，上述公平概率全部标注(估算)，实际市场公布后需重新校验。
+解读：西班牙赔率基本稳定，平局和沙特双双收短近20%，说明大量公众资金流向"非西班牙"选项（平局和沙特）。这是典型的**反向公众行为**——弱队爱好者或特殊情绪买家推动热门之外的选项；锐利资金仍在 AH 盘升线（-2.25→-2.5）中支持西班牙以大分差获胜。
 
-### 1.3 HHAD让球分析（竞彩唯一可用实盘）
+**亚盘变动**：-2.25→-2.5 显示市场进一步加大对西班牙大分差获胜的信心，即便水位已不利于买西班牙 AH。
 
-| 让球结果 | 含义 | 竞彩赔率 | 估算概率(估算) |
-|---------|------|:--------:|:----------:|
-| 西班牙赢（赢3球+） | ESP让2球后仍胜 → ESP净胜≥3 | **1.83** | ~30%(估算) |
-| 让球平（ESP净胜2） | ESP净胜恰好2 | **4.00** | ~23%(估算) |
-| 沙特阿拉伯赢（覆盖让球） | ESP净胜≤1 / 平 / KSA胜 | **3.00** | ~47%(估算) |
+**大/小球变动**：Under 信号增强——市场认为西班牙虽然主导，但不一定大比分，或沙特可以凭防守减少失球。
 
-**让球赔率解读：**
-- 竞彩 ESP(-2) 1.83 → KSA覆盖让球 3.00：ESP以2球+差赢球的市场隐含概率约 37%（1/1.83 × (1/margin)），KSA覆盖约41%。
-- 在西班牙首轮0-0未能进球（Yamal缺阵+佛得角门将神扑）的背景下，-2让球条线很高，**KSA覆盖让球（3.00）在背景上具备相对价值**。
-- 估算公平概率KSA覆盖 47% → Edge = 0.47 × 3.00 - 1 = **+41%(估算)**（存在高度不确定性，大量估算前提）。Half-Kelly = 3.5%(估算)，实际建议仅1%（高不确定性降权）。
+### 1.3 Devig 公平概率（去除马进）
+
+基于百家中位当前赔率（margin 约 7.02%）：
+
+| 结果 | 原始赔率 | Devig 公平概率 |
+|------|---------|-------------|
+| 西班牙 | 1.105 | **84.6%** |
+| 平局 | 8.50 | **11.0%** |
+| 沙特 | 21.00 | **4.4%** |
+| 合计 | — | 100% |
+
+西班牙极度单边，为此届世界杯迄今最大分差赔率差（Devig 84.6% 胜率）。
+
+### 1.4 竞彩参考
+
+注：lottery500FixtureId="-1"，该场次在 500.com 百家盘口未被完整纳入分析体系，无法提取竞彩官方（cid=1）直接赔率做 CN market structure 比较。参照历史规律估算，竞彩西班牙赔率约 **1.07(估算)**，市场因西班牙在中国国内关注度极高（皇马/巴萨球迷群体）可能存在西班牙方向轻度溢价；但数据不足，本项低置信度。
 
 ---
 
 ## 二、互联网舆情分析
 
-### 2.1 媒体预测汇总
+### 2.1 赛事背景与媒体情绪
 
-| 媒体/机构 | 倾向 | 关键依据 |
-|-----------|------|---------|
-| ESPN | 西班牙 | La Roja整体阵容质量最强；欧洲杯2024冠军 |
-| FIFA.com | 西班牙（谨慎） | MD1 0-0平佛得角是警示；Yamal伤情关键 |
-| fifaworldcupnews.com | 不确定 | Yamal缺席让西班牙进攻极度不确定；若MD2亦缺席，困境加深 |
-| beIN Sports | 西班牙（有保留） | 西班牙"追梦第二个冠军"，但无皇马球员为异数 |
+来源：fwctimes.com、sportsyaari.com、rotowire.com、thestatszone.com（4 个独立来源互印）
 
-**核心舆情焦点：** Lamine Yamal（巴萨18岁天才）的伤情是最大变量，两个互相印证来源（FIFA.com + fifaworldcupnews.com）均指出他可能缺席前两场。此外西班牙无皇马球员（Carvajal/Huijsen/etc.均不在名单）。
+- **西班牙**：媒体共识"必须赢球"压力下反而更积极；Lamine Yamal 经历首轮 0-0 后预计先发，创意能力被认为是打破沙特防守锁链的关键；Pedri + Rodri 中场组合全员健康。
+- **沙特**：首轮 1-1 乌拉圭已超预期；多方分析认为他们会沿用防守性 4-4-2，Salem Al-Dawsari（队长）是唯一有世界级标准的球员；教练 Georgios Donis（希腊人）坚持低位防守反击战术。
+- **情绪分量**：媒体普遍预测西班牙 2-0 或 3-0，极少数认为沙特能平局，几乎无人支持沙特得分获胜。这在情绪层面可能对沙特赔率略构成正向反差信号。
 
-### 2.2 重大舆情事件（MD1震撼）
+### 2.2 阵容与伤停
 
-**西班牙 0-0 佛得角（2026-06-15，亚特兰大）：**
-- 多方确认，四个独立来源（ESPN/FIFA.com/MSN/business-news-today）均报道
-- 佛得角40岁老门将Vozinha（Goalkeeper）多次神扑
-- 西班牙全场主导但无法破门→ 进攻端严重困境
-- 舆论冲击：欧洲杯冠军平开0-0，引发西班牙恐慌情绪
+**西班牙**（预计 4-3-3）：
+- GK: Unai Simón
+- DF: Marcos Llorente, Pau Cubarsí, Aymeric Laporte, Marc Cucurella
+- MF: Fabián Ruiz, Rodri（队长）, Pedri
+- FW: Lamine Yamal, Mikel Oyarzabal, Nico Williams
+- Victor Muñoz 仍缺阵（未影响主力 XI）；**Lamine Yamal 健康，重返首发**
 
-**沙特阿拉伯 1-1 乌拉圭（2026-06-15）：**
-- Abdulelah Alamri首开纪录 → Maxi Araujo第80分钟扳平
-- 沙特展示了进攻能力（能够进球），防线在末段不稳
-- 沙特抢先进球意味着他们的攻击体系能在世界杯级别表现
+**沙特**（防守性 4-4-2/4-3-3）：
+- GK: Mohammed Al-Owais
+- DF: Saud Abdulhamid, Hassan Al Tambakti, Abdulelah Al-Amri, Moteb Al-Harbi
+- MF: Sultan Al-Shamat, Abdullah Al-Khaibari, Mohamed Kanno, Salem Al-Dawsari
+- FW: Firas Al-Buraikan, Musab Al-Juwayr
+- 全队无伤停报告
 
-### 2.3 H组积分形势（MD1后）
+### 2.3 战术舆情
 
-| 球队 | 积分 | MD1结果 | 胜差/净胜球 |
-|------|:---:|---------|:--------:|
-| 西班牙 | 1 | 0-0平佛得角 | 0 |
-| 沙特阿拉伯 | 1 | 1-1平乌拉圭 | 0 |
-| 乌拉圭 | 1 | 1-1平沙特阿拉伯 | 0 |
-| 佛得角 | 1 | 0-0平西班牙 | 0 |
+西班牙被认为将掌控 70%+ 控球；分析人士指出若西班牙早进球，沙特防线将快速崩溃；若前半场久攻不下（如 vs 佛得角），比赛可能僵持至下半场。沙特快反依赖 Salem Al-Dawsari 个人能力。
 
-**四队同分同净胜球 → 本场（ESP vs KSA）是超高价值的"大战"，胜者获得极有利出线优势。**
+### 2.4 H2H（历史战绩）
+
+两队历史交手 2 次（均为世界杯 2026 同组预测来源）：查无近三届赛事直接对决记录（ClubElo 不覆盖国家队）。沙特 2022 年对阵阿根廷（1-0 领先）属世界杯历史异常值，对此战参考价值有限。
+
+**H2H discount**：两队无决赛/淘汰赛历史交手记录，H2H 折扣不适用此场（N，仅小组赛）。
 
 ---
 
 ## 三、球队基本面分析
 
-### 3.1 球队近期状态
+### 3.1 FIFA 排名与近期状态
 
-**西班牙（Spain）**
-- 战术风格：4-3-3 高压 possession，Luis de la Fuente执教
-- MD1结果：❌ **0-0平佛得角**（Yamal伤情；老门将Vozinha神级表现）
-- 阵容：Euro 2024冠军核心（Rodri、Pedri、Fabian Ruiz、Pedri、Cucurella、Cubarsi）
-- **无皇马球员**（Carvajal/Huijsen均伤缺）
-- **Yamal伤情（最大隐患）：** 巴塞罗那vs塞尔塔比赛（联赛末）中腿筋伤，"至少缺席MD1，MD2也可能缺席"（fifaworldcupnews.com）— 若MD2西班牙仍无Yamal，进攻端严重削弱
-- 体能状况：⚠️ 全力出战（1pt）；但没有Yamal的创造力，传球体系缺乏直线威胁
+| 项目 | 西班牙 | 沙特阿拉伯 |
+|------|--------|----------|
+| FIFA 排名 | 约 8 位（估算） | 约 58 位（估算） |
+| ClubElo | 国家队——not covered（ClubElo 仅覆盖俱乐部） |
+| xG 数据 | FBref——blocked / stale |
+| 近期形态 | 34 场不败 | 1-1 乌拉圭（首轮意外佳绩） |
 
-**沙特阿拉伯（Saudi Arabia）**
-- 战术风格：4-4-2 中场防守 + 快速正面进攻反击
-- MD1结果：1-1平乌拉圭（先进后被扳），展示进攻能力
-- 2022 WC基因：曾爆冷2-1胜阿根廷（2022卡塔尔，史上著名冷门）
-- 关键球员：Abdulelah Alamri（进球）；Salem Al-Dawsari（进攻老将，可能参赛）
-- 体能状况：✅ 积极，1pt后必须进攻
+**公开强度数据**：
+- ClubElo：not covered / stale（国家队） — https://clubelo.com（仅俱乐部，不适用）
+- FIFA/Elo 排名：not covered / blocked — https://eloratings.net（访问被限）
+- FBref xG：not covered / blocked — https://fbref.com（访问被限）
 
-### 3.2 关键球员动态
+### 3.2 核心优势差距
 
-| 球员 | 国籍 | 状态 | 影响 |
-|------|------|------|------|
-| Lamine Yamal | 西班牙 | ⚠️ 腿筋伤，MD2出战疑问（fifaworldcupnews.com两源确认） | **极大**：西班牙最强攻击输出 |
-| Dani Carvajal | 西班牙 | ❌ 伤缺（未入选） | 右后卫关键缺阵 |
-| Dean Huijsen | 西班牙 | ❌ 伤缺（皇马，未入选） | 后卫轮换缺失 |
-| Rodri (Rodrigo Hernandez) | 西班牙 | ✅ 出战 | 中场核心，2024金球奖得主 |
-| Pedri | 西班牙 | ✅ 出战 | 传球创造力关键 |
-| Abdulelah Alamri | 沙特阿拉伯 | ✅ MD1进球 | 进攻核心，状态上佳 |
-| Salem Al-Dawsari | 沙特阿拉伯 | 待确认 | 速度型右边路老将 |
-
-### 3.3 战术 matchup 分析
-
-**核心矛盾：**
-1. **西班牙传控 vs 沙特低块反击：** 西班牙依赖传球控场，沙特在低防守块后伺机反击（类2022年胜阿根廷模板）
-2. **无Yamal的西班牙 = 无顶端创造力：** Yamal能解决紧密防线，其他球员（Pedri、Fabian Ruiz）更是传球型而非突破型
-3. **双方必须赢 = 开放性更高：** 相比"满足于和局"，双方将更积极进攻，减少超低分局面可能性
-
-**战术倾向：**
-- 西班牙拥有球权但缺乏决定性个人能力（无Yamal）→ 进球数受限
-- 沙特节奏中等，避免持续高压，消耗西班牙后伺机单刀
-
-### 3.4 历史交锋记录
-
-| 日期 | 赛事 | 主场 | 比分 | 客场 |
-|------|------|------|:----:|------|
-| 2022 | 未有WC同组记录（沙特组在C组：阿根廷/波兰/墨西哥等） | — | — | — |
-| 历史友谊赛 | 西班牙多胜 | 西班牙通常赢 | — | 但无世界杯同组先例 |
-
-> H2H历史西班牙占优，但无世界杯关键场次对阵记录，H2H折扣轻微。沙特2022震惊阿根廷（2-1）表明其在世界杯中有冷门基因。
-
-### 3.5 公开强度数据：FIFA 排名 / Elo
-
-| 球队 | 指标 | 数值 | 来源 | 新鲜度 | 解读 |
-|------|------|------|------|--------|------|
-| 西班牙 | FIFA 世界排名 | not covered（worldfootballrankings.com SPA，eloratings.net SPA） | https://worldfootballrankings.com https://www.eloratings.net | — | 通常排名7-10位，欧洲一线强队 |
-| 沙特阿拉伯 | FIFA 世界排名 | not covered（同上SPA阻断） | https://worldfootballrankings.com | — | 亚洲强队，通常排名50-70位 |
-| 西班牙 | xG（WC MD1） | 0进球 vs 佛得角（估算xG≈1.5-2.5，大量机会被门将扑出）(估算) | 首轮0-0结果+媒体报道 | 2026-06-15 | 高创造力但转换效率差（无Yamal） |
-| 沙特阿拉伯 | xG（WC MD1） | 1进1失（vs乌拉圭）(估算) | 1-1结果 | 2026-06-15 | 正常世界杯水准；有进球转换 |
-| 两队xG公开数据 | FBref | not covered（https://fbref.com 本届WC数据不完整） | FBref | — | 标注not covered |
-
-> 国家队不适用ClubElo。FIFA ranking查询通过intent:"fifa-ranking"，均返回SPA，标注not covered。
+西班牙综合实力在此届 48 队中属于 Top 5，拥有欧洲冠军（2024 年）的全球信心加成；Lamine Yamal（18 岁）是当今最有威胁的边路球员之一。沙特的唯一对等优势是防守体系的纪律性——但对阵西班牙级别的一侧，AH 市场升至 -2.5 说明专业资金不认为这足以大幅限制分差。
 
 ---
 
 ## 四、综合预测
 
-### 4.1 各维度权重评估
+### 4.1 七步推理链
 
-| 维度 | 西班牙得分 | 沙特阿拉伯得分 | 说明 |
-|------|:--------:|:-----------:|------|
-| 阵容深度 | 8 | 5 | 西班牙整体质量仍高；缺Yamal损失1.5分 |
-| 进攻效率 | 5 | 5 | 西班牙MD1 0进球（被老门将封神）；沙特1进球 |
-| 防守稳定 | 7 | 6 | 西班牙0失球；沙特末段被扳 |
-| 战术灵活 | 8 | 6 | La Fuente vs 沙特教练 |
-| 动机/必须赢 | 9 | 9 | 双方各1pt，本场必须争胜 |
-| H2H历史 | 7 | 4 | 西班牙历史占优，但无关键赛事 |
-| 冷门基因 | 3 | 7 | 沙特2022震惊阿根廷 |
+**步骤 1：基准分析**
+基础赔率（Devig）：西班牙 84.6%、平局 11.0%、沙特 4.4%。极度单边，沙特属于重弱旅。
 
-### 4.2 比分预测
+**步骤 2：Final-Match Prior**
+本场为小组赛第 2 轮，不适用。[N]
 
-| 预测比分 | 概率 | 说明 |
-|----------|:----:|------|
-| 西班牙 1-0 | 18% | 主流保守结果 |
-| 西班牙 2-0 | 14% | 如果西班牙找回进攻效率 |
-| 平局 0-0 | 12% | 再度僵局（双方防守谨慎） |
-| 平局 1-1 | 10% | 进攻开放后互换比分 |
-| 西班牙 3-0 | 9% | 单场爆发（HHAD覆盖） |
-| 沙特阿拉伯 1-0 | 6% | 冷门，沙特低块反击 |
+**步骤 3：H2H discount for finals**
+两队无历史淘汰赛交手，H2H discount 不适用。[N]
 
-### 4.3 竞彩推荐
+**步骤 4：Fatigue × Motivation offset**
+西班牙 vs 沙特：西班牙首轮 0-0 有压力，但本场比赛首发齐整；沙特有历史奇迹加持（KSA 2022 vs ARG），但 Donis 教头比 Renard 资历低得多。无显著疲劳分差，不触发此先验。[N]
 
-> **注意：** 本场竞彩HAD（胜平负）**not_offered**，唯一可用市场为 HHAD（让球胜平负 ESP -2）。
+**步骤 5：CN market structure**
+lottery500 直接数据缺失（cid=1 无法直接提取），无法精确计算竞彩价差。西班牙在中国市场关注度极高（巴萨/皇马球迷），CN market structure 先验理论上可能略微溢价西班牙，但无实证数据确认。标记为低置信度参考。[N/A — 数据不足]
 
-| 玩法 | 推荐选项 | 竞彩赔率 | 估算Edge | 置信度 | 说明 |
-|------|---------|:--------:|:-------:|:------:|------|
-| **让球胜平负 HHAD** | **沙特阿拉伯（KSA覆盖-2）** | **3.00** | **+41%(估算)** | ⭐⭐⭐（高不确定性降权） | 西班牙首轮0-0+Yamal伤缺，-2让球极具挑战 |
-| **让球胜平负 HHAD** | 让球平（ESP净胜2） | 4.00 | +38%(估算) | ⭐⭐ | 估算基础，宽泛 |
-| **让球胜平负 HHAD** | 西班牙赢（净胜3+） | 1.83 | 负Edge(估算) | ❌ | 在Yamal伤缺+MD1 0-0背景下价值有限 |
+**步骤 6：Volume signal（升/降盘）**
+- 平局/沙特收短 (-19%) → 公众情绪性买入弱队/非西班牙
+- AH 升至 -2.5 → 锐利资金支持西班牙分差
+- O/U：Under 信号（3.0→3.25，水位偏 Under）
+- Volume signal 综合：**西班牙 AH 确认**，1X2 沙特漂移为情绪行为非尖锐信号。[Y]
 
-### 4.4 Kelly建议
+**步骤 7：Devig per market + Half-Kelly**
 
-基于估算模型（所有概率带 (估算) 标记）：
+*1X2 市场（Bet365）：*
+- 西班牙 1.10：Edge = 0.846 × 1.10 - 1 = -7.0%（无价值）
+- 平局 9.00：Edge = 0.11 × 9.00 - 1 = -1.0%（接近零）
+- 沙特 26.00：Edge = 0.044 × 26.00 - 1 = +14.4%
+  - Kelly = (25 × 0.044 - 0.956) / 25 = (1.10 - 0.956) / 25 = 0.57%
+  - **Half-Kelly = 0.29%（几乎可以忽略）**
 
-| 选项 | 竞彩赔率 | 估算Edge | Kelly(估算) | Half-Kelly(估算) | 建议 |
-|------|:--------:|:-------:|:-----------:|:---------------:|------|
-| **KSA覆盖-2** | **3.00** | **+41%(估算)** | 7.0%(估算) | 3.5%(估算) | ⭐⭐⭐ 谨慎参考，高度估算→实际1% |
-| 让球平 | 4.00 | +38%(估算) | 6.3%(估算) | 3.1%(估算) | ⭐⭐ 仅供参考 |
-| ESP赢 | 1.83 | 负(估算) | — | — | ❌ |
+*AH 市场（澳门 -2.5，水位 0.88/0.96）：*
+- Devig: 西班牙 AH 公平价约 0.92，实际 0.88 → 负边 (-4.3%)，不买
+- 沙特 +2.5 / 0.96：若沙特保住 -2 或以内，获利；但考虑 AH 专业资金仍在升线，维持不买
 
-> **高不确定性警告：** 以上Edge/Kelly均基于估算的1X2概率，EU fenxi数据完全缺失。Yamal出战状态未最终确认（may be available by match day）。若Yamal出战，西班牙实力大增，KSA覆盖价值减少。**建议等待欧赔实盘发布或Yamal出战确认后再做决策。** 若决策，仅参考方向，实仓1%以内。
+**结论**：此场比赛几乎无正期望选项。沙特 Bet365 26 虽有理论 +14% Edge，但基础概率过低（4.4%），Half-Kelly 仅 0.29%，实际不具操作性。**本场不推荐投注**。
+
+### 4.2 调整后概率
+
+| 结果 | 基础（Devig） | 调整后 |
+|------|-------------|------|
+| 西班牙胜 | 84.6% | **85%** |
+| 平局 | 11.0% | **10%** |
+| 沙特胜 | 4.4% | **5%** |
+
+置信度：**中**（基础数据充分，但 CN 市场结构无法直接验证）
+
+---
+
+## Applied Priors Check
+
+```
+Applied priors check:
+- [N] Final-Match Prior（决定性赛事→平局+3~6pp）：小组赛第2轮，不适用
+- [N] Fatigue × Motivation offset：无显著疲劳/动力分差
+- [N] H2H discount for finals：无淘汰赛历史交手记录，不适用
+- [N] CN market structure（CN 市场结构）：竞彩数据不足（lottery500FixtureId=-1），无法实证，低置信度
+- [Y] Volume signal（升降盘）：平局/沙特收短-19%为公众情绪；AH升线(-2.25→-2.5)为锐利信号
+- [Y] Devig per market：已为1X2/亚盘/大小球分别去水
+- [Y] Half-Kelly applied：沙特Bet365 26，Half-Kelly 0.29%（实际不具操作性）
+
+Evidence gates check:
+- [Y] Web-research：4个独立来源互印（fwctimes.com, sportsyaari.com, rotowire.com, thestatszone.com）
+- [N] ClubElo：not covered（国家队）— https://clubelo.com（仅俱乐部）
+- [N] xG：not covered / blocked — https://fbref.com（访问被限）
+- [N] 估算赔率：竞彩官方赔率 1.07(估算)，其余均为实时数据
+```
+
+Public Data Signals Check
+
+| 来源 | 状态 |
+|------|------|
+| ClubElo — https://clubelo.com | not covered（国家队不在覆盖范围） |
+| FIFA/Elo 排名 — https://eloratings.net | not covered / blocked / stale（访问受限） |
+| FBref xG — https://fbref.com/en/ | not covered / blocked / stale（xG 数据访问受限） |
 
 ---
 
 ## 五、总结与风险提示
 
-### 核心判断
+**核心结论**：西班牙是本届世界杯至今赔率最极端的优势方（Devig 84.6%），但在竞彩市场无精准数据可做 CN market structure 比较。AH 升线至 -2.5 反映专业资金对西班牙大分差获胜的高置信度。
 
-1. **H组全员1积分 = 本场极端重要：** 西班牙 vs 沙特的胜者将掌握出线主动权，双方高度激励。
-2. **西班牙进攻受限（Yamal伤情 + 无皇马球员）：** MD1 0-0平弱队佛得角是强烈警示。西班牙没有顶端个人突破手，-2让球线在此背景下风险极高。
-3. **沙特阿拉伯覆盖让球（KSA-2 in HHAD，3.00）有背景价值：** 但全部建立在估算前提上，置信度Medium-Low。
-4. **唯一实盘信号：** 竞彩 HHAD ESP(-2) 让球平4.00 / KSA覆盖3.00，无fenxi欧赔数据佐证Devig。
+### 最终结论（最优价值）
 
-### 风险提示
+本场所有主流盘口均无正期望选项：
+- **西班牙 1X2 Bet365 1.10**：Edge = -7.0%，不投
+- **平局 Bet365 9.00**：Edge = -1.0%，不投
+- **沙特 Bet365 26.00**：Edge = +14%，但 Half-Kelly 仅 0.29%（基础概率 4.4%），**不具操作性**
 
-- ⚠️ **Yamal出战状态是最大变量**：若比赛日确认Yamal可上场，西班牙进攻能力大增，KSA覆盖价值消失，建议立即止损
-- ⚠️ **EU fenxi完全缺失**：所有Devig均为估算，模型可靠性受限
-- ⚠️ **沙特冷门风险是双刃剑**：沙特可以爆冷，但也可能在单进球后失守（vs乌拉圭模式）
-- ⚠️ **置信度 Medium-Low**：EU odds unavailable → 估算依赖大 → 整体下调
+**最终推荐**：本场**无明确推荐投注**。沙特 Bet365 26 理论上有 +14% Edge，但：
+1. 基础概率仅 4.4-5%，Half-Kelly 0.29% 无操作意义
+2. 历史极端单边比赛（如 GER vs BRA 2014 7-1）存在，但沙特实力远弱于 2022 年击败阿根廷时
+3. AH -2.5 升线确认专业资金对西班牙分差的信心
 
-### 最终结论
+**风险提示**：
+1. 若西班牙首半场 0-0，比赛可能进入类似首轮 vs 佛得角的胶着——但这是投注不确定性而非值得押注的信号
+2. Lamine Yamal 的临场发挥是西班牙进球数的最大变量
+3. O/U Under 信号（3.25/Under 0.96）若考虑亚盘水位可能有微弱参考价值，但不构成操作建议
 
-**最可能的结果：西班牙胜（68.5%估算，需EU发布后验证）**  
-**竞彩唯一可用实盘：HHAD KSA覆盖-2（3.00）—— 背景价值存在（Yamal缺阵+ESP MD1 0-0），但全为估算前提；实仓参考1%，等EU实盘发布后再决策**
-
----
-
-## 应用的先验清单 (Applied Priors Check)
-
-- **[N] Final-Match Prior**：世界杯小组赛第2轮，非淘汰赛，不触发终场先验。
-- **[Y] Fatigue × Motivation 对冲**：双方同积1分，均必须争胜 → 双方高度激励（Motivation均为高）。西班牙体力正常（MD1无进球但体能消耗适中）；沙特MD1出场全力，体力应有消耗。整体Motivation相似，轻微Fatigue偏向西班牙（更有资源更换球员）。
-- **[N] H2H discount for finals**：非决赛，H2H正常权重。西班牙历史占优，沙特无世界杯对阵西班牙记录，H2H略降权（有限样本）。
-- **[N] CN market structure**：竞彩 HAD not_offered，无1X2赔率对比，无法验证竞彩vs EU结构差；HHAD仅一家来源。CN market structure prior因无对标数据而 **无法验证**。
-- **[Y] Volume signal (升降盘解读)**：fenxi500数据缺失，无法做欧赔多公司运动分析；唯一信号是竞彩 HHAD ESP(-2) line在MD1 0-0后未调整（继续保持让2球），可能是竞彩预设盘口特性，不作为升降盘信号。
-- **[Y] Devig per market**：覆盖 HHAD（竞彩唯一实盘）；1X2 devig因全部估算标注 (估算)；EU fenxi数据缺失已明确说明。
-- **[Y] Half-Kelly applied**：HHAD KSA覆盖 估算Edge +41% → Kelly 7.0%(估算) → Half-Kelly 3.5%(估算)；考虑到高度估算和不确定性，实际建议1%以内。
-
-### Public Data Signals Check
-
-- **[Y] ClubElo public rating checked**：国家队，ClubElo不适用。FIFA ranking通过intent:"fifa-ranking" → not covered（https://worldfootballrankings.com SPA，https://www.eloratings.net SPA）。
-- **[Y] xG public data checked**：FBref本届WC xG not covered（https://fbref.com/en/comps/1/World-Cup-Stats 本届数据缺乏）；西班牙MD1 xG通过0-0结果推断(估算)，沙特1-1结果(估算)。
-
-**估算赔率统计**：7/8项（所有1X2、HHAD概率估算、xG均为估算，仅HHAD赔率本身为实盘）  
-**整体置信度**：**Medium-Low**（EU fenxi缺失；Yamal伤情未最终确认；估算比例极高）
+<!-- probs: {"home": 0.85, "draw": 0.10, "away": 0.05} -->
 
 ---
 
-*报告生成时间：2026-06-20T00:37:06.330Z*  
-*数据截止：2026-06-19T22:30:00 UTC（lottery500快照）*
+## 数据来源
 
-*数据来源：*
-- *Tier 1（竞彩赔率）：lottery500-trade — HHAD ESP(-2) 1.83/4.00/3.00，单关可用；salesDate 2026-06-21，周日037*
-- *Tier 2（MD1结果 — 两源确认）：https://www.espn.com/soccer/match/_/gameId/760428/cape-verde-spain （ESP 0-0 CPV）*
-- *Tier 2：https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/spain-cabo-verde-highlights-match-report （官方0-0确认）*
-- *Tier 2：https://www.msn.com/en-in/sports/fifa_world_cup/spain-vs-cape-verde-... （Vozinha神扑）*
-- *Tier 2：https://www.fifaworldcupnews.com/spain-world-cup-2026-squad-26-players/ （Yamal伤情两源确认）*
-- *Tier 2：https://www.espn.com/soccer/story?id=48870392 （Spain squad无皇马球员）*
-- *Tier 2：https://www.fifa.com/en/news/articles/spain-squad-announcement （西班牙名单含赛程）*
-- *Tier 2：https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/luis-de-la-fuente-s-official-sp （西班牙名单）*
-- *推理依据：LLM qualitative match-analysis methodology v0.1*
+**Tier 1 — 赔率 MCP（直接获取）**
+- china-football-odds `get_match`（salesDate=2026-06-21, matchNumber=7037）：当前 1X2 / AH / O/U 盘口，Devig 公平概率，盘口变动数据
 
-<!-- probs: {"home": 0.69, "draw": 0.21, "away": 0.10} -->
+**Tier 5 — Web 搜索（综合信息）**
+- https://fwctimes.com/spain-vs-saudi-arabia-preview/ — 比赛预览、H组背景
+- https://www.sportsyaari.com/football/spain-vs-saudi-arabia-fifa-world-cup-2026-preview-team-news-predicted-lineups-and-prediction-28861/ — 首发阵容、伤停
+- https://www.rotowire.com/soccer/article/spain-vs-saudi-arabia-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-h-118930 — 阵容分析
+- https://www.thestatszone.com/spain-vs-saudi-arabia-preview-team-news-prediction-fifa-world-cup-2026-group-stage-201024 — 近期形态、赛事预测
+- https://totalfootballanalysis.com/competitions/fifa-world-cup-2026/spain-v-saudi-arabia-predictions — 综合预测
+
+**Tier N/A — 封锁/不覆盖来源**
+- https://clubelo.com — ClubElo: 国家队 not covered（ClubElo 仅覆盖欧洲俱乐部）
+- https://eloratings.net — FIFA/Elo 排名: not covered / blocked / stale（访问受限）
+- https://fbref.com/en/ — FBref xG: not covered / blocked / stale（xG 数据访问受限）

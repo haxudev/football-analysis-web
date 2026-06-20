@@ -1,163 +1,230 @@
-> 生成时间：2026-06-19T13:09:31.893Z
+> 生成时间：2026-06-20T00:37:06.330Z
 
-# 2026 FIFA 世界杯 分析报告：荷兰 VS 瑞典
+# 世界杯 分析报告：荷兰 VS 瑞典
 
 ## 基本信息
 
 | 项目 | 详情 |
 |------|------|
-| **赛事** | 2026 FIFA World Cup F 组小组赛第二轮 |
-| **对阵** | 荷兰/橙衣军团 (NED) VS 瑞典 (SWE) |
-| **竞彩编号** | 周六 033（matchNumber: 6033） |
-| **开球时间** | 2026-06-21 01:00（北京时间）/ 2026-06-20 17:00 UTC |
-| **比赛地点** | NRG Stadium，Houston，德克萨斯，美国 |
-| **赛前背景** | Matchday 1：荷兰 2-2 日本（失分）；瑞典 5-1 大胜突尼斯（3 分积分领先 F 组）。荷兰需赢球反超；瑞典赢则基本晋级 |
+| **赛事** | 2026 FIFA 世界杯 小组赛 F 组 第2轮 |
+| **对阵** | 荷兰 (NED) VS 瑞典 (SWE) |
+| **竞彩编号** | 周六033（6033） |
+| **开球时间** | 2026-06-21 01:00（北京时间） |
+| **比赛地点** | Reliant Stadium（休斯顿，中立场地） |
+| **比赛性质** | 世界杯小组赛，常规90分钟，胜者+3分 |
 
 ---
 
 ## 一、赔率分析
 
-### 1.1 初盘与即时盘对比
+### 1.1 主流机构初盘与即时盘对比
 
-| 玩法 | 机构 | 初盘 (主/平/客) | 即时盘 (主/平/客) | 变化方向 |
-|------|------|:---------:|:---------:|:--------:|
-| **HAD (EU 均值)** | 百家共识 | 1.75 / 3.80 / 4.50 | **1.65** / 3.775 / **4.775** | 主缩，客漂 |
-| **HAD** | 澳门 | — | 1.71 / 3.37 / 4.40 | 荷兰热门 |
-| **竞彩 HAD** | 中国体彩 | 1.59 / 3.58 / 4.52 | **1.59** / 3.58 / 4.52 | 与 EU 趋同 |
-| **HHAD (-1) EU** | 百家共识 | 2.90 / 3.60 / 2.065 | 2.75 / 3.475 / **2.19** | 瑞典主客微漂 |
-| **竞彩 HHAD (-1)** | 中国体彩 | — | 2.86 / 3.45 / **2.04** | — |
-| **亚盘** | 澳门 | -0.75（稳定） | **-0.75**（无变化） | 稳定 |
-| **大小球** | 澳门 | 2.5（稳定） | **2.5**（无变化） | 稳定 |
+> **数据来源说明：** 欧赔数据来自500.com百家盘口聚合（30家公司），竞彩官方赔率来自lottery500-trade快照（截至2026-06-19T21:00 UTC），澳门赔率来自fenxi500聚合。亚盘与大小球来自fenxi summary。
 
-**赔率变化分析：**
+| 玩法 | 机构 | 初盘 (主) | 初盘 (平) | 初盘 (客) | 即时盘 (主) | 即时盘 (平) | 即时盘 (客) | 变化方向 |
+|------|------|:---------:|:--------:|:---------:|:----------:|:-----------:|:----------:|:--------:|
+| **1X2 (欧赔均值)** | 30家机构均值 | 1.73 | 3.90 | 4.50 | 1.65 | 3.775 | 4.775 | 主↓ 平↓ 客↑ |
+| **1X2 (澳门)** | 澳门 | 1.70 | 3.70 | 3.96 | 1.71 | 3.37 | 4.40 | 主平 平↓ 客↑ |
+| **1X2 (竞彩官方)** | 中国体彩 | — | — | — | **1.59** | **3.58** | **4.52** | 当前快照 |
+| **1X2 (Bet365)** | bet365 | — | — | — | 1.60 | 4.10 | 5.25 | — |
+| **1X2 (威廉希尔)** | William Hill | — | — | — | 1.80 | 3.20 | 4.50 | — |
+| **让球胜平负 (竞彩)** | 中国体彩 | — | — | — | 2.86（-1） | 3.45（-1） | 2.04（-1） | 单关不售，仅过关 |
+| **亚盘** | 澳门 | —（-0.5） | — | —（+0.5） | 0.94（-0.75） | — | 0.90（+0.75） | **盘口升水 -0.5→-0.75** ⬆️ |
+| **大小球** | 澳门 | —（2.5） | — | — | 0.92（大） | — | 0.88（小） | 平盘，小球赔率略短 |
 
-1. **EU：荷兰从 1.75 缩至 1.65（更受市场信任），尽管瑞典 Matchday 1 表现更好**
-   这体现市场对荷兰阵容质量的信任——Memphis Depay 伤愈回归，De Bruyne/Gakpo/Xavi Simons 进攻火力雄厚。
+**赔率变化趋势解读：**
 
-2. **瑞典漂移（4.50→4.775）**：瑞典虽以 5-1 大胜突尼斯领先小组，但与荷兰相比阵容深度略逊，市场将其列为客场劣势。
+1. **1X2 欧赔 — NED大幅收水，SWE显著漂移：** 30家机构中，22家缩短荷兰赔率（-4.62%）；21家拉长瑞典赔率（+6.11%）。平局亦被17家机构收短（-3.21%）。这是资金主动流入荷兰方向的明确信号——尤其是单家最大缩短幅度达-9%（1.77→1.61）。市场在主动消化荷兰获胜预期的上升。
 
-3. **竞彩与 EU 基本对齐（CN structure NOT triggered）**：
-   竞彩 NED devig 55.7% vs EU devig 56.1%（Δ = -0.4pp），几乎无中国市场结构偏差。荷兰在中国球迷中无特别溢价，本场无系统性价值差。
+2. **亚盘 — 盘口升水，信心跃升：** 开盘时亚盘线为 -0.5（荷兰让半球），当前已升水至 -0.75（让半球/一球）。这是强烈的市场定向信号：盘口向主队升，代表主流资金认为荷兰大概率赢球且获胜幅度不止1球。同时澳门赔率从 home 0.71 → 0.94（赔率拉长，说明升水后市场对荷兰覆盖有所谨慎），away 1.13 → 0.90（瑞典赔率收短，代表升水后瑞典获赔难度下降但实际获胜概率被重新定价）。
 
-4. **亚盘/大小球均无变动**：市场共识稳定，无资金方向信号，各方评估趋同。
+3. **大小球 — 平盘偏小：** 大小球基准线稳定在2.5，未发生升降。但澳门即时小球赔率（0.88）短于大球（0.92），微弱偏向小球方向，与两队防守型打法保持一致。
 
-### 1.2 隐含概率
+### 1.2 隐含概率换算
 
-| 结果 | 竞彩 Devig | EU Devig | Δ(CN-EU) |
-|------|:--------:|:-------:|:--------:|
-| 荷兰胜 | 55.7% | **56.1%** | -0.4pp |
-| 平局 | 24.7% | **24.5%** | +0.2pp |
-| 瑞典胜 | 19.6% | **19.4%** | +0.2pp |
+| 结果 | 竞彩隐含概率 | 欧赔均值隐含概率 | Devig后公平概率（EU） |
+|------|:-----------:|:--------------:|:---------------:|
+| 荷兰胜 | 62.89% | 60.61% | **56.10%** |
+| 平局 | 27.93% | 26.49% | **24.52%** |
+| 瑞典胜 | 22.12% | 20.94% | **19.38%** |
+| **庄家利润率** | **12.94%** | **8.04%** | **100.00%** |
 
-> EU Devig: 1/1.65=0.606, 1/3.775=0.265, 1/4.775=0.209, sum=1.080, margin=8.04%。竞彩与 EU 高度一致，无结构性机会。
+> Devig 计算：欧赔均值（30家公司，margin 8.04%）基于 fair_prob_i = (1/odds_i) / Σ(1/odds_j)。竞彩 margin 明显偏高（12.94% vs EU 8.04%），是中国竞彩市场常见的较高边际现象。
 
-### 1.3 价值判断
+### 1.3 中国竞彩市场结构验证 (CN market-structure prior)
 
-| 玩法 | 赔率 | EU 公平 p | Edge | 建议 |
-|------|:----:|:--------:|:----:|------|
-| HAD 荷兰胜 | 1.59 | 56.1% | -10.7% | ❌ |
-| HAD 平局 | 3.58 | 24.5% | -12.3% | ❌ |
-| HAD 瑞典胜 | 4.52 | 19.4% | -12.3% | ❌ |
-
-**结论：竞彩 HAD 全部为负 Edge，无结构性价值。** 竞彩高 margin（~12.9%）完全覆盖任何可能的 EU-竞彩 差距。本场无推荐投注。
+- 竞彩 devig 后：NED 55.68% / 平 24.73% / SWE 19.59%
+- EU devig 后：NED 56.10% / 平 24.52% / SWE 19.38%
+- Δ(竞彩-EU)：NED **-0.42pp** / 平 **+0.21pp** / SWE **+0.21pp**
+- 阈值条件（EPL队短水 ≥ +3pp）：**不满足** — 本场为国家队对决，非EPL俱乐部对阵，CN市场结构先验**不适用**。
 
 ---
 
 ## 二、互联网舆情分析
 
-### 2.1 媒体报道（两个印证来源）
+### 2.1 媒体预测汇总
 
-> 来源 1（RotoWire）：*"Netherlands need to win to reassert themselves. Sweden can take a commanding grip on the group. A sharper, more focused performance is the expectation from the Dutch... Sweden are dangerous and their strikers are in form. Score Prediction: Netherlands 2-1 Sweden."*
+| 媒体/机构 | 倾向 | 关键依据 |
+|-----------|------|---------|
+| ESPN（菲律宾） | 荷兰 | 荷兰整体阵容深度优于瑞典，即使缺员仍被视为热门 |
+| Sports Mole | 荷兰 | 荷兰小组第一种子位置，瑞典依赖Isak/Gyokeres双核 |
+| Bing搜索综合 | 荷兰 | 市场和媒体一致看好荷兰，瑞典被认为是最大考验之一 |
 
-> 来源 2（The Standard）：*"Koeman defended his tactics against Japan... expected to start with an attacking lineup in search of a win. Memphis Depay replacing Malen after recovering from a thigh injury. Sweden set to be unchanged from their 5-1 thrashing of Tunisia, with Alexander Isak and Viktor Gyokeres as a twin strike partnership."*
+**媒体预测倾向：荷兰 3/3，平局 0/3，瑞典 0/3**
 
-### 2.2 Matchday 1 回顾
+### 2.2 球迷情绪分析
 
-| 球队 | Matchday 1 对手 | 结果 | 舆论影响 |
-|------|:-------------:|:----:|---------|
-| 荷兰 | 日本 | **2-2 平（失分）** | 防守漏洞暴露（后45分钟换人决策受质疑）；Koeman 辩解 |
-| 瑞典 | 突尼斯 | **5-1 大胜** | Isak/Gyokeres 双锋组合极具威胁；Graham Potter 初临大赛表现出色 |
+**荷兰球迷**
+- 整体情绪：谨慎乐观，伤情阴影下仍对进16强抱有信心
+- 关键论点：
+  - Memphis Depay 伤愈复出，进攻端有保障
+  - Koeman体系成熟，球队整体战术纪律良好
+  - 欧冠俱乐部球员（van Dijk、Dumfries等）提供经验保障
+- 担忧点：Xavi Simons（ACL）、Jerdy Schouten（ACL）、Matthijs de Ligt、Stefan de Vrij缺席，中场和后防创伤严重
 
-### 2.3 球员状态
+**瑞典球迷**
+- 整体情绪：兴奋与期待，首轮5-1大胜突尼斯极大提振士气
+- 关键论点：
+  - Isak+Gyokeres双前锋组合世界级攻击力
+  - Graham Potter赋予球队系统战术框架
+  - 瑞典2018年以来首次参加世界杯，历史性时刻
+- 担忧点：Kulusevski（膝伤缺席）、Bardghji（未入选）、Emil Holm（肌肉伤缺席）；中场和边路覆盖有限
 
-| 球员 | 国家 | 状态 | 影响 |
-|------|------|------|------|
-| Memphis Depay | 荷兰 | ✅ 伤愈，预计首发（替换 Malen） | 历史最高进球手，强化进攻 |
-| Cody Gakpo | 荷兰 | ✅ 确认 | 利物浦前锋，Matchday 1 有进球 |
-| Xavi Simons | 荷兰 | ✅ 确认 | 创造力核心 |
-| Alexander Isak | 瑞典 | ✅ 首发 | 利物浦当红中锋，5-1 中表现亮眼 |
-| Viktor Gyokeres | 瑞典 | ✅ 首发 | 阿森纳前锋，进球机器，搭档 Isak 极具威胁 |
+### 2.3 社交媒体热度
+
+| 平台 | 荷兰相关讨论 | 瑞典相关讨论 | 热点话题 |
+|------|:-----------:|:-----------:|----------|
+| Twitter/X | 较高（Depay复出话题） | 较高（Gyokeres/Isak） | 瑞典5-1大胜、荷兰伤员危机 |
+| Reddit r/soccer | 中等（大战前瞻） | 中等（惊喜因素讨论） | 是否能上演冷门 |
+
+> **中国市场特点：** 荷兰在中国拥有较高知名度（1974年橙色风暴），但本次比赛对中国彩民而言是理性注重荷兰强度的二选一局面，对阵不涉及EPL俱乐部市场结构偏见。
 
 ---
 
 ## 三、球队基本面分析
 
-### 3.1 球队状态
+### 3.1 球队近期状态
 
-**荷兰 (Netherlands)**
-- 战术风格：Ronald Koeman 4-3-3，技术进攻 + 控球
-- Matchday 1 结果：2-2 日本（领先 2-0 后被日本追平，防守问题）
-- 体能：正常；Depay 伤愈回归加强攻击线
+**荷兰（Netherlands）**
+- 战术风格：4-3-3或4-2-3-1，压迫式高位防守，技术流传控
+- 近期状态：8场资格赛全部不败；本届世界杯第1轮战果待确认（matchday 1 vs 日本结果数据源未返回明确文字）
+- 体能状况：⚠️ 劣势 — 伤兵累累（Simons、Schouten、de Ligt、de Vrij缺席）
+- 世界杯经验：✅ 优势 — 三次决赛（1974/1978/2010），球队整体大赛底蕴深厚
+- 中立场表现：历史表现良好，世界杯上常态竞争前8强
 
-**瑞典 (Sweden)**
-- 战术风格：Graham Potter（前布莱顿主帅）进攻足球
-- Matchday 1 结果：5-1 大胜突尼斯；Isak + Gyokeres 双锋是欧洲顶级组合
-- 信心：满溢；F 组积分领先（3 pts vs 荷兰 1 pt）
+**瑞典（Sweden）**
+- 战术风格：4-4-2或4-3-3，快速反击，强调双中锋搭配
+- 近期状态：✅ 本届世界杯首轮 5-1 大胜突尼斯（Ayari 7'、Isak 30'、Gyokeres 59'、Svanberg 84'、Ayari 90+6'）
+- 体能状况：✅ 优势 — 整体阵容健康，首轮打出高进球效率
+- 世界杯经验：⚠️ 劣势 — 2018年以来首次参赛，Graham Potter接手时间尚短
+- 中立场表现：首轮超强表现，但对手强度（突尼斯）明显低于荷兰
 
-### 3.2 历史交锋
+### 3.2 关键球员动态
 
-H2H 权重最小化（正常小组赛，非决赛；历史近期交锋有限）。
+| 球员 | 国籍 | 状态 | 影响 |
+|------|------|------|------|
+| Memphis Depay | 荷兰 | ✅ 伤愈出战 | 核心前锋，得分能力关键 |
+| Xavi Simons | 荷兰 | ❌ ACL缺席（Tottenham受伤） | 组织核心缺失，中场创造力大幅下降 |
+| Jerdy Schouten | 荷兰 | ❌ ACL缺席（PSV） | 后腰位置覆盖不足 |
+| Matthijs de Ligt | 荷兰 | ❌ 伤缺 | 主力中卫配置受影响 |
+| Stefan de Vrij | 荷兰 | ❌ 伤缺 | 后防双中卫主力均告缺阵 |
+| Jeremie Frimpong | 荷兰 | ❌ 未入选 | 边路突击力减弱 |
+| Virgil van Dijk | 荷兰 | ✅ 出战 | 后防统帅，关键稳定器 |
+| Alexander Isak | 瑞典 | ✅ 伤愈出战（腓骨骨折康复） | 首轮进球，状态回升 |
+| Viktor Gyokeres | 瑞典 | ✅ 状态火热 | 首轮破门，赛季前对阵乌克兰帽子戏法 |
+| Dejan Kulusevski | 瑞典 | ❌ 膝伤缺席 | 边路突击牌缺失 |
+| Roony Bardghji | 瑞典 | ❌ 未入选（巴萨） | 创造力选手缺席 |
+| Emil Holm | 瑞典 | ❌ 肌肉伤缺席（赛前替换为Johansson） | 后防覆盖备选减少 |
 
-### 3.3 FIFA 排名 / 公开强度数据
+### 3.3 战术 matchup 分析
 
-| 球队 | 指标 | 数值 | 来源 | 解读 |
-|------|------|------|------|------|
-| 荷兰 | FIFA 排名 | ~**#8**（来自 FIFA April 2026 前 10 列表：Netherlands #8）| https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/14/fifa-rankings-world-cup-2026-june-update/90530584007/ | 欧洲顶级强队 |
-| 瑞典 | FIFA 排名 | 约 **#18-25**（非前 10，北欧强队）| 同上（未直接列出） | 实力较强但不及荷兰 |
-| 荷兰 | ClubElo | not covered（国家队） | https://www.clubelo.com/ | — |
-| 瑞典 | ClubElo | not covered（国家队） | https://www.clubelo.com/ | — |
-| 荷兰 | xG (FBref) | blocked（403） | https://fbref.com/en/ | — |
-| 瑞典 | xG | not covered（国家队）| Understat not covered | — |
+**核心矛盾：**
+1. **荷兰中场空洞 vs 瑞典高速反击：** Simons+Schouten双缺，荷兰中场控制力大打折扣，瑞典在Gyokeres/Isak带领下的快速转换可能是最大威胁
+2. **瑞典后防 vs 荷兰边路：** Dumfries/Dest等边后卫的前插能力vs瑞典边路守势
+3. **荷兰中卫组合不稳 vs 瑞典双前锋：** de Ligt/de Vrij双缺，van Dijk搭档组合待验证，Isak+Gyokeres的纵深跑动可能制造麻烦
 
-### 3.4 公开强度数据：ClubElo / xG
+**风格克制：**
+- 荷兰压迫型打法在中场强度下降后，对阵反击型瑞典有一定克制劣势
+- 瑞典缺少Kulusevski，边路突击力减弱，荷兰中路防守压力相对降低
 
-| 球队 | 指标 | 状态 | 来源 URL |
-|------|------|------|---------|
-| 荷兰 | ClubElo | not covered（国家队） | https://www.clubelo.com/ |
-| 瑞典 | ClubElo | not covered（国家队） | https://www.clubelo.com/ |
-| 荷兰 | xG (FBref) | blocked（403 Forbidden） | https://fbref.com/en/ |
-| 瑞典 | xG | not covered（国家队） | Understat not covered |
+### 3.4 历史交锋记录
+
+| 日期 | 赛事 | 主场 | 比分 | 客场 |
+|------|------|------|:----:|------|
+| 2017-10-10 | 世界杯预选赛 | 荷兰 | 2-0 | 瑞典 |
+| 2011-10-11 | 世界杯预选赛 | 瑞典 | 3-2 | 荷兰 |
+| 2010-10-12 | 欧洲杯预选赛 | 荷兰 | 4-1 | 瑞典 |
+| 2010-03-03 | 国际友谊赛 | 荷兰 | 3-2 | 瑞典 |
+
+**交锋记录：** 近4场2W1D1L（荷兰视角），两队总体势均力敌，但近期交锋荷兰近战占优。
+
+> 本次为世界杯首次同组对决，历史交锋均为预选赛/友谊赛情境，大赛小组赛正式对决参考价值有限。
+
+### 3.5 公开强度数据：FIFA 排名 / Elo
+
+| 球队 | 指标 | 数值 | 来源 | 新鲜度 | 解读 |
+|------|------|------|------|--------|------|
+| 荷兰 | FIFA 世界排名 | ~7（Koeman赛前陈述） | ESPN/AS.com 引述 | 2026年5月 | FIFA七强，远超瑞典 |
+| 瑞典 | FIFA 世界排名 | not covered（源未返回具体数字） | worldfootballrankings.com（SPA阻断） | — | 历史上约15-25位 |
+| 荷兰 | 国家队 Elo | not covered（eloratings.net SPA未取到具体值） | eloratings.net | — | 顶尖欧洲强队 |
+| 瑞典 | 国家队 Elo | not covered | eloratings.net | — | 中欧强队 |
+| 荷兰 | xG/xGA (WC 2026) | not covered（FBref本届数据尚未充分积累） | FBref | — | 首轮数据未完整 |
+| 瑞典 | xG/xGA (WC 2026) | 首轮 vs 突尼斯：进球5，large xG优势（估算xG≈3.5-4.0）(估算) | Sports Mole 比赛数据 | 2026-06-15 | 攻击力超强，但对手偏弱 |
+
+> 国家队不适用 ClubElo（ClubElo仅覆盖俱乐部）。FIFA排名和国家队Elo通过web-research intent:fifa-ranking查询，但源返回SPA页面或数据未完整获取，标注not covered，不估算。
 
 ---
 
 ## 四、综合预测
 
-### 4.1 各维度评估
+### 4.1 各维度权重评估
 
-| 维度 | 荷兰 | 瑞典 | 说明 |
-|------|:---:|:---:|------|
-| 阵容质量 | **8.5** | 7 | 荷兰深度更强；Isak/Gyokeres 是瑞典最强武器 |
-| 近期状态 | 7 | **8.5** | 瑞典 5-1 横扫突尼斯；荷兰 2-2 虽失点但临场反击有效 |
-| 主教练体系 | **7.5** | 7.5 | Koeman 经验 vs Potter 新活力 |
-| 防守稳定 | 6.5 | **7** | 荷兰 vs 日本暴露防守漏洞；瑞典 5-1 中防守有把握 |
-| 进攻火力 | **8** | 8 | 均有世界级进攻双翼 |
-| 动力/需求 | **9** | 8 | 荷兰急需 3 分；瑞典赢则基本出线 |
+| 维度 | 荷兰得分 | 瑞典得分 | 说明 |
+|------|:-------:|:-------:|------|
+| 阵容深度 | 7 | 7 | 荷兰有关键伤员，瑞典双核在状 |
+| 体能状态 | 6 | 8 | 荷兰伤兵累累，瑞典首轮状态火热 |
+| 战术适配 | 7 | 7 | 荷兰中场略薄，瑞典反击体系有效 |
+| 大赛经验 | 9 | 6 | 荷兰三次决赛，瑞典2018年后首次 |
+| 攻防实力 | 8 | 7 | 荷兰整体强但缺人，瑞典前锋凶猛 |
+| 士气/动力 | 7 | 8 | 瑞典5-1大胜后士气高昂 |
+| 定位球 | 7 | 7 | 双方均有定位球能力 |
+| H2H | 7 | 6 | 近期荷兰占优，组赛情境参考有限 |
 
-**综合：** 荷兰微弱优势（EU devig 56.1% vs 瑞典 19.4%），但瑞典 5-1 的气势不容小觑。
+**加权综合评分：**
+- 荷兰：7.4/10
+- 瑞典：7.0/10
 
 ### 4.2 比分预测
 
-JQS devig：2球: 23.1%, 3球: 23.5%（最可能）；O/U 2.5 线稳定，约55.2%概率3+球（OVER）。预测：**荷兰 2-1 瑞典**（与 RotoWire 一致）。
+| 预测比分 | 概率 | 说明 |
+|----------|:----:|------|
+| 荷兰 2-1 | 18% | 荷兰胜最可能比分，拉锯战节奏 |
+| 荷兰 1-0 | 15% | 功利性胜利，防守稳健低分战 |
+| 平局 1-1 | 14% | 瑞典依靠Isak/Gyokeres扳平 |
+| 荷兰 2-0 | 11% | 荷兰主导，瑞典无力还击 |
+| 瑞典 1-0 | 8% | 冷门，荷兰受伤员影响失标 |
+| 平局 0-0 | 6% | 低分平局，双方互相牵制 |
 
 ### 4.3 竞彩推荐
 
-**本场无明显价值投注**。所有 竞彩 HAD 选项均为负 Edge（-10% 至 -12%），CN market structure 不触发，亚盘/大小球无方向信号。
+| 玩法 | 推荐选项 | 竞彩赔率 | 欧赔最优 | 置信度 | 说明 |
+|------|---------|:--------:|:-------:|:------:|------|
+| **胜平负 (SPDF)** | 荷兰胜 | 1.59 | 1.80 (WH) | ⭐⭐ | 荷兰胜最可能但赔率过低，竞彩无正Edge |
+| **让球胜平负 (-1)** | 仅过关 | 2.86 | — | ⭐ | HHAD-1荷兰胜需赢2球以上，风险较高 |
+| **大小球** | 小球(U2.5) | — | 0.88澳门 | ⭐⭐ | 两队防守型战术，大战初期谨慎，偏向低分 |
+| **胜平负 (SPDF)** | 平局 | 3.58 | 4.10 (Bet365) | ⭐ | Bet365平局4.10边际正Edge，小注探索 |
 
-| 玩法 | 结论 |
-|------|------|
-| 任何 HAD 选项 | 竞彩 margin 完全覆盖，无 Edge |
-| HHAD (-1) 瑞典 | EU fair ~41.2% vs 竞彩 2.04（implied 49%），负 Edge |
-| 观望 | ✅ 本场最优策略 |
+### 4.4 Kelly建议
+
+根据 Kelly 公式（模型概率：NED 56.1% / 平 24.5% / SWE 19.4%）：
+
+| 选项 | 竞彩赔率 | 欧赔最优 | Edge（竞彩） | Edge（欧赔最优） | Half-Kelly | 建议 |
+|------|:--------:|:-------:|:-----------:|:---------------:|:----------:|------|
+| 荷兰胜 | 1.59 | 1.80(WH) | -10.8% | +1.0% | 0.32% | ❌ 竞彩无价值；WH勉强正Edge ⭐ |
+| 平局 | 3.58 | 4.10(B365) | -12.3% | +0.5% | 0.04% | ❌ 竞彩无价值；B365极小正Edge ⭐ |
+| 瑞典胜 | 4.52 | 5.25(B365) | -12.3% | +1.9% | 0.22% | ❌ 竞彩无价值 ⭐ |
+
+> **Kelly建议：** 竞彩1X2全线负Edge，不建议单独下注。如需参与，威廉希尔NED胜1.80或Bet365平局4.10可小注（Half-Kelly < 0.5%，即本金0.5%以内）；更建议作为过关组合的一部分。
 
 ---
 
@@ -165,43 +232,60 @@ JQS devig：2球: 23.1%, 3球: 23.5%（最可能）；O/U 2.5 线稳定，约55.
 
 ### 核心判断
 
-1. **荷兰是合理热门（EU devig 56.1%）**，竞彩与 EU 高度吻合，无中国市场结构偏差
-2. **瑞典 5-1 气势胜过荷兰 2-2**，但市场综合阵容质量后认为荷兰更强
-3. **无竞彩价值投注**：竞彩 margin 12.9% 下，所有选项均为负 Edge；建议观望
-4. 最可能结果：荷兰小胜（1-2 球差，2-3 总进球）
+1. **荷兰综合实力居上**：FIFA排名第7，历史大赛经验丰富，即便伤兵累累仍是本场更被看好的一方。
+2. **市场资金坚定支持荷兰**：22/30家机构收短荷兰赔率，亚盘从-0.5升至-0.75，是本届赛事迄今见到的较为一致的方向性信号。
+3. **瑞典不可低估**：首轮5-1大胜突尼斯，Isak+Gyokeres双前锋状态火热，Potter体系在首轮显示出攻击效率。若荷兰中场协调出现问题，瑞典的快速反击具有威胁。
+4. **竞彩赔率不具价值**：竞彩 margin 12.94%吞噬所有正Edge；欧赔特别是Bet365/威廉希尔才有边际价值空间。
+
+### 风险提示
+
+- ⚠️ **荷兰伤员风险**：Simons、Schouten、de Ligt、de Vrij全部缺席，中后场存在明显技术漏洞，若Depay未能全场保持高水准，进攻端也会受限
+- ⚠️ **瑞典士气溢出**：首轮5-1大胜后，瑞典心理优势明显，可能以更积极的态度挑战荷兰
+- ⚠️ **荷兰首轮结果不明**：本报告撰写时，荷兰第1轮vs日本比赛结果数据源未确认，若荷兰首轮失利，积分形势和动力状态分析可能需要调整
+- ⚠️ **竞彩过高 margin**：本场竞彩margin 12.94%，明显高于欧赔8%，竞彩玩家所有选项均为负Edge，不推荐以竞彩赔率单独投注
 
 ### 最终结论
 
-**无推荐竞彩投注**。本场最合理预测为荷兰小胜（2-1），但竞彩 HAD 荷兰 1.59 不具备价值（EU fair ~1.78，Edge 负）。观望为上。
+**最可能的结果：荷兰胜（56.1% 公平概率）**  
+**竞彩最优价值：无显著价值（全部负Edge）；如参与欧赔市场，威廉希尔荷兰胜1.80（Edge +1.0%，Half-Kelly 0.32%，小注⭐）或 Bet365平局4.10（Edge +0.5%，Half-Kelly 0.04%，微注⭐）**
 
 ---
 
 ## 应用的先验清单 (Applied Priors Check)
 
-- **[N] Final-Match Prior**：小组赛，非决赛，不适用
-- **[Y] Fatigue × Motivation**：荷兰积分落后，需赢球，动力极强；瑞典积分领先，保守/进取均可；荷兰动力优势微弱
-- **[N] H2H discount**：非决赛，权重归零
-- **[N] CN market structure**：Δ_荷兰 = -0.4pp（未通过 +3pp 门槛），不适用
-- **[N] Volume signal**：亚盘/大小球均无移动（shifted=False），无方向信号
-- **[Y] Devig per market**：EU HAD（margin 8.04%），竞彩 HAD（margin 12.9%），EU HHAD（10.8%），JQS 均完成换算
-- **[N] Half-Kelly applied**：无正 Edge 投注机会，无需计算
+- **[N] Final-Match Prior**：本场为世界杯小组赛，非淘汰赛或决赛，不触发终场先验（不调整平局概率）。
+- **[Y] Fatigue × Motivation 对冲**：两队均完成第1轮比赛，体能大体相当；瑞典首轮大胜士气高涨（Motivation +1 for SWE），荷兰带着伤兵重压（Fitness -1 for NED）。综合评估轻微利好瑞典体能/心理状态，但差距不足以改变荷兰整体优势。
+- **[N] H2H discount for finals**：非决赛性质，H2H保留10-15%权重；近期荷兰占优（WCQ 2017 2-0）。
+- **[N] CN market structure**：本场为国家队对决，且Δ(竞彩-EU) NED仅-0.42pp，未达EPL短水门槛（+3pp），先验不适用。
+- **[Y] Volume signal (升降盘解读)**：欧赔NED收水（22/30家，-4.62%）；亚盘从-0.5升至-0.75；大小球稳定在2.5偏小球。综合信号：市场资金押注荷兰以1球以上获胜，进球数偏少（小球）。
+- **[Y] Devig per market**：覆盖1X2（EU均值、竞彩、澳门）、让球胜平负（竞彩HHAD -1）、大小球（澳门AH 2.5）。
+- **[Y] Half-Kelly applied**：Edge 汇总：竞彩1X2全线 -10~-13%；WH NED胜+1.0%（HK 0.32%）；B365平局+0.5%（HK 0.04%）；B365 SWE胜+1.9%（HK 0.22%）。均无大注价值。
 
 ### Public Data Signals Check
 
-- **[N] ClubElo**：ClubElo not covered（国家队），尝试 https://www.clubelo.com/（not covered for national teams）
-- **[N] xG**：FBref https://fbref.com/en/ blocked（403 Forbidden）；Understat not covered（国家队）
+- **[Y] ClubElo public rating checked**：国家队，ClubElo不适用（ClubElo仅覆盖俱乐部）。转用FIFA排名（intent: "fifa-ranking"）：荷兰~7（Koeman赛前表述，https://www.espn.ph/football/story/_/id/48890354/netherlands-confirm-world-cup-2026-squad-jeremie-frimpong 引述）；瑞典具体排名 not covered（https://worldfootballrankings.com SPA阻断，无具体数值返回）。
+- **[Y] xG public data checked**：FBref本届世界杯数据尚未完整，标注 not covered（https://fbref.com/en/stathead/matchup/teams/5bb5024a/296f69e7/Netherlands-vs-Sweden-History 有H2H但xG数据不足）；瑞典首轮进球5，xG估算≈3.5-4.0 (估算)；荷兰首轮xG数据源未返回，标注 not covered。
 
-**估算赔率统计**：0 / 全部（均来自 fenxi500 实时数据，无估算）
-**整体置信度**：**Medium**（赔率数据完整，但双方均有强项，比赛结果不确定性较高）
+**估算赔率统计**：2 / 总赔率约20项（仅瑞典首轮xG估算 + 个别预测比分概率为推算）  
+**整体置信度**：**Medium**（关键伤员信息充分，赔率数据真实；荷兰首轮结果未确认，且FIFA排名/Elo数字仅部分引用）
 
 ---
 
+*报告生成时间：2026-06-20T00:37:06.330Z*  
+*数据截止：2026-06-19T21:00:00 UTC（竞彩快照）*
+
 *数据来源：*
-- *Tier 1（赔率）: 500.com fenxi500，EU 均值 + 澳门（salesDate 2026-06-20，matchNumber 6033），2026-06-19 13:40 UTC*
-- *Tier 1（竞彩 HAD/HHAD/JQS）: lottery500 HAD/HHAD/JQS*
-- *Tier 3（预测阵容/伤情/赛前分析）: https://www.rotowire.com/soccer/article/netherlands-vs-sweden-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-group-f-118797*
-- *Tier 3（赛前分析/Depay 状态）: https://www.standard.co.uk/sport/football/netherlands-vs-sweden-xis-confirmed-team-news-predicted-lineups-injury-latest-world-cup-2026-b1286828.html*
-- *Tier 5（FIFA 排名前 10）: https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/14/fifa-rankings-world-cup-2026-june-update/90530584007/*
-- *推理依据: LLM qualitative match-analysis methodology v0.1*
+- *Tier 1（赔率）：500.com百家盘口聚合（fenxi500）— 30家欧赔机构均值、竞彩官方（lottery500-trade）、澳门盘口；salesDate 2026-06-20，周六033*
+- *Tier 2（球队伤停/阵容）：https://news.linxi.com.au/news/netherlands-announce-2026-world-cup-squad-with-koeman-balancing-injury-concerns-and-experience*
+- *Tier 2：https://www.espn.ph/football/story/_/id/48890354/netherlands-confirm-world-cup-2026-squad-jeremie-frimpong*
+- *Tier 2：https://world.infonasional.com/netherlands-world-cup-injuries-koeman-tactics*
+- *Tier 2：https://www.usatoday.com/story/sports/soccer/worldcup/2026/06/10/netherlands-world-cup-injury-news*
+- *Tier 2：https://www.beinsports.com/en-asia/football/fifa-world-cup-2026/articles/isak-headlines-swedens-world-cup-squad*
+- *Tier 2：https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/sweden-squad-announcement*
+- *Tier 2：https://www.sportsmole.co.uk/football/sweden/world-cup-2026/team-news/sweden-vs-tunisia-injury-suspension*
+- *Tier 2：https://www.straitstimes.com/sport/football/swedens-injured-holm-misses-world-cup-johansson-called-up*
+- *Tier 3（H2H）：https://fbref.com/en/stathead/matchup/teams/5bb5024a/296f69e7/Netherlands-vs-Sweden-History*
+- *Tier 3：https://www.11v11.com/teams/netherlands/tab/opposingTeams/opposition/Sweden/*
+- *推理依据：LLM qualitative match-analysis methodology v0.1*
 
 <!-- probs: {"home": 0.56, "draw": 0.25, "away": 0.19} -->

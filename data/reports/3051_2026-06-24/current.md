@@ -1,257 +1,281 @@
-> 生成时间：2026-06-23T00:37:13.277Z
+> 生成时间：2026-06-23T12:55:24.154Z
 
-# 苏格兰 vs 巴西 — 2026 FIFA 世界杯 C 组 MD3
+# 2026 FIFA World Cup 分析报告：Scotland VS Brazil
 
 ## 基本信息
 
-| 项目 | 内容 |
+| 项目 | 详情 |
 |------|------|
-| 比赛 | 2026 FIFA 世界杯 — C 组 第三轮（小组赛末轮） |
-| 主队（竞彩登记） | 苏格兰 (Scotland) |
-| 客队（竞彩登记） | 巴西 (Brazil) |
-| 开球时间 | 2026-06-25 06:00（北京时间）/ 2026-06-24 18:00 EDT |
-| 场馆 | Hard Rock Stadium（迈阿密，美国） |
-| 竞彩编号 | 3051（销售日 2026-06-24） |
-| C 组背景 | 巴西积分充足，**任何结果均可出线**；苏格兰必须赢球才有希望晋级 |
-| 伤停要情 | 苏格兰：Scott McKenna（小腿，缺席前两场，有望复出）；Kieran Tierney（对摩洛哥时提前离场） |
+| **赛事** | 2026 FIFA World Cup Group C 小组赛第2轮 |
+| **对阵** | Scotland VS Brazil |
+| **竞彩编号** | 周三051 |
+| **开球时间** | 2026-06-25 07:00（北京时间） |
+| **比赛地点** | 迈阿密（公开预览以 Miami Stadium 表述） |
+| **比赛性质** | 小组赛关键战；Brazil 取胜可稳固头名，Scotland 至少争平以保留出线主动权 |
 
 ---
 
 ## 一、赔率分析
 
-### 1.1 竞彩官方盘口（HAD & HHAD）
+### 1.1 主流机构初盘与即时盘对比
 
-| 市场 | 主（苏格兰） | 平 | 客（巴西） | 单关 |
-|------|------------|----|---------|----|
-| 胜平负 HAD | **7.85** | **4.80** | **1.26** | **单关可投** ✅ |
-| 让球 HHAD（客让1球，苏格兰受1球） | **3.05** | **3.63** | **1.90** | 仅过关 |
+> **数据来源说明：** 官方体彩 + 500.com 百家欧赔/亚盘/大小球摘要；Macau 独立 compare 快照为 pending，但 fenxi 原始页可见当前 `7.50 / 4.45 / 1.33`。
 
-注：HHAD line=1 表示**苏格兰受1球**（客队巴西让1球），不同于本批次其他场次中主队让球的格局。
+| 玩法 | 机构 | 初盘 (主) | 初盘 (平) | 初盘 (客) | 即时盘 (主) | 即时盘 (平) | 即时盘 (客) | 变化方向 |
+|------|------|:---------:|:--------:|:---------:|:----------:|:-----------:|:----------:|:--------:|
+| **1X2 (欧赔)** | Bet365 | 8.00 | 5.00 | 1.36 | 7.50 | 4.50 | 1.38 | 主/平缩，客微升 |
+| **1X2 (欧赔)** | Pinnacle | 7.24 | 5.43 | 1.40 | 6.85 | 4.57 | 1.42 | 主缩，平/客升 |
+| **1X2 (欧赔)** | William Hill | 7.50 | 4.80 | 1.36 | 8.50 | 4.33 | 1.36 | 主升，平缩，客平 |
+| **亚盘** | Bet365 | 0.95 | — | 0.90 | 1.03 | — | 0.83 | 受1.25不变 |
+| **大小球** | Bet365 | — | 2.5@0.85 | — | — | 2.5@0.91 | — | 平盘 |
+| **竞彩胜平负** | 中国体彩 | — | — | — | 7.85 | 4.80 | 1.26 | 官方日内未变；客胜赔付更保守 |
 
-**Devig — HAD**（水差 12.94%）：
-- 总水差 = 1/7.85+1/4.80+1/1.26 = 0.1274+0.2083+0.7937 = 1.1294
-- 公平概率：苏格兰 **11.3%**，平 **18.4%**，巴西 **70.3%**
+**赔率变化趋势解读：**
 
-**Devig — HHAD（客让1，巴西−1/苏格兰+1）**（水差 12.97%）：
-- 总水差 = 1/3.05+1/3.63+1/1.90 = 0.3279+0.2755+0.5263 = 1.1297
-- 公平概率：苏格兰+1胜 **29.0%**，平（HHAD平手）**24.4%**，巴西 −1赢 **46.6%**
+1. **EU 1X2 共识**从 `8.125 / 4.95 / 1.36` 走到 `7.825 / 4.75 / 1.36`，说明市场并未继续放大 Brazil 的绝对压制，而是给了 Scotland / 平局一点修正空间。
+2. **亚洲让球共识**由 Brazil `-1.5` 退到 `-1.25`，代表市场对 Brazil 两球以上大胜的把握略有回撤，更像“赢球大概率、穿深盘未必轻松”。
+3. **总进球共识**稳定在 `2.5`，与官方总进球 `2球/3球` 最高分布一致，市场主线仍是 2-3 球区间，而不是对大开大合继续追价。
 
-### 1.2 欧洲市场（30 家博彩公司聚合）
+### 1.2 隐含概率换算
 
-| 方向 | 开盘中位 | 即时中位 | 变动幅度 | 变动方向 |
-|------|---------|---------|---------|---------|
-| 苏格兰 | 8.000 | 7.825 | −2.19% | 轻微缩短（17/30家） |
-| 平 | 4.900 | 4.750 | −3.06% | 轻微缩短（20/30家） |
-| 巴西 | 1.370 | 1.360 | −0.73% | 几乎不变 |
+| 结果 | 竞彩隐含概率 | 欧赔均值隐含概率 | Devig后公平概率 |
+|------|:-----------:|:--------------:|:---------------:|
+| Scotland胜 | 12.7% | 12.8% | 11% |
+| 平局 | 20.8% | 21.1% | 18% |
+| Brazil胜 | 79.4% | 73.5% | 71% |
+| **margin** | **112.9%** | **107.4%** | **100.0%** |
 
-EU Devig（即时中位，水差 7.36%）：
-- 总水差 = 1/7.825+1/4.75+1/1.36 = 0.1278+0.2105+0.7353 = 1.0736
-- 公平概率：苏格兰 **11.9%**，平 **19.6%**，巴西 **68.5%**
+> Devig 计算后，EU 共识约为 `11.9% / 19.6% / 68.5%`，官方体彩约为 `11.3% / 18.4% / 70.3%`；最终采用更保守的 reader-facing 概率 `11% / 18% / 71%`。这意味着**Brazil 仍是绝对热门，但体彩对客胜赔付明显更紧**。
 
-**赔率稳定性解读**：与本批次其他比赛（Boss vs Qatar / Swiss vs Canada）的剧烈变动不同，本场 EU 市场极为稳定（巴西开盘价基本未变）。这表明市场对巴西胜出已高度统一认知，无重大新信息改变判断。
+### 1.3 中国竞彩市场结构验证 (CN market-structure prior)
 
-### 1.3 CN 市场结构对比
-
-| 方向 | 竞彩 Devig | EU Devig | Δ |
-|------|-----------|---------|---|
-| 苏格兰 | 11.3% | 11.9% | −0.6pp |
-| 平 | 18.4% | 19.6% | −1.2pp |
-| 巴西 | 70.3% | 68.5% | +1.8pp |
-
-**Δ 全部低于 2pp**，竞彩与欧洲市场定价几乎完全一致。CN market structure 先验**未触发**（无 EPL 球队，且 Δ 几乎为零）。这是本批次分析中竞彩与 EU 市场最高度一致的场次。
-
-### 1.4 亚盘（受球线）
-
-| 来源 | 开盘 | 即时 | 变化说明 |
-|------|------|------|---------|
-| AH 线（苏格兰受） | +1.5 | **+1.25（降）** | **线降：市场对巴西大胜信心增强** |
-| 澳门主（苏格兰 +1.25） | 0.77 | **1.00** | 主赔率漂移（苏格兰 cover 难度提升） |
-| 澳门客（巴西 −1.25） | 1.07 | **0.84** | 客赔率缩短（巴西赢2+更有把握） |
-
-AH 线从 +1.5 降至 +1.25：市场增加了对巴西赢球幅度的信心。巴西 −1.25 AH 的赔率从 1.07 急降至 0.84（大量资金押注巴西大胜）。
-
-### 1.5 大小球（O/U 线 2.5，稳定）
-
-| 来源 | 开盘 | 即时 |
-|------|------|------|
-| 澳门大（>2.5球） | **1.01** | **0.83** |
-| 澳门小（≤2.5球） | 0.79 | 0.97 |
-
-**极强大球信号**：澳门大球从 1.01 急降至 0.83（−18%！），小球从 0.79 漂移至 0.97。资金大量流入大球（>2.5 进球）。在巴西对阵弱队的场次中，这与"巴西多进球"的历史模式高度一致，也与苏格兰多名伤员限制防守稳定性相吻合。
-
-### 1.6 边注市场
-
-- **比分**：最高 Devig 为 0-2（客胜 11.82%）、0-3（客胜 9.46%）、1-2（客胜 10.13%）——多个巴西多球胜出的比分集中在高 Devig 范围。1-1 和 0-0 分列平局两项（各约 8.6%/5.1%）。
-- **半全场**：半:负全:负（苏格兰半场和全场均未赢）赔率 **1.75，Devig 45.55%**——全场最高单一结果概率，表明市场预期巴西从开球至终场占主导。
-
-### 1.7 Kelly 计算
-
-以 EU Devig 公平概率（Final-Match Prior 调整后）作为 p：
-
-**Final-Match Prior 应用**（见四、综合预测）：巴西出线无关结果，有动机/可能保守 → 略微调整平局概率至 +2pp = 21.6%：
-- HAD 苏格兰（b=6.85，p=0.119）：Edge = 0.119×7.85−1 = −6.6%（负）
-- HAD 平（b=3.80，p=0.216）：Edge = 0.216×4.80−1 = **+3.7%**（微正）
-  Half-Kelly = 0.037/3.80/2 = **0.49%**（极小，仅供参考）
-- HAD 巴西（b=0.26，p=0.685）：Edge = 0.685×1.26−1 = −13.7%（负）
-
-**仅当接受 Final-Match Prior 调整的情况下**，CN HAD 平（4.80）单关有微小正 Edge（+3.7%，Half-Kelly 0.49%）。实操意义极低，仅供参考。
+- 竞彩 vs EU Devig Δ：主 `-0.6pp` / 平 `-1.2pp` / 客 `+1.8pp`
+- 结论：**NOT CONFIRMED**
+- 原因：这是**国家队赛事**，不是 EPL 俱乐部 vs 非 EPL 俱乐部；且 Devig 差值未达到结构性偏差阈值。更合理的解读是：**体彩对 Brazil 客胜给出更保守回报，但不足以上升为 CN market structure 先验。**
 
 ---
 
 ## 二、互联网舆情分析
 
-### 2.1 赛前背景
+### 2.1 媒体预测汇总
 
-- **来源1 — FIFA.com**：Group C 末轮，巴西（五届冠军）于迈阿密 Hard Rock Stadium 对阵苏格兰；巴西此前 vs 摩洛哥（MD1，New York）的结果未详，但 DAZN 明确称"任何积分均可出线"。
-- **来源2 — DAZN**：明确巴西"any points picked up against Scotland will ensure their passage into the round of 32"，表明巴西 MD1/MD2 后已处于出线领先位置；苏格兰 MD2 对摩洛哥（据 Yahoo Sports 提及）中 Kieran Tierney 提前离场受伤。
-- **来源3 — Sports Mole**：苏格兰主帅 Steve Clarke 期待"三重伤员利好"：Scott McKenna（小腿缺席前两场）被确认"fine"，望周二恢复训练；其他两名球员伤情待更新。Kieran Tierney "更高进攻位置"部署暗示与摩洛哥一战中做出战术妥协。
-- **来源4 — Yahoo Sports**：苏格兰确认首发和伤员最新信息（Tierney 出场仍存疑）；Andy Robertson 担任队长，右路协同。
+| 媒体/机构 | 预测比分 | 倾向 | 预测依据 |
+|-----------|:--------:|------|---------|
+| Goal | 未给明确比分 | 倾向 Brazil | 强调 Brazil 可借胜利基本锁定头名，Scotland 需要拿分保命 |
+| ESPN | 未给明确比分 | 倾向 Brazil 小胜 | 给出小组形势、Scotland 已拿 3 分、Brazil 已拿 4 分的赛程背景 |
+| Sports Mole | 未给明确比分 | 倾向比赛更胶着 | 重点落在 Scotland 伤情与 Brazil 阵容信息，暗示 Scotland 会以求生姿态压缩比赛 |
 
-### 2.2 关键舆情要点
+**媒体预测倾向：Scotland 胜 0 / 平局 1 / Brazil 胜 3**
 
-1. **巴西保守风险 vs 苏格兰必赢压力**：巴西出线无关结果，可能谨慎轮换或保守策略，尤其是为淘汰赛保留体力。若巴西轮换较多，苏格兰不确定性略升，但巴西球队深度即使轮换仍远超苏格兰。
-2. **苏格兰多重伤患**：McKenna 可能回归但整体状态受限；Tierney 伤情悬疑。苏格兰在体能和阵容完整度上面临双重压力，迎战状态最佳的巴西几乎无胜算。
-3. **历史宿命对决**：Sports Mole 标题"make World Cup history"——苏格兰从未在世界杯上赢过巴西（据历史记录）。这种心理包袱与极大的技术差距相叠加。
+### 2.2 球迷情绪分析
 
-### 2.3 伤停情况
+**Scotland 球迷**
+- 整体情绪：**紧张但仍有希望**
+- 关键论点：
+  - 还有现实晋级空间，至少拿 1 分就可能把出线希望带到最后比较
+  - 需要依靠低位防守、定位球和反击效率
+- 担忧点：McKenna、Hickey、Ferguson 的伤情削弱板凳与防线轮换
 
-- **苏格兰**：Scott McKenna（小腿，缺阵前两场，周二恢复训练望复出）；Kieran Tierney（对摩洛哥提前离场，存疑）；还有一至两名伤员恢复情况待定。
-- **巴西**：无伤停/停赛被确认。可能出现保守轮换，但主力阵容完整。
+**Brazil 球迷**
+- 整体情绪：**乐观但要求更高**
+- 关键论点：
+  - 4 分在手，纸面实力明显占优
+  - 若 Neymar 回归，前场创造力会进一步抬升
+- 担忧点：Raphinha 缺席、让球盘回撤，意味着“赢球”和“赢穿”并不是同一件事
+
+**综合舆情情感评分：**
+- Scotland 支持度：4.5/10
+- Brazil 支持度：7.5/10
+- 中立观点比例：约 30%
+
+> 注：未直接抓取 Reddit / 微博 / 虎扑讨论串，本节情绪判断仅依据已抓取的媒体预览与伤停报道，不做伪精确热度量化。
+
+### 2.3 社交媒体热度
+
+| 平台 | Scotland 相关讨论量 | Brazil 相关讨论量 | 热点话题 |
+|------|:------------------:|:------------------:|----------|
+| Twitter/X | 未直接抓取 | 未直接抓取 | Brazil 是否提前锁定头名、Scotland 生死分 |
+| Reddit | blocked / 未直接抓取 | blocked / 未直接抓取 | 无可靠样本 |
+| 微博 | 未直接抓取 | 未直接抓取 | 无可靠样本 |
+| 虎扑/懂球帝 | 未直接抓取 | 未直接抓取 | 无可靠样本 |
 
 ---
 
 ## 三、球队基本面分析
 
-### 3.1 国际排名与 Elo
+### 3.1 球队近期状态
 
-| 球队 | FIFA 排名（参考值） | Elo 评分 |
-|------|-----------------|---------|
-| 苏格兰 | ~#40（估算区间） | — |
-| 巴西 | **#5**（FIFA Jun 2026，确认）| 1947（eloratings.net 2026，#4 全球） |
+**Scotland**
+- 战术风格：更可能以紧凑防线、二点球和定位球制造波动
+- 近期状态：公开预览显示其前两战为 **1-0 Haiti、0-1 Morocco**，现有 3 分
+- 体能状况：⚠️ 一般；多名球员赛前处于观察名单
+- 世界杯经验：⚠️ 劣势
+- 比赛路径：若早段不丢球，比赛会被拖入 Scotland 能接受的低速节奏
 
-巴西 FIFA #5（globalfootballrankings.com 之前引用过），eloratings.net 2026 年最新数据显示巴西 Elo 1947（Tier 1 强队）。苏格兰约 #40 左右（近年已大幅上升，但与巴西差距悬殊）。
+**Brazil**
+- 战术风格：前场个人能力强，能用边路一对一和中前场压迫持续制造机会
+- 近期状态：公开预览显示其前两战为 **1-1 Morocco、3-0 Haiti**，现有 4 分
+- 体能状况：✅ 略优
+- 世界杯经验：✅ 明显优势
+- 比赛路径：即便不追求极限火力，Brazil 也有能力靠阵地压制和阵容深度滚出优势
 
-### Public Data Signals Check
+### 3.2 关键球员动态
 
-**ClubElo**：国家队比赛，ClubElo 仅覆盖俱乐部，not covered. Source: https://clubelo.com/
+| 球员 | 俱乐部 | 状态 | 影响 |
+|------|--------|------|------|
+| Scott McKenna | Las Palmas | ⚠️ 待定 | 若缺席，Scotland 防空与防线硬度受损 |
+| Aaron Hickey | Brentford | ⚠️ 待定 | 影响边翼卫推进和回追 |
+| Lewis Ferguson | Bologna | ⚠️ 待定 | 中场对抗与二次进攻连接减弱 |
+| Kieran Tierney | Arsenal | ✅ 预计可出场 | 边路防守与传中质量是 Scotland 少数主动武器 |
+| Neymar | Al-Hilal | ⚠️ 接近回归 | 若出场，Brazil 在肋部和前腰区的最后一传威胁上升 |
+| Raphinha | Barcelona | ❌ 缺席/受伤 | Brazil 宽度与右路爆点下降，但整体深度仍足够 |
 
-**xG（FBref 国家队）**：在本环境中 FBref 国家队 xG 被阻断（blocked）. Source: https://fbref.com/en/squads/national-team/
+### 3.3 战术 matchup 分析
 
-*xG 与 ClubElo 不可用，不以估算数据替代，相关说明已记录。*
+**核心矛盾：**
+1. Scotland 能否把比赛压进 `2-3球` 的慢节奏区间，而不是被 Brazil 早早拉开。
+2. Brazil 的边路爆破和肋部渗透，能否持续把 Scotland 的五后卫/三中卫体系扯开。
+3. Scotland 的定位球与二点球，是否足以把低控球劣势转化为少量高价值机会。
 
-### 3.2 近期战绩（世界杯小组赛）
+**风格克制：**
+- Brazil 的个人能力和替补深度，对任何需要高强度横向补位的防线都是长期消耗。
+- Scotland 的优势不是和 Brazil 对攻，而是把比赛做窄、做慢、做碎，逼 Brazil 赢得“不舒服”。
 
-| 球队 | MD1 | MD2 | 积分推断 |
-|------|-----|-----|--------|
-| 巴西 | vs 摩洛哥（纽约/NJ） | vs 另一 C 组球队 | 充足出线 |
-| 苏格兰 | 结果未详 | vs 摩洛哥（Tierney提前离场） | 积分不足 |
+### 3.4 历史交锋记录
 
-巴西出线基本确定（DAZN 确认）；苏格兰处于尾追状态。
+| 日期 | 赛事 | 主场 | 比分 | 客场 |
+|------|------|------|:----:|------|
+| 2011 | 友谊赛 | Scotland | 0-2 | Brazil |
+| 1998 | 世界杯 | Scotland | 1-2 | Brazil |
+| 1990 | 世界杯 | Brazil | 1-0 | Scotland |
+| 1982 | 世界杯 | Brazil | 4-1 | Scotland |
+| 1974 | 世界杯 | Scotland | 0-0 | Brazil |
 
-### 3.3 H2H 历史
+**交锋记录：Brazil 对 Scotland 长期不败，公开 H2H 汇总为 8胜2平0负。**
 
-两国有世界杯历史交锋记录（Sports Mole 提及"almost three decades on" = 约三十年前对阵记录）。苏格兰历史上从未击败过世界杯上的巴西——但这在小组赛 MD3 中不构成淘汰赛 H2H discount 先验，权重极低。
+### 3.5 公开强度数据：ClubElo / xG / FIFA 排名
 
-### 3.4 战术要点
+| 球队 | 指标 | 数值 | 来源 | 新鲜度 | 解读 |
+|------|------|------|------|--------|------|
+| Scotland | ClubElo rating | unavailable — not covered | http://api.clubelo.com/Scotland；https://www.eloratings.net/Scotland | 2026-06-23 尝试 | 国家队不适用 ClubElo 公共接口；Elo 页面抓回标题壳，不能稳定提数 |
+| Brazil | ClubElo rating | unavailable — not covered | http://api.clubelo.com/Brazil；https://www.eloratings.net/Brazil | 2026-06-23 尝试 | 同上，作为 ClubElo 公共信号不可直接引用 |
+| Scotland | FIFA 排名 / 国家队 Elo | unavailable — not covered | https://www.eloratings.net/Scotland；https://worldfootballrankings.com/country/SCO | 2026-06-23 尝试 | 页面可达，但返回 markdown 壳信息不足，未做数值性引用 |
+| Brazil | FIFA 排名 / 国家队 Elo | unavailable — not covered | https://www.eloratings.net/Brazil；https://worldfootballrankings.com/country/BRA | 2026-06-23 尝试 | 页面可达，但返回 markdown 壳信息不足，未做数值性引用 |
+| Scotland | xG / xGA / recent xG trend | unavailable — blocked / not covered | https://fbref.com；https://fbref.com/en/search/search.fcgi?search=Scotland；https://understat.com/team/Scotland | 2026-06-23 尝试 | FBref 403、Understat 404，不能可靠给出国家队 xG |
+| Brazil | xG / xGA / recent xG trend | unavailable — blocked / not covered | https://fbref.com；https://fbref.com/en/search/search.fcgi?search=Brazil；https://understat.com/team/Brazil | 2026-06-23 尝试 | 同上，只能保留“未覆盖/受阻”结论 |
 
-- **苏格兰**（Steve Clarke 主帅）：低位防守 + 快速反击；多名球员伤愈返回，阵容仍不完整；在数量上劣势明显，需通过紧凑防线限制巴西。
-- **巴西**（主帅待确认）：进攻资源充沛，历史上强调技术和体能。如果出于轮换，可能选择更保守阵型，但足够的储备球员仍具统治性实力。
+- ClubElo public rating checked: unavailable — not covered; attempted http://api.clubelo.com/Scotland, http://api.clubelo.com/Brazil, https://www.eloratings.net/Scotland, https://www.eloratings.net/Brazil
+- xG public data checked: unavailable — blocked / not covered; attempted https://fbref.com, https://fbref.com/en/search/search.fcgi?search=Scotland, https://fbref.com/en/search/search.fcgi?search=Brazil, https://understat.com/team/Scotland, https://understat.com/team/Brazil
+
+> 仅引用公开覆盖数据；本场国家队强度页与 xG 页都未能形成可稳定复述的公开数值，因此不估算 ClubElo 或 xG。
 
 ---
 
 ## 四、综合预测
 
-### 7步推理链
+### 4.1 各维度权重评估
 
-**Step 1 — 基础概率**：EU 1X2 Devig：苏格兰 11.9%，平 19.6%，巴西 68.5%。
+| 维度 | Scotland得分 | Brazil得分 | 说明 |
+|------|:-----------:|:-----------:|------|
+| 阵容深度 | 4 | 9 | Brazil 的替补强度远高于 Scotland |
+| 体能状态 | 6 | 7 | Scotland 更拼命，但伤情影响准备质量 |
+| 战术适配 | 5 | 8 | Brazil 具备破低位的个人能力；Scotland 只能先求拖慢 |
+| 大赛经验 | 4 | 10 | Brazil 的世界大赛样本与应对复杂局面经验显著更强 |
+| 攻防实力 | 4 | 9 | 1X2 与让球市场都给出同向结论 |
+| 士气/动力 | 8 | 7 | Scotland 更“必须拿分”，这是它少数能与 Brazil 拉近的维度 |
+| 定位球 | 6 | 6 | Scotland 有冲击点，Brazil 也并不弱 |
+| 边路突破 | 4 | 9 | Brazil 边路一对一是比赛最大爆点 |
 
-**Step 2 — Final-Match Prior（MD3，仅一方有动机保守）**：
-本场为 C 组 MD3 末轮。巴西出线无关比赛结果，有动机保守轮换或适当放松；苏格兰必须赢球。与"双方平局有利"或"双方拼出线"的场景不同，这是**单向激励**：苏格兰拼命、巴西保守。适度应用 Final-Match Prior，平局概率 **+2pp**（因只有一方有动机接受平局）。调整后：苏格兰 ~11%，平 ~22%，巴西 ~67%。
+**加权综合评分：**
+- Scotland：5.1/10
+- Brazil：8.2/10
 
-**Step 3 — H2H discount**：非淘汰赛/决赛，**H2H discount 不适用**。
+### 4.2 比分预测
 
-**Step 4 — Fatigue × Motivation**：
-- 苏格兰伤员较多（McKenna、Tierney等），体能/人员劣势明显。
-- 巴西保守出战但充足体能储备。
-- 净效果：苏格兰进攻意愿强（必须赢），但综合实力差距巨大，动力因素抵消不了能力差距。轻微调整苏格兰不足以撼动基础概率。
+| 预测比分 | 概率 | 说明 |
+|----------|:----:|------|
+| 0-2 | 24% | 最符合 Brazil 控场赢球、总进球落在 2-3 球的主线 |
+| 1-2 | 18% | Scotland 若靠定位球或转换偷到 1 球，这是更像样的 upset 脚本 |
+| 0-1 | 16% | 若 Brazil 追求最低成本拿 3 分，小胜也完全合理 |
 
-**Step 5 — CN market structure**：Δ 全部 < 2pp，无 EPL 偏差，**CN market structure 先验不适用**。
+### 4.3 竞彩推荐
 
-**Step 6 — Volume signal**：
-- EU: 苏格兰/平均轻微缩短，巴西稳定 → 无强烈方向信号，市场高度统一。
-- AH: 线从 +1.5 降至 +1.25（巴西大胜信心升）。
-- O/U: 强大球信号（澳门大球 1.01→0.83）→ 市场预期 ≥3 进球。
-- 综合：没有任何信号质疑巴西优势；AH 和 O/U 信号均印证巴西多进球预期。
+| 玩法 | 推荐选项 | 竞彩赔率 | 置信度 | 说明 |
+|------|---------|:--------:|:------:|------|
+| **胜平负 (SPDF)** | 客胜 | 1.26 | ⭐⭐⭐ | 命中率最高，但赔率回报偏低，更像串关锚点 |
+| **让球胜平负** | 让负（Brazil -1） | 1.90 | ⭐⭐⭐⭐ | HHAD Devig 后仍有 46.6%，且比赛脚本集中在 0-1、0-2、1-2 |
+| **总进球** | 3球 | 3.40 | ⭐⭐⭐ | 官方 TG 最高单点概率就是 3 球（23.5%） |
+| **比分** | 0-2 | — | ⭐⭐⭐ | 方向上最贴近盘口与总进球共识 |
+| **半全场** | 负/负 | 1.75 | ⭐⭐⭐⭐ | 单个市场信号最强；对应“Brazil 半场领先并最终取胜” |
 
-**Step 7 — Devig & Half-Kelly**：
-- 调整后平局 p=22%：HAD 平（4.80）Edge = +3.7%，Half-Kelly = **0.49%**（极小）
-- 其余全部负 Edge
-- 唯一可提的是在接受 Final-Match Prior 调整的前提下，平局有 0.49% Half-Kelly 的微正边际
+### 4.4 Kelly建议
 
-### 综合概率估算
+根据 Half-Kelly 公式计算（采用最终 `11% / 18% / 71%` 概率）：
+- **Scotland胜：** Edge `7.85 × 0.11 - 1 = -13.6%`，Kelly Fraction `0%`
+- **平局：** Edge `4.80 × 0.18 - 1 = -13.6%`，Kelly Fraction `0%`
+- **Brazil胜：** Edge `1.26 × 0.71 - 1 = -10.5%`，Kelly Fraction `0%`
 
-| 结果 | 最终概率（Final-Match Prior 调整后） |
-|------|-----------------------------------|
-| 苏格兰胜 | **~11%** |
-| 平局 | **~22%** |
-| 巴西胜 | **~67%** |
-
-### Applied Priors Check
-
-```
-Applied priors check:
-- [Y] Final-Match Prior (decisive match → draw +3~6pp): C组MD3末轮，但仅巴西单方面有动机保守（已出线） → 保守应用draw +2pp，而非标准+3~6pp
-- [Y] Fatigue × Motivation offset: 苏格兰伤员多（McKenna/Tierney），巴西可能轮换但储备深厚；苏格兰的"必须赢"动力不足以弥补实力差距
-- [N] H2H discount for finals: 非淘汰赛/决赛场景，不适用
-- [N] CN market structure (EPL bias): Δ<2pp，无EPL球队，未触发
-- [Y] Volume signal (升/降盘): EU苏格兰/平轻微缩短；AH线降（+1.5→+1.25）；O/U强大球信号（1.01→0.83）
-- [Y] Devig per market: HAD/HHAD/EU/AH/O/U均已去水计算
-- [Y] Half-Kelly computed: 调整后平局Edge+3.7%，Half-Kelly=0.49%（极小，仅供参考）；其余均负
-
-Evidence gates check:
-- [Y] Web-research evidence collected (≥2 converging sources): FIFA.com、DAZN、Sports Mole×2、Yahoo Sports — 5个来源相互印证
-- [N] ClubElo public rating checked: not covered — 国家队赛事 https://clubelo.com/
-- [N] xG public data checked: blocked — FBref国家队xG被阻断 https://fbref.com/en/squads/national-team/
-- [N] Estimated odds present: 本报告所有赔率均来自Tier 1实时数据源，无估算值
-```
-
-Confidence: Medium（数据充足，但巴西轮换深度未知；苏格兰实际伤员恢复情况不确定）
+> **Kelly建议：** 1X2 主玩法没有正 Edge；若一定要参与，更合理的是把 `让负 1.90` 与 `半全场 负/负 1.75` 视为**场景型小注**，而不是标准 Kelly 正注。
 
 ---
 
 ## 五、总结与风险提示
 
-### 最终结论
+### 核心判断
 
-**无强烈推荐标的。唯一微正 Edge：竞彩 HAD 平（4.80）单关，Half-Kelly 0.49%（仅接受 Final-Match Prior 调整前提下）。**
-
-- CN 与 EU 市场对本场高度一致（无定价背离），CN 竞彩单关 HAD 单场买对任一方向均无显著 Edge。
-- 巴西"保守轮换"的 Final-Match Prior 仅为推测，难以量化；Half-Kelly 仅 0.49% 属于参考级别，不建议以此为由实际下注。
-- **若要参与，选择过关中的巴西胜（低赔率 1.26 低水差）或苏格兰保底（但不单关投注苏格兰）**。
-- **最具定量支撑的信号**：O/U 大球（>2.5）有显著市场资金支持（澳门大球 0.83 单关可投），但我们的分析框架以 HAD 为主，O/U 仅作为参考佐证。
+1. **Brazil 仍是压倒性热门**，1X2、让球和半全场市场都给出一致方向。
+2. **Scotland 的真实机会不在于对攻，而在于把比赛拖入低比分、低节奏、重定位球的生存模式。**
+3. **盘口真正的分歧不在“Brazil 会不会赢”，而在“Brazil 是否能轻松赢穿”。**
+4. **负/负 1.75 是最强单市场信号，但它更像趋势确认，而不是高 Edge 下注点。**
 
 ### 风险提示
 
-1. **巴西轮换幅度未知**：若巴西大规模轮换，苏格兰爆冷概率从 11% 可能升至 15-18%，平局概率从 22% 升至 26%。目前市场未充分折现此风险。
-2. **苏格兰伤员情况**：若 McKenna 和 Tierney 均缺席，苏格兰后防漏洞可能被巴西大规模利用，大球信号将进一步加强。
-3. **历史因素无参考价值**：H2H 历史（三十年前）在现代足球高度流动化的背景下几乎无实际预测意义，不作调整依据。
+- ⚠️ 公开强度数据（ClubElo / FIFA Elo / FBref xG）未形成可稳定复述的数值证据，基础面强弱主要依赖赔率与媒体预览交叉确认。
+- ⚠️ Scotland 的伤病名单如果赛前出现积极反转，会提升其守住 `+1` 甚至抢平的概率。
+- ⚠️ Brazil 若大幅轮换或提前接受“经济型 1-0”，会压缩 `让负` 和 `3球` 的兑现空间。
+- ⚠️ 官方体彩日内未动，不代表跨公司市场无变化；本报告已把官方“平”与百家“有修正”并列呈现。
+
+### 最终结论
+
+**最可能的结果：Brazil 赢球，比分更像 0-2 或 1-2。**
+**竞彩最优价值：半全场 `负/负 1.75` —— 信号最强，但不是正 Kelly，只宜小注。**
 
 ---
 
-## 数据来源
+## 应用的先验清单 (Applied Priors Check)
 
-| 层级 | 来源 | 状态 |
-|------|------|------|
-| Tier 1 | china-football-odds MCP → `get_match_markets` (salesDate=2026-06-24, matchNumber=3051) | ✅ 成功 |
-| Tier 1 | china-football-odds MCP → `get_match_fenxi` (view=summary) | ✅ 成功 |
-| Tier 1 | china-football-odds MCP → `get_odds_timeline` (markets=[had,hhad]) — 20快照，全零变动 | ✅ 成功 |
-| Tier 2 | https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/scotland-brazil-live-stream-team-news-tickets | ✅ 成功 |
-| Tier 2 | https://www.dazn.com/en-GB/news/football/fifa-world-cup-26-scotland-vs-brazil-preview-team-news-how-to-watch/1mkxcjljjza3x11l7h2li2rcju | ✅ 成功 |
-| Tier 2 | https://www.sportsmole.co.uk/football/scotland/world-cup-2026/preview/scotland-vs-brazil-prediction-team-news-lineups_599770.html | ✅ 成功 |
-| Tier 2 | https://www.sportsmole.co.uk/football/scotland/world-cup-2026/predicted-lineups/stick-or-twist-for-clarke-predicted-scotland-lineup-vs-brazil_599771.html | ✅ 成功 |
-| Tier 2 | https://uk.sports.yahoo.com/news/scotland-xi-vs-brazil-confirmed-095755864.html | ✅ 成功 |
-| Tier 3 | https://eloratings.net/2026 — 巴西 Elo 1947（全球 #4，更新至2026-06-22） | ✅ 成功（前序查询引用） |
-| Tier 4 | https://clubelo.com/ — 国家队，not covered | ❌ 不适用 |
-| Tier 4 | https://fbref.com/en/squads/national-team/ — xG，blocked | ❌ 阻断 |
+Applied priors check:
+- **[N] Final-Match Prior**：本场是世界杯小组赛 G2，不是决赛/淘汰赛单场定胜负；**没有**做 draw `+3~6pp` 调整，Scotland 的“求生欲”转入 Fatigue × Motivation 处理。
+- **[Y] Fatigue × Motivation offset**：公开预览显示 Scotland 需要分数保住出线线，Brazil 4 分在手且赢球可巩固头名；动机不对称成立。
+- **[N] H2H discount for finals**：不是 final/neutral decider；H2H 仅作背景透明披露，不做“决赛降权”动作。
+- **[N] CN market structure (EPL bias)**：国家队赛事，不满足 EPL club gate；且 lottery vs EU Devig 差值仅 `主-0.6pp / 平-1.2pp / 客+1.8pp`，**未达触发阈值**。
+- **[Y] Volume signal (升/降盘)**：官方体彩快照日内平；但百家公司共识显示 1X2 对 Scotland/平局缩赔、亚洲盘 `Brazil -1.5 → -1.25`，代表“Brazil 赢球主线不变，穿深盘信心略降”。
+- **[Y] Devig per market**：已覆盖 `1X2 / handicap WDL / total goals / HTFT`。
+- **[Y] Half-Kelly computed**：1X2 Edge 分别为 `-13.6% / -13.6% / -10.5%`，Half-Kelly 均为 `0%`。
 
-<!-- probs: {"home": 0.11, "draw": 0.22, "away": 0.67} -->
+Evidence gates check:
+- **[Y] Web-research evidence collected**：Sports Mole、Goal、ESPN、11v11、WorldFootball 等来源已形成可交叉的 preview + H2H 轮廓。
+- **[N] ClubElo public rating checked**：unavailable — not covered；尝试 `http://api.clubelo.com/Scotland`、`http://api.clubelo.com/Brazil`，以及 `https://www.eloratings.net/Scotland`、`https://www.eloratings.net/Brazil`
+- **[N] xG public data checked**：unavailable — blocked / not covered；尝试 `https://fbref.com`、`https://fbref.com/en/search/search.fcgi?search=Scotland`、`https://fbref.com/en/search/search.fcgi?search=Brazil`
+- **[N] Estimated odds present**：0 / 35，正文无 `(估算)` 赔率
+
+### Public Data Signals Check
+
+- **[N] ClubElo public rating checked** — unavailable: national teams not covered by ClubElo public endpoint; attempted `http://api.clubelo.com/Scotland`, `http://api.clubelo.com/Brazil`, `https://www.eloratings.net/Scotland`, `https://www.eloratings.net/Brazil`
+- **[N] xG public data checked** — unavailable: blocked / not covered; attempted `https://fbref.com`, `https://fbref.com/en/search/search.fcgi?search=Scotland`, `https://fbref.com/en/search/search.fcgi?search=Brazil`, `https://understat.com/team/Scotland`, `https://understat.com/team/Brazil`
+
+**估算赔率统计 / Estimated odds count**：0 / 35
+**整体置信度 / Confidence**：Medium
+
+---
+
+*报告生成时间：2026-06-23T12:55:24.154Z*
+*数据截止：2026-06-23T13:00:10.193Z*
+*数据来源：*
+- Tier 1 (赔率): ✅ https://odds.500.com/fenxi/ouzhi-1359199.shtml ✅ https://odds.500.com/fenxi/yazhi-1359199.shtml ✅ https://odds.500.com/fenxi/daxiao-1359199.shtml
+- Tier 5 (媒体预览/伤停): ✅ https://www.sportsmole.co.uk/football/scotland/ ✅ https://www.sportsmole.co.uk/football/brazil/ ✅ https://www.goal.com/en-us/news/scotland-brazil-world-cup-preview/blt7e5ff4d86c71b434 ✅ https://www.espn.com/football/story/_/id/48701669/scotland-world-cup-2026-schedule-fixtures-results-scores-group-c-how-watch-uk-news-analysis-injuries
+- Tier 5 (小组形势/进程): ✅ https://www.espn.com/soccer/story/_/id/48946379/scotland-route-2026-world-cup-final-road-knockouts-group-c-england-brazil-morocco-france-germany-mexico
+- Tier 5 (H2H): ✅ https://www.11v11.com/teams/scotland/tab/opposingTeams/opposition/Brazil/ ✅ https://www.worldfootball.net/match-report/co139/fifa-world-cup/ma10713809/scotland_brazil/head-to-head/
+- Tier 2 (ClubElo / Elo / xG checks): ❌ not covered https://www.eloratings.net/Scotland ❌ not covered https://www.eloratings.net/Brazil ❌ blocked https://fbref.com
+*推理依据：LLM qualitative match-analysis methodology v0.1*
+<!-- probs: {"home": 0.11, "draw": 0.18, "away": 0.71} -->

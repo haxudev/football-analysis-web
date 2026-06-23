@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-22T14:20:42.849Z",
-  "count": 53,
+  "generatedAt": "2026-06-23T01:27:49.308Z",
+  "count": 58,
   "reports": [
     {
       "matchId": "6203_2026-06-13",
@@ -1383,6 +1383,10 @@
       "current": "reports/1044_2026-06-22/current.md",
       "history": [
         {
+          "timestamp": "2026-06-22T135201Z",
+          "path": "reports/1044_2026-06-22/history/2026-06-22T135201Z.md"
+        },
+        {
           "timestamp": "2026-06-22T004014Z",
           "path": "reports/1044_2026-06-22/history/2026-06-22T004014Z.md"
         },
@@ -1398,20 +1402,24 @@
     },
     {
       "matchId": "2045_2026-06-23",
-      "title": "葡萄牙 vs 乌兹别克斯坦",
+      "title": "葡萄牙 vs 乌兹别克",
       "home": "葡萄牙",
-      "away": "乌兹别克斯坦",
+      "away": "乌兹别克",
       "competition": "2026 FIFA 世界杯",
       "kickoff": "2026-06-24T01:00:00+08:00",
       "probs": {
-        "home": 0.75,
-        "draw": 0.16,
-        "away": 0.09
+        "home": 0.764,
+        "draw": 0.152,
+        "away": 0.084
       },
-      "generatedAt": "2026-06-22T13:52:01.324Z",
+      "generatedAt": "2026-06-23T00:37:13.277Z",
       "validationPass": true,
       "current": "reports/2045_2026-06-23/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-22T135201Z",
+          "path": "reports/2045_2026-06-23/history/2026-06-22T135201Z.md"
+        },
         {
           "timestamp": "2026-06-22T004014Z",
           "path": "reports/2045_2026-06-23/history/2026-06-22T004014Z.md"
@@ -1426,14 +1434,18 @@
       "competition": "2026 FIFA 世界杯",
       "kickoff": "2026-06-24T04:00:00+08:00",
       "probs": {
-        "home": 0.68,
-        "draw": 0.2,
-        "away": 0.12
+        "home": 0.71,
+        "draw": 0.187,
+        "away": 0.104
       },
-      "generatedAt": "2026-06-22T13:52:01.324Z",
+      "generatedAt": "2026-06-23T00:37:13.277Z",
       "validationPass": true,
       "current": "reports/2046_2026-06-23/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-22T135201Z",
+          "path": "reports/2046_2026-06-23/history/2026-06-22T135201Z.md"
+        },
         {
           "timestamp": "2026-06-22T004014Z",
           "path": "reports/2046_2026-06-23/history/2026-06-22T004014Z.md"
@@ -1448,14 +1460,18 @@
       "competition": "2026 FIFA 世界杯",
       "kickoff": "2026-06-24T07:00:00+08:00",
       "probs": {
-        "home": 0.14,
-        "draw": 0.26,
-        "away": 0.6
+        "home": 0.139,
+        "draw": 0.224,
+        "away": 0.637
       },
-      "generatedAt": "2026-06-22T13:52:01.324Z",
+      "generatedAt": "2026-06-23T00:37:13.277Z",
       "validationPass": true,
       "current": "reports/2047_2026-06-23/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-22T135201Z",
+          "path": "reports/2047_2026-06-23/history/2026-06-22T135201Z.md"
+        },
         {
           "timestamp": "2026-06-22T004014Z",
           "path": "reports/2047_2026-06-23/history/2026-06-22T004014Z.md"
@@ -1470,19 +1486,108 @@
       "competition": "2026 FIFA 世界杯",
       "kickoff": "2026-06-24T10:00:00+08:00",
       "probs": {
-        "home": 0.58,
-        "draw": 0.27,
-        "away": 0.15
+        "home": 0.63,
+        "draw": 0.23,
+        "away": 0.14
       },
-      "generatedAt": "2026-06-22T13:52:01.324Z",
+      "generatedAt": "2026-06-23T00:37:13.277Z",
       "validationPass": true,
       "current": "reports/2048_2026-06-23/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-22T135201Z",
+          "path": "reports/2048_2026-06-23/history/2026-06-22T135201Z.md"
+        },
         {
           "timestamp": "2026-06-22T004014Z",
           "path": "reports/2048_2026-06-23/history/2026-06-22T004014Z.md"
         }
       ]
+    },
+    {
+      "matchId": "3049_2026-06-24",
+      "title": "瑞士 vs 加拿大",
+      "home": "瑞士",
+      "away": "加拿大",
+      "competition": "2026 FIFA 世界杯",
+      "kickoff": "2026-06-25T03:00:00+08:00",
+      "probs": {
+        "home": 0.43,
+        "draw": 0.32,
+        "away": 0.25
+      },
+      "generatedAt": "2026-06-23T00:37:13.277Z",
+      "validationPass": true,
+      "current": "reports/3049_2026-06-24/current.md",
+      "history": []
+    },
+    {
+      "matchId": "3050_2026-06-24",
+      "title": "波黑 vs 卡塔尔",
+      "home": "波黑",
+      "away": "卡塔尔",
+      "competition": "2026 FIFA 世界杯",
+      "kickoff": "2026-06-25T03:00:00+08:00",
+      "probs": {
+        "home": 0.58,
+        "draw": 0.24,
+        "away": 0.18
+      },
+      "generatedAt": "2026-06-23T00:37:13.277Z",
+      "validationPass": true,
+      "current": "reports/3050_2026-06-24/current.md",
+      "history": []
+    },
+    {
+      "matchId": "3051_2026-06-24",
+      "title": "苏格兰 vs 巴西",
+      "home": "苏格兰",
+      "away": "巴西",
+      "competition": "2026 FIFA 世界杯",
+      "kickoff": "2026-06-25T06:00:00+08:00",
+      "probs": {
+        "home": 0.11,
+        "draw": 0.22,
+        "away": 0.67
+      },
+      "generatedAt": "2026-06-23T00:37:13.277Z",
+      "validationPass": true,
+      "current": "reports/3051_2026-06-24/current.md",
+      "history": []
+    },
+    {
+      "matchId": "3052_2026-06-24",
+      "title": "摩洛哥 vs 海地",
+      "home": "摩洛哥",
+      "away": "海地",
+      "competition": "2026 FIFA 世界杯",
+      "kickoff": "2026-06-25T06:00:00+08:00",
+      "probs": {
+        "home": 0.72,
+        "draw": 0.19,
+        "away": 0.09
+      },
+      "generatedAt": "2026-06-23T00:37:13.277Z",
+      "validationPass": true,
+      "current": "reports/3052_2026-06-24/current.md",
+      "history": []
+    },
+    {
+      "matchId": "3053_2026-06-24",
+      "title": "南非 vs 韩国",
+      "home": "南非",
+      "away": "韩国",
+      "competition": "2026 FIFA 世界杯",
+      "kickoff": "2026-06-25T09:00:00+08:00",
+      "probs": {
+        "home": 0.25,
+        "draw": 0.32,
+        "away": 0.43
+      },
+      "generatedAt": "2026-06-23T00:37:13.277Z",
+      "validationPass": true,
+      "current": "reports/3053_2026-06-24/current.md",
+      "history": []
     }
   ]
 }

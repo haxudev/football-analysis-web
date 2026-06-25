@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-24T13:47:31.408Z",
-  "count": 64,
+  "generatedAt": "2026-06-25T01:16:42.444Z",
+  "count": 69,
   "reports": [
     {
       "matchId": "6203_2026-06-13",
@@ -1678,6 +1678,10 @@
       "current": "reports/3053_2026-06-24/current.md",
       "history": [
         {
+          "timestamp": "2026-06-24T124256Z",
+          "path": "reports/3053_2026-06-24/history/2026-06-24T124256Z.md"
+        },
+        {
           "timestamp": "2026-06-24T003152Z",
           "path": "reports/3053_2026-06-24/history/2026-06-24T003152Z.md"
         },
@@ -1692,43 +1696,25 @@
       ]
     },
     {
-      "matchId": "4059_2026-06-25",
-      "title": "巴拉圭 vs 澳大利亚",
-      "home": "巴拉圭",
-      "away": "澳大利亚",
-      "competition": "2026 FIFA World Cup 小组赛 D 组",
-      "kickoff": "2026-06-25T19:00:00Z",
-      "probs": {
-        "home": 0.4,
-        "draw": 0.32,
-        "away": 0.28
-      },
-      "generatedAt": "2026-06-24T12:42:56.692Z",
-      "validationPass": true,
-      "current": "reports/4059_2026-06-25/current.md",
-      "history": [
-        {
-          "timestamp": "2026-06-24T003152Z",
-          "path": "reports/4059_2026-06-25/history/2026-06-24T003152Z.md"
-        }
-      ]
-    },
-    {
       "matchId": "4055_2026-06-25",
       "title": "厄瓜多尔 vs 德国",
       "home": "厄瓜多尔",
       "away": "德国",
-      "competition": "2026 FIFA World Cup 小组赛 E 组",
-      "kickoff": "2026-06-25T20:00:00Z",
+      "competition": "2026 FIFA世界杯 小组赛第3轮",
+      "kickoff": "2026-06-26T04:00:00+08:00",
       "probs": {
-        "home": 0.19,
-        "draw": 0.28,
-        "away": 0.53
+        "home": 0.14,
+        "draw": 0.24,
+        "away": 0.62
       },
-      "generatedAt": "2026-06-24T12:42:56.692Z",
+      "generatedAt": "2026-06-25T00:36:54.615Z",
       "validationPass": true,
       "current": "reports/4055_2026-06-25/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-24T124256Z",
+          "path": "reports/4055_2026-06-25/history/2026-06-24T124256Z.md"
+        },
         {
           "timestamp": "2026-06-24T003152Z",
           "path": "reports/4055_2026-06-25/history/2026-06-24T003152Z.md"
@@ -1740,17 +1726,21 @@
       "title": "库拉索 vs 科特迪瓦",
       "home": "库拉索",
       "away": "科特迪瓦",
-      "competition": "2026 FIFA World Cup 小组赛 E 组",
-      "kickoff": "2026-06-25T20:00:00Z",
+      "competition": "2026 FIFA世界杯 小组赛第3轮",
+      "kickoff": "2026-06-26T04:00:00+08:00",
       "probs": {
-        "home": 0.09,
-        "draw": 0.2,
-        "away": 0.71
+        "home": 0.12,
+        "draw": 0.18,
+        "away": 0.7
       },
-      "generatedAt": "2026-06-24T12:42:56.692Z",
+      "generatedAt": "2026-06-25T00:36:54.615Z",
       "validationPass": true,
       "current": "reports/4056_2026-06-25/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-24T124256Z",
+          "path": "reports/4056_2026-06-25/history/2026-06-24T124256Z.md"
+        },
         {
           "timestamp": "2026-06-24T003152Z",
           "path": "reports/4056_2026-06-25/history/2026-06-24T003152Z.md"
@@ -1762,17 +1752,21 @@
       "title": "突尼斯 vs 荷兰",
       "home": "突尼斯",
       "away": "荷兰",
-      "competition": "2026 FIFA World Cup 小组赛 F 组",
-      "kickoff": "2026-06-25T23:00:00Z",
+      "competition": "2026 FIFA世界杯 小组赛第3轮",
+      "kickoff": "2026-06-26T07:00:00+08:00",
       "probs": {
         "home": 0.15,
         "draw": 0.23,
         "away": 0.62
       },
-      "generatedAt": "2026-06-24T12:42:56.692Z",
+      "generatedAt": "2026-06-25T00:36:54.615Z",
       "validationPass": true,
       "current": "reports/4057_2026-06-25/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-24T124256Z",
+          "path": "reports/4057_2026-06-25/history/2026-06-24T124256Z.md"
+        },
         {
           "timestamp": "2026-06-24T003152Z",
           "path": "reports/4057_2026-06-25/history/2026-06-24T003152Z.md"
@@ -1784,22 +1778,137 @@
       "title": "日本 vs 瑞典",
       "home": "日本",
       "away": "瑞典",
-      "competition": "2026 FIFA World Cup 小组赛 F 组",
-      "kickoff": "2026-06-25T23:00:00Z",
+      "competition": "2026 FIFA世界杯 小组赛第3轮",
+      "kickoff": "2026-06-26T07:00:00+08:00",
       "probs": {
-        "home": 0.43,
-        "draw": 0.3,
-        "away": 0.27
+        "home": 0.44,
+        "draw": 0.28,
+        "away": 0.28
       },
-      "generatedAt": "2026-06-24T12:42:56.692Z",
+      "generatedAt": "2026-06-25T00:36:54.615Z",
       "validationPass": true,
       "current": "reports/4058_2026-06-25/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-24T124256Z",
+          "path": "reports/4058_2026-06-25/history/2026-06-24T124256Z.md"
+        },
         {
           "timestamp": "2026-06-24T003152Z",
           "path": "reports/4058_2026-06-25/history/2026-06-24T003152Z.md"
         }
       ]
+    },
+    {
+      "matchId": "4059_2026-06-25",
+      "title": "巴拉圭 vs 澳大利亚",
+      "home": "巴拉圭",
+      "away": "澳大利亚",
+      "competition": "2026 FIFA世界杯 小组赛第3轮",
+      "kickoff": "2026-06-26T10:00:00+08:00",
+      "probs": {
+        "home": 0.43,
+        "draw": 0.3,
+        "away": 0.27
+      },
+      "generatedAt": "2026-06-25T00:36:54.615Z",
+      "validationPass": true,
+      "current": "reports/4059_2026-06-25/current.md",
+      "history": [
+        {
+          "timestamp": "2026-06-24T124256Z",
+          "path": "reports/4059_2026-06-25/history/2026-06-24T124256Z.md"
+        },
+        {
+          "timestamp": "2026-06-24T003152Z",
+          "path": "reports/4059_2026-06-25/history/2026-06-24T003152Z.md"
+        }
+      ]
+    },
+    {
+      "matchId": "5061_2026-06-26",
+      "title": "挪威 vs 法国",
+      "home": "挪威",
+      "away": "法国",
+      "competition": "2026 FIFA世界杯 小组赛第3轮",
+      "kickoff": "2026-06-27T03:00:00+08:00",
+      "probs": {
+        "home": 0.21,
+        "draw": 0.26,
+        "away": 0.54
+      },
+      "generatedAt": "2026-06-25T00:36:54.615Z",
+      "validationPass": true,
+      "current": "reports/5061_2026-06-26/current.md",
+      "history": []
+    },
+    {
+      "matchId": "5062_2026-06-26",
+      "title": "塞内加尔 vs 伊拉克",
+      "home": "塞内加尔",
+      "away": "伊拉克",
+      "competition": "2026 FIFA世界杯 小组赛第3轮",
+      "kickoff": "2026-06-27T03:00:00+08:00",
+      "probs": {
+        "home": 0.63,
+        "draw": 0.23,
+        "away": 0.14
+      },
+      "generatedAt": "2026-06-25T00:36:54.615Z",
+      "validationPass": true,
+      "current": "reports/5062_2026-06-26/current.md",
+      "history": []
+    },
+    {
+      "matchId": "5063_2026-06-26",
+      "title": "佛得角 vs 沙特阿拉伯",
+      "home": "佛得角",
+      "away": "沙特阿拉伯",
+      "competition": "2026 FIFA世界杯 小组赛第3轮",
+      "kickoff": "2026-06-27T08:00:00+08:00",
+      "probs": {
+        "home": 0.35,
+        "draw": 0.29,
+        "away": 0.36
+      },
+      "generatedAt": "2026-06-25T00:36:54.615Z",
+      "validationPass": true,
+      "current": "reports/5063_2026-06-26/current.md",
+      "history": []
+    },
+    {
+      "matchId": "5064_2026-06-26",
+      "title": "乌拉圭 vs 西班牙",
+      "home": "乌拉圭",
+      "away": "西班牙",
+      "competition": "2026 FIFA世界杯 小组赛第3轮",
+      "kickoff": "2026-06-27T08:00:00+08:00",
+      "probs": {
+        "home": 0.19,
+        "draw": 0.24,
+        "away": 0.58
+      },
+      "generatedAt": "2026-06-25T00:36:54.615Z",
+      "validationPass": true,
+      "current": "reports/5064_2026-06-26/current.md",
+      "history": []
+    },
+    {
+      "matchId": "5065_2026-06-26",
+      "title": "埃及 vs 伊朗",
+      "home": "埃及",
+      "away": "伊朗",
+      "competition": "2026 FIFA世界杯 小组赛第3轮",
+      "kickoff": "2026-06-27T11:00:00+08:00",
+      "probs": {
+        "home": 0.41,
+        "draw": 0.31,
+        "away": 0.28
+      },
+      "generatedAt": "2026-06-25T00:36:54.615Z",
+      "validationPass": true,
+      "current": "reports/5065_2026-06-26/current.md",
+      "history": []
     }
   ]
 }

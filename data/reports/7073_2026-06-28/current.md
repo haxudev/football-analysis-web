@@ -1,266 +1,257 @@
-> 生成时间：2026-06-27T00:35:36.449Z
+> 生成时间：2026-06-27T12:26:04.413Z
 
-# 世界杯 分析报告：南非 VS 加拿大
+# 南非 vs 加拿大 — 2026 FIFA 世界杯 1/16 决赛
 
 ## 基本信息
 
-| 项目 | 详情 |
+| 项目 | 内容 |
 |------|------|
-| **赛事** | 2026 FIFA 世界杯 32强淘汰赛（Round of 32）|
-| **对阵** | 南非 (RSA) VS 加拿大 (CAN) |
-| **竞彩编号** | 周日073（7073） |
-| **开球时间** | 2026-06-29 03:00（北京时间）；当地时间 2026-06-28 20:00 |
-| **比赛地点** | SoFi Stadium，洛杉矶，美国 |
-| **比赛性质** | **淘汰赛**，32强首轮（Round of 32），败者出局。南非（A组第2名）vs 加拿大（B组第2名）；两队均是历史首次打入世界杯淘汰赛 |
+| 赛事 | 2026 FIFA 世界杯 1/16 决赛 |
+| 主队 | 南非（Bafana Bafana） |
+| 客队 | 加拿大 |
+| 开球时间 | 2026-06-29 03:00（北京时间）/ 2026-06-28T19:00Z |
+| 竞彩编号 | 周日073（7073） |
+| 销售日 | 2026-06-28 |
 
 ---
 
 ## 一、赔率分析
 
-### 1.1 主流机构初盘与即时盘对比
+### 1.1 竞彩官方盘口（lottery500）
 
-> **数据来源说明：** 赔率来自 lottery500 + fenxi500 百家数据，采集时间 2026-06-26T21:00 UTC；所有赔率为实际抓取数据，无估算值。
+**胜平负（HAD）** — 当前与开盘对比
 
-| 玩法 | 机构 | 初盘 | 即时盘 | 变化幅度 |
-|------|------|:----:|:------:|:--------:|
-| **1X2 (EU均值)** | 欧赔均值 | 5.25 / 3.60 / 1.705 | 5.00 / 3.60 / 1.70 | 南非小幅缩，**平稳（加拿大基本不变）** |
-| **1X2 (澳门)** | 澳门 | 4.44 / 3.45 / 1.68 | 4.70 / 3.51 / 1.63 | 南非小幅漂移，加拿大轻微缩赔 |
-| **1X2 (竞彩)** | 中国体彩 | — | **4.70 / 3.18 / 1.66** | HAD **可单关**（本场特点） |
-| **让球胜平负 (南非 +1)** | 竞彩官方 | — | 1.95 / 3.30 / 3.20 | 平稳（仅过关） |
-| **亚盘 (均值)** | 均值 | 0.75（加拿大让） | 0.75（加拿大让） | **稳定不移动** |
-| **大小球 (均值)** | 均值 | O/2.5 | **O/2.0** | **降盘（进球预期降低）** |
+| 版本 | 南非 | 平 | 加拿大 | 备注 |
+|------|------|----|--------|------|
+| 开盘（2026-06-27T09:00） | 4.70 | 3.18 | 1.66 | 初始版本 |
+| **当前（2026-06-27T10:00+）** | **4.80** | **3.25** | **1.63** | **唯一盘口变动** |
 
-**市场特点：极为稳定的盘口，无明显方向性移动。**
+**赔率变化解读（核心信号）：**
+- **加拿大 1.66 → 1.63（缩短 -0.03）**：资金流入加拿大赢盘，市场对加拿大获胜信心增强
+- **南非 4.70 → 4.80（拉长 +0.10）**：市场资金离开南非，南非胜率被下调
+- **平 3.18 → 3.25（拉长 +0.07）**：盘口表面上平局赔率拉长，但这是因为同步让球盘 HHAD 加拿大 -1 也大幅缩短（3.20 → 3.07），说明市场实际上在加大对加拿大大比分获胜的押注，而非赶走平局资金
 
-EU 1x2 赔率运动分析：
-- 南非：5.25 → 5.00（−4.76%，21/30公司缩赔）——仅轻微压缩，无方向性强信号
-- 平局：3.60 → 3.60（0%，基本持平——11家缩，14家漂）——市场对平局概率无明确判断
-- 加拿大：1.705 → 1.70（−0.29%，基本持平）——加拿大定价极为稳定
+**让球胜平负（HHAD）南非受让 1 球**：
+- 南非+1: 2.00（+0.05）| 平（加拿大仅赢一球）: 3.30（持平）| 加拿大-1: 3.07（−0.13 大幅缩短）
 
-> **结论：本场市场盘口极为稳定，EU和澳门均无重大信号性移动，加拿大以清晰但非压倒性的市场优势出战。**
+**体量信号（Volume Signal）：** 加拿大方向全面升盘，尤其是 HHAD 加拿大 -1 缩短 13 分，属于显著升盘信号，与加拿大 HAD 缩短方向一致。跨 20 个快照（2026-06-26T12:00 至 2026-06-27T12:00），仅发生此一次变动，信号纯净。
 
-### 1.2 隐含概率换算与定价比较
+---
 
-| 结果 | 竞彩隐含概率 | 欧赔 Devig | Δ (竞彩−EU) | 含义 |
-|------|:-----------:|:---------:|:-----------:|------|
-| 南非胜 | 18.8% | **18.8%** | 0pp | 竞彩与 EU 完全一致 |
-| 平局 | 27.8% | **26.1%** | +1.7pp | 竞彩轻微高估平局 |
-| 加拿大胜 | 53.3% | **55.2%** | −1.9pp | 竞彩轻微低估加拿大 |
+**总进球（TTG）：**
 
-> **关键发现：本场竞彩赔率与EU高度一致，几乎无结构性错价（Δ最大仅1.9pp）。这是今日销售日定价最为有效的比赛，竞彩与EU市场几乎完全同步。没有明显的结构性套利机会。**
+| 球数 | 竞彩赔率 | Devig 公平概率 |
+|------|----------|----------------|
+| 0球 | 8.50 | 9.4% |
+| 1球 | 3.90 | 20.5% |
+| 2球 | 3.15 | 25.3% |
+| 3球 | 3.75 | 21.3% |
+| 4球 | 6.50 | 12.3% |
+| 5球+ | — | 12.2%合计 |
 
-### 1.3 O/U 降盘信号
+市场预期 2 球为最可能结果（25.3%），峰值集中于 1-3 球（67.1%），反映标准强弱对比的进球分布，并非低分控制局。
 
-大小球从开赔 2.5 降至 2.0，表明市场认为总进球数更可能在 2 球或以下。这与以下因素一致：
-- 淘汰赛通常比小组赛更谨慎
-- 南非防守战术（低区域封锁+快速反击）减少进球
-- 两队均是首次淘汰赛，心理压力增加低分可能性
+**半全场（HTFT）** 最高概率：负-负 31.3%（加拿大半场&全场均赢），半平全负 19.4%（下半场加拿大反超）。
+
+---
+
+### 1.2 跨源对比（欧洲盘）
+
+| 公司 | 南非 | 平 | 加拿大 |
+|------|------|----|--------|
+| Bet365 | 5.25 | **3.60** | 1.67 |
+| William Hill | 5.00 | 3.40 | 1.70 |
+| 澳门（am） | 4.44 | 3.45 | 1.68 |
+| Ladbrokes | 5.25 | 3.50 | 1.70 |
+| 欧洲均值 | 5.26 | 3.55 | 1.71 |
+
+**竞彩 vs 欧洲差异：** 竞彩平局 3.25 vs Bet365 平局 3.60（差 0.35），竞彩对平局压缩更明显，欧洲盘给平局更高空间，这在后续 Edge 计算中至关重要。
+
+---
+
+### 1.3 Devig 公平概率
+
+**竞彩 HAD**（1/4.80 + 1/3.25 + 1/1.63 = 1.1295，水位 12.95%）：
+- 南非 **18.4%** | 平 **27.2%** | 加拿大 **54.3%**
+
+**Bet365**（1/5.25 + 1/3.60 + 1/1.67 = 1.0671，水位 6.71%）：
+- 南非 **17.9%** | 平 **26.0%** | 加拿大 **56.1%**
+
+**双源均值**：南非 **18.1%** | 平 **26.6%** | 加拿大 **55.2%**
+
+---
+
+### 1.4 Final-Match Prior（决定性赛事先验）
+
+**触发依据：** 本场为 2026 FIFA 世界杯 **1/16 决赛**（单回合淘汰制），属于"洲际赛/世界杯单回合淘汰赛"类型，平局概率按 **+4pp** 调整（依据 `final-priors.md`：Continental KO single-leg）。
+
+| | 调整前 | 调整量 | 调整后 |
+|--|--------|--------|--------|
+| 南非胜 | 18.1% | −1.0pp | **17.1%** |
+| 平局 | 26.6% | **+4.0pp** | **30.6%** |
+| 加拿大胜 | 55.2% | −3.0pp | **52.2%** |
+
+*注：4pp 在南非:加拿大比例（18.1:55.2 = 1:3.05）中按权重重新分配。*
+
+---
+
+### 1.5 Edge 与 Half-Kelly
+
+| 盘口 | 赔率 | 后验概率 | Edge | Half-Kelly | 评级 |
+|------|------|----------|------|------------|------|
+| 竞彩 南非 HAD | 4.80 | 17.1% | −17.9% | — | ❌ |
+| 竞彩 平局 HAD | 3.25 | 30.6% | **−0.5%** | — | ⛔（勉强负） |
+| 竞彩 加拿大 HAD | 1.63 | 52.2% | −14.9% | — | ❌ |
+| **Bet365 平局** | **3.60** | **30.6%** | **+10.2%** | **1.95%** | ⭐⭐⭐⭐ |
+| Bet365 加拿大 | 1.67 | 52.2% | −12.8% | — | ❌ |
+| HHAD 南非+1 | 2.00 | ~48.1%* | −3.8% | — | ❌ |
+| HHAD 加拿大-1 | 3.07 | ~26.8% | −17.6% | — | ❌ |
+
+*南非+1 覆盖概率 = 南非胜（17.1%）+ 平局（30.6%）= 47.7%（竞彩 Devig 44.3%，调整后仍为负 Edge）。*
+
+**核心发现：** 在欧洲/海外平台（Bet365 等，平局 3.60），叠加 Final-Match Prior 后，平局 Edge = **+10.2%**，Half-Kelly = **1.95%**，具备实质性价值。竞彩平局（3.25）因水位过高（12.95%），Edge 降至 -0.5%，勉强不达门槛。
 
 ---
 
 ## 二、互联网舆情分析
 
-### 2.1 媒体预测汇总
+**数据收集状态：** 全部来源受限（fallback-strategy.md Tier 8 启用）
 
-| 媒体/机构 | 预测 | 倾向 | 关键论据 |
-|-----------|:----:|------|---------|
-| Yahoo Sports | 1-2 加拿大 | 客 | 加拿大攻击线更强，David+Larin是非洲中部水平以上的射手 |
-| The Stats Zone | 加拿大 窄胜 | 客 | 南非Zwane停赛是致命打击 |
-| Bet365 News | 加拿大 1-2 | 客 | Davies如恢复=左路质量大幅提升 |
-| GhanaSoccernet | 1-1→加拿大点球 | 平/客 | 双方首次淘汰赛紧张，南非防守顽强 |
-| Footitalia | 加拿大 1-2 | 客 | 组合实力差距 |
+已尝试来源及状态：
+- https://news.google.com — HTTP 200 但内容为空（SPA 页面，机器人保护）
+- https://www.bing.com — HTTP 200 但内容为空
+- https://www.eloratings.net — HTTP 404
+- 多轮查询（match-context / squad-injuries / h2h / fifa-ranking），所有返回 evidence.content 均为空
 
-**媒体预测倾向：5/5家均倾向加拿大胜，多家预测1-2，部分预测1-1**
+**按 fallback-strategy.md 规定**：所有网络来源被拦截 → 降级至 Tier 8（LLM 领域知识），置信度下调至 **中等（Medium）**，以下标注为领域知识，切勿视为实时情报：
 
-### 2.2 球队关键动态
+**背景**（Tier 8 / 领域知识）：
+- **南非**：非洲最高级别球队之一，绰号 Bafana Bafana。2026 世界杯通过非洲区预选赛获得参赛资格，是本届世界杯的令人意外的参与者。FIFA 排名约 65-75 位。核心球员包括 Percy Tau（前阿尔阿赫利），Lyle Foster（博尔顿/伯恩利前锋），Bongani Zungu（中场）。由 Hugo Broos 或继任者执教。
+- **加拿大**：本届世界杯东道主之一（美国/加拿大/墨西哥联合主办），拥有主场优势。FIFA 排名约 40-48 位。核心球员：Alphonso Davies（拜仁慕尼黑）、Jonathan David（法甲前锋，2025-26 赛季效力 PSG）、Cyle Larin、Alistair Johnston、Stephen Eustáquio。实力相对较强，进入 1/16 决赛代表着当届世界杯的合理预期。
 
-**南非**
-- 整体情绪：惊喜（7/10）——历史性首次淘汰赛，整国沸腾
-- **关键利空：Themba Zwane（核心攻击中场）三场停赛ban！** 这是对南非进攻组织最大的打击——Zwane是南非快速反击和定位球最重要的球员
-- **利好：** Teboho Mokoena 和 Sphephelo Sithole（中场关键球员）均刑满归队
-- 门将 Ronwen Williams 表现出色（小组赛多次扑救）
-- 战术：低位4-2-3-1，强调阵型紧凑+反击速度
-
-**加拿大**
-- 整体情绪：自信（7.5/10）——本届最大黑马之一（6-0 大胜卡塔尔）
-- **Alphonso Davies 预计出战**（有轻微体能问题，但有望上阵）——拜仁慕尼黑主力，左路速度是加拿大最大武器
-- **Ismaël Koné 因伤缺阵**——中场损失
-- Jonathan David 和 Cyle Larin 是最主要进攻威胁（双前锋组合）
-- Moise Bombito 体能问题，预计出战
-
-### 2.3 历史交锋
-
-| 日期 | 赛事 | 结果 | 备注 |
-|------|------|------|------|
-| 2022 | FIFA 世界杯资格赛（北美区） | 南非未参与 | — |
-| 近期 | 历史友谊赛 | 无正式记录 | 首次世界杯淘汰赛对决 |
+**所有内容均为 Tier 8 领域知识推断**，无法通过实时来源验证伤停、首发阵容或当前状态。
 
 ---
 
 ## 三、球队基本面分析
 
-### 3.1 球队近期状态
+### 3.1 场地与天气
+比赛地点（依据世界杯赛制推断）：位于美国境内某场馆，天气预测渠道受限，venue-weather 查询内容为空，无法提供实时数据。
 
-**南非（A组第2名，历史首次淘汰赛）**
-- 小组赛：负墨西哥 0-2 → 平捷克 1-1 → 胜韩国 1-0 = 4分
-- 战术特点：低区域封锁防守，靠反击和定位球进攻，Ronwen Williams门将质量卓越
-- **Zwane停赛**：进攻质量下降，定位球和突破威胁减少
+### 3.2 阵容与伤停
+**数据来源受限（Tier 8 / 领域知识）**，以下为一般性认知，无法验证当前状态：
 
-**加拿大（B组第2名，历史首次淘汰赛）**
-- 小组赛：平波黑 1-1 → 大胜卡塔尔 6-0 → 负瑞士 1-2 = 4分
-- 战术特点：4-3-3高能量进攻，Davies+Buchanan两翼快速，Jonathan David在欧洲顶级水平
-- **Davies预计出战**：左路进攻最大武器
+- **南非**：无已知长期伤缺核心球员。Lyle Foster 此前有受伤记录，最新状态未知。
+- **加拿大**：Alphonso Davies 为主力左后卫，近期伤停史需关注但无实时确认。Jonathan David 为主要进球威胁。
 
-### 3.2 关键球员对比
+**声明**：squad-injuries 查询所有网络内容均为空，以上内容属于 Tier 8 背景知识，不代表赛前实时确认信息。
 
-| 球员 | 球队 | 状态 | 影响 |
-|------|-----|------|------|
-| Themba Zwane | RSA | ❌ 停赛（红牌3场） | **重大利空**，核心进攻中场缺席 |
-| Ronwen Williams | RSA | ✅ 出战 | 门将核心，本届表现出色 |
-| Percy Tau | RSA | ✅ 出战 | 进攻中场，创意来源 |
-| Teboho Mokoena | RSA | ✅ 归队 | 刑满归队，中场覆盖重要 |
-| Alphonso Davies | CAN | ✅ 预计出战（体能存疑） | 最大利器，左路速度+传中 |
-| Jonathan David | CAN | ✅ 出战 | 利尔进球机器，效率超高 |
-| Cyle Larin | CAN | ✅ 出战 | 另一位重要前锋 |
-| Ismaël Koné | CAN | ❌ 因伤缺阵 | 中场损失 |
-| Moise Bombito | CAN | ⚠️ 体能待定 | 中后卫，预计可能出战 |
+### 3.3 近期表现
+无实时数据。依据领域知识：加拿大以东道主身份在本届世界杯整体表现稳定，南非则以防守见长，以弱胜强。
 
-### 3.3 战术 matchup 分析
+### 3.4 H2H（历史交锋）
+H2H 查询内容为空。领域知识：南非与加拿大在国际赛历史交锋极少（不足 5 场），历史交锋记录对预测参考价值有限。此外，**H2H discount for finals 先验在本场不适用**（非决赛赛制，且两队 H2H 稀少）。
 
-**核心矛盾：**
-1. **加拿大宽度 vs 南非低位封锁**：加拿大的两翼进攻（Davies左路、Buchanan/Larin右路）是最大威胁。南非若成功低位收缩，加拿大传中效率会下降——但南非防线（Mbokazi领衔）需要应对拜仁级别的左后卫，极具挑战性
-2. **南非反击 vs 加拿大高位逼抢**：Zwane缺阵后，南非反击锋芒减弱。Makgopa（前锋）若能接住长传球，是唯一快速威胁。Rangnick/拿大的高位逼抢如果太激进，南非仍有空间
-3. **淘汰赛心理因素**：双方均是历史首次淘汰赛，心理压力相近。但加拿大主场优势（洛杉矶，大量加拿大球迷）是额外利好
-
-### 3.4 公开强度数据：ClubElo / xG / FIFA 排名
-
-| 球队 | 指标 | 数值 | 来源 | 新鲜度 | 解读 |
-|------|------|------|------|--------|------|
-| 南非 | ClubElo rating | not covered | ClubElo不覆盖国家队（attempted https://clubelo.com/South-Africa → not covered） | — | 国家队超出ClubElo范围 |
-| 加拿大 | ClubElo rating | not covered | ClubElo不覆盖国家队（attempted https://clubelo.com/Canada → not covered） | — | 国家队超出ClubElo范围 |
-| 南非 | FIFA 排名 | ~65-70位 | blocked/stale（eloratings.net，attempted https://www.eloratings.net/South_Africa → blocked） | stale | 非洲中等强队，本届最大黑马之一 |
-| 加拿大 | FIFA 排名 | ~40-50位 | blocked/stale（eloratings.net，attempted https://www.eloratings.net/Canada → blocked） | stale | 北美崛起强队，拥有欧洲顶级球员 |
-| 南非 | xG/xGA | not covered | FBref 2026 WC（attempted https://fbref.com/en/comps/1/stats/2026-FIFA-World-Cup-Stats → not covered） | — | 2026 WC 数据暂不可用 |
-| 加拿大 | xG/xGA | not covered | FBref 2026 WC（attempted https://fbref.com/en/comps/1/stats/2026-FIFA-World-Cup-Stats → not covered） | — | 2026 WC 数据暂不可用 |
+### 3.5 公开强度数据（ClubElo / xG / FIFA 排名）
+- **ClubElo**：ClubElo 只覆盖俱乐部球队，不覆盖国家队。[N] ClubElo public rating checked — unavailable: not covered; attempted http://api.clubelo.com/SouthAfrica — do not estimate.
+- **ClubElo（加拿大）**：[N] ClubElo public rating checked — unavailable: not covered; attempted http://api.clubelo.com/Canada — do not estimate.
+- **FIFA 排名（南非）**：[N] FIFA ranking checked — unavailable: eloratings.net returned 404; Bing returned empty content; attempted https://www.eloratings.net/ — do not estimate.
+- **FIFA 排名（加拿大）**：[N] FIFA ranking checked — unavailable: eloratings.net returned 404; Bing returned empty content; attempted https://www.eloratings.net/ — do not estimate.
+- **xG（南非）**：[N] xG public data checked — unavailable: FBref/StatsBomb national-team xG not accessible in this fetch session — do not estimate.
+- **xG（加拿大）**：[N] xG public data checked — unavailable: FBref/StatsBomb national-team xG not accessible in this fetch session — do not estimate.
 
 ---
 
 ## 四、综合预测
 
-### 4.1 市场与基本面综合评估
+### 4.1 7 步推理链
 
-| 维度 | 南非得分 | 加拿大得分 | 说明 |
-|------|:-------:|:--------:|------|
-| 阵容完整性 | 6 | 8 | Zwane缺阵大减分；Koné缺阵但加拿大储备更深 |
-| 攻击质量 | 5 | 8 | Jonathan David（欧洲顶级射手）+Davies vs Makgopa独角戏 |
-| 防守质量 | 8 | 7 | Williams门将+组织防守是南非最大武器 |
-| 战术适配 | 7 | 7 | 两队均擅长自己的体系 |
-| 淘汰赛经验 | 5 | 5 | 双方均是历史首次，对等 |
-| 心理状态 | 7 | 7.5 | 加拿大主场优势（LA球迷） |
+**步骤 1 — 证据汇集：**
+- 竞彩 HAD/HHAD/TTG/CRS/HTFT 全量数据（单一源，无 macau crossSource）
+- 欧洲盘（Bet365、William Hill、澳门、Ladbrokes，4 家独立来源）
+- 盘口变动记录（20 快照，1 次有效变动）
+- 舆情/实力信号：全部受限，Tier 8 降级
 
-### 4.2 Final-Match Prior 应用
+**步骤 2 — Devig 基线：**
+竞彩 Devig：南非 18.4% / 平 27.2% / 加拿大 54.3%
+Bet365 Devig：南非 17.9% / 平 26.0% / 加拿大 56.1%
+双源均值：**南非 18.1% / 平 26.6% / 加拿大 55.2%**
 
-本场为**淘汰赛（1场定输赢）**，是典型的 Final-Match Prior 触发场景。根据 `references/final-priors.md`：
-- 淘汰赛（非最终决赛）：+3pp 到 +4pp 平局通胀
-- 两队均是首次进入淘汰赛，额外谨慎的战术倾向
-- O/U降盘（2.5→2.0）市场信号也支持低进球/平局倾向
-- 适用：+4pp 平局调升
+**步骤 3 — H2H Discount：** [N] 两队 H2H 稀少，本场非 major final，H2H discount 不触发
 
-### 4.3 比分预测
+**步骤 4 — Final-Match Prior：** [Y] 触发，+4pp 平局（单回合淘汰制）
+→ 调整后：**南非 17.1% / 平 30.6% / 加拿大 52.2%**
 
-| 预测比分 | 概率 | 说明 |
-|----------|:----:|------|
-| 0-1 加拿大 | 17% | 加拿大窄胜；南非防守顽强但一次失误被罚 |
-| 1-1 平局 | 16% | 南非进球后加拿大扳平，进入加时 |
-| 0-0 平局 | 12% | 双方防守优先，无法破门 |
-| 1-2 加拿大 | 12% | 加拿大逆转，最热门媒体预测 |
-| 0-2 加拿大 | 8% | 加拿大2球获胜 |
-| 其他 | 35% | 各种其他结果 |
+**步骤 5 — Fatigue × Motivation：** [N] 双方同等动机（淘汰制），无明显疲劳差异。净调整 0pp
 
-### 4.4 竞彩推荐
+**步骤 6 — CN Market Structure：** [N] 国家队赛事，无 EPL 俱乐部溢价，不触发
 
-| 玩法 | 推荐选项 | 竞彩赔率 | 置信度 | 说明 |
-|------|---------|:--------:|:------:|------|
-| **胜平负 (HAD 可单关)** | 无强推 | — | ⚡ | 三选均无正Edge（EU/竞彩高度一致，无错价机会） |
-| **胜平负 (HAD)** | (关注) 平局 | 3.18 | ⭐⭐ | 模型31%，Edge −1.4%（边界值）；Final-Match Prior增加平局权重，边际关注 |
-| **胜平负 (HAD)** | (关注) 加拿大胜 | 1.66 | ⭐⭐⭐ | 市场共识最强选项，过关锚点 |
-| **让球 HHAD +1（南非）** | 南非 HHAD 赢 | 1.95 | ⭐⭐⭐ | 仅过关；模型~62%（含平局+南非胜+加拿大仅赢1球）；Edge +20.9% |
-| **半全场 HTFT (单关)** | 半平/全负（加拿大赢）| 4.10 | ⭐⭐⭐ | 模型~25%；Edge = 2.5%，Half-Kelly 0.81%（低置信度单关）|
+**步骤 7 — Volume Signal：** [Y] 加拿大升盘（HAD 1.66→1.63，HHAD -1 3.20→3.07），与加拿大作为更强一方方向一致，进一步支持但不改变先验调整
 
-### 4.5 Kelly 建议
+**Final probability:**
+> **南非 17.1% | 平 30.6% | 加拿大 52.2%**
 
-根据 Half-Kelly 公式（模型：南非 17%，平局 31%，加拿大 52%）：
+### 4.2 Applied Priors Check
 
-**1X2 竞彩（HAD，可单关）：**
-- **南非胜 4.70**：Edge = 0.17 × 4.70 − 1 = **−20.1%** ❌
-- **平局 3.18**：Edge = 0.31 × 3.18 − 1 = **−1.4%** → 边界值，无明显价值
-- **加拿大胜 1.66**：Edge = 0.52 × 1.66 − 1 = **−13.7%** ❌
+- [Y] Final-Match Prior (decisive match → draw +3~6pp): 1/16决赛 单回合淘汰，+4pp 平局，重新分配南非/加拿大
+- [N] Fatigue × Motivation offset: 双方同处淘汰赛同等动机，无明显疲劳差异
+- [N] H2H discount for finals: 非决赛，H2H 记录稀少，discount 不适用
+- [N] CN market structure (EPL bias): 国家队赛事，非 EPL 俱乐部，不触发
+- [Y] Volume signal (升/降盘): 加拿大升盘（HAD -0.03，HHAD -0.13），与基线方向一致
+- [Y] Devig per market: HAD 竞彩 margin 12.95%，Bet365 margin 6.71%，HHAD 12.88%，TTG 25.4%
+- [Y] Half-Kelly computed: 竞彩平局 Edge=-0.5%（无头寸）；Bet365 平局 Edge=+10.2%，HK=1.95%
 
-**HHAD 南非 +1（1.95，过关专用）：**
-- 模型 ~62%（南非不输超过1球）；Edge = 0.62 × 1.95 − 1 = **+20.9%**，Kelly = 23.2%，Half-Kelly = **11.6%**（过关专用）⭐⭐⭐⭐
+### Public Data Signals Check
+- [N] ClubElo public rating checked — unavailable: not covered (国家队赛事，ClubElo 仅覆盖俱乐部); attempted http://api.clubelo.com/SouthAfrica — do not estimate.
+- [N] ClubElo public rating checked — unavailable: not covered (国家队赛事，ClubElo 仅覆盖俱乐部); attempted http://api.clubelo.com/Canada — do not estimate.
+- [N] xG public data checked — unavailable: blocked; attempted https://news.google.com/（空内容）, https://www.bing.com/（空内容）, https://fbref.com/ — do not estimate.
 
-**HTFT 半平全负（加拿大赢）4.10（单关）：**
-- 模型 ~25%；Edge = 0.25 × 4.10 − 1 = **+2.5%**，Kelly = 0.83%，Half-Kelly = **0.41%**（边界值，低置信单关）⭐⭐
+### 4.3 置信度与风险
 
-> **总结：单关无明显强推（市场价格高度有效）。若参与过关，HHAD 南非 +1（1.95）作为锚点具有显著价值（Edge +20.9%，但仅限过关）。Final-Match Prior 是本场分析的核心视角，但市场已较好地反映了这一因素。**
+**置信度：Medium**
+- ✅ 盘口数据完整（竞彩 + 4 家欧洲书商）
+- ✅ Final-Match Prior 明确触发
+- ✅ Volume signal 清晰（1 次变动，方向一致）
+- ⚠️ 无实时伤停/阵容/状态数据（全 Tier 8）
+- ⚠️ 无 Macau crossSource（竞彩单一中国市场来源）
+- ⚠️ 世界杯新兴赛制（64 队）有不确定性
 
 ---
 
 ## 五、总结与风险提示
 
-### 核心判断
-
-1. **市场定价高度有效**：本场是今日销售日分析中 EU-竞彩差距最小的（最大 Δ 仅 1.9pp）。不存在明显的结构性错价机会，市场已充分反映加拿大优势（55%）。
-2. **Final-Match Prior 是本场关键**：淘汰赛本质上比小组赛更容易出平局（进入加时），历史上淘汰赛平局率明显高于常规赛。两队均是首次淘汰赛，战术更保守，进一步支持平局倾向。O/U 降盘（2.5→2.0）是市场的同向信号。
-3. **Zwane 停赛是南非最大利空**：失去核心进攻中场，南非的反击套路被削弱。但门将 Ronwen Williams + 防守阵型仍然是本届最佳非欧足球防守之一。
-4. **加拿大进攻质量高但情绪可能影响发挥**：Davies + David 是北美/欧洲顶级组合。但首次淘汰赛的压力加上南非顽强防守，不排除"心理紧张 → 低效进攻 → 平局"的结果。
-5. **历史性时刻提升平局概率**：双方均是历史首次淘汰赛——两队都会以"不输就是胜利"的心态开始前30分钟，初期进球可能性降低。
-
-### 风险提示
-
-- ⚠️ **HAD 无正Edge**：本场最诚实的分析结论：竞彩-EU价差极小，任何 HAD 单关都在负Edge区间
-- ⚠️ **Davies体能不确定性**：若 Davies 无法首发，加拿大左路将大幅削弱，平局概率进一步提升
-- ⚠️ **加拿大可能大胜**：小组赛6-0大胜卡塔尔显示进攻爆发力，若南非过于保守被击穿，最终比分可能是加拿大2-0或3-0
-- ⚠️ **过关 vs 单关**：本场最优价值在于 HHAD 南非 +1（1.95）过关选项，而非 HAD 单关
-
 ### 最终结论
 
-**最可能结果：加拿大胜（52%）或平局/加时（31%）**
+**竞彩 HAD 推荐：无头寸**（竞彩平局 3.25，Edge = -0.5%，水位 12.95% 过高）
 
-**本场最佳价值：HHAD 南非 +1（1.95）过关锚点（Half-Kelly 11.6%）；若寻找单关，HTFT 半平全负（4.10）有极微薄正Edge（Half-Kelly 0.41%，边界值）。**
+**海外/欧洲平台推荐（如有访问）：**
+> 🏆 **Bet365 平局 3.60，Edge = +10.2%，Half-Kelly = 1.95%** ⭐⭐⭐⭐
 
-**市场高效提示：本场是今日分析批次中套利机会最小的比赛。主要价值来自 Final-Match Prior 对 HHAD 的边际影响，以及过关组合搭配使用。**
+**理由：** 2026 FIFA 世界杯 1/16 决赛（单回合淘汰制）触发 Final-Match Prior +4pp 平局，将平局后验概率提升至 30.6%。在竞彩市场（3.25，水位 12.95%），Edge 仅为 -0.5%，无法覆盖高水位。而 Bet365（3.60，水位 6.71%）提供充足空间，Edge 达 +10.2%，Half-Kelly 约 2%，属于本批次分析中质量最高的机会（与 6068 英格兰 -2 HHAD +6.1% 相当，但此处 Edge 更大）。
 
----
+**如仅可在竞彩下注，建议观望此场**（所有竞彩市场均负 Edge）。
 
-## 应用的先验清单 (Applied Priors Check)
-
-- **[Y] Final-Match Prior（淘汰赛，+4pp 平局通胀）**：本场为 32 强淘汰赛，败者出局，完全符合 Final-Match Prior 触发条件。适用减量版：+4pp 平局通胀（非决赛，非 UCL 决赛级别），调升平局从 EU Devig 26.1% 至模型 31%。O/U 降盘（2.5→2.0）市场信号与该先验一致。
-- **[Y] Fatigue × Motivation**（Fatigue × Motivation）：双方均高度动力（淘汰赛，败即出局）；体能均充沛（均小组赛3场后有休息）。南非 Zwane 停赛是进攻能量的重大负面因素；Koné 缺阵是加拿大中场的负面因素。净效果：双方势均力敌，进攻线南非略弱。
-- **[N] H2H discount for finals**（H2H discount）：本场为 32 强而非真正意义上的"决赛"，且双方历史上从无世界杯对决（无 H2H 历史可打折），该先验不触发。
-- **[N] CN market structure（EPL偏差）**：加拿大 Alphonso Davies（拜仁慕尼黑）在中国有一定知名度，但远未达到 C罗/梅西级别的竞彩资金影响。竞彩 vs EU 差距极小（最大 1.9pp），不触发 CN market structure 先验。
-- **[Y] Volume signal（升降盘）**：O/U 降盘（2.5→2.0），市场低进球预期明确。HAD 运动极为平稳（21/30 家轻微缩赔南非，加拿大和平局基本平稳）——市场对结果无强定向信号（Volume signal 弱，以 O/U 降盘为主）。(Volume signal [Y])
-- **[Y] Devig per market**：1X2 竞彩（margin 12.96%），EU（margin 6.60%），HHAD（margin 12.84%），TTG（margin 25.4%），HTFT（margin 25.43%），CRS（margin 40.97%）。
-- **[Y] Half-Kelly applied**：南非胜 Edge −20.1% ❌；平局 Edge −1.4% ❌（边界值）；加拿大胜 Edge −13.7% ❌；HHAD南非+1 Edge +20.9%，Half-Kelly 11.6%（过关专用）⭐⭐⭐⭐；HTFT半平全负 Edge +2.5%，Half-Kelly 0.41%（极低置信）⭐⭐。
-
-### Public Data Signals Check
-
-- **[Y] ClubElo public rating checked**：not covered — ClubElo 不覆盖国家队（attempted https://clubelo.com/South-Africa → not covered；attempted https://clubelo.com/Canada → not covered）。
-- **[Y] xG public data checked**：not covered / stale — FBref 2026 WC 数据暂不可用（attempted https://fbref.com/en/comps/1/stats/2026-FIFA-World-Cup-Stats → not covered）。
-
-**估算赔率统计**：0 / 全部（所有赔率均来自 lottery500/fenxi500 实际抓取，无估算）
-**整体置信度**：High（估算比例 0%；主要不确定性在于 Davies 体能，以及淘汰赛心理因素）
+### 风险因素
+1. **全网数据受限**：无实时伤停、首发阵容或状态确认，存在未知重大缺阵风险
+2. **单源 Devig**：竞彩无 Macau crossSource，Bet365 差异约 +0.35，双源分歧已纳入但存在进一步不确定性
+3. **平局结论需注意**：淘汰赛平局后将进入加时赛及点球大战，HAD "平"不代表最终平局，而是 90 分钟正常时间内平局（加时/点球为独立结果）
+4. **赛制认知**：世界杯 1/16 决赛为真正淘汰制，双方均有强烈动机全力争胜，但技术实力差距下（加拿大明显更强）战术对峙可能导致 90 分钟低分僵局
 
 ---
 
-*报告生成时间：2026-06-27T00:35:36.449Z*
-*数据截止：2026-06-26T21:00:00Z（竞彩/fenxi500）*
+## 数据来源
 
-*数据来源：*
-- *Tier 1（赔率）：lottery500 + fenxi500（salesDate=2026-06-28，竞彩编号 7073，fetchedAt 2026-06-26T21:00Z）*
-- *Tier 2（赛事背景/预测）：https://sports.yahoo.com/articles/preview-south-africa-vs-canada-190500296.html ；https://www.thestatszone.com/south-africa-vs-canada-preview-team-news-prediction-fifa-world-cup-2026-round-of-32-202376*
-- *Tier 3（队伍阵容/动态）：https://news.bet365.com/en-us/article/south-africa-canada-preview-and-lineup-predictions/2026062519380087643 ；https://www.rotowire.com/soccer/article/south-africa-vs-canada-preview-predicted-lineups-team-news-2026-world-cup-round-of-32 ；https://ghanasoccernet.com/latest-predictions/south-africa-vs-canada-prediction-preview-h2h-and-team-news-28-06-2026 ；https://worldcupwiki.com/canada-vs-south-africa-world-cup-2026/*
+**贡献层级与引用 URL：**
 
-*推理依据：LLM qualitative match-analysis methodology v0.1*
+| 层级 | 来源 | URL |
+|------|------|-----|
+| Tier 1 | 竞彩官方盘口 lottery500-trade | https://www.500.com/static/public/jczq/xml/odds/odds.xml |
+| Tier 1 | 盘口变动历史 lottery500-trade（20 快照） | china-football-odds MCP `get_odds_changes` |
+| Tier 2 | Bet365 参考赔率（欧洲盘）| 通过 lottery500 europe 字段引用 |
+| Tier 2 | William Hill / Ladbrokes / 澳门（欧洲盘）| 通过 lottery500 europe 字段引用 |
+| Tier 5 | Google News（match-context / squad-injuries / h2h）| https://news.google.com — 内容为空 |
+| Tier 5 | Bing 搜索（fifa-ranking / squad-injuries）| https://www.bing.com — 内容为空 |
+| Tier 6 | eloratings.net（FIFA ranking）| https://www.eloratings.net — HTTP 404 |
+| Tier 8 | LLM 领域知识（fallback）| 所有网络来源受限后启用，不提供 URL |
 
 <!-- probs: {"home": 0.17, "draw": 0.31, "away": 0.52} -->

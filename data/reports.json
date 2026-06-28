@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-27T12:55:40.447Z",
-  "count": 75,
+  "generatedAt": "2026-06-28T00:59:22.803Z",
+  "count": 77,
   "reports": [
     {
       "matchId": "6203_2026-06-13",
@@ -2141,6 +2141,10 @@
       "current": "reports/6071_2026-06-27/current.md",
       "history": [
         {
+          "timestamp": "2026-06-27T122604Z",
+          "path": "reports/6071_2026-06-27/history/2026-06-27T122604Z.md"
+        },
+        {
           "timestamp": "2026-06-27T003536Z",
           "path": "reports/6071_2026-06-27/history/2026-06-27T003536Z.md"
         },
@@ -2162,19 +2166,57 @@
       "competition": "2026 FIFA 世界杯",
       "kickoff": "2026-06-29T03:00:00+08:00",
       "probs": {
-        "home": 0.17,
-        "draw": 0.31,
-        "away": 0.52
+        "home": 0.158,
+        "draw": 0.311,
+        "away": 0.532
       },
-      "generatedAt": "2026-06-27T12:26:04.413Z",
+      "generatedAt": "2026-06-28T00:35:42.066Z",
       "validationPass": true,
       "current": "reports/7073_2026-06-28/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-27T122604Z",
+          "path": "reports/7073_2026-06-28/history/2026-06-27T122604Z.md"
+        },
         {
           "timestamp": "2026-06-27T003536Z",
           "path": "reports/7073_2026-06-28/history/2026-06-27T003536Z.md"
         }
       ]
+    },
+    {
+      "matchId": "1074_2026-06-29",
+      "title": "Brazil vs Japan",
+      "home": "Brazil",
+      "away": "Japan",
+      "competition": "FIFA World Cup 2026 — Round of 16",
+      "kickoff": "2026-06-29T17:00:00Z",
+      "probs": {
+        "home": 0.472,
+        "draw": 0.325,
+        "away": 0.203
+      },
+      "generatedAt": "2026-06-28T00:35:42.066Z",
+      "validationPass": true,
+      "current": "reports/1074_2026-06-29/current.md",
+      "history": []
+    },
+    {
+      "matchId": "1076_2026-06-29",
+      "title": "Netherlands vs Morocco",
+      "home": "Netherlands",
+      "away": "Morocco",
+      "competition": "FIFA World Cup 2026 — Round of 16",
+      "kickoff": "2026-06-30T01:00:00Z",
+      "probs": {
+        "home": 0.409,
+        "draw": 0.331,
+        "away": 0.26
+      },
+      "generatedAt": "2026-06-28T00:35:42.066Z",
+      "validationPass": true,
+      "current": "reports/1076_2026-06-29/current.md",
+      "history": []
     }
   ]
 }

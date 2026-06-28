@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-28T00:59:22.803Z",
-  "count": 77,
+  "generatedAt": "2026-06-28T12:54:04.694Z",
+  "count": 78,
   "reports": [
     {
       "matchId": "6203_2026-06-13",
@@ -2166,14 +2166,18 @@
       "competition": "2026 FIFA 世界杯",
       "kickoff": "2026-06-29T03:00:00+08:00",
       "probs": {
-        "home": 0.158,
-        "draw": 0.311,
-        "away": 0.532
+        "home": 0.17,
+        "draw": 0.3,
+        "away": 0.53
       },
-      "generatedAt": "2026-06-28T00:35:42.066Z",
+      "generatedAt": "2026-06-28T12:27:05.844Z",
       "validationPass": true,
       "current": "reports/7073_2026-06-28/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-28T003542Z",
+          "path": "reports/7073_2026-06-28/history/2026-06-28T003542Z.md"
+        },
         {
           "timestamp": "2026-06-27T122604Z",
           "path": "reports/7073_2026-06-28/history/2026-06-27T122604Z.md"
@@ -2186,37 +2190,64 @@
     },
     {
       "matchId": "1074_2026-06-29",
-      "title": "Brazil vs Japan",
-      "home": "Brazil",
-      "away": "Japan",
-      "competition": "FIFA World Cup 2026 — Round of 16",
-      "kickoff": "2026-06-29T17:00:00Z",
+      "title": "巴西 vs 日本",
+      "home": "巴西",
+      "away": "日本",
+      "competition": "2026 FIFA 世界杯",
+      "kickoff": "2026-06-30T01:00:00+08:00",
       "probs": {
-        "home": 0.472,
-        "draw": 0.325,
-        "away": 0.203
+        "home": 0.52,
+        "draw": 0.31,
+        "away": 0.18
       },
-      "generatedAt": "2026-06-28T00:35:42.066Z",
+      "generatedAt": "2026-06-28T12:27:05.844Z",
       "validationPass": true,
       "current": "reports/1074_2026-06-29/current.md",
+      "history": [
+        {
+          "timestamp": "2026-06-28T003542Z",
+          "path": "reports/1074_2026-06-29/history/2026-06-28T003542Z.md"
+        }
+      ]
+    },
+    {
+      "matchId": "1075_2026-06-29",
+      "title": "德国 vs 巴拉圭",
+      "home": "德国",
+      "away": "巴拉圭",
+      "competition": "2026 FIFA 世界杯",
+      "kickoff": "2026-06-30T04:30:00+08:00",
+      "probs": {
+        "home": 0.65,
+        "draw": 0.24,
+        "away": 0.11
+      },
+      "generatedAt": "2026-06-28T12:27:05.844Z",
+      "validationPass": true,
+      "current": "reports/1075_2026-06-29/current.md",
       "history": []
     },
     {
       "matchId": "1076_2026-06-29",
-      "title": "Netherlands vs Morocco",
-      "home": "Netherlands",
-      "away": "Morocco",
-      "competition": "FIFA World Cup 2026 — Round of 16",
-      "kickoff": "2026-06-30T01:00:00Z",
+      "title": "荷兰 vs 摩洛哥",
+      "home": "荷兰",
+      "away": "摩洛哥",
+      "competition": "2026 FIFA 世界杯",
+      "kickoff": "2026-06-30T09:00:00+08:00",
       "probs": {
-        "home": 0.409,
-        "draw": 0.331,
-        "away": 0.26
+        "home": 0.44,
+        "draw": 0.33,
+        "away": 0.23
       },
-      "generatedAt": "2026-06-28T00:35:42.066Z",
+      "generatedAt": "2026-06-28T12:27:05.844Z",
       "validationPass": true,
       "current": "reports/1076_2026-06-29/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-06-28T003542Z",
+          "path": "reports/1076_2026-06-29/history/2026-06-28T003542Z.md"
+        }
+      ]
     }
   ]
 }

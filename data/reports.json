@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T01:05:29.273Z",
+  "generatedAt": "2026-06-30T13:10:33.863Z",
   "count": 84,
   "reports": [
     {
@@ -2283,17 +2283,21 @@
       "title": "科特迪瓦 vs 挪威",
       "home": "科特迪瓦",
       "away": "挪威",
-      "competition": "2026 FIFA World Cup 1/16决赛",
-      "kickoff": "2026-07-01T01:00:00+08:00",
+      "competition": "2026 FIFA World Cup",
+      "kickoff": "2026-06-30T17:00:00Z",
       "probs": {
-        "home": 0.23,
-        "draw": 0.31,
-        "away": 0.46
+        "home": 0.24,
+        "draw": 0.3,
+        "away": 0.47
       },
-      "generatedAt": "2026-06-30T00:36:08.575Z",
+      "generatedAt": "2026-06-30T12:39:16.017Z",
       "validationPass": true,
       "current": "reports/2077_2026-06-30/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-30T003608Z",
+          "path": "reports/2077_2026-06-30/history/2026-06-30T003608Z.md"
+        },
         {
           "timestamp": "2026-06-29T132609Z",
           "path": "reports/2077_2026-06-30/history/2026-06-29T132609Z.md"
@@ -2309,17 +2313,21 @@
       "title": "法国 vs 瑞典",
       "home": "法国",
       "away": "瑞典",
-      "competition": "2026 FIFA World Cup 1/16决赛",
-      "kickoff": "2026-07-01T05:00:00+08:00",
+      "competition": "2026 FIFA World Cup",
+      "kickoff": "2026-06-30T21:00:00Z",
       "probs": {
         "home": 0.67,
-        "draw": 0.23,
+        "draw": 0.22,
         "away": 0.1
       },
-      "generatedAt": "2026-06-30T00:36:08.575Z",
+      "generatedAt": "2026-06-30T12:39:16.017Z",
       "validationPass": true,
       "current": "reports/2078_2026-06-30/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-30T003608Z",
+          "path": "reports/2078_2026-06-30/history/2026-06-30T003608Z.md"
+        },
         {
           "timestamp": "2026-06-29T132609Z",
           "path": "reports/2078_2026-06-30/history/2026-06-29T132609Z.md"
@@ -2335,17 +2343,21 @@
       "title": "墨西哥 vs 厄瓜多尔",
       "home": "墨西哥",
       "away": "厄瓜多尔",
-      "competition": "2026 FIFA World Cup 1/16决赛",
-      "kickoff": "2026-07-01T09:00:00+08:00",
+      "competition": "2026 FIFA World Cup",
+      "kickoff": "2026-07-01T01:00:00Z",
       "probs": {
-        "home": 0.42,
-        "draw": 0.34,
-        "away": 0.23
+        "home": 0.43,
+        "draw": 0.33,
+        "away": 0.24
       },
-      "generatedAt": "2026-06-30T00:36:08.575Z",
+      "generatedAt": "2026-06-30T12:39:16.017Z",
       "validationPass": true,
       "current": "reports/2079_2026-06-30/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-30T003608Z",
+          "path": "reports/2079_2026-06-30/history/2026-06-30T003608Z.md"
+        },
         {
           "timestamp": "2026-06-29T132609Z",
           "path": "reports/2079_2026-06-30/history/2026-06-29T132609Z.md"
@@ -2357,51 +2369,66 @@
       "title": "英格兰 vs 刚果(金)",
       "home": "英格兰",
       "away": "刚果(金)",
-      "competition": "2026 FIFA World Cup 1/16决赛",
-      "kickoff": "2026-07-02T00:00:00+08:00",
+      "competition": "2026 FIFA World Cup",
+      "kickoff": "2026-07-01T16:00:00Z",
       "probs": {
-        "home": 0.7,
-        "draw": 0.22,
+        "home": 0.71,
+        "draw": 0.21,
         "away": 0.09
       },
-      "generatedAt": "2026-06-30T00:36:08.575Z",
+      "generatedAt": "2026-06-30T12:39:16.017Z",
       "validationPass": true,
       "current": "reports/3080_2026-07-01/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-06-30T003608Z",
+          "path": "reports/3080_2026-07-01/history/2026-06-30T003608Z.md"
+        }
+      ]
     },
     {
       "matchId": "3081_2026-07-01",
       "title": "比利时 vs 塞内加尔",
       "home": "比利时",
       "away": "塞内加尔",
-      "competition": "2026 FIFA World Cup 1/16决赛",
-      "kickoff": "2026-07-02T04:00:00+08:00",
+      "competition": "2026 FIFA World Cup",
+      "kickoff": "2026-07-01T20:00:00Z",
       "probs": {
         "home": 0.43,
-        "draw": 0.33,
-        "away": 0.24
+        "draw": 0.32,
+        "away": 0.25
       },
-      "generatedAt": "2026-06-30T00:36:08.575Z",
+      "generatedAt": "2026-06-30T12:39:16.017Z",
       "validationPass": true,
       "current": "reports/3081_2026-07-01/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-06-30T003608Z",
+          "path": "reports/3081_2026-07-01/history/2026-06-30T003608Z.md"
+        }
+      ]
     },
     {
       "matchId": "3082_2026-07-01",
       "title": "美国 vs 波黑",
       "home": "美国",
       "away": "波黑",
-      "competition": "2026 FIFA World Cup 1/16决赛",
-      "kickoff": "2026-07-02T07:00:00+08:00",
+      "competition": "2026 FIFA World Cup",
+      "kickoff": "2026-07-02T00:00:00Z",
       "probs": {
         "home": 0.59,
-        "draw": 0.27,
-        "away": 0.14
+        "draw": 0.26,
+        "away": 0.15
       },
-      "generatedAt": "2026-06-30T00:36:08.575Z",
+      "generatedAt": "2026-06-30T12:39:16.017Z",
       "validationPass": true,
       "current": "reports/3082_2026-07-01/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-06-30T003608Z",
+          "path": "reports/3082_2026-07-01/history/2026-06-30T003608Z.md"
+        }
+      ]
     }
   ]
 }

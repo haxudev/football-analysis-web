@@ -1,16 +1,16 @@
-> 生成时间：2026-07-01T00:37:38.945Z
-# 2026 FIFA 世界杯 分析报告：比利时 VS 塞内加尔
+> 生成时间：2026-07-01T12:56:06.399Z
+# FIFA World Cup 2026 分析报告：Belgium VS Senegal
 
 ## 基本信息
 
 | 项目 | 详情 |
 |------|------|
-| **赛事** | 2026 FIFA 世界杯 小组赛 |
-| **对阵** | 比利时 (Belgium) VS 塞内加尔 (Senegal) |
-| **竞彩编号** | 3081 |
+| **赛事** | 2026 FIFA World Cup 2026（世界杯） |
+| **对阵** | Belgium VS Senegal |
+| **竞彩编号** | 周三081 |
 | **开球时间** | 2026-07-02T04:00:00+08:00 (北京时间) |
-| **比赛地点** | 西雅图 Lumen Field（多家赛前预览交叉出现，官方场馆页未单独核验） |
-| **比赛性质** | 世界杯小组赛，90分钟赛果计入胜平负 |
+| **比赛地点** | Seattle Stadium / Seattle |
+| **比赛性质** | 常规 90 分钟胜平负市场；公开预览将其写为 Round of 32，但本任务给定为非决赛场景，因此本报告不启用 Final-Match Prior，只把阶段冲突列为风险项 |
 
 ---
 
@@ -18,39 +18,42 @@
 
 ### 1.1 主流机构初盘与即时盘对比
 
-> **数据来源说明：** 官方竞彩 5 大玩法快照 + 500.com 百家欧赔/亚盘/大小球页面；澳门/海外公共 compare 快照在当前时点多数仍为 pending，因此欧赔均值以百家公司摘要为主。
+> **数据来源说明：** 官方体彩盘口 + 500.com 百家欧赔/亚盘/大小球摘要 + 澳门第二意见，均为 2026-07-01 当日实时抓取。
 
 | 玩法 | 机构 | 初盘 (主) | 初盘 (平) | 初盘 (客) | 即时盘 (主) | 即时盘 (平) | 即时盘 (客) | 变化方向 |
 |------|------|:---------:|:--------:|:---------:|:----------:|:-----------:|:----------:|:--------:|
-| **1X2 (欧赔)** | Bet365 | 2.20 | 3.25 | 3.50 | 2.05 | 3.20 | 4.00 | 主胜压低，客胜拉高 |
-| **1X2 (欧赔)** | William Hill | 2.15 | 3.10 | 3.30 | 2.05 | 3.10 | 3.60 | 主胜压低，客胜拉高 |
-| **1X2 (欧赔)** | 澳门 | 2.14 | 3.00 | 3.20 | 2.10 | 2.98 | 3.32 | 主胜小压，客胜小升 |
-| **亚盘** | Bet365 | 1.05 (-0.5) | — | 0.80 | 0.87 (-0.25) | — | 0.97 | 比利时让步收缩 |
-| **大小球** | Bet365 | 0.80 (2球大) | — | 1.05 (2球小) | 1.05 (2.5球大) | — | 0.80 (2.5球小) | 升盘，进球预期上修 |
-| **竞彩胜平负** | 中国体彩 | 1.99 | 2.95 | 3.47 | 1.99 | 3.00 | 3.42 | 主胜不动，平局微升，客胜微降 |
+| **1X2 (欧赔)** | Bet365 | 2.15 | 3.20 | 3.70 | 2.05 | 3.20 | 4.00 | Belgium 缩水、Senegal 漂高 |
+| **1X2 (欧赔)** | Pinnacle | 2.19 | 3.33 | 3.76 | 2.12 | 3.32 | 3.73 | 主胜轻微走强 |
+| **1X2 (欧赔)** | William Hill | 2.10 | 3.25 | 3.40 | 2.05 | 3.10 | 3.60 | 主胜走强、平局压低 |
+| **亚盘** | Bet365 | 半球 / Belgium 1.05 / Senegal 0.80 | — | — | 平手/半球 / Belgium 0.85 / Senegal 1.00 | — | — | 让步由 -0.5 收窄到 -0.25 |
+| **大小球** | Bet365 | 2球 / 大 0.80 / 小 1.05 | — | — | 2.5球 / 大 0.98 / 小 0.88 | — | — | 明确升盘 |
+| **竞彩胜平负** | 中国体彩 | — | — | — | 1.97 | 2.98 | 3.49 | 体彩仍给 Belgium 主让，但赔率未明显夸大主队优势 |
 
 **赔率变化趋势解读：**
 
-1. **百家欧赔的主胜由 2.20 降到 2.10、客胜由 3.45 左右抬到 3.70 左右**，去水后比利时胜率共识约从 **43.2% 升到 45.2%**，塞内加尔胜率约从 **27.6% 降到 25.6%**。说明市场在临近开赛时更认可比利时的基本面与纸面实力。
-2. **亚盘主流从比利时 -0.5 退到 -0.25**，这与 1X2 主胜压低并不矛盾：市场承认比利时更可能赢球，但对其“赢两球以上/轻松打穿”的把握在下降，窄胜脚本价值上升。
-3. **Bet365 大小球从 2 升到 2.5**，而澳门/百家共识仍围绕 2~2.25 摆动，表示资金把极低比分预期略微往上修正，但主流仍未进入“大开大合”的剧本，2~3 球仍是中枢。
-4. **官方竞彩胜平负基本没大改，和百家公司持续压低主胜相比反应偏慢**，这使“比利时只赢一球”的相关玩法，在结构上比直接买主胜更耐看。
+1. **1X2 漂移偏向 Belgium，但不是单边碾压。** 百家公司欧赔共识从 2.15/3.25/3.60 走到 2.10/3.25/3.70，Devig 后 Belgium 胜率由约 44.1% 升到 45.2%，Senegal 胜率由约 26.4% 降到 25.6%。这说明市场更认可 Belgium 取胜，但幅度只是“轻度看多”。
+2. **让球盘从 -0.5 收窄到 -0.25，代表“赢球预期在、穿盘信心下降”。** Bet365、William Hill、皇冠都出现 Belgium 让步收窄，和官方让球胜平负固定 -1 形成对照：市场相信 Belgium 更可能不败/小胜，但对其两球以上拉开差距并不激进。
+3. **总进球从 2 升到 2.5，比赛节奏预期上修。** 500 摘要显示大小球一致升盘，官方总进球市场里 2球/3球仍是中心，但 1球与 0:0 的公平概率下修、2:1 与 1:1 上修，意味着市场从“偏闷局”转向“至少两队都能制造机会”。
+4. **比分与半全场的热区也在迁移。** 官方比分市场中 0:0 公平概率约从 8.35% 降到 6.76%，1:0 从 10.92% 降到 9.46%，而 2:1 从 10.51% 升到 12.67%、1:1 从 13.51% 升到 15.10%；半全场里“半:平 全:胜”维持在高位，说明“先僵持、后分胜负”是更贴近盘口的路径。
 
 ### 1.2 隐含概率换算
 
 | 结果 | 竞彩隐含概率 | 欧赔均值隐含概率 | Devig后公平概率 |
 |------|:-----------:|:--------------:|:---------------:|
-| 比利时胜 | 50.3% | 47.6% | 44.9% |
-| 平局 | 33.3% | 30.8% | 29.4% |
-| 塞内加尔胜 | 29.2% | 27.0% | 25.8% |
-| **margin** | **112.8%** | **105.4%** | **100.0%** |
+| Belgium 胜 | 50.76% | 47.62% | 45.0% |
+| 平局 | 33.56% | 30.77% | 29.5% |
+| Senegal 胜 | 28.65% | 27.03% | 25.5% |
+| **margin** | **12.97%** | **5.42%** | **100.0%** |
 
-> Devig 计算已剔除庄家利润率。竞彩与百家公司去水后的 1X2 分布非常接近：核心结论不是“谁更强”存在巨大分歧，而是**比利时优势被认可，但市场对其赢球方式更偏向小胜而非大胜**。
+> Devig 计算已剔除庄家利润率。体彩与欧赔的去水后分布非常接近，说明这场 1X2 主体定价较有效：Belgium 稍占先、平局接近三成、Senegal 并非被完全看低。
 
-### 1.3 中国竞彩市场结构验证
+### 1.3 中国竞彩市场结构验证 (CN market-structure prior)
 
-- 本场为**国家队赛事**，且并非 EPL vs non-EPL 对阵，`CN market-structure prior` 不适用。
-- 因此本场不额外给予任何“中国市场结构性偏差”加分或减分。
+按中国竞彩市场结构验证流程：
+
+- 竞彩 vs EU 隐含概率 Δ：主 -0.2pp / 平 +0.2pp / 客 0.0pp
+- 结论：**NOT CONFIRMED**
+- 原因：本场并非 EPL vs non-EPL 结构；且 Devig 后 体彩与 EU 共识几乎同向，不存在需要额外修正的“中国球迷偏好挤压价差”。
 
 ---
 
@@ -60,43 +63,45 @@
 
 | 媒体/机构 | 预测比分 | 倾向 | 预测依据 |
 |-----------|:--------:|------|---------|
-| bet365 News | 2-1 | 比利时小胜 | 比利时阵容深度与控制力更强，但塞内加尔反击速度足以制造麻烦 |
-| SI / Squawka 预览汇总 | 2-1 / 接近五五开 | 比利时略优 | 普遍承认比利时牌面更完整，但同时提醒塞内加尔的速度与冲击力 |
-| SportsMole 伤停预览 | 未明示 | 谨慎偏比利时 | 比利时伤停更轻，塞内加尔门将位置与后防健康状况更受关注 |
+| Sporting News | Belgium 2-1 Senegal | Belgium 小胜 | Belgium 小组不败出线，Kevin De Bruyne 的组织能力和阵地战创造力被看高；同时承认 Senegal 的反击速度会制造威胁 |
+| Sports Mole | Belgium 2-0 Senegal | Belgium 小胜 | Belgium 阵容更完整、Senegal 守门员位置受伤停影响，且 Senegal 对法国/挪威时暴露过防线稳定性问题 |
+| FotMob 阵容页 | 未给明确比分 | 轻倾 Belgium | 预测首发显示 Belgium 仍是更主动的 4-2-3-1 结构，Senegal 更偏反击和身体对抗 |
 
-**媒体预测倾向：比利时胜 2/N，平局 1/N，塞内加尔胜 0/N**
+**媒体预测倾向：Belgium 3，平局 0，Senegal 0**
 
 ### 2.2 球迷情绪分析
 
-**比利时舆论面**
-- 整体情绪：**谨慎乐观**
+**Belgium 球迷**
+- 整体情绪：谨慎偏乐观
 - 关键论点：
-  - 德布劳内、卢卡库虽有过伤情疑问，但进入大名单且具备出场条件，核心框架仍在。
-  - 对阵新西兰的大胜改善了外界对进攻效率的观感。
-- 担忧点：防线轮换深度不算充裕，Debast 缺阵让后场容错下降；若比赛拖慢节奏，主胜赔率已不算便宜。
+  - 小组头名出线，外界仍认可 Belgium 的上限在于中前场创造力。
+  - Kevin De Bruyne、Jeremy Doku、Leandro Trossard 的配合被视为决定比赛上限的关键。
+  - 围绕中锋是 Charles De Ketelaere 还是 Romelu Lukaku，存在战术选择讨论。
+- 担忧点：前两轮曾被 Egypt、Iran 逼平，说明 Belgium 并非持续稳定压制型球队。
 
-**塞内加尔舆论面**
-- 整体情绪：**亢奋但带伤病顾虑**
+**Senegal 球迷**
+- 整体情绪：反弹式乐观，但仍带不确定性
 - 关键论点：
-  - 5 比 0 伊拉克显著提振信心，马内、伊斯梅拉·萨尔这条速度线被视为最有威胁的爆点。
-  - 作为非洲强队，外界普遍相信其身体对抗和转换效率能给比利时制造麻烦。
-- 担忧点：门迪确定缺阵、库利巴利的比赛状态仍需观察，后场稳定性弱于比利时。
+  - 5-0 Iraq 的反弹显著提升了外部舆情温度。
+  - Sadio Mane、Ismaila Sarr、Nicolas Jackson / Iliman Ndiaye 的冲击力被反复强调。
+  - 非洲强队身份与高强度中场对抗，让 Senegal 被视作“赔率下的危险对手”。
+- 担忧点：Edouard Mendy 的伤情、Kalidou Koulibaly 是否回到首发、以及此前面对 France / Norway 时的失球质量。
 
 **综合舆情情感评分：**
-- 比利时支持度：6.7/10
-- 塞内加尔支持度：6.9/10
-- 中立观点比例：约 40%
+- Belgium 支持度：6.5/10
+- Senegal 支持度：5.8/10
+- 中立观点比例：约 35%
 
 ### 2.3 社交媒体热度
 
-| 平台 | 比利时 相关讨论量 | 塞内加尔 相关讨论量 | 热点话题 |
+| 平台 | Belgium 相关讨论量 | Senegal 相关讨论量 | 热点话题 |
 |------|:------------------:|:------------------:|----------|
-| Twitter/X | not covered | not covered | De Bruyne/Lukaku 健康、Debast 缺阵、Mendy 缺阵、Koulibaly 状态 |
-| Reddit | blocked/not covered | blocked/not covered | 比利时能否兑现纸面优势；塞内加尔速度线是否能打出反击 |
-| 微博 | not covered | not covered | 世界杯凌晨场关注度、比利时主胜与让球讨论 |
-| 虎扑/懂球帝 | not covered | not covered | “比利时小胜还是被逼平” 与 “塞内加尔爆冷可能性” |
+| Google News / 聚合新闻 | 较高 | 较高 | Belgium 是否终于进入比赛节奏；Senegal 门将伤停与反击三叉戟 |
+| Yahoo / 资讯流 | 中高 | 中 | Zeno Debast 回归训练、Belgium 中锋选择 |
+| FotMob / 赛前页 | 高 | 高 | 预测首发、Seattle 场地、双方伤停名单 |
+| Reddit / X / 微博 | 未取得可靠公开计数 | 未取得可靠公开计数 | 本报告未抓到可审计的实时计数，因此不做数值化热度结论 |
 
-> 本轮可稳定抓取到的是新闻/预览页而非平台原生讨论量，因此热度表只保留**可验证的话题主线**，不伪造具体帖量。
+> **中国市场特点：** 本场不属于典型 EPL 热门队对非 EPL 队的结构，竞彩偏差主要来自庄家 margin 与官方让球口径，而非“球迷队”情绪挤压。
 
 ---
 
@@ -104,62 +109,64 @@
 
 ### 3.1 球队近期状态
 
-**比利时**
-- 战术风格：以前场持球与边路推进为主，德布劳内负责节奏与最后一传，Doku/Trossard 提供宽度与爆点。
-- 近期状态：小组赛前两战进攻效率一般，但最后一战大胜新西兰后，整体节奏和终结感有所回暖。
-- 体能状况：✅中性偏优
-- 世界杯经验：✅优势
-- 中立场表现：以控球与阵地推进为主，若先手进球，比赛脚本更容易按其节奏展开。
+**Belgium**
+- 战术风格：以 4-2-3-1 为主，依赖 Kevin De Bruyne 的肋部输送、Jeremy Doku 的边路爆点和二线插上。
+- 近期状态：Sports Mole 记录的 World Cup form 为 **DDW**，前两轮不算强势，但最后一场大胜 New Zealand 提升了进攻体感。
+- 体能状况：✅优势。公开来源未显示大面积伤停，主力轮换空间也更充足。
+- 世界杯经验：✅优势。核心框架的大赛经验明显更成熟。
+- 场地/节奏表现：Seattle 场地下的常规 90 分钟市场，更利于 Belgium 的阵地战和边中结合。
 
-**塞内加尔**
-- 战术风格：更强调纵向推进和反击速度，马内、伊斯梅拉·萨尔、杰克逊一线的冲击力是核心。
-- 近期状态：小组赛波动较大，但 5 比 0 伊拉克一战明显抬升了攻击端信心。
-- 体能状况：⚠️中性偏劣
-- 世界杯经验：✅中上
-- 中立场表现：开放空间越大越有利，若能把比赛拖入来回转换，威胁会明显增加。
+**Senegal**
+- 战术风格：以 4-3-3 / 4-1-4-1 之间切换，强项是中场对抗、纵向推进和边路速度。
+- 近期状态：World Cup form 为 **LLW**，走势是“先低后高”；5-0 Iraq 明显抬升了信心，但样本波动也较大。
+- 体能状况：⚠️中性偏劣。首发门将伤缺、主力中卫选择摇摆，消耗管理不如 Belgium 清晰。
+- 世界杯经验：⚠️略劣。虽有大赛骨干，但整体稳定性仍逊于 Belgium。
+- 场地/节奏表现：更适合开放比赛和转换战；若被 Belgium 长时间压住阵地，防线容错会下降。
 
 ### 3.2 关键球员动态
 
 | 球员 | 俱乐部 | 状态 | 影响 |
 |------|--------|------|------|
-| 凯文·德布劳内 | Napoli | ✅可出场 | 决定比利时的创造力上限与定位球质量 |
-| 罗梅卢·卢卡库 | Napoli | ✅可出场 | 支点、禁区终结与对抗能力仍是比利时的重要兜底 |
-| Zeno Debast | Sporting CP | ❌缺阵 | 比利时后场轮换深度受损，防线稳定性下降 |
-| 爱德华·门迪 | — | ❌缺阵 | 塞内加尔门将位置损失明显，后场安全感下降 |
-| 卡利杜·库利巴利 | Al Hilal | ⚠️待观察 | 若状态不足，塞内加尔高空球与回追保护都受影响 |
-| 伊斯梅拉·萨尔 | — | ✅大概率可用 | 反击推进与纵深冲击是塞内加尔最直接的破局点 |
+| Zeno Debast | Sporting CP | ⚠️待定 | 已恢复训练，但多家预览仍认为更可能替补或不首发；Belgium 后场出球和轮换深度受影响 |
+| Kevin De Bruyne | Napoli | ✅确认 | Belgium 进攻节奏器，决定高位组织与最后一传质量 |
+| Romelu Lukaku | Napoli | ✅可用 | 更像替补冲击点，若比赛僵住，他的禁区终结会改变尾段走势 |
+| Edouard Mendy | Al Ahli | ❌缺阵/高度疑问 | Senegal 门将位置是最明确的赛前利空，直接影响扑救稳定性与后场出球 |
+| Sadio Mane | Al Nassr | ✅确认 | Senegal 反击端的经验与一对一威胁核心 |
+| Ismaila Sarr | Crystal Palace | ✅确认 | 近期状态热，公开预览普遍把他列为 Senegal 最活跃的推进点 |
+| Kalidou Koulibaly | Al Hilal | ⚠️待定 | 有来源认为可能继续替补；若不首发，Senegal 中卫领导力会继续打折 |
 
 ### 3.3 战术 matchup 分析
 
 **核心矛盾：**
-1. 比利时能否通过德布劳内的持球组织，把比赛稳定压在塞内加尔半场，而不是被拖入反复冲刺。
-2. 塞内加尔的前场速度线是否能反复攻击比利时中卫与边后卫身后空间。
-3. 塞内加尔门将与后防健康状况，能否扛住比利时定位球和二点球冲击。
+1. Belgium 的中前场控制（Kevin De Bruyne + 双边锋）能否持续把 Senegal 压在低位。
+2. Senegal 的三前锋速度能否利用 Belgium 后场转身与边后卫身后空间。
+3. 门将位置差异是否把比赛的“细节球”转成 Belgium 的实质优势。
 
 **风格克制：**
-- 比利时怕的是“控而不进”后被对手一脚纵深打身后；这正是塞内加尔最舒服的反击路径。
-- 塞内加尔怕的是后场第一点和第二点被连续冲击；若门前处理不够稳，容易被比利时滚出一球优势。
+- Belgium 擅长在阵地战里反复把球送进肋部，这正好针对 Senegal 需要大量横移补位的防守方式。
+- Senegal 的身体对抗和推进速度能制造 Belgium 不喜欢的拉锯战，所以让球盘收窄并不意外。
+- 如果比赛早段没有进球，盘口更支持“半场胶着、下半场才分出高低”。
 
 ### 3.4 历史交锋记录
 
 | 日期 | 赛事 | 主场 | 比分 | 客场 |
 |------|------|------|:----:|------|
-| — | 无正式交锋记录 | 比利时 | — | 塞内加尔 |
+| — | — | Belgium | 无正式交锋记录 | Senegal |
 
-**交锋记录：双方赛前无正式成年国家队交锋，本场属于“首次对话”。**
+**交锋记录：Belgium 与 Senegal 在成年男子国家队正式比赛层面暂无可核验的历史交锋，本场更接近首次遭遇。**
 
 ### 3.5 公开强度数据：ClubElo / xG / FIFA 排名
 
 | 球队 | 指标 | 数值 | 来源 | 新鲜度 | 解读 |
 |------|------|------|------|--------|------|
-| 比利时 | ClubElo rating | N/A（国家队，非俱乐部） | not covered（国家队不适用） | N/A | 不适用，不估算 |
-| 塞内加尔 | ClubElo rating | N/A（国家队，非俱乐部） | not covered（国家队不适用） | N/A | 不适用，不估算 |
-| 比利时 | FIFA 排名 / 国家队 Elo | FIFA 第10；Elo 1884（约第16~17） | globalfootballrankings.com；eloratings.net | 2026-06 | 公开强度锚点略优于塞内加尔 |
-| 塞内加尔 | FIFA 排名 / 国家队 Elo | FIFA 第17；Elo 1842（约第19） | worldsoccertalk.com；eloratings.net | 2026-06 | 仍属高水平国家队，但纸面略逊一档 |
-| 比利时 | xG / xGA / recent xG trend | 小组赛总 xG 约 5.8；xGA 约 0.59/场 | Fox Sports；xGscore；FootyStats | 2026 世界杯小组赛 | 创造质量稳定，前两战主要问题在转化率而非机会本身 |
-| 塞内加尔 | xG / xGA / recent xG trend | 小组赛 xG 约 1.9/场；xGA 约 1.2/场 | Fox Sports；xGscore；公开 xG tracker | 2026 世界杯小组赛 | 进攻波动较大，5球大胜抬高均值，但防守端承压更大 |
+| Belgium | ClubElo rating | not covered | 国家队不适用 ClubElo；已按要求检查 `club-elo` 门路 | 当前 | 不估算 |
+| Senegal | ClubElo rating | not covered | 国家队不适用 ClubElo；已按要求检查 `club-elo` 门路 | 当前 | 不估算 |
+| Belgium | FIFA 排名 / 国家队 Elo | FIFA 第9；Elo 第20（1849） | Whereig / World Cup Elo | 2026-06 / 2026-07 | FIFA 端 Belgium 仍是更高排名队，但 Elo 端优势并不明显 |
+| Senegal | FIFA 排名 / 国家队 Elo | FIFA 第15；Elo 第17（1869） | Whereig / World Cup Elo | 2026-06 / 2026-07 | Senegal 的 Elo 反而略高，提示其真实竞争力并不低于赔率所示太多 |
+| Belgium | xG / xGA / recent xG trend | blocked / gated | FBref 403；PlayerStats 页面仅显示付费引导，未公开给出可核验团队 xG 数值 | 当前 | 不估算 Belgium 团队 xG |
+| Senegal | xG / xGA / recent xG trend | 最近一场对 Iraq 的 player xG 合计 3.08 | PlayerStats Football | 当前 | 说明 Senegal 在上一场确实打出高质量机会，但单场样本波动仍大 |
 
-> 仅引用公开覆盖数据；ClubElo 对国家队不适用，因此明确写 N/A。国家队 xG 的 FBref 直连在本轮抓取中未稳定可得，报告采用 fallback 后成功获取的公开 xG 聚合源，不做主观估算。
+> 仅引用公开覆盖数据；若来源未覆盖、受阻或过期，写明 `not covered / blocked / stale`，不估算 ClubElo 或 xG。
 
 ---
 
@@ -167,49 +174,49 @@
 
 ### 4.1 各维度权重评估
 
-| 维度 | 比利时得分 | 塞内加尔得分 | 说明 |
+| 维度 | Belgium得分 | Senegal得分 | 说明 |
 |------|:-----------:|:-----------:|------|
-| 阵容深度 | 8.0 | 7.3 | 比利时替补层次更整齐，塞内加尔首发冲击力强但门将位受损 |
-| 体能状态 | 7.1 | 6.6 | 比利时主要是单点伤停；塞内加尔门将缺阵、后防健康更值得担心 |
-| 战术适配 | 7.4 | 7.5 | 塞内加尔的反击速度确实能对上比利时弱点 |
-| 大赛经验 | 7.9 | 7.1 | 比利时核心球员大赛经验更成熟 |
-| 攻防实力 | 7.8 | 7.2 | 公开 xG 与排名锚点均轻微偏向比利时 |
-| 士气/动力 | 6.8 | 7.4 | 塞内加尔带着 5 比 0 的情绪高点进入比赛 |
-| 定位球 | 7.7 | 7.0 | 德布劳内的传中与落点控制是优势 |
-| 边路突破 | 7.3 | 8.0 | 马内/萨尔纵向冲击更直接，比利时边路回追是隐患 |
+| 阵容深度 | 7.5 | 6.5 | Belgium 的替补前场和门将位更稳 |
+| 体能状态 | 7.0 | 6.0 | Belgium 伤停更少；Senegal 门将位有明显缺口 |
+| 战术适配 | 6.8 | 6.6 | Belgium 更适合控场，Senegal 更适合开放反击 |
+| 大赛经验 | 7.2 | 6.6 | Belgium 核心大赛经验更充足 |
+| 攻防实力 | 7.0 | 6.8 | FIFA 排名偏向 Belgium，但 Elo 不支持大幅领先 |
+| 士气/动力 | 6.8 | 7.2 | Senegal 5-0 Iraq 后情绪向上，属于明显动力项 |
+| 定位球 | 6.7 | 6.6 | 两队接近，Belgium 二点球组织更好 |
+| 边路突破 | 7.4 | 7.1 | Doku/Trossard 与 Mane/Sarr 都是关键点，但 Belgium 供给更稳定 |
+| H2H | 5.0 | 5.0 | 无可用历史交锋，不构成偏置 |
 
 **加权综合评分：**
-- 比利时：7.5/10
-- 塞内加尔：7.3/10
+- Belgium：7.0/10
+- Senegal：6.7/10
 
 ### 4.2 比分预测
 
 | 预测比分 | 概率 | 说明 |
 |----------|:----:|------|
-| 1-0 | 17% | 最符合“比利时优势兑现，但比赛总进球不高”的主线 |
-| 1-1 | 15% | 若比利时控球但终结不够坚决，塞内加尔反击有能力偷到一球 |
-| 2-1 | 13% | 对应亚盘退盘后的“比利时仅赢一球”脚本 |
+| Belgium 2-1 Senegal | 19% | 与盘口迁移最一致：Belgium 轻热、总进球上修、2:1 公平概率持续抬升 |
+| Belgium 1-1 Senegal | 16% | 若 Belgium 控场但临门一脚效率不高，这仍是强备选路径 |
+| Belgium 1-0 Senegal | 12% | 官方赔率仍保留 Belgium 小胜脚本，但热度已低于 2:1 / 1:1 |
 
 ### 4.3 竞彩推荐
 
 | 玩法 | 推荐选项 | 竞彩赔率 | 置信度 | 说明 |
 |------|---------|:--------:|:------:|------|
-| **胜平负 (SPDF)** | 主胜（防平） | 1.99 | ⭐⭐⭐ | 比利时胜面最大，但主胜赔率已被充分压缩，单买价值一般 |
-| **让球胜平负** | 比利时(-1) 平 | 3.60 | ⭐⭐⭐⭐ | 最贴合“比利时赢球但只赢一球”的盘口脚本，是本场最值得看的价值点 |
-| **总进球** | 2球 | 3.20 | ⭐⭐⭐ | 盘口主中枢仍在 2~2.5，2球是最稳的单点分布之一 |
-| **比分** | 1-0 / 1-1 | 6.50 / 5.25 | ⭐⭐⭐ | 对应低比分主线：要么比利时小胜，要么被拖成平局 |
-| **半全场** | 平-胜 | 4.75 | ⭐⭐⭐ | 若上半场塞内加尔顶住，比利时下半场凭阵容质量兑现，路径较顺 |
+| **胜平负 (SPDF)** | Belgium 胜（仅作方向，不宜重注） | 1.97 | ⭐⭐ | 模型概率略高于市场共识，但达不到正 Kelly |
+| **让球胜平负** | 让平（Belgium -1） | 3.43 | ⭐⭐⭐ | 若 Belgium 赢球，最像一球小胜；与让球盘收窄逻辑一致 |
+| **总进球** | 大 2.5（多公司） / 竞彩偏进取可看 3球 | 1.98 附近 / 3.60 | ⭐⭐⭐⭐ | 大小球升盘最明确，且 2:1、1:1 的热区在抬升 |
+| **比分** | Belgium 2-1 Senegal | 5.60 | ⭐⭐⭐ | 兼顾 Belgium 轻热与总进球抬升 |
+| **半全场** | 平 / Belgium | 4.75 | ⭐⭐⭐ | 半场胶着、后程分胜负与盘口结构一致 |
 
 ### 4.4 Kelly建议
 
-| 市场 | 选项 | 赔率 | 模型概率 | Edge | Half-Kelly | 结论 |
-|------|------|:----:|:--------:|:----:|:----------:|------|
-| 胜平负 | 比利时胜 | 1.99 | 46% | -8.5% | 0% | 赔率偏低，观望 |
-| 胜平负 | 平局 | 2.95 | 30% | -11.5% | 0% | 未到价值线 |
-| 胜平负 | 塞内加尔胜 | 3.47 | 24% | -16.7% | 0% | 不追冷门单挑 |
-| 让球胜平负 | 比利时(-1) 平 | 3.60 | 30% | +8.0% | 1.5% | **本场唯一明确正 Edge 的主玩法，小注参与** |
+根据 Kelly 公式计算：
+- **Belgium 胜：** Edge -9.4%，Half-Kelly 0.0%
+- **平局：** Edge -13.6%，Half-Kelly 0.0%
+- **Senegal 胜：** Edge -12.8%，Half-Kelly 0.0%
+- **大 2.5（按 1.98 计）：** Edge +4.9%，Half-Kelly 2.5%
 
-> **Kelly建议：** 以 **让球胜平负「比利时(-1) 平」** 为主，小注 1%~1.5% 资金；若只做胜平负，主胜更适合串关而非单关重仓。
+> **Kelly建议：SPDF 三项都不构成正投注边际；若必须参与，优先考虑多公司大 2.5 小注（约 2%~2.5% 半 Kelly），其次才是 Belgium 小胜相关比分/让平路径。**
 
 ---
 
@@ -217,50 +224,58 @@
 
 ### 核心判断
 
-1. 市场整体认可比利时更强，欧赔主胜压低与公开强度锚点（FIFA/Elo/xG）方向一致。
-2. 但亚盘从 -0.5 退到 -0.25，说明市场对比利时“赢球方式”的信心下降，大胜脚本不被追捧。
-3. 塞内加尔的反击速度与比赛情绪值是真实威胁，尤其在比利时久攻不下时，平局风险始终存在。
-4. 因此本场最合理的 reader-facing 结论不是“无脑主胜”，而是**比利时小胜优先、平局次选、盘口价值集中在‘只赢一球’相关路径**。
+1. 当前盘口主线不是“Belgium 大胜”，而是“Belgium 略占优 + Senegal 有反击得分能力”。
+2. 1X2 对 Belgium 的轻度缩赔，与亚盘从 -0.5 收窄到 -0.25 共同说明：市场更相信 Belgium 赢球，但不相信其轻松穿深盘。
+3. 总进球从 2 升到 2.5，是本场最清晰、最一致的价格信号。
+4. Senegal 的门将伤停是最明确的基本面负面，但其 Elo 强度与上一场 3.08 xG 的进攻输出提醒我们：不能把 Senegal 当成纯弱旅处理。
 
 ### 风险提示
 
-- ⚠️ 场馆信息来自多家预览页交叉出现，但未单独核验 FIFA 官方场馆页。
-- ⚠️ 国家队 xG 公开覆盖不如俱乐部稳定，报告已使用 fallback 后的公开聚合源并降低精度预期。
-- ⚠️ 若库利巴利临场状态完全恢复、塞内加尔后场稳定性提升，平局甚至客胜概率会被放大。
-- ⚠️ 若比利时早段先破门，低比分窄胜脚本会迅速转强；若迟迟不进，市场最危险的反向结果是 1-1。
+- ⚠️ 公开预览普遍将本场写作 Round of 32，但任务元数据写成非决赛/类似小组赛场景；阶段标签冲突会影响是否应加 draw prior。
+- ⚠️ Belgium 的公开强度信号（FIFA 排名）强于 Senegal，但 Elo 信号反而更接近甚至略偏 Senegal，说明强弱差距并不稳。
+- ⚠️ Belgium 的前两场小组赛表现并不持续稳定，若中前场效率再次回落，主胜方向会明显受挫。
+- ⚠️ Senegal 的上一场大胜样本有限，若把 5-0 Iraq 过度外推，会高估其持续进攻质量。
 
 ### 最终结论
 
-**最可能的结果：比利时常规时间小胜，首选 1-0，其次 1-1 / 2-1。**  
-**竞彩最优价值：让球胜平负「比利时(-1) 平」@3.60；若只买胜平负，主胜可作串关，单买性价比一般。**
+**最可能的结果：Belgium 小胜，首选 Belgium 2-1 Senegal，次选 Belgium 1-1 Senegal。**
+**竞彩最优价值：总进球方向优于胜平负——优先看多公司大 2.5（1.98 附近）的小注参与；若只做竞彩，进取选 3球，保守则回避 SPDF 重注。**
 
 ---
 
 ## 应用的先验清单 (Applied Priors Check)
 
-- **[N] Final-Match Prior**：本场按用户给定为世界杯小组赛，非决赛/淘汰赛，且无“双方都必须取胜”的明确信号，不做平局额外加点。
-- **[Y] Fatigue × Motivation 对冲**：比利时整体健康度略好，但 Debast 缺阵；塞内加尔 5 比 0 后士气高、同时承受门将/中卫状态隐患，因此采用“健康略偏比利时、情绪略偏塞内加尔”的对冲读法。
-- **[N] H2H discount for finals（H2H 决赛降权）**：非决赛/非淘汰赛，且双方此前无正式交锋，无需启用该先验。
-- **[N] CN market structure（CN 市场结构）**：本场不是 EPL vs non-EPL，对应先验不适用。
-- **[Y] Volume signal（升降盘解读）**：欧赔主胜压低、客胜拉高；亚盘半球退平/半；Bet365 大小球 2 升 2.5，表明“比利时优势仍在，但更像窄胜，同时总进球预期小幅上修”。
-- **[Y] Devig per market**：覆盖 1X2、让球胜平负、比分、总进球、半全场。
-- **[Y] Half-Kelly applied**：胜平负三项 Edge 均为负；让球胜平负「比利时(-1) 平」Edge +8.0%，Half-Kelly 1.5%。
+Applied priors check:
+- [N] Final-Match Prior (decisive match → draw +3~6pp): 公开预览虽写 Round of 32，但任务合同明确要求按非决赛场景处理，且阶段信息冲突；为避免误加单场淘汰赛 draw inflation，本报告不启用该先验。
+- [Y] Fatigue × Motivation offset: Belgium 阵容完整度更高、门将位更稳；Senegal 则带着 5-0 Iraq 的情绪反弹进入比赛，体能与士气方向相互对冲。
+- [N] H2H discount for finals: 本场既非确认的决赛，且两队无历史正式交锋，无“决赛 H2H 降权”空间。
+- [N] CN market structure (EPL bias): 本场不是 EPL vs non-EPL 结构；Devig 后 体彩与 EU 共识几乎重合，先验不成立。
+- [Y] Volume signal (升/降盘): 已显式解读 1X2 缩赔、让球收窄、大小球升盘、比分热区迁移。
+- [Y] Devig per market: 已覆盖 1X2、让球胜平负、总进球、比分、半全场，以及百家欧赔共识。
+- [Y] Half-Kelly computed: 已对 SPDF 三项与大 2.5 给出 Edge / Half-Kelly；仅大 2.5 为正值。
+
+Evidence gates check:
+- [Y] Web-research evidence collected (run_research; ≥2 converging sources OR all-blocked fallback explicitly declared): Sports Mole、Sporting News、FotMob、Yahoo 的赛前信息基本同向。
+- [Y] ClubElo public rating checked (intent: "club-elo"; source URL or unavailable reason): 已检查；国家队 not covered，不估算。
+- [Y] xG public data checked (intent: "xg"; source URL or unavailable reason): Belgium 公开团队 xG blocked/gated；Senegal 可见最近一场 3.08 xG。
+- [N] Estimated odds present (must be marked with 估算): 本报告赔率均来自实时抓取，无估算赔率。
 
 ### Public Data Signals Check
 
-- **[Y] ClubElo public rating checked**：N/A（国家队，非俱乐部）；source/attempt note: http://api.clubelo.com/Belgium 与 http://api.clubelo.com/Senegal 对国家队不提供适用 rating，按 skill 规则记为 not covered / non-applicable。
-- **[Y] xG public data checked**：已检查 `intent: xg`；FBref 直连未稳定可得（blocked），最终采用 https://www.foxsports.com/soccer/belgium-men-team-summary-stats?category=standard&groupId=12&season=2026&sort=t_xg&sortOrder=desc 、https://www.foxsports.com/soccer/senegal-men-team-stats?category=standard&groupId=12&season=2026&sort=xg&sortOrder=desc 与 https://xgscore.io/xg-statistics/world-cup/2026 交叉补充。
+- **[Y] ClubElo public rating checked**：http://api.clubelo.com/Belgium 与 http://api.clubelo.com/Senegal 均不覆盖国家队，结论为 `not covered`；辅以 https://www.footballratings.org/team/belgium 与 https://www.footballratings.org/team/senegal 仅能回落到国家队 Elo 展示。
+- **[Y] xG public data checked**：Belgium = blocked/gated；Senegal = PlayerStats Football 给出最近一场 3.08 xG。
 
-**估算赔率统计**：0 / 31  
-**整体置信度**：Medium
+**估算赔率统计**：0 / 0  
+**整体置信度**：Medium（赔率数据完整，但阶段标签存在冲突，且 Belgium 团队 xG 公开覆盖不足）
 
----
-
-*报告生成时间：2026-07-01T00:37:38.945Z*  
-*数据截止：2026-07-01T00:37:38.945Z*  
-*数据来源：*  
-*- Tier 1（赔率）：https://odds.500.com/fenxi/ouzhi-1359184.shtml  https://odds.500.com/fenxi/yazhi-1359184.shtml  https://odds.500.com/fenxi/daxiao-1359184.shtml  https://odds.500.com/fenxi/rangqiu-1359184.shtml*  
-*- Tier 5（伤停/预览）：https://www.sportsmole.co.uk/football/belgium/world-cup-2026/team-news/belgium-vs-senegal-injury-suspension-list-predicted-xis_600369.html  https://www.sportsmole.co.uk/football/senegal/world-cup-2026/team-news/senegal-vs-iraq-injury-suspension-lists-predicted-xis_599962.html  https://news.bet365.com/en-us/article/belgium-vs-senegal-lineups-stats-how-to-watch/2026063014471007420  https://www.afriquesports.net/en/senegal/mondial-2026-pape-thiaw-fait-le-point-sur-les-blessures-avant-la-france*  
-*- Tier 5/6（H2H / 排名 / xG）：https://tips.gg/article/belgium-vs-senegal-head-to-head-wc2026/  https://globalfootballrankings.com/rankings/fifa-world-ranking/men  https://www.eloratings.net/2026_World_Cup  https://www.foxsports.com/soccer/belgium-men-team-summary-stats?category=standard&groupId=12&season=2026&sort=t_xg&sortOrder=desc  https://www.foxsports.com/soccer/senegal-men-team-stats?category=standard&groupId=12&season=2026&sort=xg&sortOrder=desc  https://xgscore.io/xg-statistics/world-cup/2026*  
+*报告生成时间：2026-07-01T12:56:06.399Z*  
+*数据截止：2026-07-01T12:56:06.399Z*  
 *推理依据：LLM qualitative match-analysis methodology v0.1*
-<!-- probs: {"home": 0.46, "draw": 0.30, "away": 0.24} -->
+
+## 数据来源
+
+- **Tier 1（赔率 / 盘口）**：https://odds.500.com/fenxi/ouzhi-1359184.shtml ；https://odds.500.com/fenxi/rangqiu-1359184.shtml ；https://odds.500.com/fenxi/yazhi-1359184.shtml ；https://odds.500.com/fenxi/daxiao-1359184.shtml
+- **Tier 2（赛前预览 / 伤停 / 阵容）**：https://www.sportsmole.co.uk/football/belgium/world-cup-2026/preview/belgium-vs-senegal-prediction-team-news-lineups_600358.html ；https://www.sportsmole.co.uk/football/belgium/world-cup-2026/team-news/belgium-vs-senegal-injury-suspension-list-predicted-xis_600369.html ；https://www.sportingnews.com/us/soccer/news/belgium-vs-senegal-projected-lineups-starting-11-world-cup-round-32-game-seattle/5e6dfcf3f6a845630c42aef5 ；https://ca.sports.yahoo.com/news/belgium-xi-vs-senegal-confirmed-134529662.html ；https://www.fotmob.com/matches/senegal-vs-belgium/1rywdm
+- **Tier 3（H2H / 强度 / xG）**：https://www.aiscore.com/head-to-head/soccer-belgium-vs-senegal ；https://www.whereig.com/football/fifa-world-rankings.html ；https://worldcupelo.com/ ；http://api.clubelo.com/Belgium ；http://api.clubelo.com/Senegal ；https://www.footballratings.org/team/belgium ；https://www.footballratings.org/team/senegal ；https://playerstats.football/world-cup/senegal/xg ；https://fbref.com/en/squads/361422b9/2026/all_comps/Belgium-Men-Stats-All-Competitions
+
+<!-- probs: {"home": 0.46, "away": 0.25, "draw": 0.29} -->

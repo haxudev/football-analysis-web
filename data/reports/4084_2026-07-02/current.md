@@ -1,17 +1,16 @@
-> 生成时间：2026-07-01T00:37:38.945Z
-
-# 2026 FIFA 世界杯小组赛分析报告：葡萄牙 VS 克罗地亚
+> 生成时间：2026-07-01T12:56:06.399Z
+# 世界杯分析报告：Portugal VS Croatia
 
 ## 基本信息
 
 | 项目 | 详情 |
 |------|------|
-| **赛事** | 2026 FIFA 世界杯 小组赛 |
-| **对阵** | 葡萄牙 (Portugal) VS 克罗地亚 (Croatia) |
-| **竞彩编号** | 4084 |
-| **开球时间** | 2026-07-03T07:00:00+08:00 (北京时间) |
-| **比赛地点** | 未在用户输入中明确；公开预览页多指向多伦多 BMO Field |
-| **比赛性质** | 小组赛，90分钟常规胜平负 |
+| **赛事** | 2026 FIFA World Cup 2026 1/16决赛（Round of 32） |
+| **对阵** | Portugal VS Croatia |
+| **竞彩编号** | 周四084（matchNumber: 4084） |
+| **开球时间** | 2026-07-03 07:00（北京时间） |
+| **比赛地点** | BMO Field, Toronto |
+| **比赛性质** | 单场淘汰赛（90分钟；平局进入加时/点球） |
 
 ---
 
@@ -19,39 +18,39 @@
 
 ### 1.1 主流机构初盘与即时盘对比
 
-> **数据来源说明：** 官方体彩胜平负/让球胜平负/比分/总进球/半全场来自 lottery500 trade；欧赔/亚盘/大小球初赔与即时盘来自 500.com fenxi 百家盘聚合。
+> **数据来源说明：** 官方中国体彩盘口 + 500 百家欧赔/让球摘要 + 澳门大小球水位。全部赔率均来自本次实时工具拉取，无估算值。
 
 | 玩法 | 机构 | 初盘 (主) | 初盘 (平) | 初盘 (客) | 即时盘 (主) | 即时盘 (平) | 即时盘 (客) | 变化方向 |
 |------|------|:---------:|:--------:|:---------:|:----------:|:-----------:|:----------:|:--------:|
-| **1X2 (欧赔)** | Bet365 | 1.75 | 3.50 | 5.00 | 1.91 | 3.25 | 4.50 | 主胜升、平客降 |
-| **1X2 (欧赔)** | Pinnacle | 1.78 | 3.64 | 4.98 | 1.85 | 3.53 | 4.60 | 主胜小升、平客小降 |
-| **1X2 (欧赔)** | William Hill | 1.75 | 3.40 | 4.75 | 2.00 | 3.10 | 3.80 | 主胜显著升、平客显著降 |
-| **亚盘** | Bet365 | 0.95 | 半球 | 0.90 | 1.00 | 半球/一球 | 0.85 | 升盘至主让0.75 |
-| **大小球** | Bet365 | 1.00 | 2球 | 0.85 | 0.85 | 2球 | 1.00 | 盘口不动，偏向大球 |
-| **竞彩胜平负** | 中国体彩 | — | — | — | 1.59 | 3.40 | 4.85 | 主胜显著压低，平/客给价保守 |
+| **1X2 (欧赔)** | 500百家欧赔共识(30家) | 1.80 | 3.50 | 4.80 | 1.90 | 3.275 | 4.40 | Portugal 漂高；平/客压低 |
+| **1X2 (欧赔)** | 澳门 | 1.77 | 3.00 | 4.60 | 1.95 | 2.97 | 3.78 | 主胜显著漂高，客胜显著压低 |
+| **竞彩胜平负** | 中国体彩 | — | — | — | 1.59 | 3.40 | 4.85 | 官方主胜仍明显偏短 |
+| **让球胜平负 (-1)** | 官方24h快照 | 2.99 | 3.25 | 2.05 | 3.11 | 3.12 | 2.05 | Portugal 净胜2球难度上升；净胜1球被压低 |
+| **让球胜平负 (-1)** | 500百家共识(16家) | 3.175 | 3.40 | 2.02 | 3.40 | 3.30 | 1.905 | 受让方/平局方向更热 |
+| **大小球 2.0** | 澳门 | 0.86（大） | — | 0.94（小） | 0.80（大） | — | 1.00（小） | 盘口不升，但大球水位下调 |
 
 **赔率变化趋势解读：**
 
-1. **欧赔主线从“强主胜”回撤到“仍看好葡萄牙、但更防平/防客”。** 百家欧赔共识由 1.78/3.50/4.80 漂移到 1.90/3.275/4.40，Devig 后主胜公平概率约从 **53.2% 降到 49.7%**，平局从 **27.1% 升到 28.8%**，客胜从 **19.7% 升到 21.5%**。含义不是“市场改看克罗地亚赢球”，而是**葡萄牙单边热度下降，平局与克罗地亚受让方向得到更多保护**。
-2. **亚盘从半球升到半一，说明实力锚点仍在葡萄牙。** 这与 1X2 主胜漂移形成“分裂信号”：市场依旧承认葡萄牙整体更强，但对其**净胜两球以上的把握并不充足**，更像是“葡萄牙可控局面占优、但未必轻松兑现”的结构。
-3. **大小球维持 2 球超低基线，但大球价格下压。** 盘口没抬到 2/2.5，不过 over 赔付从 1.00 压到 0.85，说明资金略向 2-3 球区间移动；结合官方总进球盘里 **2球/3球** 均为最高公平概率档，本场更像**低比分下的 2-3 球走廊**，而不是极端闷平或对攻大开。
+1. **1X2 漂移偏向“Portugal不稳胜”**：百家欧赔从 1.80/3.50/4.80 走到 1.90/3.275/4.40，Devig 后 Portugal 胜从 **52.9%** 降到 **49.7%**，平局从 **27.2%** 升到 **28.8%**，Croatia 胜从 **19.9%** 升到 **21.5%**。这不是“市场看空 Portugal”，而是**市场在 90 分钟维度降低了 Portugal 轻松过关的把握**。
+2. **让球盘与 1X2 给出“Portugal 强、但大胜未必”的组合信号**：亚洲让球从 Portugal **-0.5 加深到 -0.75**，说明基本面仍承认 Portugal 较强；但 -1 让球胜平负里，受让方价格从 **2.02 压到 1.905**，官方快照里 Portugal 净胜 2+ 的主项也从 **2.99 漂到 3.11**，说明资金更防范 **Portugal 只赢1球或被拖平**。
+3. **总进球没有实质升盘，只是轻微偏大**：澳门大小球主线仍在 **2.0**，只是大球水位从 0.86 降到 0.80；官方总进球市场里 **2球/3球** 的公平概率并列最高（各 **22.8%**），因此这更像是**“2-3球区间”热度上升**，不是开放式对攻预期。
+4. **比分/半全场基线更支持低比分拉锯**：官方比分市场当前前三公平概率是 **2:1（11.8%）/ 1:0（10.9%）/ 1:1（10.1%）**；半全场前三是 **胜-胜（33.9%）/ 平-胜（19.0%）/ 平-平（14.2%）**。结合淘汰赛 prior 后，**1:1 与 平-平 的相对价值上升**。
 
 ### 1.2 隐含概率换算
 
 | 结果 | 竞彩隐含概率 | 欧赔均值隐含概率 | Devig后公平概率 |
 |------|:-----------:|:--------------:|:---------------:|
-| 葡萄牙胜 | 62.89% | 52.63% | 49.70% |
-| 平局 | 29.41% | 30.53% | 28.84% |
-| 克罗地亚胜 | 20.62% | 22.73% | 21.46% |
+| Portugal胜 | 62.9% | 52.6% | 51.5% |
+| 平局 | 29.4% | 30.5% | 28.0% |
+| Croatia胜 | 20.6% | 22.7% | 20.5% |
 | **margin** | **12.92%** | **5.89%** | **100.0%** |
 
-> Devig 计算已剔除庄家利润率。当前官方体彩比欧赔均值**更强地压低葡萄牙、压缩平/客回报**；因此读盘时应优先参考 Devig 后公平概率，而不是直接把 1.59 视为“真实 63% 胜率”。
+> Devig 计算已剔除庄家利润率。上表“Devig后公平概率”为**竞彩官方盘（30%）+ 百家欧赔现盘（70%）**的综合基线；若再叠加本场“单场淘汰赛 draw inflation +4pp”先验，90分钟综合分布调整为 **Portugal 47.6% / 平局 32.0% / Croatia 20.4%**。
 
-### 1.3 中国竞彩市场结构验证（本场不触发正式先验）
+### 1.3 中国竞彩市场结构验证
 
-- 本场为**国家队 vs 国家队**，并非 `EPL vs 非EPL`，`CN market-structure prior` 的正式验证门槛**不适用**。
-- 若仅观察当前 Devig 差值（竞彩 - 欧赔）：**主 +6.0pp / 平 -2.8pp / 客 -3.2pp**，可见官方盘口确实更保守地压低葡萄牙。
-- 结论：这更像**热门方风险控制/大众队伍偏好**，可作为读盘注释，但**不能按技能规范把它记作正式 CN 先验生效**。
+- **正式 CN market-structure prior：不触发。** 该先验主要针对 EPL vs 非EPL，本场为国家队赛事，不满足主触发条件。
+- **但存在低置信度“人气队偏短”风险提示：** 体彩官方主胜 **1.59** 明显短于百家欧赔共识 **1.90**，说明 Ronaldo / Portugal 的名气盘成分偏重；因此**直接追主胜性价比偏低**，平局与 Croatia 不败方向更值得看价。
 
 ---
 
@@ -61,47 +60,49 @@
 
 | 媒体/机构 | 预测比分 | 倾向 | 预测依据 |
 |-----------|:--------:|------|---------|
-| FIFAWorldCupNews | 2-1 | 葡萄牙 | 认为葡萄牙整体质量、历史交锋与球星上限更高 |
-| Sports Mole（葡萄牙阵容预览） | — | 略倾葡萄牙 | 明确看好葡萄牙中场配置，预计 C罗先发，Dias 健康是隐忧 |
-| Croatia Week / CNA | — | 克罗地亚更偏“难输” | Dalić 多次强调紧凑/防守方案，Modrić 与 Gvardiol 都被预期能赶上比赛 |
+| Sports Mole | 2-1 | Portugal | 认可 Portugal 阵容深度与交锋优势，但认为比赛会很接近 |
+| RotoWire | 2-1 | Portugal | 看好 Portugal 边路速度与替补深度，但强调 Croatia 节奏控制能力 |
+| The Stats Zone | Croatia or Draw | Croatia不败 | 认为 Portugal 明星多但大赛执行力一般，Croatia 更像现代淘汰赛球队 |
+| DraftKings Network | 1-1（Portugal加时晋级） | 平局/Portugal晋级 | 明确写到公众投注偏 Portugal，但 90 分钟线不足以支持轻松赢球 |
 
-**媒体预测倾向：葡萄牙 Y，平局 Y，克罗地亚 N**
+**媒体预测倾向：Portugal 胜 2，平局 1，Croatia 不败 2（含双选）**
 
-> 可抓取的显性媒体预测更偏葡萄牙，但伤停与战术口径共同抬高了“平局不低”的市场叙事。
+### 2.2 球迷/舆论情绪分析
 
-### 2.2 球迷情绪分析
-
-**葡萄牙 球迷**
+**Portugal 舆论面**
 - 整体情绪：**谨慎乐观**
 - 关键论点：
-  - C罗“最后一届世界杯”叙事非常强，外界普遍把他视为精神核心与终结点。
-  - Vitinha / João Neves / Bruno Fernandes 这条中场线被多家预览视作葡萄牙最强资产。
-  - 阵容深度让人安心，名单争议主要集中在个别落选者，而非主力框架。
-- 担忧点：Rúben Dias 的健康、C罗年龄与高位逼抢强度之间的平衡。
+  - Nations League 夺冠后的阵容深度与中场控制力仍被广泛认可。
+  - Bruno Fernandes / Vitinha / João Neves 的中场技术含量，被视为 Portugal 最稳定的优势。
+  - Ronaldo 对 Uzbekistan 的两球让市场继续给出巨星溢价。
+- 担忧点：
+  - 对 DR Congo 仅做出 **0.65 xG**，对 Colombia 也被压制，说明面对中高强度对手时创造力并不稳定。
+  - 多家预览都提到“Roberto Martínez 是否过度坚持 Ronaldo 首发”的争议。
 
-**克罗地亚 球迷**
-- 整体情绪：**冷静但有韧性预期**
+**Croatia 舆论面**
+- 整体情绪：**冷静偏硬气**
 - 关键论点：
-  - Modrić 仍是情绪与节奏核心，CNA 与 Croatia Week 都强调他预计能以较好状态出战。
-  - Dalić 反复强调“更紧凑、更防守”的应对方案，舆情基调更像“先把比赛拖进细节局”。
-  - Gvardiol 回归与年轻中卫储备给了后场一定信心。
-- 担忧点：Modrić 术后恢复、Gvardiol 长伤后比赛锐度，以及锋线持续制造量能否稳定兑现。
+  - 2018 亚军 + 2022 四强的淘汰赛记忆，使 Croatia 继续被视作“很难真正打死”的队伍。
+  - Modrić 对 Ghana 的助攻、Perišić 与 Kovacic 的老将经验，支撑了“低节奏拖比赛”的叙事。
+  - Dalic 变阵回四后，球队在 Panama / Ghana 两战的稳定性有所恢复。
+- 担忧点：
+  - 对 England 丢了 4 球，防线在转换防守中的速度问题仍被反复提及。
+  - veteran core 连续作战后的体能上限，是外部舆论最常提的隐忧。
 
-**综合舆情情感评分：**
-- 葡萄牙 支持度：7.4/10
-- 克罗地亚 支持度：6.9/10
-- 中立观点比例：约 36%
+**综合舆情情感评分（基于公开媒体/预览，不是社媒抓量）**
+- Portugal 支持度：**6.8/10**
+- Croatia 支持度：**6.4/10**
+- 中立/谨慎观点比例：**偏高**（多家预览认为 90 分钟不会轻松分胜负）
 
 ### 2.3 社交媒体热度
 
-| 平台 | 葡萄牙 相关讨论量 | 克罗地亚 相关讨论量 | 热点话题 |
+| 平台 | Portugal 相关讨论量 | Croatia 相关讨论量 | 热点话题 |
 |------|:------------------:|:------------------:|----------|
-| Twitter/X | not covered | not covered | C罗最后一届世界杯、Dias 健康 |
-| Reddit | blocked/not covered | blocked/not covered | 年龄结构、是否拖入低节奏 |
-| 微博 | not covered | not covered | 葡萄牙热门热度是否过高 |
-| 虎扑/懂球帝 | not covered | not covered | Modrić 状态、Gvardiol 复出、葡萄牙中场优势 |
+| Google News / 公开媒体 | 未做统一计量 | 未做统一计量 | Ronaldo vs Modrić “最后一舞”、Portugal 进入 tougher bracket、Croatia knockout DNA |
+| Reddit | 不可稳定抓取 | 不可稳定抓取 | 无可靠计量，不纳入定量判断 |
+| 微博 / 虎扑 | 未抓到可审计样本 | 未抓到可审计样本 | 中国语境更集中在 Ronaldo 热度与 Portugal 名气盘 |
 
-> **中国市场特点：** 公开赔率层面，官方盘口对葡萄牙的压价明显强于百家欧赔；这更像热门队的大众资金承接，而不是对“轻松赢球”形成一致确认。
+> **中国市场特点：** Portugal 尤其是 Ronaldo 的受众基础明显大于 Croatia，这会放大“主胜看起来很顺”的表层叙事；但从欧赔/让球变化看，真实 90 分钟市场并没有同步强化 Portugal 轻松打穿。
 
 ---
 
@@ -110,65 +111,67 @@
 ### 3.1 球队近期状态
 
 **Portugal**
-- 战术风格：中场控球 + 边后卫推进 + C罗作为终结点/禁区支点。
-- 近期状态：公开可抓取内容更集中在世界杯名单与预计主力框架，整体呈现**主力结构稳定、强项明确**的态势。
-- 体能状况：⚠️中性偏优（深度更好，但 Dias 健康被反复提及）
-- 世界杯经验：✅优势
-- 中立场表现：更适合通过控球和节奏管理拿到比赛主导权。
+- 战术风格：以 Vitinha / João Neves / Bruno Fernandes 为中轴的控球推进，依赖边路速度和中场技术压制。
+- 近期状态：小组赛 **1胜2平**，对 Uzbekistan 打出 5-0，但对 DR Congo、Colombia 两场都暴露进攻停滞问题。
+- 体能状况：**✅略优**；公开报道没有新增伤病，轮换空间也更大。
+- 大赛经验：**✅优势**；主力普遍来自欧冠高强度环境，但 World Cup 淘汰赛转化率并非绝对稳定。
+- 场地因素：本场在 Toronto 中立场，**不计传统主场优势**。
 
 **Croatia**
-- 战术风格：中低位紧凑、防线保护、依赖 Modrić/Kovačić 的节奏转移与老将经验。
-- 近期状态：名单报道释放出**防守优先、先稳住比赛**的清晰口径，整体更偏“压缩空间、拖慢比赛”。
-- 体能状况：⚠️小幅劣势（Modrić、Gvardiol 都有恢复议题）
-- 世界杯经验：✅优势
-- 中立场表现：如果能守住前 60 分钟，比赛会越来越接近自己想要的低波动区间。
+- 战术风格：以 Modrić / Kovacic 控节奏，整体更偏紧凑、耐心、低失误，接受比赛变慢。
+- 近期状态：小组赛先负 England，再连胜 Panama、Ghana，以 **2胜1负** 进淘汰赛；走势比开局更稳。
+- 体能状况：**⚠️略劣**；无新增伤病，但 veteran core 连续高强度出战，后程体能上限不如 Portugal。
+- 大赛经验：**✅强项**；2018 决赛、2022 四强的 knockout memory 仍在。
+- 场地因素：同样是中立场，比赛节奏管理价值高于“主客场”概念。
 
 ### 3.2 关键球员动态
 
-| 球员 | 俱乐部 | 状态 | 影响 |
-|------|--------|------|------|
-| Cristiano Ronaldo | Al-Nassr | ✅确认 | 仍是葡萄牙终结点与更衣室核心；若状态在线，能把低机会比赛转成进球 |
-| Bruno Fernandes | Manchester United | ✅确认 | 前场最后一传、定位球与远射都是葡萄牙打开低位的重要工具 |
-| Rúben Dias | Manchester City | ⚠️待观察 | Sports Mole 明确提到健康担忧；若状态不足，葡萄牙回追与防空稳定性下降 |
-| Luka Modrić | AC Milan | ✅确认 | CNA 指出术后恢复积极、可能戴面罩；他在场时克罗地亚控节奏能力明显提升 |
-| Josko Gvardiol | Manchester City | ⚠️待观察 | Croatia Week/CNA 均称其预计赶上比赛，但长伤后的比赛锐度仍是变量 |
-| Andrej Kramarić / Ante Budimir | Hoffenheim / Osasuna | ✅确认 | 克罗地亚反击与二点终结的主要兑现点 |
+| 球员 | 球队 | 状态 | 影响 |
+|------|------|------|------|
+| Cristiano Ronaldo | Portugal | ✅可出战 | 对 Uzbekistan 进2球，但对强对手时非点球产出下降；既是终结点，也是节奏争议点 |
+| Bruno Fernandes | Portugal | ✅可出战 | Portugal 前场最稳定的组织与定位球来源，是决定上限的关键人 |
+| João Neves | Portugal | ✅预计回归首发 | 对 Colombia 轮休后，预计回到中场，有助 Portugal 提高逼抢与控节奏质量 |
+| Rúben Dias | Portugal | ✅无新增伤情 | 多个来源均指向可首发，能提升 Portugal 对 Budimir 的对抗稳定性 |
+| Luka Modrić | Croatia | ✅可出战 | 刚送出对 Ghana 的关键助攻；经验极强，但连续作战负荷大 |
+| Joško Gvardiol | Croatia | ✅预计回归 | Sports Mole / TSZ 都倾向他重新进入首发，对 Croatia 左路防守很关键 |
+| Petar Sučić / Nikola Vlašić | Croatia | ✅状态上行 | 前者刚进球，后者替补制胜，给 Croatia 提供第二波推进和终结点 |
 
 ### 3.3 战术 matchup 分析
 
 **核心矛盾：**
-1. 葡萄牙中场控制力（Vitinha / João Neves / Bruno）能否持续把比赛压在克罗地亚半场。
-2. 克罗地亚能否用更紧凑的 4-4-2/5后卫思路限制 C罗禁区触球与二次进攻。
-3. 当比赛进入 60 分钟后，老将体能与替补深度谁先掉线。
+1. **Portugal 边路速度 vs Croatia 转换防守**：Neto / Félix / Mendes 的冲击，是 England 打 Croatia 时最有效的破局模板。
+2. **Croatia 中场控节奏 vs Portugal 前场效率**：如果 Modrić / Kovacic 把比赛拖进低节奏、低回合，Portugal 会再次暴露“有控球、没穿透”的老问题。
+3. **Portugal 深度 vs Croatia 淘汰赛管理**：Portugal 更容易在 60 分钟后通过换人提速；Croatia 更擅长把对手拉进细节博弈。
 
 **风格克制：**
-- 葡萄牙怕的是“控得住、但撕不开”，这正是克罗地亚最希望制造的局面。
-- 克罗地亚怕的是边路被持续压迫、禁区落点被葡萄牙中前场反复二次回收。
+- Portugal 更强，但不天然克制 Croatia 的比赛管理能力。
+- Croatia 最怕被快速边路连续冲击；Portugal 最怕自己先失去耐心、把比赛踢成零碎消耗战。
 
 ### 3.4 历史交锋记录
 
 | 日期 | 赛事 | 主场 | 比分 | 客场 |
 |------|------|------|:----:|------|
-| 2024-11-18 | 欧国联 | 克罗地亚 | 1-1 | 葡萄牙 |
-| 2024-09-05 | 欧国联 | 葡萄牙 | 2-1 | 克罗地亚 |
-| 2024-06-08 | 国际友谊赛 | 葡萄牙 | 1-2 | 克罗地亚 |
-| 2020-11-17 | 欧国联 | 克罗地亚 | 2-3 | 葡萄牙 |
-| 2020-09-05 | 欧国联 | 葡萄牙 | 4-1 | 克罗地亚 |
+| 2024-11 | UEFA Nations League | Croatia | 1-1 | Portugal |
+| 2024-09 | UEFA Nations League | Portugal | 2-1 | Croatia |
+| 2024-06 | 友谊赛 | Portugal | 1-2 | Croatia |
+| 2016-06 | UEFA Euro 2016 | Croatia | 0-1（加时） | Portugal |
 
-**交锋记录：** 葡萄牙近 5 次对克罗地亚取得 **3胜1平1负**；若看公开汇总的全部 10 次交锋，葡萄牙为 **7胜2平1负**。历史面对面仍偏向葡萄牙，但最近一年克罗地亚已证明自己并非没有反制办法。
+**交锋记录：Portugal 近10战 Croatia 为 7胜2平1负，纸面历史优势明显。**
+
+> **决赛/淘汰赛降权说明：** 本场是中立场单场淘汰赛，且多数交锋来自友谊赛/欧国联/旧赛事语境；**H2H 只保留透明度，不作为主导因子**。
 
 ### 3.5 公开强度数据：ClubElo / xG / FIFA 排名
 
 | 球队 | 指标 | 数值 | 来源 | 新鲜度 | 解读 |
 |------|------|------|------|--------|------|
-| 葡萄牙 | ClubElo rating | N/A（国家队） | not applicable / national-team fixture | 当前 | ClubElo 为俱乐部体系，本场不适用 |
-| 克罗地亚 | ClubElo rating | N/A（国家队） | not applicable / national-team fixture | 当前 | 同上 |
-| 葡萄牙 | 世界排名 / 国家队 Elo | 世界排名 #8 / Elo 1764.86 | https://worldfootballrankings.com/country/POR | 2026-07-01 | 公共强度锚点明显高于克罗地亚，支持葡萄牙基本盘更强 |
-| 克罗地亚 | 世界排名 / 国家队 Elo | 世界排名 #13 / Elo 1723.05 | https://worldfootballrankings.com/country/CRO | 2026-07-01 | 仍属高质量强队，但纸面强度略逊葡萄牙 |
-| 葡萄牙 | xG / xGA / recent xG trend | not covered / blocked | FBref 403；PlayerStats 页面仅暴露 player-level xG 视图：https://playerstats.football/world-cup/portugal/xg | 当前 | 已实际调用但无法稳定拿到可审计的球队级 xG/xGA，不纳入硬信号 |
-| 克罗地亚 | xG / xGA / recent xG trend | not covered / blocked | FBref 403；PlayerStats 页面仅暴露 player-level xG 视图：https://playerstats.football/world-cup/croatia/xg | 当前 | 同上 |
+| Portugal | ClubElo rating | not covered | 国家队不适用 ClubElo | N/A | 此项对国家队比赛不适用 |
+| Croatia | ClubElo rating | not covered | 国家队不适用 ClubElo | N/A | 此项对国家队比赛不适用 |
+| Portugal | FIFA 排名 / 国家队 Elo | FIFA第5（1767.85）；Elo第7（1990） | FIFA / eloratings 公开页 | 2026-06 / 2026-07-01 | 公开强度锚点明显高于 Croatia |
+| Croatia | FIFA 排名 / 国家队 Elo | FIFA第15（1695.21）；Elo第13（1905） | FIFA / eloratings 公开页 | 2026-06 / 2026-07-01 | 仍属高水平国家队，但纸面强度落后 Portugal |
+| Portugal | xG / xGA / recent xG trend | not covered / blocked / paywalled | Understat未覆盖国家队；FBref公开检索受阻；PlayerStats仅锁定页 | N/A | 不纳入定量判断，避免伪精确 |
+| Croatia | xG / xGA / recent xG trend | not covered / blocked / paywalled | Understat未覆盖国家队；FBref公开检索受阻；PlayerStats仅锁定页 | N/A | 不纳入定量判断，避免伪精确 |
 
-> 仅引用公开覆盖数据；未能稳定抓到球队级 xG/xGA 时，按技能规范记为 `not covered / blocked`，不做估算。
+> 仅引用公开覆盖数据；本场国家队的强度锚点以 **FIFA 排名 / 国家队 Elo** 为主，xG 公开覆盖不足，因此不做估算。
 
 ---
 
@@ -176,48 +179,50 @@
 
 ### 4.1 各维度权重评估
 
-| 维度 | 葡萄牙得分 | 克罗地亚得分 | 说明 |
+| 维度 | Portugal得分 | Croatia得分 | 说明 |
 |------|:-----------:|:-----------:|------|
-| 阵容深度 | 8.2 | 7.2 | 葡萄牙可用高端资源更集中，替补冲击力更足 |
-| 体能状态 | 7.0 | 6.4 | 两队都有健康议题，但克罗地亚老将负担更重 |
-| 战术适配 | 7.6 | 7.4 | 葡萄牙控球更强，克罗地亚低波动应对也很清晰 |
-| 大赛经验 | 8.3 | 8.1 | 两队都不缺经验，差距不大 |
-| 攻防实力 | 8.0 | 7.2 | 纸面上下限仍是葡萄牙更高 |
-| 士气/动力 | 8.1 | 7.9 | C罗最后一届叙事很强；克罗地亚则更像“务实求生” |
-| 定位球 | 7.5 | 7.4 | 两队都有可靠主罚点和高点 |
-| 边路突破 | 8.0 | 6.9 | 葡萄牙边后卫/边锋推进明显占优 |
-| H2H | 7.4 | 6.6 | 历史面对面偏向葡萄牙，但只作低权重参考 |
+| 阵容深度 | 8.8 | 7.2 | Portugal 可换上的速度点和中场层次更多 |
+| 体能状态 | 7.4 | 6.7 | Portugal 无新增伤病，Croatia 老将群体连续作战负荷更大 |
+| 战术适配 | 7.3 | 7.2 | Portugal 有边路爆点；Croatia 有拖慢比赛的成熟办法 |
+| 大赛经验 | 7.8 | 8.3 | Croatia 近两届世界杯淘汰赛履历更硬 |
+| 攻防实力 | 7.8 | 7.1 | Portugal 纸面更强，但比赛兑现率有波动 |
+| 士气/动力 | 6.9 | 7.3 | Portugal 小组第二进入 tougher bracket；Croatia 连胜收尾更顺 |
+| 定位球 | 7.3 | 7.8 | Croatia 的 Modrić / Perišić 体系仍有威胁 |
+| 边路突破 | 8.2 | 6.6 | Portugal 在这一项优势最明显 |
+| H2H（≤5%） | 6.0 | 4.0 | Portugal 历史优势存在，但已按淘汰赛语境降权 |
 
 **加权综合评分：**
-- 葡萄牙：7.7/10
-- 克罗地亚：7.2/10
+- Portugal：**7.7/10**
+- Croatia：**7.2/10**
+
+> **先验说明：** 本场不是决赛，但经赛程元数据与多篇预览交叉确认，属于 **World Cup Round of 32 单场淘汰赛**，因此不适用“决赛 +5pp”，而是适用 **decisive knockout draw inflation +4pp** 的减弱版先验。
 
 ### 4.2 比分预测
 
 | 预测比分 | 概率 | 说明 |
 |----------|:----:|------|
-| 1-1 | 17% | 欧赔平局持续压低、克罗地亚的防守口径明确，最符合“低波动+防平”主线 |
-| 1-0 | 15% | 若葡萄牙先取得领先，比赛可能被压成低比分管理局 |
-| 2-1 | 14% | 对应葡萄牙纸面优势兑现，但仍是窄胜而非横扫 |
+| 1-1 | 16% | 淘汰赛 draw prior + 欧赔平局压低 + Croatia 节奏管理能力 |
+| 1-0 Portugal | 14% | Portugal 纸面更强，若早段破门可转成低比分控制局 |
+| 2-1 Portugal | 13% | 与官方比分市场和多家媒体预测一致，但已不是最高价值方向 |
 
 ### 4.3 竞彩推荐
 
 | 玩法 | 推荐选项 | 竞彩赔率 | 置信度 | 说明 |
 |------|---------|:--------:|:------:|------|
-| **胜平负 (SPDF)** | 平 | 3.40 | ⭐⭐⭐ | 价值最好，但只建议小注；逻辑来自**实际盘口漂移**而非决赛/淘汰赛先验 |
-| **让球胜平负** | 让平（葡萄牙 -1） | 3.25 | ⭐⭐⭐ | 若葡萄牙赢球，更像 1 球小胜结构；与 1-0 / 2-1 走廊一致 |
-| **总进球** | 2球 / 3球分散 | 3.50 / 3.50 | ⭐⭐⭐ | 官方总进球盘最高概率集中在 2-3 球 |
-| **比分** | 1-1 | 7.00 | ⭐⭐ | 对应平局主线与低总分结构 |
-| **半全场** | 平 / 平 | 5.60 | ⭐⭐ | 若克罗地亚前段守住，比赛容易拖入均势终盘 |
+| **胜平负 (SPDF)** | **平局** | **3.40** | **⭐⭐⭐⭐** | 90分钟价值最佳：官方主胜过短，欧赔持续压低平局，且淘汰赛 prior 明确抬升 draw |
+| **让球胜平负** | **让球负（Croatia +1）** | **2.05** | **⭐⭐⭐** | 市场更像在防 Portugal 不大胜；若 Portugal 仅赢1球，该玩法仍可不中，但与主胜直冲相比更能体现“打不穿”逻辑 |
+| **总进球** | **2球 / 3球分注** | **3.50 / 3.50** | **⭐⭐⭐** | 大小球不升盘，仅轻微偏大，最稳的仍是 2-3 球中枢 |
+| **比分** | **1-1** | **7.00** | **⭐⭐⭐** | 是 draw prior 与现时欧赔漂移后的最优单比分 |
+| **半全场** | **平 / 平** | **5.60** | **⭐⭐⭐** | 若 Croatia 成功把比赛拖慢，平-平是最自然的 90 分钟脚本 |
 
 ### 4.4 Kelly建议
 
-根据 Kelly 公式计算（以竞彩胜平负为基准，模型概率为 **主 49.5% / 平 30.5% / 客 20.0%**）：
-- **葡萄牙胜：** Edge **-21.3%**，Kelly Fraction **0.00%**
-- **平局：** Edge **+3.7%**，Kelly Fraction **0.77%**
-- **克罗地亚胜：** Edge **-3.0%**，Kelly Fraction **0.00%**
+根据 **Half-Kelly** 公式（非 Full Kelly）计算：
+- **Portugal胜：** Edge **-24.3%**，Half-Kelly **0.0%**
+- **平局：** Edge **+8.6%**，Half-Kelly **1.8%**
+- **Croatia胜：** Edge **-1.1%**，Half-Kelly **0.0%**
 
-> **Kelly建议：平局方向小注参与（0.5%~1.0% bankroll，Half-Kelly）。**
+> **Kelly建议：平局方向小注参与（1.5%–2.0% 资金）；若想降低波动，可把“2球/3球分注”作为辅助手段。**
 
 ---
 
@@ -225,55 +230,71 @@
 
 ### 核心判断
 
-1. **纸面实力仍是葡萄牙更强**，尤其在中场控制力、边路推进与阵容深度上占优。
-2. **真实盘口信号已不再支持“葡萄牙轻松拿下”**：百家欧赔连续压低平/客，说明市场在主动补防僵局与顽强受让一侧。
-3. **克罗地亚的价值不在主动压制，而在把比赛拖慢、拖细、拖向一球球权的细节局。**
-4. 本场价值逻辑来自**盘口漂移 + 低总球结构 + 克罗地亚的紧凑预期**，而**不是** Final-Match Prior；因为按用户给定前提，本场应视作世界杯小组赛。
+1. **这不是小组赛，而是 Round of 32 单场淘汰赛。** 因此正式不套用“决赛 +5pp”，但应套用 **decisive knockout draw inflation +4pp**。
+2. **Portugal 更强，但“90分钟轻松赢球”的市场信号在走弱。** 欧赔主胜漂高、平/客压低，和 -1 让球盘对 Portugal 大胜的犹豫是同步的。
+3. **Croatia 的最大武器不是纸面实力，而是把比赛拖进细节与耐心。** 这会天然抬升平局与低比分概率。
+4. **Portugal 若赢，更像 1 球小胜；最差赔率的位置恰好是官方主胜。** 所以价值不在“猜谁晋级”，而在“90 分钟主胜是否被高估”。
 
 ### 风险提示
 
-- ⚠️ 公开网页中有部分内容把本场标注为世界杯淘汰赛/16强，与你提供的“小组赛”身份存在冲突；本报告已按你的前提**不启用** Final-Match Prior。
-- ⚠️ Rúben Dias、Luka Modrić、Joško Gvardiol 的最终身体状态会直接改变比赛节奏与防线稳定性。
-- ⚠️ 公共 xG 数据未能稳定取得球队级口径，基本面中的强弱判断更多依赖阵容新闻与赔率结构。
-- ⚠️ 若临场首发显示葡萄牙大幅轮换、或克罗地亚放弃保守方案，平局价值会迅速下降。
+- ⚠️ Portugal 的边路速度和替补深度一旦早早兑现，比赛可能迅速偏离 draw 脚本。
+- ⚠️ Croatia 的 veteran core 如果体能在 60 分钟后明显下滑，后场转换防守会承受巨大压力。
+- ⚠️ Ronaldo / Bruno Fernandes 这类顶级个体的定位球或瞬时终结能力，会让低比分盘在短时间内被打穿。
+- ⚠️ 本场公开 xG 覆盖不足，无法用统一口径的公开质量机会数据去校正“观感 vs 实际表现”。
 
 ### 最终结论
 
-**最可能的结果：1-1（低比分平局）；若分胜负则更偏葡萄牙一球小胜**
+**最可能的结果：90分钟 1-1，Portugal 在120分钟维度仍略有晋级优势。**
 
-**竞彩最优价值：胜平负 平 3.40（小注，Half-Kelly 0.77%）**
+**竞彩最优价值：胜平负 平局 3.40。**
 
 ---
 
 ## 应用的先验清单 (Applied Priors Check)
 
-> 必须在报告末尾显式列出，便于审计推理路径。
+Applied priors check:
+- **[Y] Final-Match Prior (decisive match → draw +3~6pp)**：本场非决赛，但经赛程与预览交叉确认属于单场淘汰赛，采用 reduced knockout 版本 **+4pp draw**，不是 final 版 +5pp。
+- **[Y] Fatigue × Motivation offset**：Portugal 阵容更深、伤病更少；Croatia 连胜收尾、淘汰赛心理更硬，体能与士气互相对冲。
+- **[Y] H2H discount for finals**：本场为中立场淘汰赛，历史交锋保留透明度但只给低权重，不让 7胜2平1负直接主导结论。
+- **[N] CN market structure (EPL bias)**：非 EPL vs 非EPL，不满足正式触发；仅保留“Portugal/Ronaldo 人气盘或压短主胜”的风险注释。
+- **[Y] Volume signal (升/降盘)**：欧赔主胜漂高、平/客压低；-1 让球盘对 Portugal 大胜更谨慎；大小球不升盘仅轻微偏大。
+- **[Y] Devig per market**：已覆盖 1X2、让球胜平负、总进球、比分、半全场的公平概率/结构判断。
+- **[Y] Half-Kelly computed**：1X2 中仅平局为正 Edge（+8.6%），Half-Kelly 1.8%。
 
-- **[N] Final-Match Prior**：按用户给定条件，本场视作世界杯小组赛、非决赛/淘汰赛；即便公开网页存在阶段冲突，本报告仍不启用 draw inflation。
-- **[Y] Fatigue × Motivation 对冲**：葡萄牙阵容深度与中场活力更优；克罗地亚则靠 Modrić 领衔的经验、求稳心态与防守执行来对冲。
-- **[N] H2H discount for finals**：本场不属于决赛/单场决战先验场景，未启用该先验。
-- **[N] CN market structure**：正式先验仅适用于 EPL vs 非EPL；本场为国家队对决，只保留“热门压价”注释，不记作先验生效。
-- **[Y] Volume signal**：已结合欧赔主胜漂移、平/客压低、亚盘半球升半一、大小球高水转低水进行解读。
-- **[Y] Devig per market**：覆盖市场：1X2（官方/欧赔）、让球胜平负、总进球、半全场；比分盘用于校验窄胜/平局走廊。
-- **[Y] Half-Kelly applied**：平局 Edge +3.7%，Half-Kelly 0.77%；其余两项为负 Edge，不下注。
+Evidence gates check:
+- **[Y] Web-research evidence collected (run_research; ≥2 converging sources OR all-blocked fallback explicitly declared)**：已收集 Sports Mole、RotoWire、The Stats Zone、DraftKings Network、Times of India、Croatia Week 等多源交叉证据。
+- **[N] ClubElo public rating checked (intent: "club-elo"; source URL or unavailable reason)**：国家队不适用 ClubElo；该 intent 未返回可用 national-team ClubElo 数值。
+- **[Y] xG public data checked (intent: "xg"; source URL or unavailable reason)**：已检查 Understat / FBref / PlayerStats；结论为 **not covered / blocked / paywalled**，因此未估算。
+- **[N] Estimated odds present (must be marked with 估算)**：无；本报告所有赔率均来自实时工具拉取。
 
 ### Public Data Signals Check
 
-- [N] ClubElo public rating checked：not covered（国家队不适用）；已尝试 `http://api.clubelo.com/Portugal`、`http://api.clubelo.com/Croatia`，`intent: club-elo` 最终仅返回国家队 Elo/排名线索，非 ClubElo 俱乐部评分。
-- [Y] xG public data checked：已调用 `intent: xg`；FBref 页面 403，PlayerStats 仅提供 player-level xG 视图（https://playerstats.football/world-cup/portugal/xg；https://playerstats.football/world-cup/croatia/xg），球队级 xG/xGA 记为 `not covered / blocked`。
+- **[N] ClubElo public rating checked**：unavailable — not covered for national teams; attempted http://api.clubelo.com/Portugal and http://api.clubelo.com/Croatia
+- **[N] xG public data checked**：unavailable — not covered / blocked / paywalled; attempted https://understat.com/team/Portugal , https://understat.com/team/Croatia , https://fbref.com/en/search/search.fcgi?search=Portugal , https://fbref.com/en/search/search.fcgi?search=Croatia
 
-**估算赔率统计**：0 / 29
+**估算赔率统计**：**0 / 26**
+**整体置信度**：**Medium**（赔率真实，但国家队 xG 公开覆盖不足，且“Portugal 强但不稳穿”的市场信号存在分歧）
 
-**整体置信度**：Medium（赔率为真实抓取，但赛事阶段公开信息冲突、球队级 xG 未覆盖）
+Confidence: Medium
 
----
+## 数据来源
 
-*报告生成时间：2026-07-01T00:37:38.945Z*
-*数据截止：2026-07-01T00:37:38.945Z*
-*数据来源：*
-- *Tier 1（赔率）：https://www.500.com/static/public/jczq/xml/odds/odds.xml ；https://odds.500.com/fenxi/ouzhi-1359187.shtml ；https://odds.500.com/fenxi/yazhi-1359187.shtml ；https://odds.500.com/fenxi/daxiao-1359187.shtml ；https://odds.500.com/fenxi/rangqiu-1359187.shtml*
-- *Tier 2（阵容/伤停）：https://www.sportsmole.co.uk/football/portugal/world-cup/feature/portugal-world-cup-squad-full-list-predicted-lineup-depth-chart-latest-news_597366.html ；https://theportugalpost.com/posts/ronaldo-leads-portugals-27-player-world-cup-squad-into-final-campaign ；https://www.croatiaweek.com/croatia-squad-2026-world-cup/ ；https://www.croatiaweek.com/croatia-2026-world-cup-squad-zlatko-dalic/ ；https://www.channelnewsasia.com/sport/modric-included-in-croatias-preliminary-world-cup-squad-after-cheekbone-surgery-6128836 ；https://www.sportsmole.co.uk/football/croatia/world-cup-2026/team-news/croatia-vs-ghana-injury-suspension-list-predicted-xis--world-cup-2026_600079.html*
-- *Tier 3（交锋/强度）：https://www.sportsmole.co.uk/football/portugal/world-cup-2026/head-to-head/portugal-vs-croatia-head-to-head-record-and-past-meetings_600434.html ；https://www.fifaworldcupnews.com/portugal-vs-croatia-h2h-history/ ；https://worldfootballrankings.com/country/POR ；https://worldfootballrankings.com/country/CRO ；https://playerstats.football/world-cup/portugal/xg ；https://playerstats.football/world-cup/croatia/xg*
-*推理依据：LLM qualitative match-analysis methodology v0.1*
+- **Tier 1（赔率）**：官方中国体彩周四084盘口；500.com 百家欧赔/让球摘要（含 https://odds.500.com/fenxi/rangqiu-1359187.shtml 对应摘要页）；同场澳门现盘摘要。
+- **Tier 2（赛前预览/伤停/战术）**：
+  - https://www.sportsmole.co.uk/football/portugal/world-cup-2026/preview/portugal-vs-croatia-prediction-team-news-lineups_600433.html
+  - https://www.rotowire.com/soccer/article/portugal-vs-croatia-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120534
+  - https://www.thestatszone.com/portugal-vs-croatia-preview-team-news-prediction-fifa-world-cup-2026-round-of-32-203511
+  - https://www.sportsmole.co.uk/football/portugal/world-cup/team-news/portugal-vs-uzbekistan-injury-suspension-list-predicted-xis_599766.html
+  - https://www.sportsmole.co.uk/football/croatia/world-cup-2026/team-news/croatia-vs-ghana-injury-suspension-list-predicted-xis--world-cup-2026_600079.html
+  - https://timesofindia.indiatimes.com/sports/international-sports/beyond-the-game/fifa-2026-world-cup-updates-full-list-of-confirmed-players-from-portugal-predicted-starting-xi-injury-status-and-more/articleshow/131543684.cms
+  - https://www.croatiaweek.com/croatia-2026-world-cup-squad-zlatko-dalic/
+- **Tier 3（交锋/舆情/公开强度）**：
+  - https://www.sportsmole.co.uk/football/portugal/world-cup-2026/head-to-head/portugal-vs-croatia-head-to-head-record-and-past-meetings_600434.html
+  - https://dknetwork.draftkings.com/2026/06/28/opening-odds-for-portugal-vs-croatia-in-the-2026-fifa-world-cup-round-of-32/
+  - https://capeargus.co.za/fifa-world-cup-2026/updates/2026-07-01-cristiano-ronaldo-and-luka-modric-prepare-for-historic-over-40-world-cup-clash-amid-form-questions/
+  - https://www.fifa.com/en/world-rankings
+  - https://www.eloratings.net/2026_World_Cup
+  - Tier 2 (ClubElo intent): ❌ not covered http://api.clubelo.com/Portugal ; http://api.clubelo.com/Croatia
+  - Tier 2 (xG intent): ❌ not covered / blocked https://understat.com/team/Portugal ; https://understat.com/team/Croatia ; https://fbref.com/en/search/search.fcgi?search=Portugal ; https://fbref.com/en/search/search.fcgi?search=Croatia
 
-<!-- probs: {"home": 0.495, "draw": 0.305, "away": 0.200} -->
+<!-- probs: {"home": 0.48, "away": 0.20, "draw": 0.32} -->

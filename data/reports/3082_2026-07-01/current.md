@@ -1,17 +1,16 @@
-> 生成时间：2026-07-01T00:37:38.945Z
-
-# 世界杯分析报告：美国 VS 波黑
+> 生成时间：2026-07-01T12:56:06.399Z
+# FIFA World Cup 2026 分析报告：United States VS Bosnia and Herzegovina
 
 ## 基本信息
 
 | 项目 | 详情 |
 |------|------|
-| **赛事** | 2026 FIFA 世界杯 小组赛 |
-| **对阵** | United States (美国) VS Bosnia and Herzegovina (波黑) |
+| **赛事** | FIFA World Cup 2026 世界杯 1/16 决赛 |
+| **对阵** | United States VS Bosnia and Herzegovina |
 | **竞彩编号** | 周三082 / 3082 |
-| **开球时间** | 2026-07-02T08:00:00+08:00 (北京时间) |
-| **比赛地点** | 美国（公开抓取源未稳定给出同一球场，未在报告中强行指定） |
-| **比赛性质** | 按任务口径为小组赛；东道主美国主场环境占优，90分钟胜平负结算 |
+| **开球时间** | 2026-07-02 08:00 (北京时间) |
+| **比赛地点** | San Francisco Bay Area Stadium（Santa Clara） |
+| **比赛性质** | 单场淘汰赛；竞彩胜平负按90分钟结算，加时/点球只影响晋级不影响SPDF |
 
 ---
 
@@ -19,35 +18,37 @@
 
 ### 1.1 主流机构初盘与即时盘对比
 
-> **数据来源说明：** 官方竞彩盘口来自 `china-football-odds.get_match_markets/get_odds_timeline`；百家欧赔、亚盘、大小球来自 `get_match_fenxi` 汇总与公司原始盘。体彩“初盘”列采用首个可见历史快照代替开售初盘。
+> **数据来源说明：** 本节使用中国体彩官方盘口、500.com 百家欧赔/让球摘要及澳门第二意见，均为本次会话内实时抓取到的非估算数据。
 
 | 玩法 | 机构 | 初盘 (主) | 初盘 (平) | 初盘 (客) | 即时盘 (主) | 即时盘 (平) | 即时盘 (客) | 变化方向 |
 |------|------|:---------:|:--------:|:---------:|:----------:|:-----------:|:----------:|:--------:|
-| **1X2 (欧赔)** | Bet365 | 1.40 | 5.00 | 7.50 | 1.53 | 4.10 | 6.50 | 主胜漂高，平/客压低 |
-| **1X2 (欧赔)** | Pinnacle | 1.38 | 4.92 | 8.84 | 1.55 | 4.23 | 6.24 | 主胜漂高更明显，分流向平/客 |
-| **1X2 (欧赔)** | William Hill | 1.36 | 4.50 | 7.50 | 1.55 | 3.90 | 6.00 | 早盘过热主胜，后市回补冷门端 |
-| **亚盘** | Bet365 | 0.90 (-1) | — | 0.95 (-1) | 0.88 (-1.25) | — | 0.98 (-1.25) | 让步加深到 -1.25，仍要求美国赢两球才顺盘 |
-| **大小球** | Bet365 | 0.91 (2.5) | — | 0.91 (2.5) | 1.00 (2.5/3) | — | 0.85 (2.5/3) | 总进球中枢上抬，市场承认进球预期变高 |
-| **竞彩胜平负** | 中国体彩 | 1.27 | 4.50 | 8.40 | 1.26 | 4.55 | 8.60 | 仅小幅强化主胜，明显稳于欧赔市场 |
+| **1X2 (欧赔)** | 30家公司共识 | 1.40 | 4.80 | 8.00 | 1.53 | 4.10 | 6.25 | 主胜漂高，平/客压低 |
+| **1X2 (欧赔)** | 澳门 | 1.28 | 4.85 | 8.00 | 1.45 | 3.93 | 5.80 | 主胜放长，平/客同步压低 |
+| **竞彩胜平负** | 中国体彩 | 1.22 | 4.91 | 9.40 | 1.22 | 4.91 | 9.40 | 采样窗口内未动，当前线可视作基线 |
+| **让球胜平负 (-1)** | 中国体彩 | 1.80 | 3.72 | 3.28 | 1.77 | 3.75 | 3.36 | 官方微向主队穿盘倾斜 |
+| **让球胜平负 (-1)** | 16家公司共识 | 2.06 | 3.58 | 2.99 | 2.50 | 3.48 | 2.39 | 主胜穿盘信心下降，客+1受捧 |
+| **亚盘** | 16家公司共识 | United States -1 | — | — | United States -1.25 | — | — | 盘口加深，基础强弱仍偏向主队 |
+| **总进球** | 中国体彩 | — | 2球 3.85 / 3球 3.45 | — | — | 2球 3.65 / 3球 3.25 | — | 2-3球区间压低 |
+| **半全场** | 中国体彩 | 半胜全胜 1.80 | 半平全平 6.75 | 半负全胜 27.00 | 半胜全胜 1.75 | 半平全平 7.40 | 半负全胜 23.00 | 早段主导预期增强 |
 
 **赔率变化趋势解读：**
 
-1. **百家欧赔从“美国强势热门”回摆到“美国仍优但平/客更有生存空间”**：30家公司一致把主胜从 1.38 左右抬到 1.53 左右，同时把平局从 4.78 压到 4.10、客胜从 8.40 压到 6.25。含义不是直接看空美国赢球，而是资金不再相信“东道主轻松打穿”。
-2. **让球胜平负与欧赔共振，重点落在“美国赢，但未必赢两球”**：官方 -1 让球下，让胜 1.90→1.90 附近、让负端在百家公司从 3.00 附近压到 2.39，共识是美国仍是晋级/拿分一方，但两球净胜空间被明显压缩。
-3. **亚盘与三项让球给出“强弱存在、分差收敛”的组合信号**：亚洲盘从 -1 升到 -1.25，说明基础实力面仍支持美国；但三项让球里“让负”被持续买短，说明市场更偏向美国 1 球小胜、平局，或主胜但不穿深盘。
-4. **大小球不是降温，而是温和上修**：Bet365 把 2.5 抬到 2.5/3，澳门/威廉希尔虽未升线但都压低大球水位，表明市场认为双方都有制造进球的条件，尤其美国比赛节奏更开放。
-5. **体彩与百家欧赔存在显著跨源分歧**：体彩当前主胜 Devig 后仍给到 70.3%，而欧赔共识仅 61.8%；也就是说，竞彩端对东道主主胜的定价明显更短，对平/客定价更长。
+1. **1X2 主盘的核心变化不是“United States 不被看好”，而是“市场不再接受极端一边倒”。** 30家公司共识从 1.40/4.80/8.00 走到 1.53/4.10/6.25，Devig 后 United States 胜率从开盘更高位置回落到 61.8%，平局与 Bosnia and Herzegovina 胜率同步上修，意味着资金更愿意布局“United States 90分钟不轻松”。
+2. **让球盘出现分化：亚洲让盘从 United States -1 加深到 -1.25，但固定 -1 让球胜平负共识反而明显转向 Bosnia and Herzegovina 一侧。** 这说明市场承认 United States 整体实力更强，但对其“净胜2球以上”的信心下降，更偏向“一球小胜或被拖平”的脚本。
+3. **总进球没有升盘，但价格往 2-3 球集中。** 官方总进球里 2球从 3.85 压到 3.65、3球从 3.45 压到 3.25；澳门大小球线维持 2.5，但 over 价格从 0.89 压到 0.81，说明市场更倾向比赛有进球，但不是放飞到大开大合，更像 2-1、1-1、2-0 这一带。
+4. **比分盘与半全场盘一起指向“United States 有先手，但 Bosnia and Herzegovina 有拖住比赛的能力”。** 官方比分最高热度仍在 2:0、2:1、1:0，但 1:1 维持低位；半全场里“半胜全胜”压低，而欧赔主盘却同步给了平/客更强支撑，组合解读就是：United States 可能开局更主动，但 90 分钟净胜空间未被市场完全买单。
+5. **官方胜平负静止、欧赔共识持续修正，是本场最值得利用的信息差。** 当体彩 1.22 / 4.91 / 9.40 基本不动，而百家共识持续把平局与 Bosnia and Herzegovina 一侧压短时，SPDF 的平局和受让侧就自然获得了赔率价值空间。
 
 ### 1.2 隐含概率换算
 
 | 结果 | 竞彩隐含概率 | 欧赔均值隐含概率 | Devig后公平概率 |
 |------|:-----------:|:--------------:|:---------------:|
-| 美国胜 | 79.4% | 65.4% | 66.0%（体彩/欧赔等权合成） |
-| 平局 | 22.0% | 24.4% | 21.8%（体彩/欧赔等权合成） |
-| 波黑胜 | 11.6% | 16.0% | 12.7%（体彩/欧赔等权合成） |
-| **margin** | **112.97%** | **105.76%** | **100.0%** |
+| United States胜 | 81.97% | 65.36% | 61.80% |
+| 平局 | 20.37% | 24.39% | 23.06% |
+| Bosnia and Herzegovina胜 | 10.64% | 16.01% | 15.14% |
+| **margin** | **12.97%** | **5.76%** | **100.0%** |
 
-> Devig 计算已剔除庄家利润率。若只看最新百家欧赔，公平概率约为 **61.8% / 23.1% / 15.1%**；若只看竞彩官方，则是 **70.3% / 19.5% / 10.3%**。两者的核心分歧是：**竞彩显著压低了平/客价格**。
+> Devig 计算已剔除庄家利润率。体彩对 United States 的定价比百家共识高出 **+10.76pp**，对平局和 Bosnia and Herzegovina 分别低估 **-5.03pp / -5.72pp**；这也是为什么本场“主胜最稳”不等于“主胜最有投注价值”。
 
 ---
 
@@ -57,45 +58,47 @@
 
 | 媒体/机构 | 预测比分 | 倾向 | 预测依据 |
 |-----------|:--------:|------|---------|
-| Sports Illustrated（美国） | 未给出 | 美国不败、但防线有隐忧 | Chris Richards 赛前热身赛被明确排除，Pochettino强调不会冒险使用未完全恢复球员 |
-| Yahoo Sports / AP | 未给出 | 美国阵容完整度回升 | Dest、Tyler Adams、Haji Wright 回归 26 人名单；Cardoso、Agyemang 缺阵 |
-| AS USA | 未给出 | 美国进攻上限在，但伤病需要赛前确认 | Pulisic 一度背部/大腿不适；Cardoso 脚踝手术出局；Tessmann 基本出局 |
-| Sports Mole（波黑） | 未给出 | 波黑有顽强性，但后防不稳 | Kolasinac 有过受伤疑问，Nidal Celik 训练受伤退出，阵容更依赖老将骨干 |
-| beIN Sports / 101GreatGoals（波黑） | 未给出 | 波黑依赖 Džeko 牵制与反击效率 | Džeko 仍是战术支点；后场轮换与停赛/伤情使防线稳定性承压 |
+| Al Jazeera（引述 Opta） | 未给单一比分 | 明显偏 United States，但保留平局空间 | Opta 超算：United States 胜 67.5%，平 18.3%，Bosnia and Herzegovina 胜 14.3%；同时强调 Bosnia and Herzegovina 的身体对抗与定位球威胁 |
+| The Stats Zone | United States 胜 & under 3.5 goals | 偏 United States 小胜 | 认为 United States 回归主力、Bosnia and Herzegovina 很难被轻易打穿，比赛可能“更别扭、更胶着” |
+| 官方预览口径（通过公开聚合检索） | 未给单一比分 | 偏 United States | 关注点集中在 Pulisic 回归、United States 主场压力、Bosnia and Herzegovina 首次世界杯淘汰赛经验不足 |
 
-**媒体预测倾向：美国胜 2/N，平局 1/N，波黑胜 0/N**
+**媒体预测倾向：United States 明显占优，平局有防范，Bosnia and Herzegovina 爆冷概率被保留但不是主流。**
 
 ### 2.2 球迷情绪分析
 
-**美国球迷**
-- 整体情绪：**谨慎乐观**
+**United States**
+- 整体情绪：谨慎乐观。
 - 关键论点：
-  - 主场+东道主环境仍被视为最大优势。
-  - Pulisic、Adams、Dest 等核心可用，纸面上限仍高于对手。
-- 担忧点：中后场伤病与状态波动，尤其是 Chris Richards 的可用性和中路保护。
+  - 小组赛前两战表现足够强势，回到主力阵容后硬实力仍在 Bosnia and Herzegovina 之上。
+  - Pulisic 回归、Balogun 状态在线，主场氛围是明确加分项。
+- 担忧点：
+  - 对 European opposition 的世界杯淘汰赛心理门槛仍是讨论重点。
+  - 若比赛被 Bosnia and Herzegovina 拖入大量对抗与定位球回合，United States 的控场未必舒服。
 
-**波黑球迷**
-- 整体情绪：**低位期待、偏向爆冷叙事**
+**Bosnia and Herzegovina**
+- 整体情绪：高亢但务实。
 - 关键论点：
-  - Džeko 的支点作用与球队反击效率仍被认为有偷袭空间。
-  - 市场在后期明显不再支持美国大胜，给了波黑心理上的“可咬住比赛”信号。
-- 担忧点：后防线健康度、整体控场能力，以及 xG 层面长期落后于进球产出的可持续性。
+  - 首次打进世界杯淘汰赛，本身已处于“零包袱”状态。
+  - 身高、定位球、双前锋冲击与反击推进，被视为制造麻烦的主要武器。
+- 担忧点：
+  - 防线稳定性仍是最大软肋；本届杯赛尚未完成零封。
+  - 若 United States 早早领先，Bosnia and Herzegovina 被迫压上后，身后空间会明显暴露。
 
-**综合舆情情感评分：**
-- 美国支持度：6.8/10
-- 波黑支持度：5.7/10
+**综合舆情情感评分（基于公开预览口径的定性换算）：**
+- United States 支持度：7.8/10
+- Bosnia and Herzegovina 支持度：7.1/10
 - 中立观点比例：约 35%
 
 ### 2.3 社交媒体热度
 
-| 平台 | 美国 相关讨论量 | 波黑 相关讨论量 | 热点话题 |
+| 平台 | United States 相关讨论量 | Bosnia and Herzegovina 相关讨论量 | 热点话题 |
 |------|:------------------:|:------------------:|----------|
-| Twitter/X | not covered | not covered | 未直接抓取平台级热度数据 |
-| Reddit | blocked/not covered | blocked/not covered | 未取得可稳定引用样本 |
-| 微博 | not covered | not covered | 未直接抓取中文平台讨论量 |
-| 虎扑/懂球帝 | not covered | not covered | 仅可从竞彩价差侧面观察主队热度 |
+| Twitter/X | 未独立采样 | 未独立采样 | Pulisic 回归、United States 主场压力 |
+| Reddit | 未独立采样 | 未独立采样 | Bosnia and Herzegovina 首次淘汰赛、冷门可能 |
+| 微博 | 未独立采样 | 未独立采样 | United States 是否能轻松过关 |
+| 虎扑/懂球帝 | 未独立采样 | 未独立采样 | 让球盘 Bosnia and Herzegovina 受捧 |
 
-> **中国市场特点：** 本场并非 EPL 俱乐部对阵，不触发正式的 CN 市场结构先验；但**体彩明显比百家欧赔更压美国主胜**，说明东道主热度确实在中国销售端被放大了。
+> **中国市场特点：** 这不是 EPL 对非 EPL 的典型 CN 市场结构场景，但从赔率响应看，中国官方盘对 United States 的保护明显强于百家欧赔，因此中国竞彩玩家若只看“主胜稳胆”容易忽视 90 分钟平局价值。
 
 ---
 
@@ -104,66 +107,67 @@
 ### 3.1 球队近期状态
 
 **United States**
-- 战术风格：更强调边路推进、压迫后的二次进攻和主场提速。
-- 近期状态：公开 xG 追踪显示小组阶段 8 球来自 4.63 xG，进攻转化率高；但 4.00 失球接近 3.94 xGA，防守并不牢固。
-- 体能状况：⚠️ 有隐患
-- 世界杯经验：✅ 主场环境加成明显
-- 主场表现：东道主氛围强，盘口与媒体都默认其基础盘更高。
+- 战术风格：以 4-2-3-1 / 4-3-3 为主，强调边后卫前插、前场压迫与 Pulisic/Balogun 的纵向推进。
+- 近期状态：小组赛 4-1 Paraguay、2-0 Australia，末轮在大幅轮换下 2-3 Turkiye；基本面仍偏正面。
+- 体能状况：✅优势。上一场主动轮换，让主力回归淘汰赛时更完整。
+- 世界杯经验：✅优势。连续多届能打进淘汰赛，比赛管理经验强于 Bosnia and Herzegovina。
+- 主场表现：✅优势。Santa Clara 的主场氛围和熟悉环境对 United States 有真实加成。
 
 **Bosnia and Herzegovina**
-- 战术风格：更依赖中锋支点、直传反击与定位球二点。
-- 近期状态：小组阶段 5 球仅来自 1.87 xG，终结效率远超底层机会质量；同时 6 个失球对应 4.06 xGA，后场承压明显。
-- 体能状况：⚠️ 有隐患
-- 世界杯经验：⚠️ 赛事样本有限，更依赖个别老将带节奏
-- 客场表现：若被迫长期退防，防线横向保护和二防守点容易暴露。
+- 战术风格：更偏务实，重身体对抗、边路传中、定位球和双前锋牵制。
+- 近期状态：1-1 Canada、1-4 Switzerland、3-1 Qatar，以最佳第三名之一进入淘汰赛。
+- 体能状况：⚠️略劣。淘汰赛经验不足，连续高强度对抗对其阵型稳定性是考验。
+- 世界杯经验：⚠️劣势。首次进入世界杯淘汰赛，心理与节奏处理都未经高压验证。
+- 客场/中立场表现：中性偏弱。具备制造对抗的能力，但一旦被迫提速，防线完整度会下降。
 
 ### 3.2 关键球员动态
 
-| 球员 | 俱乐部 | 状态 | 影响 |
+| 球员 | 所属球队 | 状态 | 影响 |
 |------|--------|------|------|
-| Christian Pulisic | AC Milan | ⚠️ 赛前一度有背部/大腿不适，但已入选最终名单 | 决定美国边路爆点和反击上限 |
-| Chris Richards | Crystal Palace | ⚠️ 赛前热身赛被明确排除，脚踝情况待评估 | 若无法首发，美国中卫稳定性下降 |
-| Johnny Cardoso | Atlético Madrid | ❌ 脚踝手术，无缘本阶段 | 美国中场拦截与出球硬度下降 |
-| Sergiño Dest / Tyler Adams | PSV / Bournemouth | ✅ 回归最终名单 | 提升美国边路推进与中场覆盖 |
-| Edin Džeko | Fenerbahçe | ✅ 核心 | 波黑前场支点、定位球第一威胁 |
-| Sead Kolašinac | Atalanta | ⚠️ 公开稿件提到有伤情观察窗口 | 若状态不满，波黑左路与防空都会受损 |
-
-> 注：波黑部分个体状态主要来自前序比赛公开稿件，赛前首发仍需以最终官宣名单为准。
+| Christian Pulisic | United States | ✅确认可出战 | 小腿伤情已明显缓解；回归首发会直接提升 United States 的持球推进、定位球与终结质量 |
+| Folarin Balogun | United States | ✅确认 | 小组赛已有进球产出，是 United States 把优势转化为比分的关键点 |
+| Mark McKenzie | United States | ⚠️待定/接近可用 | 媒体口径仍提到晚间体测；若缺阵会削弱 United States 的高空防守与回追能力 |
+| Auston Trusty | United States | ⚠️待定 | 若无法出战，会进一步增加 United States 防线轮换压力 |
+| Amar Dedic | Bosnia and Herzegovina | ⚠️轻伤待定 | 作为边路推进与传中点，一旦状态不足，Bosnia and Herzegovina 的反击质量会下降 |
+| Tarek Muharemovic | Bosnia and Herzegovina | ✅回归 | 结束停赛/重新可用后，能提升 Bosnia and Herzegovina 后场对抗与防空硬度 |
+| Edin Dzeko | Bosnia and Herzegovina | ✅确认 | 经验、支点与定位球终结仍是 Bosnia and Herzegovina 最重要的上限因子 |
 
 ### 3.3 战术 matchup 分析
 
 **核心矛盾：**
-1. 美国边路推进速度，能否持续冲击波黑三中卫/边翼卫身后空间。
-2. 波黑在低控球下的反击质量，能否通过 Džeko 的做墙与二点球制造高价值机会。
-3. 美国如果缺少最稳的中卫组合，面对波黑定位球和传中时是否会出现单点失守。
+1. United States 的边路速度与前场压迫，能否持续压制 Bosnia and Herzegovina 的三中卫/低位回撤。
+2. Bosnia and Herzegovina 的身高、定位球与双前锋支点，能否把比赛拖入碎片化和 second-ball 对抗。
+3. 如果 United States 早段不能建立领先，主场预期会不会反过来制造急躁感。
 
 **风格克制：**
-- 美国的上限明显更高，但后场并非无缝；这也是欧赔后市压低平/客的根本原因。
-- 波黑的底层 xG 并不强，若早段被美国持续压住，其反击可持续性会下降。
-- 美国若先入球，比赛会更接近 1-0 / 2-0；若久攻不下，平局风险会迅速抬升。
+- United States 最舒服的是持续高位拿球、把比赛打成边后卫与前腰联动；而 Bosnia and Herzegovina 最想看到的是比赛被切碎、进入大量长传二点和禁区混战。
+- Bosnia and Herzegovina 的反击并不需要太多控球，只要 Dzeko / Demirovic 能把第一点顶住，United States 就很难完全无风险压上。
+- United States 的上限明显更高，但 Bosnia and Herzegovina 的“把比分压在一球差内”的能力，被盘口变化明确承认了。
 
 ### 3.4 历史交锋记录
 
 | 日期 | 赛事 | 主场 | 比分 | 客场 |
 |------|------|------|:----:|------|
-| 2021-12-19 | 国际友谊赛 | 美国 | 1-0 | 波黑 |
-| 2018-01-28 | 国际友谊赛 | 美国 | 0-0 | 波黑 |
-| 2013-08-14 | 国际友谊赛 | 波黑 | 3-4 | 美国 |
+| 2013-08 | 国际友谊赛 | Bosnia and Herzegovina | 3:4 | United States |
+| 2018-01 | 国际友谊赛 | United States | 0:0 | Bosnia and Herzegovina |
+| 2021-12 | 国际友谊赛 | United States | 1:0 | Bosnia and Herzegovina |
 
-**交锋记录：美国 2胜1平保持不败，3 场全部为友谊赛，说明方向性偏向美国，但样本强度有限。**
+**交锋记录：United States 3战保持不败（2胜1平），但全部来自友谊赛，且样本横跨 2013-2021。**
+
+> **决赛降权说明：** 本场不是决赛，但它是世界杯单场淘汰赛；此前交锋又全部是友谊赛，因此 H2H 只能作为透明披露，不能高权重直接外推到淘汰赛强度。
 
 ### 3.5 公开强度数据：ClubElo / xG / FIFA 排名
 
 | 球队 | 指标 | 数值 | 来源 | 新鲜度 | 解读 |
 |------|------|------|------|--------|------|
-| 美国 | ClubElo rating | N/A（国家队） | national-team fixture，不适用 ClubElo | 2026-07-01 | 本场应看国家队 Elo / FIFA 排名 |
-| 波黑 | ClubElo rating | N/A（国家队） | national-team fixture，不适用 ClubElo | 2026-07-01 | 本场应看国家队 Elo / FIFA 排名 |
-| 美国 | FIFA 排名 / 国家队 Elo | FIFA #17；Elo 1677.17（世界第15） | https://xgquadrant.com/team/usa ； https://worldfootballrankings.com/country/USA | 2026-06-11 / 2026-07-01 | 世界杯场域内属于中上游强队，纸面强度明显高于波黑 |
-| 波黑 | FIFA 排名 / 国家队 Elo | FIFA #64；Elo 1620 | https://xgquadrant.com/team/bosnia-and-herzegovina ； https://worldsoccertalk.com/world-cup/world-cup-2026-what-is-bosnia-and-herzegovina-current-fifa-world-ranking/ ； https://www.footballforecast.io/teams/bosnia-herzegovina | 2026-06-11 / 2026-07-01 | 纸面排名与 Elo 都落后美国，属于更典型的机会主义型下狗 |
-| 美国 | xG / xGA / recent xG trend | 小组赛 xGF 4.63 / xGA 3.94；xPts 4.96 | https://xgquadrant.com/team/usa | 2026-07-01 | 进攻产出强，但防线仍给对手机会，适合“赢球但不一定零封”的判断 |
-| 波黑 | xG / xGA / recent xG trend | 小组赛 xGF 1.87 / xGA 4.06；xPts 2.64 | https://xgquadrant.com/team/bosnia-and-herzegovina | 2026-07-01 | 终结效率明显高于底层机会质量，存在回归风险 |
+| United States | ClubElo rating | not covered | http://api.clubelo.com/United_States（空结果） | N/A | 国家队不在 ClubElo 覆盖范围内，改用 FIFA 排名 / 国家队 Elo |
+| Bosnia and Herzegovina | ClubElo rating | not covered | http://api.clubelo.com/Bosnia_and_Herzegovina（空结果） | N/A | 国家队不在 ClubElo 覆盖范围内，改用 FIFA 排名 / 国家队 Elo |
+| United States | FIFA 排名 / 国家队 Elo | FIFA 第17；Elo 1781（世界第25） | Sporting News；World Football Elo Ratings | 2026-06 至 2026-07 | 公开强度锚明确偏向 United States，但不是碾压到能忽略淘汰赛平局风险的程度 |
+| Bosnia and Herzegovina | FIFA 排名 / 国家队 Elo | FIFA 第64；Elo 1622（世界第59） | Sporting News；Football Elo Ratings | 2026-06 至 2026-07 | 绝对实力弱于 United States，但其真实竞争力高于“纯名气印象分” |
+| United States | xG / xGA / recent xG trend | not covered / blocked in-session | Understat 未覆盖国家队；FBref 直连本次会话未完成独立验证 | blocked/not covered | 本场不把公开 xG 当作定量加权依据，避免把未完全验证的数据硬塞进模型 |
+| Bosnia and Herzegovina | xG / xGA / recent xG trend | not covered / blocked in-session | Understat 未覆盖国家队；FBref 直连本次会话未完成独立验证 | blocked/not covered | 同上 |
 
-> 仅引用公开覆盖数据；若来源未覆盖、受阻或过期，写明 `not covered / blocked / stale`，不估算 ClubElo 或 xG。
+> 仅引用公开覆盖数据；国家队不适用 ClubElo。FIFA/Elo 强度锚支持 United States 更强，但 xG 公开源在本次会话里验证不完整，因此本报告把 xG 缺口视为置信度折扣，而不是拿未核实数字硬补。
 
 ---
 
@@ -171,48 +175,49 @@
 
 ### 4.1 各维度权重评估
 
-| 维度 | 美国得分 | 波黑得分 | 说明 |
+| 维度 | United States得分 | Bosnia and Herzegovina得分 | 说明 |
 |------|:-----------:|:-----------:|------|
-| 阵容深度 | 7.5 | 6.0 | 美国替补层级和多位置切换更完整 |
-| 体能状态 | 6.0 | 6.0 | 双方都有伤停隐患，美国更集中在关键中轴，波黑更集中在后防 |
-| 战术适配 | 7.1 | 6.2 | 美国边路优势更明显，波黑更依赖低位反击单点爆发 |
-| 大赛经验 | 6.8 | 6.1 | 美国作为东道主赛场环境更熟悉 |
-| 攻防实力 | 7.3 | 5.8 | xG 总量和 Elo 均支持美国更强 |
-| 士气/动力 | 7.3 | 6.5 | 主场情绪与舆论支持偏向美国 |
-| 定位球 | 6.5 | 6.9 | 波黑有 Džeko/Kolašinac 的高点和争顶威胁 |
-| 边路突破 | 7.7 | 5.9 | Pulisic/Weah/Robinson 这一侧的推进质量更高 |
-| H2H | 6.0 | 4.0 | 5% 权重；美国历史不败，但样本仅友谊赛 |
+| 阵容深度 | 8.0 | 6.4 | United States 轮换厚度与主力质量更高 |
+| 体能状态 | 7.6 | 6.6 | United States 上轮轮换受益明显 |
+| 战术适配 | 7.2 | 6.9 | Bosnia and Herzegovina 的低位+定位球能制造困难，但主动权仍在 United States |
+| 大赛经验 | 7.6 | 5.7 | Bosnia and Herzegovina 首次世界杯淘汰赛是硬伤 |
+| 攻防实力 | 7.8 | 6.3 | FIFA/Elo 与小组赛质量都偏向 United States |
+| 士气/动力 | 7.8 | 8.2 | Bosnia and Herzegovina 零包袱，情绪面并不吃亏 |
+| 定位球 | 6.8 | 7.5 | Bosnia and Herzegovina 的高空威胁更实在 |
+| 边路突破 | 8.1 | 6.2 | United States 的边路速度是最直接优势 |
+| H2H | 6.3 | 5.7 | 仅作 5% 低权重参考（淘汰赛降权） |
 
 **加权综合评分：**
-- 美国：7.0/10
-- 波黑：6.0/10
+- United States：7.5/10
+- Bosnia and Herzegovina：6.7/10
 
 ### 4.2 比分预测
 
 | 预测比分 | 概率 | 说明 |
 |----------|:----:|------|
-| 1-0 | 22% | 最贴合“美国更强但盘口不再支持大胜”的主线 |
-| 2-0 | 18% | 若美国早破门，边路压制可继续放大优势 |
-| 1-1 | 14% | 美国中卫/防守稳定性若出问题，平局是最现实的冷门路径 |
+| 2:1（United States） | 14% | 实力、主场与主力回归支撑 United States 小胜脚本 |
+| 1:1 | 12% | 单场淘汰赛的平局膨胀 + Bosnia and Herzegovina 的低位/定位球抗性 |
+| 1:0（United States） | 11% | 若 United States 先入球后转入控场，这个路径也很自然 |
 
 ### 4.3 竞彩推荐
 
 | 玩法 | 推荐选项 | 竞彩赔率 | 置信度 | 说明 |
 |------|---------|:--------:|:------:|------|
-| **胜平负 (SPDF)** | 平 | 4.55 | ⭐⭐⭐ | 纯价值角度优于主胜；适合小注对冲美国热度 |
-| **让球胜平负** | 让负（美国 -1） | 3.15 | ⭐⭐⭐⭐⭐ | 与百家欧赔、三项让球客向压低完全一致，是本场最优执行点 |
-| **总进球** | 3球 | 3.45 | ⭐⭐⭐ | 大小球中枢温和上修，3球是最顺盘口迁移的单点 |
-| **比分** | 1:0 | 6.00 | ⭐⭐⭐ | 兼顾美国基本面优势与“不易穿深盘”的市场读数 |
-| **半全场** | 平 / 胜 | 3.75 | ⭐⭐⭐ | 若波黑前段守住，美国下半场兑现强度更常见 |
+| **胜平负 (SPDF)** | **平局** | **4.91** | ⭐⭐⭐⭐ | 百家欧赔平局持续压低，而体彩平局价格基本停在高位；叠加单场淘汰赛平局先验，这是最清晰的赔率价值点 |
+| **让球胜平负** | **客胜（Bosnia and Herzegovina +1）** | **3.36** | ⭐⭐⭐⭐ | 16家公司 -1 共识里 away 一侧从 2.99 压到 2.39，市场更偏向 United States 只赢一球甚至被拖平 |
+| **总进球** | **3球** | **3.25** | ⭐⭐⭐ | 官方总进球公平概率最高项就是 3球（24.52%），且 2-4 球区间合计公平概率达 63.32% |
+| **比分** | **1:1** | **8.80** | ⭐⭐⭐ | 若 United States 久攻不下、Bosnia and Herzegovina 通过定位球/反击拿到一球，90 分钟平局路径很顺 |
+| **半全场** | **平 / 胜** | **3.85** | ⭐⭐ | 用来表达“United States 终局更强，但上半场未必很快拉开”的折中路径 |
 
 ### 4.4 Kelly建议
 
-根据 Kelly 公式计算（以主胜/平/客的主观修正概率 **63% / 23% / 14%** 为基线）：
-- **美国胜：** Edge **-20.6%**，Half-Kelly **0%**
-- **平局：** Edge **+4.7%**，Half-Kelly **0.65%**
-- **波黑胜：** Edge **+20.4%**，Half-Kelly **1.34%**
+根据 Half-Kelly 公式计算（只用半凯利，不用满凯利）：
+- **United States胜：** Edge **-26.8%**，Half-Kelly **0%**
+- **平局：** Edge **+27.7%**，Half-Kelly **3.5%**
+- **Bosnia and Herzegovina胜：** Edge **+31.6%**，Half-Kelly **1.9%**（高波动长赔）
+- **让球胜平负 -1 客胜（Bosnia and Herzegovina +1）：** Edge **+24.3%**，Half-Kelly **5.1%**
 
-> **Kelly建议：** 主线执行仍是 **让球胜平负“让负”**（按三项让球模型概率 38% 估算，Half-Kelly 约 **4.58%**）；胜平负里更适合小注参与 **平局**，客胜只适合高波动冷门票。
+> **Kelly建议：主推胜平负平局，小注 2%–3.5% 资金；进阶玩家可少量搭配让球胜平负客胜（Bosnia and Herzegovina +1），但不建议追 United States 主胜低赔。**
 
 ---
 
@@ -220,54 +225,53 @@
 
 ### 核心判断
 
-1. **美国仍是明显更强的一方**：Elo、xG 总量、阵容深度和主场环境都站在美国一侧。
-2. **但市场已经明显撤离“美国轻松大胜”叙事**：百家欧赔统一抬主胜、压平/客；-1 三项让球持续做短“让负”。
-3. **波黑具备咬住比赛的条件**：Džeko 的支点、定位球威胁，以及美国中卫稳定性疑问，足以让比赛停留在 1 球差区间。
-4. **竞彩端对美国主胜定价偏热**：体彩主胜比百家欧赔短得多，真正的性价比不在裸主胜，而在让球负和平局分支。
+1. **这场并不是小组赛，而是世界杯 1/16 决赛单场淘汰赛。** 因此 90 分钟平局先验应当启用，只是幅度低于决赛级别。
+2. **United States 仍是更可能赢球的一方，但“赢球”与“赢盘/有价值”完全不是一回事。** 体彩把主胜压得过短，吸引力很弱。
+3. **最值得重视的是欧赔共识对平局和 Bosnia and Herzegovina 一侧的持续修正。** 这与 Bosnia and Herzegovina 的风格（高空、定位球、拖节奏）形成共振。
+4. **最合理的交易思路不是硬抗 United States 晋级预期，而是抓 90 分钟维度的时间价值。** 平局和 Bosnia and Herzegovina +1 都比 United States 主胜更有赔率回报/风险比。
 
 ### 风险提示
 
-- ⚠️ 公开网页对本场轮次描述存在冲突，本文按任务口径以“小组赛”处理，不把外部网页的淘汰赛描述用于先验修正。
-- ⚠️ 美国关键伤员（尤其 Chris Richards）的最终可用性，可能在赛前继续改变市场对零封与分差的判断。
-- ⚠️ 波黑当前进球效率显著高于其 xG 水平，若继续超常终结，平/客方向会被放大；若回归均值，则美国小胜更稳。
-- ⚠️ 若赛前澳门/Bet365 大小球继续升到 2.75 并压低大球水位，3球路径会进一步增强。
+- ⚠️ 如果 United States 开场 20 分钟内就领先，Bosnia and Herzegovina 的低位脚本会被打断，平局价值会快速衰减。
+- ⚠️ Christian Pulisic、Mark McKenzie、Amar Dedic 等人的最终身体状态，仍会影响比赛节奏与边路质量。
+- ⚠️ Bosnia and Herzegovina 的防线稳定性偏弱，一旦被迫压上，比分可能从“胶着局”瞬间变成“主队顺风局”。
+- ⚠️ 单场淘汰赛天然高波动；即使赔率价值站在平局/受让一侧，也不代表主胜路径不存在。
 
 ### 最终结论
 
-**最可能的结果：美国小胜（首选 1-0，其次 2-0）**  
-**竞彩最优价值：让球胜平负 让负 3.15（美国 -1）**
+**最可能的结果：United States 90分钟小胜（更像 2:1 / 1:0，而非大胜）**
+**竞彩最优价值：胜平负 平局 4.91；次选为让球胜平负 客胜（Bosnia and Herzegovina +1）3.36**
 
 ---
 
 ## 应用的先验清单 (Applied Priors Check)
 
-> Applied priors check:
-
-- **[N] Final-Match Prior**：按任务口径为世界杯小组赛，非决赛/淘汰赛单场定生死，不触发平局 +3~6pp。
-- **[Y] Fatigue × Motivation 对冲**：美国主场动力与阵容上限占优，但伤病和中卫不确定性抵消了部分热门强度。
-- **[N] H2H 决赛降权 / H2H discount for finals**：本场并非决赛/淘汰赛决胜战，不适用“决赛 H2H 降权”先验。
-- **[N] CN 市场结构 / CN market structure**：国家队对阵且非 EPL 场景，不触发 formal CN market-structure prior；仅保留“东道主销售端偏热”的观察。
-- **[Y] Volume Signal / Volume signal (升降盘解读)**：欧赔主胜持续漂高、平/客压低；-1 三项让球客向显著做短；大小球从 2.5 向 2.5/3 抬升。
-- **[Y] Devig per market**：覆盖市场：1X2（竞彩/欧赔）、让球胜平负、总进球、比分、半全场。
-- **[Y] Half-Kelly applied**：SPDF 平局 Edge +4.7% / HK 0.65%；SPDF 客胜 Edge +20.4% / HK 1.34%；HHAD 让负 Edge +19.7% / HK 4.58%。
+Applied priors check:
+- [Y] Final-Match Prior — 本场不是决赛，但经赔率与赛程核对后可确认是世界杯 1/16 决赛单场淘汰；按 single-leg knockout 处理，对 90 分钟平局做 **+4pp** 的结构性上修，而不是按“小组赛不适用”处理。
+- [Y] Fatigue × Motivation offset — United States 因上轮轮换与主场条件占体能优势；Bosnia and Herzegovina 因首次淘汰赛与零包袱占情绪/动力优势，二者部分对冲。
+- [Y] H2H discount for finals — 虽然不是决赛，但属于淘汰赛决胜场；且历史交锋全是友谊赛，因此 H2H 仅低权重参考。
+- [N] CN market structure — 本场不是 EPL vs non-EPL 场景，不触发该先验；仅保留“中国官方盘对 United States 明显更保守”的市场现象说明，不做结构性加权。
+- [Y] Volume signal — 已使用。核心信号是欧赔主胜漂高、平/客压低；让球盘对 United States 大胜信心下降；总进球集中到 2-3 球区间。
+- **[Y] Devig per market**：覆盖市场：1X2、让球胜平负、总进球、比分、半全场。
+- [Y] Half-Kelly computed — 已对 SPDF 和核心让球思路计算 Half-Kelly；主要 Edge 为平局 **+27.7%**、HHAD 客胜 **+24.3%**。
 
 ### Public Data Signals Check
 
-- **[Y] ClubElo public rating checked**：unavailable / not covered for national-team fixture；source attempts: https://www.footballratings.org/team/united-states ； https://www.footballratings.org/team/bosnia-and-herzegovina ； https://www.eloratings.net/America
-- **[Y] xG public data checked**：https://xgquadrant.com/team/usa ； https://xgquadrant.com/team/bosnia-and-herzegovina
+- **[Y] ClubElo public rating checked**：not covered（已检查 http://api.clubelo.com/United_States 与 http://api.clubelo.com/Bosnia_and_Herzegovina，均返回空结果；国家队不在 ClubElo 覆盖范围内）。
+- **[Y] xG public data checked**：not covered / blocked（已尝试 Understat 与 FBref 公共门禁，但本次会话未完成独立验证）。
+- **[N] Estimated odds present (must be marked with 估算)**：本报告赔率均来自实时抓取，**无估算赔率**。
 
-**估算赔率统计**：0 / 32  
-**整体置信度**：High
+**估算赔率统计**：0 / 54
+**整体置信度**：Medium
 
 ---
 
-*报告生成时间：2026-07-01T00:37:38.945Z*  
-*数据截止：2026-07-01T00:54:45Z 左右（赔率最新快照另见 process_state.md）*  
-*数据来源：*
-- Tier 1（赔率）：官方体彩盘口与历史快照（经 `china-football-odds` 远程 MCP 提取）；500.com 百家欧赔/亚盘/大小球：`https://odds.500.com/fenxi/ouzhi-1359181.shtml` `https://odds.500.com/fenxi/rangqiu-1359181.shtml` `https://odds.500.com/fenxi/yazhi-1359181.shtml` `https://odds.500.com/fenxi/daxiao-1359181.shtml`
-- Tier 5（美国伤停/名单）：`https://www.si.com/soccer/usmnt-riddled-injuries-weeks-away-world-cup-pulisic-latest-sidelined` `https://www.si.com/soccer/usmnt-xi-vs-germany-pochettino-missing-star-defender-injury-news-predicted-lineup` `https://sports.yahoo.com/articles/2026-fifa-world-cup-u-195747728.html` `https://en.as.com/soccer/usmnt-injury-crisis-pulisic-cardoso-and-tessmann-major-worries-as-world-cup-countdown-begins-f202605-n/`
-- Tier 5（波黑伤停/阵容）：`https://www.sportsmole.co.uk/football/bosnia-herzegovina/world-cup-2026/predicted-lineups/kolasinac-to-miss-out-predicted-bosnia-herzegovina-xi-vs-switzerland_599385.html` `https://www.sportsmole.co.uk/football/qatar/world-cup-2026/team-news/bosnia-herzegovina-vs-qatar-injury-suspension-list-predicted-xis_599839.html` `https://www.beinsports.com/en-us/soccer/fifa-world-cup-2026/articles/the-probable-lineups-for-the-bosnia-vs-qatar-match-in-the-2026-fifa-world-cup-2026-06-24` `https://www.101greatgoals.com/football/world-cup-news/bosnia-herzegovina-qatar-confirmed-line-ups/`
-- Tier 5（交锋/公开强度）：`https://www.sportsmole.co.uk/football/usa/world-cup-2026/head-to-head/usa-vs-bosnia-hvina-head-to-head-record-and-past-meetings_600321.html` `https://khelnow.com/football/world-football-usa-vs-bosnia-and-herzegovina-head-to-head-fifa-world-cup-202606` `https://xgquadrant.com/team/usa` `https://xgquadrant.com/team/bosnia-and-herzegovina` `https://worldfootballrankings.com/country/USA` `https://worldsoccertalk.com/world-cup/world-cup-2026-what-is-bosnia-and-herzegovina-current-fifa-world-ranking/` `https://www.footballforecast.io/teams/bosnia-herzegovina`
-*推理依据：LLM qualitative match-analysis methodology v0.1*
+## 数据来源
 
-<!-- probs: {"home": 0.63, "draw": 0.23, "away": 0.14} -->
+- **Tier 1（赔率）**：https://live.500.com/2h1.php ； https://odds.500.com/fenxi/rangqiu-1359181.shtml
+- **Tier 2（赛事预览 / 伤停 / 预测）**：https://www.aljazeera.com/news/2026/7/1/usa-vs-bosnia-herzegovina-world-cup-round-of-32-prediction-team-lineups ； https://www.thestatszone.com/usa-vs-bosnia-and-herzegovina-preview-team-news-prediction-fifa-world-cup-2026-round-of-32-202638
+- **Tier 3（历史交锋）**：https://www.11v11.com/teams/usa/tab/opposingTeams/opposition/Bosnia%20and%20Herzegovina/
+- **Tier 4（FIFA 排名 / 国家队 Elo）**：https://www.sportingnews.com/us/soccer/news/fifa-world-cup-rankings-list/f605dbebd60c5eb9e5698bc2 ； https://www.eloratings.net/2026_World_Cup ； https://www.footballratings.org/team/bosnia-and-herzegovina
+- **Tier 5（ClubElo / xG 公共门禁）**：http://api.clubelo.com/United_States ； http://api.clubelo.com/Bosnia_and_Herzegovina ； https://fbref.com/en/ ； https://understat.com/team/United_States ； https://understat.com/team/Bosnia_and_Herzegovina
+
+<!-- probs: {"home": 0.60, "away": 0.14, "draw": 0.26} -->

@@ -1,50 +1,60 @@
-> 生成时间：2026-07-01T00:37:38.945Z
-# 世界杯分析报告：英格兰 VS 刚果(金)
+> 生成时间：2026-07-01T12:56:06.399Z
+# FIFA World Cup 2026 分析报告：England VS DR Congo
 
 ## 基本信息
 
 | 项目 | 详情 |
 |------|------|
-| **赛事** | 2026 FIFA 世界杯 小组赛 |
-| **对阵** | 英格兰 (England) VS 刚果(金) (DR Congo) |
-| **竞彩编号** | 3080 |
-| **开球时间** | 2026-07-02T00:00:00+08:00 |
-| **比赛地点** | 亚特兰大 Mercedes-Benz Stadium（公开预览稿件口径） |
-| **比赛性质** | 按任务输入为小组赛；但多家公开预览稿件将其写作“last-32/淘汰赛”，存在阶段元数据冲突 |
+| **赛事** | 2026 FIFA World Cup 2026（世界杯） |
+| **对阵** | England VS DR Congo |
+| **竞彩编号** | 周三080 |
+| **开球时间** | 2026-07-02 00:00（北京时间） |
+| **比赛地点** | Atlanta Stadium（Mercedes-Benz Stadium, Atlanta） |
+| **比赛性质** | 非决赛赛程；本报告不套用“决赛/终局战 draw +3~6pp”先验 |
 
 ---
 
 ## 一、赔率分析
 
-### 1.1 主流机构初盘与即时盘对比
+### 1.1 主流盘口与即时变化
 
-> **数据来源说明：** 中国体彩官方 5 大玩法、500.com 百家欧赔/亚盘摘要、澳门即时盘。
+> 数据基线：官方体彩以 2026-06-30 12:00 快照对比 2026-07-01 12:00 最新快照；欧赔/百家共识使用 500 百家摘要的 open → current。
 
-| 玩法 | 机构 | 初盘 (主) | 初盘 (平) | 初盘 (客) | 即时盘 (主) | 即时盘 (平) | 即时盘 (客) | 变化方向 |
-|------|------|:---------:|:--------:|:---------:|:----------:|:-----------:|:----------:|:--------:|
-| **1X2 (欧赔)** | Bet365 | 1.27 | 5.50 | 12.00 | 1.29 | 5.25 | 13.00 | 主胜微升、平赔压低后回落、客胜继续拉长 |
-| **1X2 (欧赔)** | William Hill | 1.25 | 5.00 | 11.00 | 1.25 | 5.00 | 11.00 | 基本不动，维持强弱分层 |
-| **1X2 (欧赔)** | 澳门 | 1.23 | 4.95 | 10.00 | 1.23 | 4.95 | 10.00 | 平盘 |
-| **亚盘** | Bet365（英格兰 -1.5） | 0.87 | — | 0.97 | 0.93 | — | 0.93 | 让球不变，主队赔付抬升，穿盘信心略降 |
-| **大小球** | 澳门（2.5） | 2.5 | 大0.79 | 小1.01 | 2.5 | 大1.02 | 小0.78 | 盘口不变但水位明显转向小球 |
-| **竞彩胜平负** | 中国体彩 | 1.17 | 5.25 | 12.00 | 1.16 | 5.35 | 12.50 | 官方后手继续强化主胜、放宽平/客 |
+| 市场 | 基线/初盘 | 最新 | 变化方向 | 解读 |
+|------|-----------|------|----------|------|
+| 官方胜平负 | England 1.16 / 平 5.35 / DR Congo 12.50 | England 1.17 / 平 5.13 / DR Congo 12.50 | 主胜微升、平局压低、客胜持平 | Devig 后平局由 16.56% 升至 17.26%，说明官方盘对“England被拖入僵局”的防范略有增强，但整体仍以 England 明显占优为主。 |
+| 百家欧赔共识 | England 1.30 / 平 5.00 / DR Congo 12.25 | England 1.29 / 平 5.30 / DR Congo 10.50 | 主胜微压、平局走高、客胜明显压低 | 市场把一部分尾部概率从“平”转向“DR Congo 爆冷”；这不是主流改判强弱，而是对冷门尾部的补价下修。 |
+| 澳门 1X2 | England 1.20 / 平 4.88 / DR Congo 13.00 | England 1.23 / 平 4.95 / DR Congo 10.00 | 主胜略放、平局略放、客胜大幅压低 | 澳门方向与百家一致：不追捧平局，而是更防范低频爆冷。 |
+| 官方让球胜平负（England -1） | 1.65 / 3.65 / 4.01 | 1.64 / 3.80 / 3.90 | 主胜微压、让平走高、让负压低 | 对“England 至少赢 2 球”的信心没有显著增强，反而对“赢不穿 -1”保留了空间。 |
+| 百家让球胜平负共识（-1） | 2.00 / 3.69 / 3.30 | 1.94 / 3.75 / 3.30 | 主胜压低、让平略升、让负持平 | 共识层面仍支持 England 优势，但没有把盘口加深到 -1.5 的胜平负主线，说明穿盘信念有限。 |
+| 亚洲盘共识 | England -1.5（主 0.94 / 客 0.90） | England -1.5（主 0.99 / 客 0.88） | 盘口不变、主队赔付抬高 | 让球深度维持，但 England 一侧水位变贵，代表“强弱判断没变、穿两球把握略降”。 |
+| 大小球共识 | 2.5 球 | 2.0 球（Over 0.87 / Under 1.01） | 明显降盘 | 这是本场最重要的量价信号：市场把总进球预期从中高位直接压回 2 球，节奏预期更保守。 |
+| 比分（官方） | 2:0 4.70 / 1:0 5.30 / 3:0 6.25 | 2:0 4.20 / 1:0 5.60 / 3:0 5.80 | 2:0、3:0 压低；1:0 走高 | 资金更偏向“England 控局但不必大开大合”，2:0 成为最集中的精确比分。 |
+| 半全场（官方） | 平/胜 3.55；胜/胜 1.57 | 平/胜 3.65；胜/胜 1.57 | 平/胜略走高、胜/胜持平 | 市场没有明显追加“上半场胶着”的溢价，仍把 England 早早建立优势视为主场景。 |
 
 **赔率变化趋势解读：**
 
-1. **官方竞彩与欧洲均值出现“方向分化”**：竞彩从 1.17/5.25/12.00 走到 1.16/5.35/12.50，继续压低英格兰主胜；但 500.com 百家欧赔共识却从 1.28/5.25/12.25 走到 1.29/5.30/10.50，主要是**客胜大幅缩短**。这说明市场并未改写“英格兰明显占优”的主叙事，但欧洲书对冷门尾部风险的防守比竞彩更积极。
-2. **让球胜平负从 1.69/3.55/3.91 漂到 1.65/3.65/4.01**：-1 盘下，竞彩把“英格兰净胜 2+ 球”的回报继续压低，同时抬高“净胜 1 球”和“不穿盘”回报，含义是**英格兰赢球仍是主线，但大胜把握并没有随时间继续增强**。
-3. **亚盘停在 -1.5，大小球停在 2.5，但水位更偏向保守路径**：Bet365 主让 -1.5 从 0.87 升到 0.93，澳门 2.5 球从“大 0.79 / 小 1.01”走到“大 1.02 / 小 0.78”。盘口不升、且小球水位显著下压，市场更像在交易**英格兰控制比赛但节奏未必持续拉满**，1-0、2-0、2-1 这种区间比 3 球以上大开更受支持。
+1. **1X2 漂移**：官方盘只把平局轻微上调 0.70pp，而百家/澳门更明显压低客胜赔率，说明“爆冷尾部”比“常规平局”更受对冲，England 仍是明确强势方。
+2. **让球与亚盘**：-1 胜平负主队略压，但亚洲盘 England -1.5 水位上浮，组合含义是“能赢，但不必然穿深盘”；这使 **England -1 让负** 比直接追 England 大胜更有交易价值。
+3. **总进球降盘**：2.5 → 2.0 是强烈的小比分信号；当总量被压低时，2:0、2:1、1:0 这类 England 胜但不极端放大的路径更合理。
+4. **比分迁移**：2:0 从 4.70 压到 4.20，3:0 也同步压低，说明市场最看重的是 England 控球压制下的标准化胜局，而不是对攻战。
 
 ### 1.2 隐含概率换算
 
 | 结果 | 竞彩隐含概率 | 欧赔均值隐含概率 | Devig后公平概率 |
 |------|:-----------:|:--------------:|:---------------:|
-| 英格兰胜 | 86.2% | 77.5% | 74.0% |
-| 平局 | 18.7% | 18.9% | 18.0% |
-| 刚果(金)胜 | 8.0% | 9.5% | 8.0% |
-| **margin** | **12.9%** | **5.9%** | **100.0%** |
+| England 胜 | 85.47% | 77.52% | 75.66%（官方） / 73.19%（百家共识） |
+| 平局 | 19.49% | 18.87% | 17.26%（官方） / 17.81%（百家共识） |
+| DR Congo 胜 | 8.00% | 9.52% | 7.08%（官方） / 8.99%（百家共识） |
+| **margin** | **12.96%** | **5.91%** | **100.0%** |
 
-> Devig 计算已剔除庄家利润率。这里的公平概率以**竞彩官方当前盘**与**百家欧赔当前共识**做平均，再结合阵容/节奏信号进行微调；结论是英格兰赢面仍显著，但平局被小球/不穿盘路径轻微抬升，客胜只保留长尾冷门概率。
+> Devig 后可以看到：官方盘比百家共识**更短 England、更轻 DR Congo**。两者平均后的基线大致落在 England 74% 左右、平局 17.5% 左右、DR Congo 8% 左右。
+
+### 1.3 中国竞彩市场结构验证 (CN market-structure prior)
+
+- 本场不是 **EPL 球队 vs 非 EPL 球队** 的俱乐部赛，**不触发**该先验的主条件。
+- 即便只看当前 竞彩 vs 百家 Devig 差值：England **+2.46pp** / 平 **-0.54pp** / DR Congo **-1.92pp**，也没有达到该先验所要求的 EPL 结构性验证门槛。
+- 结论：**CN market-structure prior 不适用**；这里只保留“官方盘更保守地压低 England、抬高冷门回报”的客观观察，不额外加概率修正。
 
 ---
 
@@ -54,44 +64,43 @@
 
 | 媒体/机构 | 预测比分 | 倾向 | 预测依据 |
 |-----------|:--------:|------|---------|
-| Sports Mole（England vs DR Congo team news） | 未明确 | 英格兰不败/更可能赢球 | 英格兰以小组头名身份进入本场，阵容仅有 James、Quansah 疑问；DR Congo 无明确伤停 |
-| Sports Mole（两队 predicted XI） | 2-0 路径更吻合文意 | 英格兰小胜 | 英格兰后场有被动调整，DR Congo 预计回到 5-3-2 防守阵，强调限制 Kane/Bellingham 通道 |
-| The Standard | 未明确 | 英格兰倾向 | 标题即给出“prediction / team news / odds / h2h”，舆论主线仍围绕英格兰晋级与伤病边路位 |
-| Reuters / The Straits Times（DR Congo squad） | 未明确 | DR Congo 阵容完整度提升 | Bushiri 伤退已由 Aaron Tshibola 补位，阵容稳定性比临时缺员更好 |
+| Sportstar | 未明确给分 | 倾向 England | 近期状态对比为 England **W-D-W-W-W**，DR Congo **W-L-D-L-D**；同时给出 England 4-2-3-1、DR Congo 5-4-1 的保守对位。 |
+| Sports Mole | 未明确给分 | 倾向 England | 直接列出 England 无确定缺阵、仅 Reece James/Jarell Quansah doubtful；DR Congo 无确定伤停，基本是完整阵容。 |
+| Football Faithful | 未明确给分 | England 稍热，但强调 DR Congo 冷门空间 | 强调 DR Congo 以 5-3-2/5-4-1 保护禁区、Yoane Wissa 世界杯状态出色、全队“相信可以制造冷门”。 |
+| Sky Sports / Sporting News | 未明确给分 | 倾向 England | England 侧核心消息是 Saka 可首发、Rice/Anderson 可用、Reece James 伤情拖后腿，意味着实力面仍占优但右路完整性下降。 |
 
-**媒体预测倾向：英格兰胜 3/4，平局 0/4，刚果(金)胜 0/4，另 1/4 更偏“阵容消息”而非赛果判断。**
+**媒体预测倾向：England 明显占优，平局常规支持有限，DR Congo 爆冷被当作尾部情景而非主场景。**
 
 ### 2.2 球迷情绪分析
 
-**英格兰 球迷/舆论**
+**England 相关新闻情绪**
 - 整体情绪：**谨慎乐观**
 - 关键论点：
-  - Saka、Bellingham、Kane 继续组成主攻轴，纸面优势明显。
-  - Anderson 与 Rice 的中场覆盖让英格兰能持续压制二点球。
-- 担忧点：Reece James、Jarell Quansah 的伤情，使右路/轮换深度存在不确定性。
+  - Bukayo Saka 已“free of pain”，能提升右侧推进与一对一质量。
+  - Declan Rice、Elliot Anderson 可用，England 中轴没有出现新的实质性减员。
+- 担忧点：Reece James 的缺席削弱边后卫层次；若 DR Congo 先摆出 5 后卫低位，England 可能需要更长时间才能撬开禁区。
 
-**刚果(金) 球迷/舆论**
-- 整体情绪：**乐观但现实**
+**DR Congo 相关新闻情绪**
+- 整体情绪：**外部低预期下的黑马自信**
 - 关键论点：
-  - Wissa 状态正热，Mayele 的替补冲击力提升了前场变化。
-  - Wan-Bissaka、Tuanzebe、Mbemba、Masuaku 这条防线具备英伦比赛经验。
-- 担忧点：若长期被迫退成 5-3-2，前场只能靠 Wissa/Bakambu 的有限转换，容错率很低。
+  - Football Faithful 明确写到球队“genuine belief that they can cause an upset”。
+  - Yoane Wissa 被描述为本届赛事的 breakout performer，配合 Bakambu 的经验构成主要反击火力。
+- 担忧点：Rocky Bushiri 赛前因伤退出世界杯名单，虽已被 Aaron Tshibola 替换，但中后场深度仍不如 England。
 
 **综合舆情情感评分：**
-- 英格兰 支持度：7.8/10
-- 刚果(金) 支持度：5.9/10
-- 中立观点比例：约 28%
+- England 支持度：7.5/10
+- DR Congo 支持度：5.5/10
+- 中立/谨慎观点比例：约 35%
 
 ### 2.3 社交媒体热度
 
-| 平台 | 英格兰 相关讨论量 | 刚果(金) 相关讨论量 | 热点话题 |
+| 平台 | England 相关讨论量 | DR Congo 相关讨论量 | 热点话题 |
 |------|:------------------:|:------------------:|----------|
-| Twitter/X | not covered | not covered | James/Quansah 伤情、Kane 与 Bellingham 联动 |
-| Reddit | blocked / not covered | blocked / not covered | 公开抓取受限 |
-| 微博 | not covered | not covered | 英格兰是否大胜、DR Congo 防线英超系背景 |
-| 虎扑/懂球帝 | not covered | not covered | 让一球是否只赢一球、Wissa 反击威胁 |
+| Google News 聚合 | 高 | 中 | England 伤情与首发、DR Congo 黑马叙事 |
+| X / Reddit | 未直接抓取 | 未直接抓取 | 未直接抓取，不纳入定量判断 |
+| 微博 / 虎扑 / 懂球帝 | 未直接抓取 | 未直接抓取 | 未直接抓取，不纳入定量判断 |
 
-> 本节的“热度”只保留已抓到的公开议题，不虚构平台计数；可稳定读取的是媒体与公开预览，不是站内讨论量。
+> 本场舆情更像“England 稳定晋级预期”对“DR Congo 防守反击爆冷想象”的对冲，真正的增量信息来自 **England 伤情边际改善** 与 **DR Congo 阵容整体完整**，而不是情绪面单边倾斜。
 
 ---
 
@@ -99,64 +108,63 @@
 
 ### 3.1 球队近期状态
 
-**英格兰**
-- 战术风格：更接近 4-2-3-1 / 4-3-3，依赖 Saka、Bellingham、Rashford/Kane 的前场连接。
-- 近期状态：Sports Mole 明确提到英格兰以小组头名进入本场，且连续零封，对 Panama 2-0 收官。
-- 体能状况：⚠️ **中性偏优**（主力体能总体可控，但 James、Quansah 带来边后卫/后卫轮换压力）
-- 世界杯经验：✅ **优势**
-- 场面表现：更擅长长期压迫与控球，但在大热盘下未必持续追求净胜 3+。
+**England**
+- 战术风格：4-2-3-1 为主，前场依靠 Bellingham、Saka、Rashford 与 Kane 的持续压制。
+- 近期状态：Sportstar 给出的近 5 场为 **W-D-W-W-W**，状态稳定且失球控制尚可。
+- 体能状况：**⚠️小幅受损**。Reece James 伤缺，Rice 与 Anderson 都有过轻微问题，但已恢复合练。
+- 大赛经验：**✅优势**。阵容中的大赛履历和高水平联赛强度明显高于 DR Congo。
+- 比赛节奏预期：若对手长期低位，England 更可能通过控球和定位球慢慢累积优势，而非开场即极限压制。
 
-**刚果(金)**
-- 战术风格：更可能回到 5-3-2，先保肋部与禁区正面，再依靠 Wissa、Bakambu 纵深反击。
-- 近期状态：最后一轮 3-1 击败 Uzbekistan 出线，状态并不消极。
-- 体能状况：✅ **中性**（公开伤停表列为无人缺阵/无人待定）
-- 世界杯经验：⚠️ **劣势**
-- 场面表现：若比分胶着，防守层次与反击第一脚质量决定上限。
+**DR Congo**
+- 战术风格：5-3-2 / 5-4-1 低位保护禁区，依靠 Wissa、Bakambu 的冲刺与二点球制造反击。
+- 近期状态：Sportstar 给出的近 5 场为 **W-L-D-L-D**；结果波动大，但面对强队并非毫无抵抗力。
+- 体能状况：**✅优势**。Sports Mole 与 Football Faithful 都未给出新的明确伤停，阵容完整度优于 England 的边路线。
+- 大赛经验：**⚠️劣势**。个别球员具备英超/欧洲主流联赛经验，但整体世界大赛深度不及 England。
+- 比赛路径：先守住前 30 分钟、争取把比赛拉进低比分，再靠 Wissa/Bakambu 的单次转换放大波动。
 
 ### 3.2 关键球员动态
 
 | 球员 | 俱乐部 | 状态 | 影响 |
 |------|--------|------|------|
-| Reece James | — | ⚠️待定 | 右路推进与传中能力受影响，英格兰边后卫轮换被压缩 |
-| Jarell Quansah | — | ⚠️待定 | 中后卫替补深度下降，Tuchel 防线选择更保守 |
-| Bukayo Saka | — | ✅确认 | 继续承担右路一对一与终结前的最后一传 |
-| Harry Kane | — | ✅确认 | 仍是英格兰禁区支点与终结核心 |
-| Yoane Wissa | Newcastle United | ✅确认 | 对刚果(金)最重要的反击爆点，上一场梅开二度提升信心 |
-| Cedric Bakambu | Real Betis | ✅确认 | 世界杯尚未打开进球账户，但仍可能首发牵制英格兰中卫 |
-| Chancel Mbemba | Lille | ✅确认 | 后场领袖，决定刚果(金)低位防线稳定性 |
-| Rocky Bushiri / Aaron Tshibola | Hibernian / Kilmarnock | ❌缺阵 / ✅补位 | Bushiri 赛前伤退已被 Tshibola 替换，DR Congo 阵容有一次被动修补 |
+| Bukayo Saka | Arsenal | ✅可出场 | Sky Sports 明确称其已无疼痛，可提升 England 边路单点爆破。 |
+| Declan Rice | Arsenal | ✅可出场 | 轻微 calf issue 后恢复训练；中场拦截与二点保护仍是 England 稳定器。 |
+| Reece James | Chelsea | ❌缺阵/高度存疑 | 右后卫缺口会影响 England 边路套上与传中质量。 |
+| Yoane Wissa | Newcastle United | ✅状态热 | Football Faithful 称其为 DR Congo 本届杯赛 breakout performer，是最现实的反击爆点。 |
+| Cédric Bakambu | Real Betis | ✅可出场 | 老将经验与背身处理能帮助 DR Congo 顶住低位后的第一传。 |
+| Rocky Bushiri | Hibernian | ❌退出名单 | Reuters/Straits Times 报道其因伤被 Aaron Tshibola 顶替，削弱了 DR Congo 后防轮换。 |
 
 ### 3.3 战术 matchup 分析
 
 **核心矛盾：**
-1. 英格兰能否把控球优势转化为**高质量而非高数量**射门；这直接影响是否只是 1 球小胜。
-2. 刚果(金)的 5-3-2 是否能把 Saka/Bellingham 的半空间连接切断，逼英格兰去打低效率传中。
-3. Wissa 与 Bakambu 的反击第一脚质量，能否把少数转换机会做成真正的 xG 威胁。
+1. England 的控球压制能否在总进球降盘背景下，转化为足够多的禁区内高质量机会。
+2. DR Congo 的 5 后卫体系能否把比赛拖成“England 只赢 1 球甚至被迫晚进球”的脚本。
+3. Reece James 缺席后，England 边路传递层次下降，是否会削弱其把优势放大到两球以上的能力。
 
 **风格克制：**
-- 英格兰的阵容深度与前场个人能力足以持续施压，但让 -1.5 不升盘说明市场并不极度看好其“轻松穿盘”。
-- 刚果(金)若能先守住前 30 分钟，比赛更容易滑向英格兰控场、但总进球不过分放大的路径。
+- England 对抗低位密防时，最有效的路径通常是定位球、二次进攻和禁区前沿反抢，而不是纯开放式对攻。
+- DR Congo 的反击威胁集中在 Wissa 的纵深跑动；若 England 长时间压上但边后卫回防点位不足，DR Congo 具备偷一个球的能力。
+- 大小球从 2.5 降到 2.0，和这组对位完全一致：强队控局、弱队收缩、节奏不快。
 
 ### 3.4 历史交锋记录
 
 | 日期 | 赛事 | 主场 | 比分 | 客场 |
 |------|------|------|:----:|------|
-| — | — | — | — | — |
+| — | 正式比赛 | England | 首次正式交锋 | DR Congo |
 
-**交锋记录：赛前公开 H2H 数据普遍将本场标注为两队成年男足国家队首次正式交手，因此历史交锋样本为空。**
+**交锋记录：England 与 DR Congo 这是首次正式交锋。**
 
 ### 3.5 公开强度数据：ClubElo / xG / FIFA 排名
 
 | 球队 | 指标 | 数值 | 来源 | 新鲜度 | 解读 |
 |------|------|------|------|--------|------|
-| 英格兰 | ClubElo rating | N/A（国家队，非俱乐部） | not covered（intent: club-elo 对国家队不适用） | — | 改用 FIFA 排名 / 国家队 Elo 锚定 |
-| 刚果(金) | ClubElo rating | N/A（国家队，非俱乐部） | not covered（intent: club-elo 对国家队不适用） | — | 改用 FIFA 排名 / 国家队 Elo 锚定 |
-| 英格兰 | FIFA 排名 / 国家队 Elo | FIFA #4；FIFA Points 1828.02；Elo 2038 | https://worldfootballrankings.com/country/ENG ；https://www.eloratings.net/2026_World_Cup | 2026-07-01 前后 | 顶级强队位阶，纸面强度显著高于对手 |
-| 刚果(金) | FIFA 排名 / 国家队 Elo | FIFA #46；FIFA Points 1474.43；Elo 1712 | https://worldfootballrankings.com/country/COD ；https://worldsoccertalk.com/world-cup/what-is-dr-congos-current-fifa-ranking-ahead-of-its-2026-world-cup-match-vs-uzbekistan/ ；https://www.eloratings.net/2026_World_Cup | 2026-07-01 前后 | 世界排名与 Elo 都落后明显，但不是“完全无反击能力”的弱旅 |
-| 英格兰 | xG / xGA / recent xG trend | xG≈2.21；xGA≈0.67（世界杯样本） | https://footystats.org/international/england-national-team-vs-congo-dr-national-team-h2h-stats ；https://xgscore.io/xg-statistics/world-cup/2026 | 2026 世界杯进行中 | Chance quality 明显占优，说明其优势不仅来自名气，也来自真实机会制造 |
-| 刚果(金) | xG / xGA / recent xG trend | xG≈1.32；xGA≈1.19（世界杯样本） | https://footystats.org/international/england-national-team-vs-congo-dr-national-team-h2h-stats ；https://xgscore.io/xg-statistics/world-cup/2026 | 2026 世界杯进行中 | 进攻端并非零威胁，但防守端承受的高质量机会更多 |
+| England | ClubElo rating | not covered | 国家队不适用 ClubElo；已改用国家队 Elo 源 | 当前查询 | 不估算俱乐部 Elo。 |
+| DR Congo | ClubElo rating | not covered | 国家队不适用 ClubElo；已改用国家队 Elo 源 | 当前查询 | 不估算俱乐部 Elo。 |
+| England | FIFA 排名 / 国家队 Elo | WFR Elo **1840.46**, WFR rank **#4** | https://worldfootballrankings.com/country/ENG | 当前查询 | 公开强度锚点显示 England 仍是世界前列国家队。 |
+| DR Congo | FIFA 排名 / 国家队 Elo | FIFA rank **#46**；WFR Elo **1495.48**, WFR rank **#41** | https://worldsoccertalk.com/world-cup/what-is-dr-congos-current-fifa-ranking-ahead-of-its-2026-world-cup-match-vs-uzbekistan/ ; https://worldfootballrankings.com/country/COD | 当前查询 | DR Congo 属于中游偏上国家队，能制造波动，但纸面层级仍明显落后 England。 |
+| England | xG / xGA / recent xG trend | blocked / not covered | Understat 404；FBref 403；可访问页面未返回可用团队 xG 数值 | 当前查询 | 不估算 xG。 |
+| DR Congo | xG / xGA / recent xG trend | blocked / not covered | Understat 404；FBref 403；FotMob/其他公开页反爬或无可用团队 xG 数值 | 当前查询 | 不估算 xG。 |
 
-> 直接抓取 FBref/FotMob 存在 403/robots 限制，因此 xG 采用公开聚合页口径；这是“有覆盖但抓取受限”的情况，不做私自估算扩展。
+> 仅引用公开覆盖数据；本场国家队强度锚点以 FIFA/Elo 为主，xG 因公开覆盖/反爬限制未纳入数值模型。
 
 ---
 
@@ -164,47 +172,49 @@
 
 ### 4.1 各维度权重评估
 
-| 维度 | 英格兰得分 | 刚果(金)得分 | 说明 |
+| 维度 | England得分 | DR Congo得分 | 说明 |
 |------|:-----------:|:-----------:|------|
-| 阵容深度 | 9 | 6 | 英格兰板凳与明星层级明显更高 |
-| 体能状态 | 7 | 7 | 英格兰有伤情疑问，刚果(金)则靠防守跑动吃消耗 |
-| 战术适配 | 8 | 6 | 英格兰能主动选比赛节奏；刚果(金)更多被动应对 |
-| 大赛经验 | 9 | 5 | 英格兰在世界杯淘汰/关键赛经验更足 |
-| 攻防实力 | 9 | 6 | FIFA/Elo 与 xG 两条公开信号都支持英格兰 |
-| 士气/动力 | 7 | 8 | 刚果(金)作为挑战者的情绪张力更高 |
-| 定位球 | 8 | 6 | 英格兰制空与二点处理更强 |
-| 边路突破 | 8 | 6 | Saka / Rashford 的单点突破仍是主差异 |
+| 阵容深度 | 9.0 | 6.2 | England 一线球星储备远高于 DR Congo。 |
+| 体能状态 | 7.0 | 7.4 | England 有边后卫伤病；DR Congo 阵容更整。 |
+| 战术适配 | 8.0 | 6.6 | England 擅长控球压制；DR Congo 低位反击能制造摩擦但主动权有限。 |
+| 大赛经验 | 9.0 | 6.0 | England 世界大赛经验明显更足。 |
+| 攻防实力 | 8.6 | 6.3 | Elo 与赔率共同指向 England 高一级别。 |
+| 士气/动力 | 7.4 | 8.0 | DR Congo 黑马动机更足，但 England 的晋级压力同样强。 |
+| 定位球 | 8.1 | 6.4 | 低比分场景下，England 的定位球更可能成为破局点。 |
+| 边路突破 | 8.2 | 6.1 | Saka 可用是加分项，但 James 缺席略降上限。 |
+| H2H | 5.0 | 5.0 | 首次正式交锋，不给予额外倾斜。 |
 
 **加权综合评分：**
-- 英格兰：8.1/10
-- 刚果(金)：6.3/10
+- England：**8.1/10**
+- DR Congo：**6.6/10**
 
 ### 4.2 比分预测
 
 | 预测比分 | 概率 | 说明 |
 |----------|:----:|------|
-| 2-0 | 24% | 最符合“英格兰控场 + 小球水位走低 + 刚果(金)反击受限”的主路径 |
-| 1-0 | 18% | 若英格兰边路伤情影响推进质量，小胜会比大胜更自然 |
-| 2-1 | 15% | 对应 Wissa/Bakambu 抓到一次转换，但整体仍被英格兰压制 |
+| 2:0 | 17% | 与官方比分盘最新第一热门一致，也与大小球降到 2.0 相匹配。 |
+| 2:1 | 13% | 若 DR Congo 的单次反击兑现，最容易把 England 的优势压缩到一球。 |
+| 1:0 | 12% | England 若长时间对低位围攻但效率一般，1:0 也是可行路径。 |
 
 ### 4.3 竞彩推荐
 
 | 玩法 | 推荐选项 | 竞彩赔率 | 置信度 | 说明 |
 |------|---------|:--------:|:------:|------|
-| **胜平负 (SPDF)** | 英格兰胜 | 1.16 | ⭐⭐ | 最可能发生，但赔率过低，更多是结果判断而非价值判断 |
-| **让球胜平负** | **让平（英格兰 -1）** | **3.65** | ⭐⭐⭐⭐ | 让球不继续加深、大小球偏小、欧洲客胜尾部缩短，组合起来更像“赢球但未必大胜” |
-| **总进球** | 2球 | 3.50 | ⭐⭐⭐ | 与 1-0 / 2-0 / 1-1 路径兼容，且 2.5 盘下小球水位被持续压低 |
-| **比分** | 2:0 | 4.70 | ⭐⭐⭐ | 兼顾实力差与节奏保守，两边证据最一致 |
-| **半全场** | 平-胜 | 3.55 | ⭐⭐⭐ | 若刚果(金)先顶住前 30 分钟，平/胜比胜/胜更有赔率效率 |
+| **胜平负 (SPDF)** | England 胜 | 1.17 | ⭐⭐ | 最可能结果，但赔率过低，更多是结果判断而非价值判断。 |
+| **让球胜平负** | **England(-1) 负** | **3.90** | **⭐⭐⭐⭐** | 官方 -1 让负回报显著高于百家当前 3.30 共识；结合 O/U 降到 2.0，更像 England 小胜或被拖住，而非稳穿两球。 |
+| **总进球** | 2球 / 3球 分注 | 3.15 / 3.25 | ⭐⭐⭐⭐ | 市场总量压缩最强，2-3 球是与盘口变化最一致的区间。 |
+| **比分** | 2:0 | 4.20 | ⭐⭐⭐ | 官方最新最热比分，适合小注精确比分。 |
+| **半全场** | 平 / 胜 | 3.65 | ⭐⭐⭐ | 适合看好 DR Congo 先顶住、England 后程兑现实力的读法。 |
 
 ### 4.4 Kelly建议
 
-根据 Kelly 公式计算（基于 90 分钟胜平负最终概率：主 74% / 平 18% / 客 8%）：
-- **英格兰胜：** Edge -14.2%，Kelly Fraction 0.0%
-- **平局：** Edge -3.7%，Kelly Fraction 0.0%
-- **刚果(金)胜：** Edge 0.0%，Kelly Fraction 0.0%
+以本报告的主观概率 **England 73% / 平局 18% / DR Congo 9%** 对照官方胜平负赔率计算（**Half-Kelly only**）：
 
-> **Kelly建议：** 1X2 盘面没有正收益，放弃低赔主胜追价；若要参与，优先考虑**让球胜平负（英格兰 -1）平 3.65**的小注思路。按“英格兰净胜 2+ / 净胜 1 / 不赢盘 ≈ 50% / 28% / 22%”的主观分布，`让平` 对应 Half-Kelly 约 **0.4%**，属于小仓位价值单。
+- **England 胜：** Edge = 1.17 × 0.73 - 1 = **-14.6%**，Half-Kelly = **0%**
+- **平局：** Edge = 5.13 × 0.18 - 1 = **-7.7%**，Half-Kelly = **0%**
+- **DR Congo 胜：** Edge = 12.50 × 0.09 - 1 = **+12.5%**，Half-Kelly ≈ **0.5%**
+
+> **Kelly建议：** 若只做胜平负，数学上只有 **DR Congo 胜** 出现极小额正 Edge，但波动极大；更实用的执行方式是转向 **England(-1) 让负 3.90** 或 **2/3球区间**，用更低方差承接“England 优势存在、但未必大胜”的判断。
 
 ---
 
@@ -212,64 +222,68 @@
 
 ### 核心判断
 
-1. **英格兰赢面极大，但盘口并未把“必然大胜”交易成共识。**
-2. **官方竞彩继续压主胜，欧洲均值则明显缩短客胜尾部，说明冷门长尾风险被重新定价。**
-3. **大小球 2.5 不升盘且小球水位持续下压，是本场最重要的节奏信号。**
-4. **在“英格兰实力优势 + 节奏偏保守”框架下，1-0、2-0、2-1 是最合理的比分簇。**
+1. **England 仍是明确强势方**：无论官方盘还是百家欧赔，England 都处在 73%-76% 的 Devig 胜率区间。
+2. **真正值得重视的是“赢法”而非“能不能赢”**：亚洲盘不再加深、总进球从 2.5 明确降到 2.0，说明市场更像在交易 England 的小比分胜局。
+3. **DR Congo 的价值点在于抗衡能力**：阵容完整、Wissa 状态热、5 后卫低位明牌，使其具备把 England 拉进一球胜负甚至爆冷尾部的能力。
+4. **赔率价值优先级**：England 胜是最可能结果，但官方 1.17 回报太薄；从价差和盘口形态看，**England(-1) 让负** 与 **2-3球区间** 更符合“概率—赔率”匹配。
 
 ### 风险提示
 
-- ⚠️ 任务输入将本场定义为“小组赛”，但多篇公开预览稿件写作“last-32/淘汰赛”；阶段元数据冲突会影响 draw prior 的适用判断。
-- ⚠️ 英格兰右路与后卫轮换存在伤病噪音，若 James/Quansah 缺阵影响放大，比赛可能比赔率显示得更胶着。
-- ⚠️ 刚果(金)的 Wissa/Bakambu 反击效率若超预期，`让平` 会更安全，但 2-0 路径会被压缩。
-- ⚠️ xG 公开覆盖存在抓取限制，本文使用的是公开聚合口径，不应把其精度视作官方逐事件数据库。
+- ⚠️ 公开源对本场具体轮次描述存在差异；本报告按“非决赛，不套用终局 draw 先验”处理。
+- ⚠️ xG 公开覆盖不足，无法用统一公开数据校验两队近期机会质量，只能依赖赔率与新闻交叉印证。
+- ⚠️ England 若早早破门，DR Congo 的低位脚本会被打散，England 穿 -1 的概率会快速上升。
+- ⚠️ DR Congo 若率先进球，胜平负与让球盘波动会很剧烈，建议控制仓位。
 
 ### 最终结论
 
-**最可能的结果：英格兰 90 分钟内获胜，且更像 1-0 / 2-0 这种控制型小胜。**  
-**竞彩最优价值：让球胜平负（英格兰 -1）平 3.65。**
+**最可能的结果：England 2-0 DR Congo**
+**竞彩最优价值：England(-1) 让球胜平负“负” 3.90**
 
 ---
 
 ## 应用的先验清单 (Applied Priors Check)
 
-- **[N] Final-Match Prior**：按任务输入这是世界杯小组赛，不满足“决赛/淘汰赛单场定胜负”触发条件；且未确认双方同属必须 3 分局面，因此不额外给平局 +pp。
-- **[Y] Fatigue × Motivation 对冲**：英格兰伤病主要集中在边后卫/轮换层，刚果(金)则以挑战者姿态进入，体能与求胜欲形成对冲。
-- **[N] H2H discount for finals / H2H 决赛降权**：既不是决赛场景，也无历史交锋样本可降权。
-- **[N] CN market structure / CN 市场结构**：本场为国家队赛事，不是 EPL vs 非 EPL；中国市场结构先验不适用。
-- **[Y] Volume signal / Volume Signal (升降盘解读)**：让球不加深、大小球 2.5 小球水位持续压低，是本场最关键的价格信号。
-- **[Y] Devig per market**：已覆盖 1X2、让球胜平负、总进球与比分主路径解读。
-- **[Y] Half-Kelly applied**：1X2 全部为 0 仓位；衍生市场仅 `让平` 保留约 0.4% Half-Kelly 小注空间。
+Applied priors check:
+- [N] Final-Match Prior (decisive match → draw +3~6pp): 本场不是决赛；且官方元数据未给出“终局战”标签，故不套用该先验。公开预览虽有淘汰赛表述，但本报告按用户给定的“非决赛”约束处理。
+- [Y] Fatigue × Motivation offset: England 有 Reece James 缺席、Rice/Anderson 曾有轻微问题；DR Congo 阵容更整且黑马动机更强，但 England 的整体实力优势足以对冲。
+- [N] H2H discount for finals: 本场不是决赛，且双方为首次正式交锋，不存在“决赛 H2H 降权”这一动作。
+- [N] CN market structure (EPL bias): 本场不是 EPL vs 非 EPL 俱乐部对阵；Devig 差值也未构成该先验的验证门槛。
+- [Y] Volume signal (升/降盘): 官方/百家盘口存在明确的 1X2 漂移、-1 盘细微重定价，以及 O/U 2.5→2.0 的强降盘信号。
+- [Y] Devig applied per market: 已覆盖胜平负、让球胜平负、总进球、比分、半全场。
+- [Y] Half-Kelly computed: 已对胜/平/负三项分别计算 Half-Kelly，并据此说明为何不追低赔主胜。
+
+Evidence gates check:
+- [Y] Web-research evidence collected (run_research; ≥2 converging sources OR all-blocked fallback explicitly declared): Sports Mole、Sky Sports、Sportstar、Football Faithful、Reuters/Straits Times 对伤停、首发框架和球队状态形成交叉印证。
+- [N] ClubElo public rating checked (intent: "club-elo"; source URL or unavailable reason): 国家队不适用 ClubElo；改用 https://worldfootballrankings.com/country/ENG 与 https://worldfootballrankings.com/country/COD 的国家队 Elo。
+- [N] xG public data checked (intent: "xg"; source URL or unavailable reason): Understat 对国家队 404，FBref/FotMob 受 403/反爬限制；可访问页面未返回可用团队 xG 数值。
+- [N] Estimated odds present (must be marked with 估算): 本报告所列赔率均来自实时工具调用，无估算赔率。
 
 ### Public Data Signals Check
 
-- **[Y] ClubElo public rating checked**：已调用 intent: club-elo；England / DR Congo 均记为 `N/A（国家队，非俱乐部）`，不可用原因：not covered（国家队，非俱乐部），对应尝试 `http://api.clubelo.com/England`、`http://api.clubelo.com/DRCongo`。
-- **[Y] xG public data checked**：已调用 intent: xg；FBref/FotMob 直抓受限，采用 FootyStats / xGscore 的公开聚合口径。
+- **[Y] Devig per market**：覆盖市场：1X2（官方/百家）、让球胜平负（-1）、总进球、比分、半全场。
+- **[N] ClubElo public rating checked**：国家队 not covered；`http://api.clubelo.com/England`、`http://api.clubelo.com/DRCongo` 未提供可用国家队 ClubElo，改查 `https://worldfootballrankings.com/country/ENG` 与 `https://worldfootballrankings.com/country/COD`。
+- **[N] xG public data checked**：`https://understat.com/team/England` 与 `https://understat.com/team/DR_Congo` 为 404；FBref 搜索页 403；`https://playerstats.football/world-cup/england/xg` 仅返回 teaser，无可用团队 xG。
 
-**估算赔率统计**：0 / 27  
-**整体置信度**：Medium（赔率为真实数据，但比赛阶段元数据存在冲突，且部分公开强度信号抓取受限）
+**估算赔率统计**：0 / 34
+**整体置信度**：Medium（赔率真实且结构清晰，但 xG 公开覆盖不足，且赛程阶段公开表述存在分歧）
 
----
+*报告生成时间：2026-07-01T12:56:06.399Z*
+*数据截止：2026-07-01T12:59:18Z 左右的公开新闻抓取 + 2026-07-01T12:00:00Z 赔率快照*
+*推理依据：LLM qualitative match-analysis methodology v0.1*
 
-*报告生成时间：2026-07-01T00:37:38.945Z*  
-*数据截止：2026-07-01T00:37:38.945Z*  
-*数据来源：Tier 1（赔率）https://worldfootballrankings.com/country/ENG https://worldfootballrankings.com/country/COD ；中国体彩官方/500.com 百家欧赔与澳门盘口摘要（销售日 2026-07-01，matchNumber 3080）；Tier 5（阵容/舆情）https://www.sportsmole.co.uk/football/england/world-cup-2026/team-news/england-vs-dr-congo-injury-suspension-list-predicted-xis_600341.html https://www.sportsmole.co.uk/football/england/world-cup-2026/predicted-lineups/spence-starts-rashford-decision-predicted-england-xi-vs-dr-congo_600330.html https://www.standard.co.uk/sport/football/england-xi-vs-dr-congo-confirmed-team-news-predicted-lineup-injury-latest-world-cup-2026-b1288073.html https://www.sportsmole.co.uk/football/congo-dr/world-cup-2026/predicted-lineups/could-bakambu-be-booted-out-predicted-dr-congo-xi-vs-england_600331.html https://www.straitstimes.com/sport/football/dr-congo-make-change-to-world-cup-squad-as-bushiri-ruled-out https://worldsoccertalk.com/world-cup/what-is-dr-congos-current-fifa-ranking-ahead-of-its-2026-world-cup-match-vs-uzbekistan/ ；Tier 6/公开强度：https://www.eloratings.net/2026_World_Cup https://footystats.org/international/england-national-team-vs-congo-dr-national-team-h2h-stats https://xgscore.io/xg-statistics/world-cup/2026*  
-### 数据来源
+<!-- probs: {"home": 0.73, "away": 0.09, "draw": 0.18} -->
 
-- **Tier 1（赔率）**：竞彩官方 5 大玩法、500.com 百家欧赔/亚盘摘要、澳门盘口摘要（销售日 2026-07-01，matchNumber 3080）。
-- **Tier 5（阵容/舆情）**：
+## 数据来源
+
+- **Tier 1（赔率）**：500.com 百家让球源页面 https://odds.500.com/fenxi/rangqiu-1359178.shtml ；其余官方体彩/澳门/胜平负、比分、总进球、半全场快照来自同一销售日（2026-07-01，周三080）的实时盘口聚合。
+- **Tier 2（伤停/首发/赛前预览）**：
   - https://www.sportsmole.co.uk/football/england/world-cup-2026/team-news/england-vs-dr-congo-injury-suspension-list-predicted-xis_600341.html
-  - https://www.sportsmole.co.uk/football/england/world-cup-2026/predicted-lineups/spence-starts-rashford-decision-predicted-england-xi-vs-dr-congo_600330.html
-  - https://www.standard.co.uk/sport/football/england-xi-vs-dr-congo-confirmed-team-news-predicted-lineup-injury-latest-world-cup-2026-b1288073.html
-  - https://www.sportsmole.co.uk/football/congo-dr/world-cup-2026/predicted-lineups/could-bakambu-be-booted-out-predicted-dr-congo-xi-vs-england_600331.html
+  - https://www.skysports.com/football/news/12016/13558175/england-vs-panama-bukayo-saka-fit-and-ready-to-start-in-three-lions-final-group-game-plus-reece-james-elliot-anderson-declan-rice-injury-news
+  - https://www.sportingnews.com/us/soccer/news/england-injury-report-declan-rice-reece-james/3d7c2a6f066bfd5bdab6714a
+  - https://thefootballfaithful.com/dr-congo-xi-vs-england-predicted-lineup-and-team-news/
   - https://www.straitstimes.com/sport/football/dr-congo-make-change-to-world-cup-squad-as-bushiri-ruled-out
-  - https://worldsoccertalk.com/world-cup/what-is-dr-congos-current-fifa-ranking-ahead-of-its-2026-world-cup-match-vs-uzbekistan/
-- **Tier 6 / 公开强度**：
+- **Tier 3（H2H / 状态 / 基本面）**：
+  - https://sportstar.thehindu.com/football/fifa-world-cup/england-vs-dr-congo-head-to-head-record-h2h-form-predicted-lineups-xi-fifa-world-cup-2026-stats-news/article71167484.ece
   - https://worldfootballrankings.com/country/ENG
   - https://worldfootballrankings.com/country/COD
-  - https://www.eloratings.net/2026_World_Cup
-  - https://footystats.org/international/england-national-team-vs-congo-dr-national-team-h2h-stats
-  - https://xgscore.io/xg-statistics/world-cup/2026
-
-*推理依据：LLM qualitative match-analysis methodology v0.1*
-<!-- probs: {"home": 0.74, "draw": 0.18, "away": 0.08} -->
+  - https://worldsoccertalk.com/world-cup/what-is-dr-congos-current-fifa-ranking-ahead-of-its-2026-world-cup-match-vs-uzbekistan/

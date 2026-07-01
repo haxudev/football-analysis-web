@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-30T13:10:33.863Z",
-  "count": 84,
+  "generatedAt": "2026-07-01T01:22:28.291Z",
+  "count": 87,
   "reports": [
     {
       "matchId": "6203_2026-06-13",
@@ -2355,6 +2355,10 @@
       "current": "reports/2079_2026-06-30/current.md",
       "history": [
         {
+          "timestamp": "2026-06-30T123916Z",
+          "path": "reports/2079_2026-06-30/history/2026-06-30T123916Z.md"
+        },
+        {
           "timestamp": "2026-06-30T003608Z",
           "path": "reports/2079_2026-06-30/history/2026-06-30T003608Z.md"
         },
@@ -2366,20 +2370,24 @@
     },
     {
       "matchId": "3080_2026-07-01",
-      "title": "英格兰 vs 刚果(金)",
-      "home": "英格兰",
-      "away": "刚果(金)",
-      "competition": "2026 FIFA World Cup",
-      "kickoff": "2026-07-01T16:00:00Z",
+      "title": "England vs DR Congo",
+      "home": "England",
+      "away": "DR Congo",
+      "competition": "FIFA World Cup 2026",
+      "kickoff": "2026-07-02T00:00:00+08:00",
       "probs": {
-        "home": 0.71,
-        "draw": 0.21,
-        "away": 0.09
+        "home": 0.74,
+        "draw": 0.18,
+        "away": 0.08
       },
-      "generatedAt": "2026-06-30T12:39:16.017Z",
+      "generatedAt": "2026-07-01T00:37:38.945Z",
       "validationPass": true,
       "current": "reports/3080_2026-07-01/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-30T123916Z",
+          "path": "reports/3080_2026-07-01/history/2026-06-30T123916Z.md"
+        },
         {
           "timestamp": "2026-06-30T003608Z",
           "path": "reports/3080_2026-07-01/history/2026-06-30T003608Z.md"
@@ -2388,20 +2396,24 @@
     },
     {
       "matchId": "3081_2026-07-01",
-      "title": "比利时 vs 塞内加尔",
-      "home": "比利时",
-      "away": "塞内加尔",
-      "competition": "2026 FIFA World Cup",
-      "kickoff": "2026-07-01T20:00:00Z",
+      "title": "Belgium vs Senegal",
+      "home": "Belgium",
+      "away": "Senegal",
+      "competition": "FIFA World Cup 2026",
+      "kickoff": "2026-07-02T04:00:00+08:00",
       "probs": {
-        "home": 0.43,
-        "draw": 0.32,
-        "away": 0.25
+        "home": 0.46,
+        "draw": 0.3,
+        "away": 0.24
       },
-      "generatedAt": "2026-06-30T12:39:16.017Z",
+      "generatedAt": "2026-07-01T00:37:38.945Z",
       "validationPass": true,
       "current": "reports/3081_2026-07-01/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-30T123916Z",
+          "path": "reports/3081_2026-07-01/history/2026-06-30T123916Z.md"
+        },
         {
           "timestamp": "2026-06-30T003608Z",
           "path": "reports/3081_2026-07-01/history/2026-06-30T003608Z.md"
@@ -2410,25 +2422,80 @@
     },
     {
       "matchId": "3082_2026-07-01",
-      "title": "美国 vs 波黑",
-      "home": "美国",
-      "away": "波黑",
-      "competition": "2026 FIFA World Cup",
-      "kickoff": "2026-07-02T00:00:00Z",
+      "title": "United States vs Bosnia and Herzegovina",
+      "home": "United States",
+      "away": "Bosnia and Herzegovina",
+      "competition": "FIFA World Cup 2026",
+      "kickoff": "2026-07-02T08:00:00+08:00",
       "probs": {
-        "home": 0.59,
-        "draw": 0.26,
-        "away": 0.15
+        "home": 0.63,
+        "draw": 0.23,
+        "away": 0.14
       },
-      "generatedAt": "2026-06-30T12:39:16.017Z",
+      "generatedAt": "2026-07-01T00:37:38.945Z",
       "validationPass": true,
       "current": "reports/3082_2026-07-01/current.md",
       "history": [
+        {
+          "timestamp": "2026-06-30T123916Z",
+          "path": "reports/3082_2026-07-01/history/2026-06-30T123916Z.md"
+        },
         {
           "timestamp": "2026-06-30T003608Z",
           "path": "reports/3082_2026-07-01/history/2026-06-30T003608Z.md"
         }
       ]
+    },
+    {
+      "matchId": "4083_2026-07-02",
+      "title": "Spain vs Austria",
+      "home": "Spain",
+      "away": "Austria",
+      "competition": "FIFA World Cup 2026",
+      "kickoff": "2026-07-03T03:00:00+08:00",
+      "probs": {
+        "home": 0.7,
+        "draw": 0.2,
+        "away": 0.1
+      },
+      "generatedAt": "2026-07-01T00:37:38.945Z",
+      "validationPass": true,
+      "current": "reports/4083_2026-07-02/current.md",
+      "history": []
+    },
+    {
+      "matchId": "4084_2026-07-02",
+      "title": "Portugal vs Croatia",
+      "home": "Portugal",
+      "away": "Croatia",
+      "competition": "FIFA World Cup 2026",
+      "kickoff": "2026-07-03T07:00:00+08:00",
+      "probs": {
+        "home": 0.495,
+        "draw": 0.305,
+        "away": 0.2
+      },
+      "generatedAt": "2026-07-01T00:37:38.945Z",
+      "validationPass": true,
+      "current": "reports/4084_2026-07-02/current.md",
+      "history": []
+    },
+    {
+      "matchId": "4085_2026-07-02",
+      "title": "Switzerland vs Algeria",
+      "home": "Switzerland",
+      "away": "Algeria",
+      "competition": "FIFA World Cup 2026",
+      "kickoff": "2026-07-03T11:00:00+08:00",
+      "probs": {
+        "home": 0.52,
+        "draw": 0.27,
+        "away": 0.21
+      },
+      "generatedAt": "2026-07-01T00:37:38.945Z",
+      "validationPass": true,
+      "current": "reports/4085_2026-07-02/current.md",
+      "history": []
     }
   ]
 }

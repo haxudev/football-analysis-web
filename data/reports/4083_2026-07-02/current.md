@@ -1,286 +1,280 @@
-> 生成时间：2026-07-01T12:56:06.399Z
-# 世界杯分析报告：Spain VS Austria
+> 生成时间：2026-07-02T00:36:10.004Z
+
+# 世界杯 分析报告：西班牙 VS 奥地利
 
 ## 基本信息
 
 | 项目 | 详情 |
 |------|------|
-| **赛事** | 2026 FIFA World Cup 2026 淘汰赛 32 强 |
-| **对阵** | Spain VS Austria |
-| **竞彩编号** | 周四083 |
+| **赛事** | 2026 FIFA 世界杯 淘汰赛 1/16决赛（32强战） |
+| **对阵** | 西班牙 (ESP) VS 奥地利 (AUT) |
+| **竞彩编号** | 4083（销售日 2026-07-02，周四083） |
 | **开球时间** | 2026-07-03 03:00 (北京时间) |
-| **比赛地点** | SoFi Stadium, Inglewood / Los Angeles |
-| **比赛性质** | 单场定胜负（世界杯淘汰赛，90 分钟胜平负单独结算） |
+| **比赛地点** | SoFi Stadium, Los Angeles（中立场地） |
+| **比赛性质** | 单场淘汰赛（90分钟平局进入加时+点球，SPDF 仅统计90分钟） |
+
+---
 
 ## 一、赔率分析
 
 ### 1.1 主流机构初盘与即时盘对比
 
-> **数据来源说明：** 官方体彩赔率来自 2026-07-02 销售日周四083实时盘口；欧赔/让球/亚盘/大小球共识来自 500.com 百家公司摘要。以下数字均为实时抓取，无估算赔率。
+> **数据来源说明：** 官方体彩 HAD/HHAD/总进球/比分/半全场赔率与 500.com 百家（欧赔/让球/亚盘/大小球）开盘-即时数据均来自 `china-football-odds` MCP（销售日 2026-07-02，周四083）。以下赔率均为实际抓取的当前快照，未使用估算。
 
 | 玩法 | 机构 | 初盘 (主) | 初盘 (平) | 初盘 (客) | 即时盘 (主) | 即时盘 (平) | 即时盘 (客) | 变化方向 |
 |------|------|:---------:|:--------:|:---------:|:----------:|:-----------:|:----------:|:--------:|
-| **1X2 (欧赔共识)** | 百家欧赔中位数 | 1.33 | 5.00 | 9.70 | 1.295 | 5.00 | 11.00 | Spain 持续压低，Austria 明显走高 |
-| **亚盘** | 百家亚盘共识 | 1.03 (-1.5) | — | 0.83 | 1.02 (-1.5) | — | 0.845 | 盘口不变，主队水位微降 |
-| **大小球** | 百家大小球共识 | 0.95 (2.5) | — | 0.85 | 0.86 (2.5) | — | 0.99 | 盘口不升，仅轻微偏向大球 |
-| **竞彩胜平负** | 中国体彩 | 1.26 | 4.50 | 8.80 | 1.23 | 4.75 | 9.40 | Spain 继续降赔，平/客同步抬高 |
-| **竞彩让球胜平负** | 中国体彩（Spain -1） | 1.95 | 3.50 | 3.02 | 1.85 | 3.55 | 3.25 | 官方更看 Spain 打穿 -1 |
+| **1X2 (欧赔均值/30家)** | 500.com 共识 | 1.33 | 5.05 | 9.65 | 1.295 | 5.00 | 11.00 | 主队缩水，客队大幅drift |
+| **1X2 (欧赔)** | bet365 | 1.30 | — | — | 1.40 | 4.33 | 9.00 | 逆势拉长主队 |
+| **1X2 (欧赔)** | 易胜博 | — | — | 10.00 | — | — | 17.00 | 客队大幅drift +70% |
+| **1X2 (欧赔)** | 立博 | — | — | 9.50 | — | — | 15.00 | 客队drift +58% |
+| **让球胜平负 (线-1)** | 竞彩官方 | 1.85 | 3.55 | 3.25 | 1.85 | 3.55 | 3.25 | 官方盘口未变 |
+| **让球/亚盘共识** | 500.com（-1线为主，30家分歧-1/-2各半） | 2.625 | 3.74 | 2.535 | 2.625 | 3.715 | 2.515 | 基本走平，客队小幅缩水 |
+| **亚盘 (球半 -1.5)** | 澳门 | 0.82 (主) | — | 1.02 (客) | 0.98 (主) | — | 0.86 (客) | 主队方向资金增加（主队赔率被拉高，客队被压缩） |
+| **大小球 (2.5球)** | 澳门 | 0.95 (大) | — | 0.85 (小) | 0.73 (大) | — | 1.07 (小) | 明显升盘，资金流向大球 |
+| **竞彩胜平负** | 中国体彩 | — | — | — | 1.23 | 4.75 | 9.40 | 官方大热门盘（主胜隐含超70%） |
 
 **赔率变化趋势解读：**
 
-1. **1X2 漂移：** 官方胜平负从 1.26/4.50/8.80 走到 1.23/4.75/9.40，Devig 后 Spain 胜从 **70.27% 升到 71.95%**，Draw 从 **19.67% 降到 18.63%**，Austria 胜从 **10.06% 降到 9.42%**。资金定价明显继续拥挤 Spain 正路。
-2. **让球信号：** 体彩 Spain -1 从 1.95 压到 1.85，说明官方盘口一度加强了 Spain 两球赢面的定价；但百家让球共识仍停在 **-1**，且主胜仅由 1.91 到 1.925、未形成一致“加深盘口”，说明广义市场并未完全跟随官方激进定价。
-3. **总进球信号：** 大小球线始终停在 **2.5**，没有从 2.5 升到 2.75/3；只是在水位层面从均衡转向轻微大球。解读为**预期进球仍集中在 2-3 球区间**，不是全面放大为大开大合。
-4. **比分/半全场迁移：** 官方比分里 **4:0/4:1/5:2** 等 Spain 大胜比分被压低，**1:1、0:1、1:2** 等平/客冷门比分被抬高；半全场 **胜-胜** 从 1.75 降到 1.70，而 **平-平** 从 6.75 升到 7.20。异动方向与 1X2 一致：市场在压缩 Spain 顺势赢球场景。
+1. **1X2/欧赔漂移信号**：500.com 30家平均欧赔显示，西班牙胜赔从 1.33 缩水至 1.295（-2.6%），而奥地利客胜赔率从 9.65 大幅拉长至 11.00（+14%），个别公司（易胜博 10→17，立博 9.5→15）漂移幅度达 50-70%。这是典型的资金持续加码热门、冷门被边缘化的价格移动代理信号，反映公开市场认为西班牙晋级概率进一步走高，而非奥地利爆冷概率上升。
+2. **让球/亚盘信心**：官方让球盘（西班牙-1）赔率 1.85/3.55/3.25 全程未变，显示体彩对该盘口的评估保持稳定；但百家亚盘（球半 -1.5）方向上，主队赔率从 0.82 升至 0.98、客队从 1.02 降至 0.86 —— 价格上升的一方通常代表该方向此前被过度下注、庄家需拉长赔率平衡，说明市场资金持续压注"西班牙净胜2球以上"，对西班牙大比分取胜的信心在增强。
+3. **总进球/大小球升盘**：澳门盘口大小球（2.5球线）大球价格从 0.95 降至 0.73（明显缩水/升盘），小球价格从 0.85 升至 1.07。这代表资金持续流向大球方向，市场预期本场总进球数上调 —— 与奥地利小组赛末轮 3-3 血战晋级、防守稳定性存疑的舆情画面相互印证。
+4. **官方总进球 (TTG) 分布**：3球最热（3.45，隐含公平概率 23.1%），2球次之（3.60，22.1%），3球以上（含）合计公平概率约 55.9%，与百家大小球升盘方向一致。
 
 ### 1.2 隐含概率换算
 
-| 结果 | 竞彩即时隐含概率 | 欧赔均值隐含概率 | Devig后公平概率 |
-|------|:-----------:|:--------------:|:---------------:|
-| Spain 胜 | 81.30% | 77.22% | 72.29%（官方/欧赔均值基线） |
-| 平局 | 21.05% | 20.00% | 18.72%（官方/欧赔均值基线） |
-| Austria 胜 | 10.64% | 9.09% | 8.98%（官方/欧赔均值基线） |
-| **margin** | **12.99%** | **6.31%** | **100.0%** |
+| 结果 | 竞彩隐含概率(未去水) | 欧赔均值隐含概率(未去水) | Devig后公平概率(竞彩) | Devig后公平概率(欧赔30家) |
+|------|:-----------:|:--------------:|:---------------:|:---------------:|
+| 西班牙胜 | 81.3% | 77.3% | 72.0% | 72.6% |
+| 平局 | 21.1% | 20.0% | 18.6% | 18.8% |
+| 奥地利胜 | 10.6% | 9.1% | 9.4% | 8.6% |
+| **margin** | **113.0%** | **106.4%** | **100.0%** | **100.0%** |
 
-> Devig 计算已剔除庄家利润率。基于世界杯单场淘汰赛先验（见 §四），我把基线分布 **72.29 / 18.72 / 8.98** 调整为 **68.74 / 22.72 / 8.54**：Spain 仍是最可能结果，但 90 分钟平局的理论概率被低估得更明显。
+> Devig 计算：fair_prob_i = (1/odds_i) / Σ(1/odds_j)。竞彩官方盘口水位（margin ≈13.0%）明显高于 500.com 30家欧赔共识（margin ≈6.3%），去水后两者公平概率高度接近（主胜72.0% vs 72.6%，平局18.6% vs 18.8%，客胜9.4% vs 8.6%），说明**竞彩与国际市场对本场的定价基本一致，无明显结构性错位**。
 
 ### 1.3 中国竞彩市场结构验证 (CN market-structure prior)
 
-- 本场为**国家队赛事**，不存在 EPL vs 非 EPL 的固定粉丝偏置触发条件。
-- 竞彩 vs 百家欧赔 Devig 差异整体不大，未出现某一联赛球队被中国市场系统性压短的证据。
-- 结论：**CN market-structure prior 不适用 / 不触发**。
+- 西班牙、奥地利均非英超球队，双方均不满足"英超 vs 非英超"触发条件。
+- 竞彩 vs EU 隐含概率 Δ（Devig 后）：主 -0.6pp / 平 -0.2pp / 客 +0.8pp —— 差值均在 ±2pp 以内，即使强行套用该 prior 也无法通过验证门槛。
+- 结论：**NOT CONFIRMED / 不适用**。本场不触发 CN 市场结构 prior。
+
+---
 
 ## 二、互联网舆情分析
 
 ### 2.1 媒体预测汇总
 
-| 媒体/机构 | 预测比分 | 倾向 | 预测依据 |
+| 媒体/机构 | 预测比分/倾向 | 倾向 | 预测依据 |
 |-----------|:--------:|------|---------|
-| Sports Mole | 2-0 | Spain | Spain 小组赛零封晋级，Austria 防线在世界杯已连续失球 |
-| RotoWire | 2-0 | Spain | 中场控制力与 Austria 高压后的回防漏洞形成克制 |
-| Football365 | 2-0 / Spain win to nil | Spain | Spain 34 场常规时间不败，Austria 对 Argentina 仅做出 0.53 xG |
-| Yahoo Sports | Spain 胜，偏向大于 2.5 球 | Spain | Spain 深度与 Austria 防守脆弱性；但认可 Austria 有反击和定位球威胁 |
-| ESPN | 未给具体比分 | Spain 略占优 | Spain 依赖 Yamal 与边路推进，但 Austria 高压有制造麻烦的路线 |
+| Sports Mole | 西班牙小胜/大比分 | 西班牙 | 奥地利仅 Alaba/Arnautovic 轻伤存疑，阵容基本完整，但整体实力/深度不及西班牙 |
+| AS (西班牙) | 关注伤病对深度的削弱 | 西班牙（存不确定性） | Yamal 腘绳肌伤情、Nico Williams 腹股沟旧伤、Rodri 肌肉伤缺阵均削弱西班牙攻防厚度 |
+| beIN Sports | 西班牙阵容"几乎无法撼动的核心" | 西班牙 | De la Fuente 大名单基本锁定，核心框架稳定 |
+| FIFA 官方 | 西班牙 2025 年重回世界排名第一 | 西班牙 | FIFA 世界排名积分优势 |
 
-**媒体预测倾向：Spain 4，平局 0，Austria 0。**
+**媒体预测倾向：西班牙 3/4，平局/爆冷 0/4，奥地利 1/4（关注伤病风险的中性视角）**
 
 ### 2.2 球迷情绪分析
 
-**Spain 球迷/媒体侧**
-- 整体情绪：**谨慎乐观**。
+**西班牙 球迷**
+- 整体情绪：自信但夹杂对伤病名单的担忧
 - 关键论点：
-  - 小组赛 3 场零封、整体控制力和阵容深度仍是本场最大资本。
-  - Yamal、Baena、Oyarzabal 的前场组合仍被认为足以压制 Austria。
-- 担忧点：
-  - Nico Williams、Yeremy Pino 伤情影响边路爆点；Rodri 也被多家报道提到带伤作战。
+  - Lamine Yamal 大腿/腘绳肌伤情是赛前最大隐忧，若缺阵将显著削弱边路创造力
+  - Nico Williams（腹股沟，缺席105天）、Fabián Ruiz（膝伤，缺席127天）、Rodri（肌肉伤）等多名主力伤停总计超1500天，深度依然是话题焦点
+  - 但主力框架（De la Fuente 认定的"核心圈"）总体健康，球迷仍看好晋级
+- 担忧点：伤病名单堆积可能在淘汰赛后段体能/深度上被放大
 
-**Austria 球迷/媒体侧**
-- 整体情绪：**放手一搏型乐观**。
+**奥地利 球迷**
+- 整体情绪：小组赛惊险绝平晋级后士气高涨，但对阵实力差距保持理性预期
 - 关键论点：
-  - Algeria 一战 96 分钟绝平带来明显士气提升；Rangnick 的高压体系被视为爆冷抓手。
-  - Sabitzer、Laimer、Arnautovic/ Kalajdzic 的冲击力仍有制造混乱的能力。
-- 担忧点：
-  - Alaba、Arnautovic 的身体状态未完全消除疑问；对强队时防线稳定性不足。
+  - Sasa Kalajdzic 补时绝平染红出局边缘般绝杀晋级，全队士气大振
+  - Marko Arnautovic（37岁高龄）状态仍在，教练 Ralf Rangnick 淡化其伤情严重性，预计正常出战
+  - David Alaba 肌肉紧张但预计可以带伤出战，后防仍是奥地利倚仗的稳定点
+- 担忧点：小组赛末轮被阿尔及利亚逼平（3-3）暴露防守漏洞，对阵更强攻击体系的西班牙存在失球隐患
 
-**综合舆情情感评分（基于已抓取报道语气）**
-- Spain 支持度：8/10
-- Austria 支持度：5/10
-- 中立观点比例：较高，主流讨论集中在“Spain 过关难度”而非“Spain 能否赢球”
+**综合舆情情感评分：**
+- 西班牙 支持度：8/10
+- 奥地利 支持度：5/10（士气高但客观信心有限）
+- 中立观点比例：约 25%（多聚焦西班牙伤病名单是否影响深度）
 
 ### 2.3 社交媒体热度
 
-| 平台 | Spain 相关讨论量 | Austria 相关讨论量 | 热点话题 |
+| 平台 | 西班牙 相关讨论量 | 奥地利 相关讨论量 | 热点话题 |
 |------|:------------------:|:------------------:|----------|
-| Google News/主流媒体聚合 | 高 | 中 | Spain 伤病、Yamal 依赖、Austria 高压是否奏效 |
-| Twitter/X | not covered | not covered | 未抓到稳定公开量化页面 |
-| Reddit | blocked/not covered | blocked/not covered | 公开抓取受限 |
-| 微博 / 虎扑 / 懂球帝 | not covered | not covered | 本次未取得稳定可复核页面 |
+| Google News | 高 | 中 | Yamal 伤情、Alaba/Arnautovic 出战悬念 |
+| 英文体育媒体（Sports Mole/ESPN/AS） | 高 | 中 | 首发阵容预测、伤病名单更新 |
+| 中文平台（体彩相关讨论，未直接抓取，基于官方赔率推断） | 高（隐含概率72%热门） | 低 | 竞彩官方 1.23 超级热门盘 |
 
-> 本节结论主要依据可抓取新闻/预览页，而非无法复核的社媒计数。舆情方向整体偏向 Spain 晋级，但并未把 Austria 完全视为“无威胁弱旅”。
+> **中国市场特点：** 竞彩官方盘口西班牙隐含胜率超过 70%，属于典型"独家热门"配置；但本场双方均非英超球队，未见 CN 市场结构性错价（见 1.3）。
+
+---
 
 ## 三、球队基本面分析
 
 ### 3.1 球队近期状态
 
-**Spain**
-- 战术风格：高控球 + 中场压制，依赖 Rodri/Pedri 出球与边锋一对一。
-- 近期状态：小组赛 7 分头名出线，3 场 0 失球；击败 Saudi Arabia、Uruguay，战平 Cape Verde。
-- 体能状况：⚠️ 有隐患——边路伤情较集中，但整体轮换和板凳深度仍优于对手。
-- 大赛经验：✅ 优势——欧洲冠军班底，淘汰赛经验与控场能力更成熟。
-- 场地适配：SoFi Stadium 的大场地更适合 Spain 的控球与边路拉开。
+**西班牙**
+- 战术风格：De la Fuente 体系下的高位压迫 + 边路快速转换（Yamal/Williams 双边锋驱动）
+- 近期状态：2025 年重返 FIFA 世界排名第一，小组赛表现稳健（据公开报道晋级顺利）
+- 体能状况：⚠️劣势 —— 主力群伤病总天数超 1500 天（Yamal、Nico Williams、Fabián Ruiz、Rodri、Merino 等均有伤病史），深度受到冲击
+- 世界杯经验：✅优势 —— 2010年冠军班底传承 + 近两届大赛稳定发挥
+- 中立场（SoFi Stadium）表现：作为夺冠热门，美国本土主场氛围对双方均属中立，西班牙近年海外大赛适应力较强
 
-**Austria**
-- 战术风格：Rangnick 式高压、快速转换、节奏很硬。
-- 近期状态：Group J 次名出线，3-1 Jordan、0-2 Argentina、3-3 Algeria；表现上限和下限都很大。
-- 体能状况：⚠️ 劣势——最后一轮拼到补时，Alaba、Arnautovic 都带着小伤信息进入淘汰赛。
-- 大赛经验：⚠️ 相对劣势——世界杯淘汰赛经验与顶级强队对抗样本明显少于 Spain。
-- 比赛形态：若无法持续高质量高压，防线身后空间容易被 Spain 利用。
+**奥地利**
+- 战术风格：Rangnick 高强度逼抢 + 快速由守转攻
+- 近期状态：小组赛末轮与阿尔及利亚战至 3-3，补时绝平惊险晋级，暴露防线软肋
+- 体能状况：⚠️劣势 —— 高强度绝平战对体能消耗大，转入淘汰赛短暂恢复期存疑
+- 世界杯经验：⚠️劣势 —— 本届为近年来少有的晋级淘汰赛，大赛底蕴不及西班牙
+- 中立场表现：客观中立，但作为"欧洲弱侧"心理压力更大
 
 ### 3.2 关键球员动态
 
 | 球员 | 球队 | 状态 | 影响 |
-|------|------|------|------|
-| Nico Williams | Spain | ⚠️ 大概率缺席/不宜首发 | Spain 左路爆点能力下降，更多依赖 Baena 内收和 Yamal 单点爆破 |
-| Yeremy Pino | Spain | ⚠️ 伤疑 | 前场轮换深度下降 |
-| Rodri | Spain | ⚠️ 可出战但有身体管理话题 | 仍是控场核心，但比赛后段强度需观察 |
-| Lamine Yamal | Spain | ✅ 可出战 | 目前 Spain 最具决定性的边路爆点 |
-| David Alaba | Austria | ⚠️ 轻伤疑问但预计能踢 | Austria 后场出球与领导力关键 |
-| Marko Arnautovic | Austria | ⚠️ 轻伤疑问但预计能踢 | 支点、经验与禁区终结能力关键 |
-| Stefan Posch | Austria | ⚠️ 戴面具作战 | 可踢但对高位对抗和转身保护有潜在影响 |
-| Sasa Kalajdzic | Austria | ✅ 冲击型替补 | 若 Austria 落后或需要空袭，会成为强牌 |
+|------|--------|------|------|
+| Lamine Yamal | 西班牙 | ⚠️待定（腘绳肌/大腿伤情） | 若缺阵将显著削弱边路创造力与突破 |
+| Nico Williams | 西班牙 | ⚠️待定（腹股沟旧伤，年度性问题） | 影响西班牙边路宽度与结构 |
+| Rodri | 西班牙 | ⚠️待定（肌肉伤复发） | 中场屏障缺失将影响攻防转换节奏 |
+| Fabián Ruiz / Mikel Merino | 西班牙 | ⚠️待定 | 中场轮换深度受限 |
+| David Alaba | 奥地利 | ⚠️待定（肌肉紧张，预计出战） | 若正常出战，后防稳定性维持 |
+| Marko Arnautovic | 奥地利 | ✅预计出战（轻微伤情） | 锋线支点保持，37岁高龄体能续航为隐忧 |
 
 ### 3.3 战术 matchup 分析
 
 **核心矛盾：**
-1. Spain 的中场控球能否持续绕开 Austria 第一波高压。
-2. Austria 抢高后能否把转换质量转化为真正的禁区机会，而不是只制造混乱。
-3. Spain 边路减员后，是否仍能把阵地战优势转化成足够多的高质量射门。
+1. 西班牙边路（Yamal/Williams 若出战）宽度冲击 vs 奥地利边后卫（Posch/Mwene）防守韧性
+2. 西班牙中场控球压制 vs 奥地利高位逼抢反抢体系——若奥地利前场逼抢成功率高，可打乱西班牙出球节奏
+3. 西班牙锋线终结效率 vs 奥地利小组赛暴露的防线软肋（末轮失3球）
 
 **风格克制：**
-- Spain 最擅长的正是用短传和站位破解高压；若 Rodri/Pedri 不被持续限制，Austria 的压上容易变成身后空当。
-- Austria 的反击、定位球、二点球对 Spain 是真实威胁，特别是在 Spain 迟迟打不开局面时。
-- 若比赛进入 60 分钟后仍僵持，淘汰赛保守心态会显著提升 Draw 权重，这也是本场价值判断的关键来源。
+- 若西班牙伤病名单最终缺阵人数多于预期，奥地利的高强度逼抢将更具威胁
+- 奥地利末轮丢3球的防守稳定性问题若延续，西班牙即便主力不全也有较大破门空间（呼应大小球升盘信号）
 
 ### 3.4 历史交锋记录
 
 | 日期 | 赛事 | 主场 | 比分 | 客场 |
 |------|------|------|:----:|------|
-| 2009-11-18 | 友谊赛 | Austria | 1-5 | Spain |
-| 2001-09-01 | 世预赛 | Spain | 4-0 | Austria |
-| 2000-10-11 | 世预赛 | Austria | 1-1 | Spain |
-| 1999-09-04 | 欧预赛 | Austria | 1-3 | Spain |
-| 1999-03-27 | 欧预赛 | Spain | 9-0 | Austria |
-| 1978-06-03 | 世界杯 | Austria | 2-1 | Spain |
+| 历史交锋 | 欧洲杯/友谊赛（历史多次交手） | — | 西班牙总体占优 | — |
 
-**交锋记录：**主流可抓取来源多指向 Spain 在近几十年交锋中占优（Sports Mole 口径 16 战 9胜3平4负；Khel Now 口径 16 战 10胜2平4负，存在轻微统计差异）。共同结论是：**近代样本对 Spain 明显更有利，但最近一次交手已是 2009 年。**
+**交锋记录：西班牙历史交锋整体占据优势（参考 eu-football.info / Sports Mole 等历史交锋专题）**
 
-> **决赛/淘汰赛降权说明：** 本场不是决赛，但属于世界杯单场淘汰赛；过往友谊赛、预选赛乃至 2009 年旧样本对当前 2026 年阵容迁移价值有限，因此 H2H 只作低权重辅助。
+> **决赛降权说明：** 本场为世界杯淘汰赛 1/16决赛（非决赛），但作为中立场地单场淘汰赛，历史交锋（多产生于友谊赛/大赛小组赛等不同情境）参考价值有限，降权处理，权重下调至约 5-8%（较小组赛/常规赛的10-15%有所降低，但不比真正决赛降至5%以下）。
 
 ### 3.5 公开强度数据：ClubElo / xG / FIFA 排名
 
 | 球队 | 指标 | 数值 | 来源 | 新鲜度 | 解读 |
 |------|------|------|------|--------|------|
-| Spain | ClubElo rating | not covered（国家队不适用） | 已检查 `club-elo`；国家队改看 FIFA/Elo | 2026-07-01 | 不估算 ClubElo，转用国家队 Elo |
-| Austria | ClubElo rating | not covered（国家队不适用） | 已检查 `club-elo`；国家队改看 FIFA/Elo | 2026-07-01 | 不估算 ClubElo，转用国家队 Elo |
-| Spain | FIFA 排名 / 国家队 Elo | FIFA Rank #2；Elo 1879.58（世界第3，欧足联第2） | worldfootballrankings.com/country/ESP | 2026-07-01 更新 | 顶级争冠强度锚点 |
-| Austria | FIFA 排名 / 国家队 Elo | FIFA Rank #24；Elo 1598.82（世界第23，欧足联第13） | worldfootballrankings.com/country/AUT | 2026-07-01 更新 | 与 Spain 存在约 281 Elo 点级别差距 |
-| Spain | xG / recent xG trend | 已抓到公开片段：World Cup 3 场合计仅放出 **0.54 xG**；球员端 Oyarzabal 1.3 xG、Ferran 1.1 xG | ESPN 预览；FotMob/公开 xG 聚合页 | 近期赛事 | 防守质量非常硬，前场机会主要集中在核心攻击手 |
-| Austria | xG / recent xG trend | 已抓到公开片段：对 Argentina 仅 **0.53 xG**；球员端 Arnautovic 1.1 xG、Sabitzer 0.2 xG | Football365；FotMob/公开 xG 聚合页 | 近期赛事 | 对强队时稳定制造高质量机会的能力仍偏弱 |
+| 西班牙 | ClubElo rating | not covered（ClubElo 仅覆盖俱乐部） | — | — | 国家队不适用 ClubElo，改用 FIFA 排名/国家队 Elo |
+| 奥地利 | ClubElo rating | not covered（ClubElo 仅覆盖俱乐部） | — | — | 同上 |
+| 西班牙 | FIFA 排名 / 国家队 Elo | 世界排名第一（2025年数据） | https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/spain-top-ranking-2025 | 2025年度，赛前较新 | 印证西班牙作为夺冠热门的公开强度锚点，与赔率隐含72%胜率方向一致 |
+| 奥地利 | FIFA 排名 / 国家队 Elo | not covered（搜索未返回具体数值页面，仅返回聚合榜单入口） | https://worldfootballrankings.com/country/AUT （页面存在但未抓取到具体数值） | stale/未核实 | 标记为未覆盖，不做估算 |
+| 西班牙 | xG / xGA / recent xG trend | not covered（FBref 检索页返回 403，未获取具体数值） | https://fbref.com/en/squads/b561dd30/Spain-Men-Stats（访问受限） | blocked | 标记为受阻，不做估算 |
+| 奥地利 | xG / xGA / recent xG trend | not covered（FBref 同样受限，仅有聚合入口） | https://fbref.com/en/squads/d5121f10/2024-2025/Austria-Men-Stats（访问受限） | blocked | 标记为受阻，不做估算 |
 
-> 仅引用公开覆盖数据；直接 FBref 页面本次抓取受阻，因此这里使用可复核的公开摘要页与已返回的 xG 片段，不补造缺失值。
+> 仅引用公开覆盖数据；xG 来源（FBref）本次访问被拒（403），国家队 Elo 聚合页面未返回具体数值，均如实标注 not covered / blocked，未做估算替代。
+
+---
 
 ## 四、综合预测
 
 ### 4.1 各维度权重评估
 
-| 维度 | Spain得分 | Austria得分 | 说明 |
+| 维度 | 西班牙得分 | 奥地利得分 | 说明 |
 |------|:-----------:|:-----------:|------|
-| 阵容深度 | 9 | 6 | Spain 边锋有伤，但板凳与核心质量仍明显更高 |
-| 体能状态 | 7 | 6 | Spain 有伤病隐患；Austria 则经历高消耗末轮与个别伤情 |
-| 战术适配 | 8 | 6 | Spain 的传控与中场站位天然克制高压失位 |
-| 大赛经验 | 8 | 6 | Spain 的大赛班底更成熟 |
-| 攻防实力 | 9 | 6 | Elo、零封表现与 xG 防守片段都明显偏向 Spain |
-| 士气/动力 | 8 | 8 | Spain 冲击冠军；Austria 带着爆冷心态更放松 |
-| 定位球 | 7 | 7 | Austria 有高度与二点球威胁，Spain 也有 delivery 质量 |
-| 边路突破 | 8 | 6 | Spain 受伤病削弱，但 Yamal 单点仍强于 Austria 边路质量 |
-| H2H | 6 | 4 | 仅作 5% 低权重参考（淘汰赛降权） |
+| 阵容深度 | 8.0 | 6.0 | 西班牙伤病虽多但替补厚度仍占优 |
+| 体能状态 | 6.5 | 6.0 | 双方均有隐忧，西班牙伤病成堆，奥地利末轮高强度绝平战消耗大 |
+| 战术适配 | 8.0 | 6.5 | 西班牙控球压制体系成熟，奥地利逼抢有效但对顶级控球队効果有限 |
+| 大赛经验 | 8.5 | 6.0 | 西班牙夺冠底蕴深厚 |
+| 攻防实力 | 8.5 | 6.0 | 西班牙锋线厚度 + FIFA排名第一佐证；奥地利末轮丢3球防守存疑 |
+| 士气/动力 | 7.5 | 8.0 | 奥地利绝杀晋级士气正盛，略占优 |
+| 定位球 | 7.0 | 6.5 | 数据有限，定性评估持平略偏西班牙 |
+| 边路突破 | 8.5 | 6.0 | Yamal/Williams（若出战）边路杀伤力显著 |
+| H2H | 7.0 | 5.5 | 决赛降权处理，权重降至约6% |
 
 **加权综合评分：**
-- Spain：8.0/10
-- Austria：6.2/10
+- 西班牙：7.9/10
+- 奥地利：6.2/10
 
 ### 4.2 比分预测
 
 | 预测比分 | 概率 | 说明 |
 |----------|:----:|------|
-| Spain 2-0 Austria | 14% 左右 | 与官方比分市场最高单点概率一致，也吻合主流媒体共识 |
-| Spain 1-1 Austria | 10% 左右 | 单场淘汰赛 Draw inflation 后的核心防守反击场景 |
-| Spain 1-0 Austria | 11% 左右 | 若 Spain 早段领先后控节奏，这一结果也很自然 |
+| 2:0 | 13.9% | 官方比分盘最热，符合西班牙热门+大球倾向 |
+| 2:1 / 3:0 | 各10.1% | 次热门比分，呼应大小球升盘 |
+| 1:0 | 11.4% | 若西班牙伤病较多、进攻效率打折 |
+| 1:1 | 7.9% | 平局情形下的主流比分 |
 
 ### 4.3 竞彩推荐
 
 | 玩法 | 推荐选项 | 竞彩赔率 | 置信度 | 说明 |
 |------|---------|:--------:|:------:|------|
-| **胜平负 (SPDF)** | **平局** | **4.75** | ⭐⭐⭐⭐ | 市场持续压 Spain，反而把 90 分钟平局价格抬高；单场淘汰赛 +4pp Draw prior 后出现正期望 |
-| **让球胜平负** | 让负（Spain -1） | 3.25 | ⭐⭐ | 广义市场并未把 -1 一致加深到更重位置，Spain 未必稳稳打穿两球 |
-| **总进球** | 2球 / 3球 | 3.60 / 3.45 | ⭐⭐⭐ | 官方总进球分布峰值就在 2、3 球；大小球 2.5 也未升盘 |
-| **比分** | 2-0 / 1-1 | 5.10 / 9.00 | ⭐⭐ | 2-0 是最可能单点；1-1 是淘汰赛 Draw value 的落地比分 |
-| **半全场** | 平/胜 | 3.75 | ⭐⭐ | 若 Austria 初段顶住高压，Spain 后程掌控比赛，这一路径成立 |
+| **胜平负 (SPDF)** | 平局 | 4.75 | ⭐⭐⭐⭐ | Final-Match Prior 抬升平局公平概率至约22.7%，对比官方4.75隐含21.1%（去水18.6%），Edge +7.8% |
+| **让球胜平负** | 西班牙 -1 主胜（受让） | 1.85 | ⭐⭐⭐ | 官方去水公平概率47.8%对比赔率隐含（未去水）54.1%，边际有限，谨慎参与 |
+| **总进球** | 3球 | 3.45 | ⭐⭐⭐ | 官方公平概率23.1%为最热门单一比分点，且大小球升盘方向一致 |
+| **比分** | 2:0 | 5.10 | ⭐⭐⭐ | 官方比分盘最热门选项，符合西班牙热门+大球预期 |
+| **半全场** | 胜/胜（西班牙半场领先全场获胜） | 1.70 | ⭐⭐⭐⭐ | 官方公平概率46.9%，与西班牙热门定位一致 |
 
 ### 4.4 Kelly建议
 
-根据 Half-Kelly 公式（以官方胜平负即时盘 1.23 / 4.75 / 9.40，模型分布 68.74% / 22.72% / 8.54% 计算）：
-- **Spain胜：** Edge **-15.45%**，Half-Kelly **0.00%**
-- **平局：** Edge **+7.93%**，Half-Kelly **1.06%**
-- **Austria胜：** Edge **-19.71%**，Half-Kelly **0.00%**
+根据 Kelly 公式计算（p 取 Final-Match Prior 调整后的模型概率，b = 竞彩赔率-1）：
+- **西班牙胜：** 模型概率68.8%，赔率1.23，Edge = 0.688×1.23-1 = -15.4%，Kelly为负，**不参与**
+- **平局：** 模型概率22.7%，赔率4.75，Edge = 0.227×4.75-1 = +7.8%，Kelly = (3.75×0.227-0.773)/3.75 ≈ 2.08%，**Half-Kelly ≈ 1.0%**
+- **奥地利胜：** 模型概率8.5%，赔率9.40，Edge = 0.085×9.4-1 = -20.1%，Kelly为负，**不参与**
 
-> **Kelly建议：平局方向小注参与（约 1% bankroll，Half-Kelly）；正路 Spain 晋级逻辑成立，但 Spain 胜赔付过低，不宜在 90 分钟胜平负市场追价。**
+> **Kelly建议：本场核心价值在平局方向，建议以约 1% 本金 Half-Kelly 小注参与竞彩SPDF平局；西班牙独赢及奥地利爆冷方向均无正Edge，不建议参与单一1X2投注。**
+
+---
 
 ## 五、总结与风险提示
 
 ### 核心判断
 
-1. **基本面与公开强度锚点都明显偏向 Spain。** Elo 级差、零封表现与主流媒体预测共同指向 Spain 是更可能的晋级方。
-2. **但这不是普通小组赛，而是世界杯单场淘汰赛。** 按技能链条，Final-Match/Knockout Prior 在这里应以“单场淘汰赛 +4pp Draw inflation”形式触发，而不是完全忽略。
-3. **市场走势本身更利于做价值而非追热门。** 竞彩与欧赔都在继续压 Spain，导致 Draw 从 4.50 拉到 4.75，给了平局更好的赔率容错。
-4. **Austria 的高压和定位球足以把比赛拖入胶着。** 即使最终出局，也完全可能把 Spain 拉进 1-1 或 0-0 的 90 分钟路径。
+1. 西班牙作为2025年FIFA世界排名第一的夺冠热门，竞彩与国际市场对其胜率定价高度一致（Devig后均在72%附近），本场"强者恒强"逻辑清晰。
+2. 淘汰赛单场决胜属性触发 Final-Match Prior，平局公平概率较无先验基线上调约4pp至22.7%，是竞彩官方4.75平局赔率的核心价值来源（Edge +7.8%）。
+3. 西班牙伤病名单（Yamal、Nico Williams、Rodri、Fabián Ruiz 等超1500天累计缺阵）是最大不确定性来源，若多名主力缺阵，晋级概率虽仍占优但优势会被削弱，为平局/冷门方向提供额外支撑。
+4. 让球（-1线）、大小球（2.5球线）、亚盘方向的市场资金变化（欧赔客队大幅drift、亚盘主队方向资金增加、大小球明显升盘）三线一致指向"西班牙大概率取胜且总进球数偏多"的公开预期。
 
 ### 风险提示
 
-- ⚠️ 若 Spain 早早进球并迫使 Austria 全线前压，官方让球主胜和 2-0/3-0 路径会快速升温，平局逻辑会被显著削弱。
-- ⚠️ Spain 边路伤病信息在不同来源之间存在轻微口径差异，临场首发若 Nico Williams 意外复出，Spain 进攻上限会上修。
-- ⚠️ Austria 的 Alaba、Arnautovic 若临场确认缺席，其反击和定位球威胁会明显下降。
-- ⚠️ 本报告推荐的是**90 分钟市场价值**，不等于看空 Spain 晋级；加时赛/点球不计入胜平负结算。
+- ⚠️ Lamine Yamal、Nico Williams 若最终缺阵，西班牙边路创造力将明显削弱，可能拖累进球效率
+- ⚠️ 奥地利小组赛末轮绝杀晋级带来的士气红利可能短期内提振其表现，存在冷门下限抬升的可能
+- ⚠️ ClubElo/xG 数据本次均未能覆盖或被访问阻断（FBref 403），公开强度验证仅能依赖 FIFA 排名，交叉验证力度有限
+- ⚠️ 让球盘口在30家公司中呈现-1/-2线各半的分歧（15家vs15家），说明让球深浅本身仍存市场分歧，需结合最终首发阵容再确认
 
 ### 最终结论
 
-**最可能的结果：Spain 90 分钟内小胜（2-0 / 1-0 路径最顺）。**  
-**竞彩最优价值：胜平负“平局 4.75”——单场淘汰赛 Draw inflation + 市场追捧 Spain 后的价格抬升，形成本场最清晰的正期望。**
+**最可能的结果：西班牙全场获胜（1X2 主胜概率最高，但淘汰赛平局概率经Final-Match Prior调整后不容忽视）**
+**竞彩最优价值：竞彩SPDF 平局 (4.75)，Edge +7.8%，Half-Kelly ≈1%小注参与**
+
+---
 
 ## 应用的先验清单 (Applied Priors Check)
 
-Applied priors check:
-- [Y] Final-Match Prior (decisive match → draw +3~6pp): 本场经多源赛况确认是世界杯 32 强单场淘汰赛，不是小组赛；按 knockout single-leg 采用 **+4pp** Draw inflation，把 1X2 基线从 72.29/18.72/8.98 调整到 68.74/22.72/8.54。
-- [Y] Fatigue × Motivation offset: Spain 有边路伤病与 Rodri 身体管理话题；Austria 则经历高消耗末轮 + Alaba/Arnautovic 轻伤，但爆冷动力强，最终只作评分对冲、不追加概率修正。
-- [Y] H2H discount for finals: 严格说不是“final”，但属于中立场单场淘汰赛，过往友谊赛/预选赛 H2H 迁移性弱，因此按同一原则低权重处理。
-- [N] CN market structure (EPL bias): 国家队赛事，不满足 EPL vs 非 EPL 触发条件，也无 Devig 证据支持该先验。
-- [Y] Volume signal (升/降盘): 官方 1X2 与 HHAD 均向 Spain 方向压缩，大小球只在水位层面偏大球、未升盘；解读为“Spain 热、但总进球仍在 2-3 球中枢”。
-- [Y] Devig per market: 已覆盖 1X2、HHAD、总进球、比分、半全场，并比较官方初盘/即时盘与百家欧赔/让球共识。
-- [Y] Half-Kelly computed: 1X2 中只有 Draw 为正 Edge（+7.93%，Half-Kelly 1.06%）；Spain/Austria 胜均为负 Edge。
+- **[Y] Final-Match Prior**：世界杯淘汰赛1/16决赛（单场决胜，晋级/淘汰），触发"Continental KO single-leg"级别 Δdraw +4pp，公平概率平局由约18.7%（竞彩/欧赔均值）上调至22.7%
+- **[Y] Fatigue × Motivation 对冲**：奥地利末轮绝平消耗体能但提振士气（士气分8.0 vs 西班牙7.5），西班牙伤病堆积但阵容深度整体占优，两队因素部分对冲，未单方面决定性影响
+- **[Y] H2H discount for finals (H2H 决赛降权)**：单场淘汰赛（非真正决赛）但中立场次一次性决胜，历史交锋权重由常规10-15%降至约6%
+- **[N] CN market structure (CN 市场结构)**：西班牙、奥地利均非英超球队，不满足触发条件；即使套用验证（Δ主-0.6pp/Δ平-0.2pp）也未通过≥3pp门槛，明确标记不适用
+- **[Y] Volume signal (Volume Signal 升降盘解读)**：欧赔客队大幅drift（+14%，个别公司+50-70%）确认西班牙热度持续走高；亚盘（球半）主队价格走高、客队价格走低确认净胜球方向资金增加；大小球明显升盘（大球价从0.95降至0.73）确认大球方向资金流入
+- **[Y] Devig per market**：覆盖市场 1X2（竞彩HAD + 欧赔30家共识）、让球胜平负（竞彩HHAD + 百家rangqiu共识）、比分（CRS）、总进球（TTG）、半全场（HAFU）
+- **[Y] Half-Kelly applied**：平局 Edge +7.8% → Half-Kelly ≈1.0%；西班牙胜 Edge -15.4%（不参与）；奥地利胜 Edge -20.1%（不参与）
 
-Evidence gates check:
-- [Y] Web-research evidence collected (run_research; ≥2 converging sources OR all-blocked fallback explicitly declared): 已取得 ESPN、Sports Mole、Football365、RotoWire、Yahoo Sports、Khel Now 等收敛证据。
-- [Y] ClubElo public rating checked (intent: "club-elo"; source URL or unavailable reason): 已检查；国家队 direct ClubElo 不适用/不覆盖，转用 `https://worldfootballrankings.com/country/ESP` 与 `https://worldfootballrankings.com/country/AUT` 的国家队 Elo。
-- [Y] xG public data checked (intent: "xg"; source URL or unavailable reason): 已检查；FBref 直连受阻，但公开摘要页与研究返回给出 Spain/Austria 的 xG 片段（FotMob / playerstats / Football365 / ESPN）。
-- [N] Estimated odds present (must be marked with 估算): 本报告赔率全部来自实时工具抓取，无估算赔率。
+Estimated odds count: 0/多（本场所有赔率均为实际抓取，无估算值）
+Confidence: High（无估算赔率，公开赔率数据完整；仅公开强度ClubElo/xG部分受限）
 
 ### Public Data Signals Check
 
-- [Y] ClubElo public rating checked — national-team fixture; direct ClubElo is not covered for this match type (`http://api.clubelo.com/Spain`, `http://api.clubelo.com/Austria`), so the report uses national-team Elo fallback from `https://worldfootballrankings.com/country/ESP` and `https://worldfootballrankings.com/country/AUT`.
-- [Y] xG public data checked — `https://fbref.com/en/squads/b561dd30/Spain-Men-Stats` and `https://fbref.com/en/squads/d5121f10/2026/all_comps/Austria-Men-Stats-All-Competitions` were blocked, so the report cites accessible public summaries: `https://www.fotmob.com/teams/6720/stats/espagne,teams/teams`, `https://www.fotmob.com/teams/8255/stats/austria,teams,teams/teams`, `https://www.football365.com/match-preview/spain-v-austria-prediction-preview`, `https://www.espn.com/soccer/story/_/id/49213161/fifa-world-cup-2026-spain-vs-austria-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups`.
+- **[N] ClubElo public rating checked** — ClubElo public rating not covered: 国家队赛事不适用 ClubElo（俱乐部专用指标，尝试 http://api.clubelo.com/ 无国家队条目），改用 FIFA 排名/Elo 替代：西班牙已确认2025年世界排名第一（来源见3.5），奥地利未获取具体数值（worldfootballrankings.com/country/AUT 聚合页面存在但未返回精确排名/Elo，标记 not covered）
+- **[N] xG public data checked** — FBref 访问受阻（403），Understat/StatsBomb 未见国家队本场覆盖，标记 blocked/not covered，未做估算
 
-**估算赔率统计**：0 / 24  
-**整体置信度**：Medium
+**估算赔率统计**：0 / 全部（本场无估算赔率）
+**整体置信度**：High（赔率数据完整实抓，公开强度数据部分受限但不影响核心Devig/Kelly计算）
 
-<!-- probs: {"home": 0.69, "away": 0.09, "draw": 0.23} -->
+---
 
-## 数据来源
+*报告生成时间：2026-07-02T00:36:10.004Z*
+*数据截止：2026-07-02T00:37:53Z（赔率快照 fetchedAt 2026-07-01T21:00:00Z / 500.com fenxi fetchedAt 2026-07-01T21:00:03Z）*
+*数据来源：
+- Tier 1（赔率）：中国体彩官方 HAD/HHAD/CRS/TTG/HAFU + 500.com 百家欧赔/让球/亚盘/大小球共识（销售日 2026-07-02，周四083）
+- Tier 5（伤病/阵容/舆情）：https://www.sportsmole.co.uk/football/spain/world-cup-2026/predicted-lineups/will-alaba-arnautovic-be-fit-predicted-austria-xi-vs-spain_600398.html ；https://en.as.com/soccer/world-cup/more-than-1500-days-out-spains-injury-nightmare-ahead-of-world-cup-f202605-n/
+- Tier 5（FIFA排名）：https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/spain-top-ranking-2025
+- 未覆盖/受阻：FBref xG（403 blocked），奥地利 FIFA/Elo 精确数值（聚合页存在但未返回具体值，not covered）*
+*推理依据：LLM qualitative match-analysis methodology v0.1*
 
-- **Tier 1（赔率）**：中国体彩与 500.com 百家盘口聚合（周四083 / Spain vs Austria），含官方胜平负、让球胜平负、比分、总进球、半全场及百家欧赔/亚盘/大小球共识。
-- **Tier 5（赛事预览/伤停/舆情）**：
-  - https://www.espn.com/story/_/id/48870392
-  - https://www.espn.com/soccer/story/_/id/49213161/fifa-world-cup-2026-spain-vs-austria-tv-channel-how-watch-kickoff-live-stream-referee-predicted-lineups
-  - https://www.sportsmole.co.uk/football/spain/world-cup-2026/preview/spain-vs-austria-prediction-team-news-lineups_600390.html
-  - https://www.sportsmole.co.uk/football/spain/world-cup-2026/predicted-lineups/pinos-pain-williams-woes-predicted-spain-xi-vs-austria_600397.html
-  - https://www.sportsmole.co.uk/football/spain/world-cup-2026/predicted-lineups/will-alaba-arnautovic-be-fit-predicted-austria-xi-vs-spain_600398.html
-  - https://www.football365.com/match-preview/spain-v-austria-prediction-preview
-  - https://www.rotowire.com/soccer/article/spain-vs-austria-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120533
-  - https://sports.yahoo.com/articles/world-cup-2026-r32-spain-112000294.html
-- **Tier 5（历史交锋/背景）**：
-  - https://www.sportsmole.co.uk/football/spain/world-cup-2026/head-to-head/spain-vs-austria-head-to-head-record-and-past-meetings_600401.html
-  - https://khelnow.com/football/spain-vs-austria-head-to-head-fifa-world-cup-2026
-- **Tier 5（公开强度数据）**：
-  - https://worldfootballrankings.com/country/ESP
-  - https://worldfootballrankings.com/country/AUT
-  - https://www.fotmob.com/teams/6720/stats/espagne,teams/teams
-  - https://www.fotmob.com/teams/8255/stats/austria,teams,teams/teams
+<!-- probs: {"home": 0.688, "draw": 0.227, "away": 0.085} -->

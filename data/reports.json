@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-01T13:15:13.585Z",
-  "count": 87,
+  "generatedAt": "2026-07-02T01:03:49.033Z",
+  "count": 90,
   "reports": [
     {
       "matchId": "6203_2026-06-13",
@@ -2460,20 +2460,24 @@
     },
     {
       "matchId": "4083_2026-07-02",
-      "title": "Spain vs Austria",
-      "home": "Spain",
-      "away": "Austria",
-      "competition": "FIFA World Cup 2026",
+      "title": "西班牙 vs 奥地利",
+      "home": "西班牙",
+      "away": "奥地利",
+      "competition": "世界杯",
       "kickoff": "2026-07-03T03:00:00+08:00",
       "probs": {
-        "home": 0.69,
-        "draw": 0.23,
-        "away": 0.09
+        "home": 0.688,
+        "draw": 0.227,
+        "away": 0.085
       },
-      "generatedAt": "2026-07-01T12:56:06.399Z",
+      "generatedAt": "2026-07-02T00:36:10.004Z",
       "validationPass": true,
       "current": "reports/4083_2026-07-02/current.md",
       "history": [
+        {
+          "timestamp": "2026-07-01T125606Z",
+          "path": "reports/4083_2026-07-02/history/2026-07-01T125606Z.md"
+        },
         {
           "timestamp": "2026-07-01T003738Z",
           "path": "reports/4083_2026-07-02/history/2026-07-01T003738Z.md"
@@ -2482,20 +2486,24 @@
     },
     {
       "matchId": "4084_2026-07-02",
-      "title": "Portugal vs Croatia",
-      "home": "Portugal",
-      "away": "Croatia",
-      "competition": "FIFA World Cup 2026",
+      "title": "葡萄牙 vs 克罗地亚",
+      "home": "葡萄牙",
+      "away": "克罗地亚",
+      "competition": "世界杯",
       "kickoff": "2026-07-03T07:00:00+08:00",
       "probs": {
-        "home": 0.48,
-        "draw": 0.32,
-        "away": 0.2
+        "home": 0.498,
+        "draw": 0.314,
+        "away": 0.188
       },
-      "generatedAt": "2026-07-01T12:56:06.399Z",
+      "generatedAt": "2026-07-02T00:36:10.004Z",
       "validationPass": true,
       "current": "reports/4084_2026-07-02/current.md",
       "history": [
+        {
+          "timestamp": "2026-07-01T125606Z",
+          "path": "reports/4084_2026-07-02/history/2026-07-01T125606Z.md"
+        },
         {
           "timestamp": "2026-07-01T003738Z",
           "path": "reports/4084_2026-07-02/history/2026-07-01T003738Z.md"
@@ -2504,25 +2512,80 @@
     },
     {
       "matchId": "4085_2026-07-02",
-      "title": "Switzerland vs Algeria",
-      "home": "Switzerland",
-      "away": "Algeria",
-      "competition": "FIFA World Cup 2026",
-      "kickoff": "2026-07-03T11:00:00+08:00",
+      "title": "瑞士 vs 阿尔及利亚",
+      "home": "瑞士",
+      "away": "阿尔及利亚",
+      "competition": "2026 FIFA 世界杯 1/16决赛",
+      "kickoff": "2026-07-03T03:00:00Z",
       "probs": {
-        "home": 0.49,
-        "draw": 0.31,
-        "away": 0.2
+        "home": 0.488,
+        "draw": 0.316,
+        "away": 0.196
       },
-      "generatedAt": "2026-07-01T12:56:06.399Z",
+      "generatedAt": "2026-07-02T00:36:10.004Z",
       "validationPass": true,
       "current": "reports/4085_2026-07-02/current.md",
       "history": [
+        {
+          "timestamp": "2026-07-01T125606Z",
+          "path": "reports/4085_2026-07-02/history/2026-07-01T125606Z.md"
+        },
         {
           "timestamp": "2026-07-01T003738Z",
           "path": "reports/4085_2026-07-02/history/2026-07-01T003738Z.md"
         }
       ]
+    },
+    {
+      "matchId": "5086_2026-07-03",
+      "title": "澳大利亚 vs 埃及",
+      "home": "澳大利亚",
+      "away": "埃及",
+      "competition": "2026 FIFA 世界杯 1/16决赛",
+      "kickoff": "2026-07-03T18:00:00Z",
+      "probs": {
+        "home": 0.261,
+        "draw": 0.369,
+        "away": 0.37
+      },
+      "generatedAt": "2026-07-02T00:36:10.004Z",
+      "validationPass": true,
+      "current": "reports/5086_2026-07-03/current.md",
+      "history": []
+    },
+    {
+      "matchId": "5087_2026-07-03",
+      "title": "阿根廷 vs 佛得角",
+      "home": "阿根廷",
+      "away": "佛得角",
+      "competition": "2026 FIFA 世界杯 1/16决赛",
+      "kickoff": "2026-07-03T22:00:00Z",
+      "probs": {
+        "home": 0.7815,
+        "draw": 0.167,
+        "away": 0.0515
+      },
+      "generatedAt": "2026-07-02T00:36:10.004Z",
+      "validationPass": true,
+      "current": "reports/5087_2026-07-03/current.md",
+      "history": []
+    },
+    {
+      "matchId": "5088_2026-07-03",
+      "title": "哥伦比亚 vs 加纳",
+      "home": "哥伦比亚",
+      "away": "加纳",
+      "competition": "2026 FIFA 世界杯 1/16决赛",
+      "kickoff": "2026-07-04T01:30:00Z",
+      "probs": {
+        "home": 0.5645,
+        "draw": 0.295,
+        "away": 0.141
+      },
+      "generatedAt": "2026-07-02T00:36:10.004Z",
+      "validationPass": true,
+      "current": "reports/5088_2026-07-03/current.md",
+      "history": []
     }
   ]
 }

@@ -1,16 +1,17 @@
-> 生成时间：2026-07-02T12:38:19.145Z
-# FIFA World Cup 2026 分析报告：哥伦比亚 VS 加纳
+> 生成时间：2026-07-03T00:30:51.512Z
+
+# 世界杯 分析报告：哥伦比亚 VS 加纳
 
 ## 基本信息
 
 | 项目 | 详情 |
 |------|------|
-| **赛事** | 2026 FIFA World Cup 2026 1/16决赛 |
-| **对阵** | 哥伦比亚 (Colombia) VS 加纳 (Ghana) |
+| **赛事** | 2026 世界杯 1/16决赛 |
+| **对阵** | 哥伦比亚国家队 (哥伦比亚) VS 加纳国家队 (加纳) |
 | **竞彩编号** | 周五088 |
 | **开球时间** | 2026-07-04 09:30 (北京时间) |
-| **比赛地点** | Kansas City Stadium / Arrowhead Stadium，Kansas City |
-| **比赛性质** | 单场淘汰制（90分钟，平局进加时/点球）；中立场语境 |
+| **比赛地点** | Kansas City Stadium（中立场） |
+| **比赛性质** | 单场定胜负（90分钟，若打平进入加时/点球） |
 
 ---
 
@@ -18,35 +19,44 @@
 
 ### 1.1 主流机构初盘与即时盘对比
 
-> **数据来源说明：** 竞彩官方盘口、lottery500 时间线、500.com 百家欧赔/亚盘/大小球摘要、RotoWire 赛前预览。
+> **数据来源说明：** 官方胜平负/让球胜平负/比分/总进球/半全场来自中国体彩销售盘；欧赔、让球、亚盘、大小球来自 500 系多公司汇总。欧赔“初盘”优先取多公司开盘，若无统一开盘则取本次可见快照链最早点作为基线。
 
 | 玩法 | 机构 | 初盘 (主) | 初盘 (平) | 初盘 (客) | 即时盘 (主) | 即时盘 (平) | 即时盘 (客) | 变化方向 |
 |------|------|:---------:|:--------:|:---------:|:----------:|:-----------:|:----------:|:--------:|
-| **1X2 (欧赔)** | 500.com 百家均值 | 1.52 | 3.92 | 7.00 | 1.82 | 3.29 | 5.00 | 主胜明显升赔，平/客同步降赔 |
-| **1X2 (欧赔)** | bet365（fenxi） | 1.50 | 4.00 | 7.50 | 2.20 | 3.10 | 3.60 | 主胜大幅升赔，市场显著回补冷门端 |
-| **1X2 (欧赔)** | 澳门（fenxi） | 1.42 | 3.80 | 7.00 | 1.82 | 3.01 | 4.40 | 主胜降热，平/客受关注 |
-| **亚盘** | 百家共识 | 哥伦比亚 -0.5 | — | — | 哥伦比亚 -1 | — | — | 盘口加深，但更像“赢球不稳赢穿” |
-| **大小球** | 百家共识 | — | 2.0 | — | — | 2.0/2.25 | — | 轻微升盘，预期从极低比分抬到2球附近 |
-| **竞彩胜平负** | 中国体彩 | 1.32 | 4.00 | 8.20 | 1.32 | 4.00 | 8.20 | 时间线无变化，当前价可视作基线 |
-| **竞彩让球胜平负** | 中国体彩（-1） | 2.23 | 3.15 | 2.75 | 2.29 | 3.05 | 2.75 | 让胜升赔、让平降赔，倾向哥伦比亚只赢一球 |
+| **1X2 (欧赔)** | Bet365 | 1.50 | 4.00 | 7.50 | 1.42 | 4.33 | 8.50 | 主胜压低，平/客抬高（最近24h回流哥伦比亚） |
+| **1X2 (欧赔)** | William Hill | 1.50 | 3.75 | 7.00 | 1.44 | 4.00 | 7.50 | 主胜压低，平/客抬高（最近24h回流哥伦比亚） |
+| **1X2 (欧赔)** | 澳门 | 1.40 | 4.00 | 6.85 | 1.82 | 3.01 | 4.40 | 长周期主胜显著走高，平/客持续压低 |
+| **亚盘** | 澳门 | 0.82 | — | 1.02（半球） | 0.80 | — | 1.04（一球升） | 让步加深到哥伦比亚，但客队受让端水位更抗打 |
+| **大小球** | 澳门 | — | 2球（大0.87 / 小0.93） | — | — | 2球（大0.94 / 小0.86） | 平盘不升线，小球水位下压 |
+| **竞彩胜平负** | 中国体彩 | — | — | — | 1.32 | 4.00 | 8.20 | 官方盘面极度倾向哥伦比亚 |
+| **竞彩让球胜平负** | 中国体彩（-1） | 2.23 | 3.15 | 2.75 | 2.29 | 3.05 | 2.75 | 小幅上调主胜、压低平局，整体仍偏谨慎 |
 
 **赔率变化趋势解读：**
 
-1. **Final-Match Prior 之前的市场底色**依然是“哥伦比亚更强”，但百家欧赔从 1.52→1.82 的主胜漂移非常明显，说明越接近比赛，市场越不愿继续追哥伦比亚大热。
-2. **Volume Signal** 在让球盘上呈现“强弱两面”：亚盘从 -0.5 加深到 -1，证明哥伦比亚赢球预期抬升；但竞彩让球胜平负里“让平”从 3.15 压到 3.05，意味着市场更接受“只赢一球”的路径，而不是两球以上完胜。
-3. 总进球线由 2.0 轻升至 2.0/2.25，属于温和修正，不支持大开大合；结合加纳低位防守和淘汰赛保守属性，更像是 **1-0 / 1-1 / 2-0** 这类窄幅比分区间。
-4. 竞彩胜平负时间线未见变化，而百家欧赔在持续向平/客修正，这使 **4.00 的平局** 相对更值得二次审视。
+1. **长周期欧赔与最近24小时快照出现“先反哥伦比亚、后小幅回补”的两段式结构。** 百家欧赔开盘共识一度是 1.44 / 4.20 / 8.00，最新共识变为 1.82 / 3.29 / 5.00，说明市场早段明显下修了哥伦比亚 90 分钟轻松取胜的信心，平局和加纳爆冷的支付被持续压短；但最近 24 小时快照里，Bet365/William Hill 又把主胜从 1.50 压到 1.42-1.44，显示临近赛前又有一波资金回流哥伦比亚正路。
+2. **让球盘给出的含义比胜平负更克制。** 官方让球胜平负是哥伦比亚让 1 球，但百家让球胜平负共识从开盘 2.295 / 3.25 / 2.75 漂到 3.44 / 3.55 / 1.85，受让方（加纳 +1）被大幅压短，含义不是“加纳一定赢球”，而是市场更担心哥伦比亚只赢一球、甚至被拖平，而非两球以上穿盘。
+3. **亚盘与让球胜平负的“分裂”值得重视。** 亚盘线位从半球一路加深到一球/一球球半区，说明早段市场承认哥伦比亚纸面实力更强；但当前客队受让端水位更低，说明在更深的门槛下，资金对哥伦比亚大胜并不追价，比较像“看好晋级，不追穿盘”。
+4. **总进球没有升线，且小球方向水位更硬。** 澳门大小球始终停在 2 球，未升到 2/2.5；同时小球从 0.93 压到 0.86，这属于典型的低事件比赛信号：市场承认哥伦比亚占优，但更像 1-0 / 1-1 / 2-0，而不是开放对攻。
+5. **体彩官方 1X2 基本没跟随外盘修正。** 官方 1.32 / 4.00 / 8.20 与欧赔 Devig 后差距极大，意味着官方盘仍按“强弱分明”在卖哥伦比亚，而外盘早已把平局与加纳方向抬到了更有竞争力的位置。
 
 ### 1.2 隐含概率换算
 
 | 结果 | 竞彩隐含概率 | 欧赔均值隐含概率 | Devig后公平概率 |
 |------|:-----------:|:--------------:|:---------------:|
-| 哥伦比亚胜 | 75.76% | 54.95% | 54.0% |
-| 平局 | 25.00% | 30.40% | 31.0% |
-| 加纳胜 | 12.20% | 20.00% | 15.0% |
-| **margin** | **12.95%** | **5.34%** | **100.0%** |
+| 哥伦比亚胜 | 75.8% | 54.9% | 52.2% |
+| 平局 | 25.0% | 30.4% | 28.9% |
+| 加纳胜 | 12.2% | 20.0% | 19.0% |
+| **margin** | **112.95%** | **105.34%** | **100.0%** |
 
-> 竞彩官方 Devig 后为 **67.1 / 22.1 / 10.8**，百家欧赔共识 Devig 后为 **52.2 / 28.9 / 19.0**。本报告用“百家欧赔 60% + 竞彩 40%”做基线，再执行 **Final-Match Prior（平局 +4pp）** 与淘汰赛情境修正，得到最终公平概率 **54 / 31 / 15**。这意味着：主胜仍是最大单项结果，但**平局被显著低估的可能性更大**。
+> Devig 计算已剔除庄家利润率。单看外盘当前共识，哥伦比亚确实仍是优势方，但并没有官方 1.32 那么夸张；官方盘对主胜压价过深，给平局/客胜留下了明显更长的尾部赔率。
+
+### 1.3 中国竞彩市场结构验证 (CN market-structure prior)
+
+按中国竞彩市场结构验证流程：
+
+- 竞彩 vs EU Devig 公平概率 Δ：主 **+14.9pp** / 平 **-6.8pp** / 客 **-8.2pp**
+- 结论：**不触发该先验**
+- 原因：本场不是 EPL vs 非 EPL 场景，不能套用英超粉丝溢价先验；这里更像是官方盘对“强势名气方”做了保守压价，而不是英超结构性偏差。
 
 ---
 
@@ -56,28 +66,29 @@
 
 | 媒体/机构 | 预测比分 | 倾向 | 预测依据 |
 |-----------|:--------:|------|---------|
-| RotoWire | 1-0 | 哥伦比亚 | 哥伦比亚控球压制、加纳低位防守但进攻乏力 |
-| ESPN | 未给明确比分 | 哥伦比亚不败 | 哥伦比亚小组第一；加纳靠防守韧性晋级但缺少 Kudus |
-| The Stats Zone（Match Centre） | 未给明确比分 | 偏谨慎 | 仅列出淘汰赛背景与赛前资料，节奏预期偏紧 |
-| Google News 聚合 / 搜索结果 | 多为低比分 | 哥伦比亚小优 | 主要聚焦哥伦比亚阵容更整、加纳伤停更重 |
+| Sports Mole | 1-0 | 哥伦比亚小胜 | 认为加纳低位防守能把比赛拖慢，但哥伦比亚整体稳定性和防线质量更高 |
+| RotoWire | 1-0（低事件） | 哥伦比亚小胜 | 点出哥伦比亚对深度低位防守时常靠耐心控球与边路推进破局，加纳进攻产量不足 |
+| The Stats Zone | 哥伦比亚胜，且双方可能都有机会 | 哥伦比亚晋级倾向 | 强调哥伦比亚边路推进与 Daniel Muñoz / Luis Díaz 的冲击力，认为加纳终会被拉开 |
 
-**媒体预测倾向：哥伦比亚胜 2，平局 1，加纳胜 0**
+**媒体预测倾向：哥伦比亚胜 3，平局 0，加纳胜 0**
 
 ### 2.2 球迷情绪分析
 
 **哥伦比亚 球迷**
-- 整体情绪：谨慎乐观
+- 整体情绪：**偏乐观但不算狂热**
 - 关键论点：
-  - James Rodriguez、Luis Díaz 仍被视作比赛决定点。
-  - 阵容完整度高于加纳，淘汰赛经验更足。
-- 担忧点：面对深度回收防线时，哥伦比亚经常只能磨出一球优势。
+  - 小组头名出线、对葡萄牙 0-0 的比赛展现了防守稳定性。
+  - Luis Díaz 状态与影响力被普遍视为破局点，James Rodríguez 的组织价值仍被高度信任。
+  - 最终 26 人名单延续主框架，舆论对阵容连续性评价较正面。
+- 担忧点：终结效率仍被反复提及，若迟迟不能先进球，比赛容易被拖进僵局。
 
 **加纳 球迷**
-- 整体情绪：偏保守但有爆冷期待
+- 整体情绪：**谨慎偏紧张，但并不悲观**
 - 关键论点：
-  - Queiroz 的低位防守体系已在对英格兰时证明可行。
-  - Partey、Jordan Ayew、Semenyo 的反击组合仍具单点爆破力。
-- 担忧点：Kudus 缺阵后，中前场创造力明显下降；后防连续伤停降低上限。
+  - 0-0 逼平英格兰，让外界相信 Queiroz 的低位防守体系有能力继续“拖慢强队”。
+  - Thomas Partey、Jordan Ayew、Semenyo 这条中前场经验线仍给了球队反击想象空间。
+  - 作为最佳第三晋级，舆论心态更像“挑战者”，包袱反而较轻。
+- 担忧点：Kudus、Salisu 缺席削弱上限；门将 Ati-Zigi 的健康情况和 Semenyo 的踝伤，让赛前情绪明显保守。
 
 **综合舆情情感评分：**
 - 哥伦比亚 支持度：7.5/10
@@ -88,12 +99,12 @@
 
 | 平台 | 哥伦比亚 相关讨论量 | 加纳 相关讨论量 | 热点话题 |
 |------|:------------------:|:------------------:|----------|
-| Google News / 搜索聚合 | 较高 | 中等 | 哥伦比亚能否稳过关、James/Luis Díaz 状态 |
-| ESPN / 英文媒体 | 高 | 中高 | Kudus 缺阵、Partey 可否撑起中场、Queiroz 对旧主 |
-| 专题预览站点 | 高 | 中等 | 哥伦比亚控球 vs 加纳低位、低比分倾向 |
-| 中文足球内容 | 中等 | 中低 | 竞彩主胜过热、让球平和值得防范 |
+| Twitter/X | 未取得可验证公开量化数据 | 未取得可验证公开量化数据 | 赛前预测、Luis Díaz、Kudus 缺阵 |
+| Reddit | blocked / not covered | blocked / not covered | 低位防守能否拖入加时 |
+| 微博 | not covered | not covered | 世界杯淘汰赛、竞彩主胜过热 |
+| 虎扑/懂球帝 | not covered | not covered | 哥伦比亚是否只赢一球 |
 
-> **舆情结论：** 公开讨论并没有把比赛塑造成“哥伦比亚轻松大胜”，更主流的叙事是“哥伦比亚优势明显，但节奏慢、容错低，比赛容易拖成胶着局”。
+> **中国市场特点：** 本场为北京时间上午场，零售热度通常不如欧冠深夜焦点战；这会让官方盘更像“运营定价”而非高流动性博弈，平局与受让方向因此更值得对照外盘看。
 
 ---
 
@@ -101,66 +112,67 @@
 
 ### 3.1 球队近期状态
 
-**哥伦比亚**
-- 战术风格：以控球和边路推进为主，依赖 Luis Díaz 单点爆破与 James 的最后一传。
-- 近期状态：以小组第一出线，整体防守稳健，赢球方式偏“磨”。
+**哥伦比亚国家队**
+- 战术风格：以控球和边路推进为核心，右路 Daniel Muñoz、左路 Luis Díaz 是最稳定的推进点。
+- 近期状态：世界杯小组赛 3-1 乌兹别克斯坦、1-0 刚果（金）、0-0 葡萄牙，拿到 7 分头名出线。
 - 体能状况：✅优势
 - 世界杯经验：✅优势
-- 中立场表现：整体稳定，但并非高压快节奏球队。
+- 中立场表现：防线稳定、节奏控制力强，但破密集防守时偶尔显得偏慢。
 
-**加纳**
-- 战术风格：Carlos Queiroz 体系下的低位防守 + 反击，强调阵型紧凑和身体对抗。
-- 近期状态：以最好第三名之一晋级，对英格兰 0-0 展现韧性，对克罗地亚失利暴露追分时的防线漏洞。
+**加纳国家队**
+- 战术风格：Queiroz 体系下以低位防守、压缩中路、快速反击为主。
+- 近期状态：1-0 巴拿马、0-0 英格兰、1-2 克罗地亚，以最佳第三名身份晋级。
 - 体能状况：⚠️劣势
-- 世界杯经验：⚠️略劣势
-- 中立场表现：防守能把比赛拖慢，但阵地战创造力有限。
+- 世界杯经验：⚠️略劣
+- 中立场表现：守转攻纪律性不错，但持续持球输出能力一般，进攻更依赖零散转换与定位球。
 
 ### 3.2 关键球员动态
 
-| 球员 | 队伍 | 状态 | 影响 |
+| 球员 | 俱乐部 | 状态 | 影响 |
 |------|--------|------|------|
-| James Rodríguez | 哥伦比亚 | ✅确认 | 仍是中前场节奏与定位球核心 |
-| Luis Díaz | 哥伦比亚 | ✅确认 | 1v1 爆点，最可能直接改变比赛的人 |
-| Kevin Mier | 哥伦比亚 | ❌落选 | 门将深度有损，但主力门将体系未受破坏 |
-| Mohammed Kudus | 加纳 | ❌缺阵 | 这是加纳最大损失，直接削弱前腰/二前锋创造力 |
-| Mohammed Salisu | 加纳 | ❌缺阵 | 后防制空与单兵防守能力下滑 |
-| Alexander Djiku | 加纳 | ⚠️伤情影响 | 训练中受伤，后防稳定性继续受考验 |
-| Antoine Semenyo | 加纳 | ⚠️轻伤可出战 | 反击推进点，若受限会降低加纳纵向威胁 |
-| Thomas Partey | 加纳 | ✅大概率可用 | 中场拦截与出球关键，但难独自覆盖整条纵深 |
+| Luis Díaz（哥伦比亚） | 拜仁慕尼黑 | ✅确认 | 阵地战最强爆点，决定哥伦比亚边路上限 |
+| James Rodríguez（哥伦比亚） | 明尼苏达联 | ✅确认 | 赛前曾有轻微伤情，但已恢复正常训练，仍是前场节拍器 |
+| Luis Suárez（哥伦比亚） | 葡萄牙体育 | ✅确认 | 对葡萄牙前有轻伤疑问，但公开预览普遍认为可以首发 |
+| Mohammed Kudus（加纳） | 热刺 | ❌缺阵 | 赛季末伤情反复，缺席最终名单，直接削弱加纳前场创造力 |
+| Mohammed Salisu（加纳） | 摩纳哥 | ❌缺阵 | ACL 重伤，防线高点与对抗力下降 |
+| Alexander Djiku（加纳） | 莫斯科斯巴达 | ❌缺阵/落选最终名单 | 训练中受伤后被替换，令加纳中卫轮换更吃紧 |
+| Antoine Semenyo（加纳） | 曼城 | ⚠️待定但大概率出场 | 预览普遍认为会带着踝伤坚持，影响加纳反击纵深 |
+| Lawrence Ati-Zigi（加纳） | 圣加仑 | ⚠️待定 | 门将健康未完全明朗，Benjamin Asare 更像当前即战力选择 |
 
 ### 3.3 战术 matchup 分析
 
 **核心矛盾：**
-1. 哥伦比亚能否尽早利用边路和二点球压垮加纳低位防线。
-2. 加纳在缺少 Kudus 后，是否还能把有限反击机会转化为高质量射门。
-3. 若比赛 60 分钟后仍是平局，淘汰赛压力会迫使哥伦比亚增加前压，这既可能带来绝杀，也会抬高被偷一个的风险。
+1. 哥伦比亚的双边推进与 James 的前腰组织，能否持续把加纳的 4-1-4-1 / 4-3-3 低位拉开。
+2. 加纳在没有 Kudus 的情况下，能否把有限的反击机会转化成足够高质量的射门。
+3. 若哥伦比亚迟迟不进球，比赛会越来越像“哥伦比亚控球、加纳守空间”的耐力赛。
 
 **风格克制：**
-- 哥伦比亚克制点在于：阵地战耐心和边路突破能力明显高于加纳。
-- 加纳克制点在于：Queiroz 的低位收缩能把比赛拖进低样本区间，天然放大平局概率。
+- 哥伦比亚擅长控节奏，但对极深防线时未必能持续制造高质量终结，这正好对上加纳最舒服的比赛模板。
+- 加纳防线伤病削弱了单兵质量，若 Muñoz 与 Luis Díaz 同时压住两翼，低位体系可能被连续横移拉扯。
+- Queiroz 曾执教过哥伦比亚，对部分骨干球员的特点很熟，这会增强加纳前 60 分钟的针对性布置。
 
 ### 3.4 历史交锋记录
 
 | 日期 | 赛事 | 主场 | 比分 | 客场 |
 |------|------|------|:----:|------|
-| — | — | Colombia | — | Ghana |
+| — | 历史交锋 | 哥伦比亚 | 无 | 加纳 |
 
-**交锋记录：多源检索显示两队此前无正式/友谊赛交锋，本场大概率是首次碰面。**
+**交锋记录：本场是两队历史首次正式碰面。**
 
-> **决赛降权说明：** 本场为单场淘汰赛，且两队历史交锋几乎为空白；H2H 只能记作背景信息，不应主导结论。
+> **决赛降权说明：** 本场为单场淘汰赛且两队此前无直接交锋样本，H2H 在本次评估中仅保留极低参考权重。
 
 ### 3.5 公开强度数据：ClubElo / xG / FIFA 排名
 
 | 球队 | 指标 | 数值 | 来源 | 新鲜度 | 解读 |
 |------|------|------|------|--------|------|
-| 哥伦比亚 | ClubElo rating | not covered | ClubElo 不覆盖国家队；已额外检查 public ClubElo 路径失败 | 当前检查 | 不估算，改用 FIFA/Elo 作为国家队强度锚 |
-| 加纳 | ClubElo rating | not covered | ClubElo 不覆盖国家队；已额外检查 public ClubElo 路径失败 | 当前检查 | 不估算，改用 FIFA/Elo 作为国家队强度锚 |
-| 哥伦比亚 | FIFA 排名 / 国家队 Elo | FIFA 第13；Elo 约第12 | Sporting News / World Football Rankings / web-grounded FIFA-Elo check | 2026-06-11 前后 | 世界排名显著高于加纳，强度层级更接近二档强队 |
-| 加纳 | FIFA 排名 / 国家队 Elo | FIFA 第73；Elo 全球前50外 | Sporting News / World Football Rankings / web-grounded FIFA-Elo check | 2026-06-11 前后 | 排名明显落后，更多依赖防守组织和比赛偶然性 |
-| 哥伦比亚 | xG / xGA / recent xG trend | blocked / not covered | FBref 页面可检索但公开抓取 403；Understat 不覆盖国家队 | 当前检查 | 无法用公开 xG 数字确认，只能保留“低比分样态”判断 |
-| 加纳 | xG / xGA / recent xG trend | blocked / not covered | FBref 页面可检索但公开抓取 403；Understat 不覆盖国家队 | 当前检查 | 无法公开量化，但伤停信息指向进攻创造力下滑 |
+| 哥伦比亚 | ClubElo rating | not covered | http://api.clubelo.com/ColombiaNationalFootballTeam | 国家队不适用 | ClubElo 不覆盖国家队，本场改看 FIFA / 国家队 Elo |
+| 加纳 | ClubElo rating | not covered | http://api.clubelo.com/GhanaNationalFootballTeam | 国家队不适用 | ClubElo 不覆盖国家队，本场改看 FIFA / 国家队 Elo |
+| 哥伦比亚 | FIFA 排名 / 国家队 Elo | FIFA #13；Elo #11（1729.30） | https://worldfootballrankings.com/country/COL ; https://futbor.com/fifa-rankings/colombia | 2026-07-02 / 2026-06-11 | 公开强度锚点明显占优，属于本轮实力更完整的一方 |
+| 加纳 | FIFA 排名 / 国家队 Elo | FIFA #73；Elo #65（1387.00） | https://worldfootballrankings.com/country/GHA ; https://futbor.com/fifa-rankings/ghana | 2026-07-02 / 2026-06-11 | 与哥伦比亚存在显著级差，说明加纳更依赖比赛脚本而非绝对实力 |
+| 哥伦比亚 | xG / xGA / recent xG trend | 世预赛 xG/xGA 1.45/1.11；上场对葡萄牙 xG 1.73 | https://footystats.org/international/wc-qualification-south-america/xg ; https://playerstats.football/world-cup/colombia/xg | 混合（资格赛 + 最近一战） | 进攻创造并不爆炸，但稳定高于加纳，且防守端失球控制较好 |
+| 加纳 | xG / xGA / recent xG trend | 上场对克罗地亚 xG 0.63；赛事快照 xG 0.59、xGA 1.48 | https://playerstats.football/world-cup/ghana/xg ; https://futbor.com/team/ghana-national-team/stats/50 | 近战 + 4天内快照 | 加纳创造机会偏少，若先丢球，逆转比赛脚本能力不足 |
 
-> 仅引用公开覆盖数据；若来源未覆盖、受阻或过期，明确写出 `not covered / blocked`，不估算 ClubElo 或 xG。
+> 仅引用公开覆盖数据；未对 ClubElo 或 xG 做任何估算。国家队场景以 FIFA / Elo 作为公开强度锚点。
 
 ---
 
@@ -170,46 +182,45 @@
 
 | 维度 | 哥伦比亚得分 | 加纳得分 | 说明 |
 |------|:-----------:|:-----------:|------|
-| 阵容深度 | 8.0 | 6.2 | 哥伦比亚完整度更高；加纳多处伤停 |
-| 体能状态 | 7.5 | 5.8 | **Fatigue × Motivation** 中体能端哥伦比亚占优 |
-| 战术适配 | 7.0 | 6.8 | 加纳低位守转反能拖慢比赛，但主动性不足 |
-| 大赛经验 | 7.5 | 6.5 | 哥伦比亚主力框架更成熟 |
-| 攻防实力 | 7.8 | 6.1 | FIFA/Elo 层级差距明显 |
-| 士气/动力 | 7.4 | 7.2 | 淘汰赛动力接近，抵消部分实力差 |
-| 定位球 | 7.0 | 6.4 | James 的传球和哥伦比亚高点更可靠 |
-| 边路突破 | 8.2 | 6.0 | Luis Díaz 一侧是最清晰破局点 |
-| H2H | 5.0 | 5.0 | 0%~极低权重（单场淘汰赛降权，且无有效历史样本） |
+| 阵容深度 | 7.8 | 6.3 | 哥伦比亚最终名单稳定，关键位置冗余更好；加纳伤停削弱轮换 |
+| 体能状态 | 7.6 | 6.3 | 哥伦比亚公开伤情更少；加纳门将与前场点存在伤疑 |
+| 战术适配 | 7.3 | 6.9 | 哥伦比亚控场更稳，但加纳低位防守确实能拖慢比赛 |
+| 大赛经验 | 7.0 | 6.6 | 哥伦比亚近三届两次进淘汰赛，加纳则是久违再进淘汰赛 |
+| 攻防实力 | 8.0 | 6.1 | FIFA/Elo 与公开 xG 信号都明显站在哥伦比亚一侧 |
+| 士气/动力 | 7.4 | 7.0 | 哥伦比亚头名出线更从容；加纳黑马姿态、包袱更轻 |
+| 定位球 | 7.2 | 6.5 | James、Arias 的脚法优势更清晰 |
+| 边路突破 | 8.1 | 6.0 | Luis Díaz + Muñoz 是本场最强单点组合 |
+| H2H | 5.0 | 5.0 | 仅保留 5% 观察权重（首次交锋 + 单场淘汰赛降权） |
 
 **加权综合评分：**
-- 哥伦比亚：7.4/10
-- 加纳：6.3/10
+- 哥伦比亚：**7.6/10**
+- 加纳：**6.5/10**
 
 ### 4.2 比分预测
 
 | 预测比分 | 概率 | 说明 |
 |----------|:----:|------|
-| 1-0 | 18% | 与百家低比分预期、Luis Díaz 单点破局逻辑一致 |
-| 1-1 | 16% | **Final-Match Prior** 触发后，平局被上调到 31%，1-1 是最合理平局脚本 |
-| 2-0 | 14% | 若哥伦比亚先开纪录并迫使加纳压出，存在二球收口可能 |
+| 1-0 | 16% | 哥伦比亚最常见的正路脚本：控场、边路破局、低比分收掉比赛 |
+| 1-1 | 14% | 加纳低位拖住节奏、比赛进入淘汰赛特有僵局的最典型分支 |
 
 ### 4.3 竞彩推荐
 
 | 玩法 | 推荐选项 | 竞彩赔率 | 置信度 | 说明 |
 |------|---------|:--------:|:------:|------|
-| **胜平负 (SPDF)** | 平局 | 4.00 | ⭐⭐⭐⭐ | 竞彩平局价格高于本报告 31% 公平概率所对应的 3.23，价值最突出 |
-| **让球胜平负** | 让球平（哥伦比亚 -1） | 3.05 | ⭐⭐ | 盘口信号更偏“哥伦比亚只赢一球”，与 1-0 / 2-1 路径贴合 |
-| **总进球** | 2球 | 3.15 | ⭐⭐⭐ | 官方总进球市场中 2球 Devig 概率最高（25.3%） |
-| **比分** | 1-0 | 5.25 | ⭐⭐⭐ | 低位防守 + 哥伦比亚单点破局是最直观剧本 |
-| **半全场** | 平 / 胜 | 3.50 | ⭐⭐⭐ | 加纳前段抗压、哥伦比亚后段凭深度解决问题的路径较顺 |
+| **胜平负 (SPDF)** | **平局** | **4.00** | ⭐⭐⭐⭐ | 单场淘汰赛平局先验 + 欧赔长周期压低平赔，官方 4.00 仍给出足够价值 |
+| **让球胜平负** | **让球客胜（加纳 +1）** | **2.75** | ⭐⭐⭐⭐ | 百家让球共识明显压向受让端，市场更像防哥伦比亚只赢一球或被拖平 |
+| **总进球** | **2球** | **3.15** | ⭐⭐⭐ | 大小球不升线且小球水位走低，2 球是最贴近脚本的落点 |
+| **比分** | **1:1** | **7.25** | ⭐⭐⭐ | 与平局价值判断一致，且符合低事件比赛结构 |
+| **半全场** | **平 / 胜** | **3.50** | ⭐⭐⭐ | 若哥伦比亚赢球，最像上半场僵持、下半场靠边路/定位球破局 |
 
 ### 4.4 Kelly建议
 
-根据 Half-Kelly 公式计算（基于最终公平概率 54% / 31% / 15%）：
-- **哥伦比亚胜：** Edge -28.7%，Kelly Fraction 0.0%
-- **平局：** Edge +24.0%，Half-Kelly 4.0%
-- **加纳胜：** Edge +23.0%，Half-Kelly 1.6%
+根据 Kelly 公式计算（按最终 90 分钟概率：哥伦比亚 51% / 平 32% / 加纳 17%）：
+- **哥伦比亚胜：** Edge **-32.7%**，Half-Kelly **0%**
+- **平局：** Edge **+28.0%**，Half-Kelly **4.67%**
+- **加纳胜：** Edge **+39.4%**，Half-Kelly **2.74%**
 
-> **Kelly建议：平局方向小中注参与（约 3%~4% 半-Kelly）；加纳胜仅适合作为极小额高赔对冲。**
+> **Kelly建议：** 首选 **胜平负平局 4.00**，按半 Kelly 可落在 4%-5% 区间；实操上考虑淘汰赛波动，建议保守降到 **2%-3% 资金**。超高赔率的“加纳胜”数学上有边，但波动远大于平局，不宜作为主推。
 
 ---
 
@@ -217,21 +228,21 @@
 
 ### 核心判断
 
-1. **Final-Match Prior** 是本场最重要的修正：这类单场淘汰赛，常规联赛式模型会天然低估平局。
-2. 哥伦比亚纸面实力、阵容完整度、世界排名都明显占优，但百家赔率的后期漂移说明市场越来越相信“赢得艰难”。
-3. 加纳的真正价值不在“持续压制哥伦比亚”，而在于把比赛压进低样本、低比分、容易进加时的环境。
-4. 因为竞彩主胜给得极低，**主胜方向几乎没有赔率价值**；真正有赔率-概率错配的，是平局。
+1. **纸面实力、健康度与公开强度数据都支持哥伦比亚更强。** FIFA/Elo、最近比赛质量、阵容完整性，哥伦比亚全面优于加纳。
+2. **但盘口并不支持“哥伦比亚轻松穿盘”。** 外盘长周期明显修正了早期的强弱预设，让球受让端被持续压低，说明市场更担心一球小胜甚至 90 分钟平局。
+3. **这是典型的淘汰赛低事件结构。** 加纳能守、哥伦比亚能控，但哥伦比亚并非高压狂攻型球队，拖入 60 分钟后的僵持非常现实。
+4. **因此“最可能结果”和“最优价值下注”需要分开看。** 最像的赛果是哥伦比亚小胜，但从赔率价值看，平局 4.00 明显优于主胜 1.32。
 
 ### 风险提示
 
-- ⚠️ 若哥伦比亚 20 分钟内先进球，平局路径会被快速压缩。
-- ⚠️ 加纳若 Thomas Partey、Semenyo 均处于最佳状态，反击质量可能高于赛前预估。
-- ⚠️ 公开 xG 数据对国家队覆盖不足，本报告只能依靠赔率与公开新闻做强度校准。
-- ⚠️ 亚盘从 -0.5 到 -1 的加深，提醒我们不能完全排除哥伦比亚 2-0 收比赛的剧本。
+- ⚠️ 若哥伦比亚早段先进球，本场会迅速脱离“平局价值”脚本。
+- ⚠️ Semenyo、Ati-Zigi 等加纳伤疑若赛前确认无碍，会增强加纳拖平能力；反之若临阵缺席，加纳反击威胁会再降一级。
+- ⚠️ 本报告所有胜平负结论均针对 **90 分钟竞彩结算**，不等同于“谁更可能晋级”。
+- ⚠️ 官方体彩价格与外盘分歧很大，若临场官方突然调价，Kelly 优势需要重新计算。
 
 ### 最终结论
 
-**最可能的结果：哥伦比亚小胜或90分钟平局，其中 1-0、1-1 最值得防。**
+**最可能的结果：哥伦比亚 90 分钟小胜（1-0 最像）**
 **竞彩最优价值：胜平负 平局 4.00**
 
 ---
@@ -240,32 +251,44 @@
 
 > 必须在报告末尾显式列出，便于审计推理路径。
 
-- **[Y] Final-Match Prior**：世界杯 1/16 决赛属于单场淘汰赛，按 Continental KO single-leg 强度给平局 **+4pp**。
-- **[Y] Fatigue × Motivation 对冲**：哥伦比亚体能和阵容完整度占优；加纳淘汰赛动力在线，但 Kudus / Salisu 缺阵削弱其上限。
-- **[Y] H2H discount for finals**：两队基本无有效交锋样本；单场淘汰赛下 H2H 直接降为极低权重。
-- **[N] CN market structure**：本场不是 EPL vs 非EPL，对应先验不适用，未强行套用。
-- **[Y] Volume signal (升降盘解读)**：百家欧赔主胜漂移、让球平压低、总进球轻升，共同指向“哥伦比亚优势仍在，但更像窄胜/胶着局”。
-- **[Y] Devig per market**：已覆盖 1X2、让球胜平负、比分、总进球、半全场。
-- **[Y] Half-Kelly applied**：主胜 -28.7%，平局 +24.0%，客胜 +23.0%；平局 Half-Kelly 最高。
+- **[Y] Final-Match Prior**：本场为世界杯单场淘汰赛，按 full knockout prior 处理；以外盘 Devig 基线为底，将平局从 **28.9% 上调到约 32.9%（+4pp）**，再由基本面微调回 **32%**。
+- **[Y] Fatigue × Motivation 对冲**：哥伦比亚体能/阵容完整度占优；加纳挑战者心态与防守专注度更强，二者形成对冲，因此没有把哥伦比亚继续推高到官方盘水平。
+- **[Y] H2H discount for finals**：两队历史首次交锋，且本场为中立场淘汰赛，H2H 只保留极低参考权重。
+- **[N] CN market structure**：非 EPL vs 非 EPL 场景，不触发英超粉丝溢价先验；仅保留“上午场流动性偏低”的结构性风险提示。
+- **[Y] Volume signal**：已同时解读 1X2 长周期与近24h快照、让球胜平负、亚盘与大小球；结论是“哥伦比亚更像赢球，但更像小胜而非穿盘”。
+- **[Y] Devig per market**：已覆盖 **1X2、让球胜平负、比分、总进球、半全场**；并用欧赔共识与体彩官方做横向校验。
+- **[Y] Half-Kelly applied**：SPDF 三项 Edge 分别为 **主胜 -32.7% / 平局 +28.0% / 客胜 +39.4%**，实际主推采用半 Kelly 并做风险折扣。
 
 ### Public Data Signals Check
 
-- **[Y] Web-research evidence collected**：已通过 `run_research` 收集 ESPN、RotoWire、CNA、Red Deportiva、Selección Colombia 等证据。
-- **[Y] ClubElo public rating checked**：`not covered`（国家队）；已检查 http://api.clubelo.com/ColombiaNationalFootballTeam、http://api.clubelo.com/GhanaNationalFootballTeam，并改用 https://worldfootballrankings.com/country/COL / https://worldfootballrankings.com/country/GHA 作为国家队 Elo 公开锚。
-- **[Y] xG public data checked**：`blocked / not covered`；已检查 https://fbref.com/en/squads/ab73cfe5/2026/all_comps/Colombia-Men-Stats-All-Competitions、https://fbref.com/en/squads/9349828d/2026/all_comps/Ghana-Men-Stats-All-Competitions（403）以及 Understat 国家队路径（404），未估算 xG。
+- **[Y] ClubElo public rating checked**：国家队不适用，已明确标注 `not covered`：http://api.clubelo.com/ColombiaNationalFootballTeam ; http://api.clubelo.com/GhanaNationalFootballTeam
+- **[Y] xG public data checked**：https://playerstats.football/world-cup/colombia/xg ; https://playerstats.football/world-cup/ghana/xg ; https://footystats.org/international/wc-qualification-south-america/xg ; https://futbor.com/team/ghana-national-team/stats/50
 
-**估算赔率统计**：0 / 24
-**整体置信度**：Medium（赔率是真实抓取，但公开 xG 与国家队高级数据覆盖不足）
+**估算赔率统计**：0 / 38
+**整体置信度**：High
 
----
+## 数据来源
 
-*报告生成时间：2026-07-02T12:38:19.145Z*
-*数据截止：2026-07-02T13:21:22Z 左右（公开网页） / 2026-07-02T13:00:07.250Z（赔率源）*
+- **Tier 1（赔率 / 官方盘 / 百家盘）**：
+  - https://odds.500.com/fenxi/rangqiu-1359196.shtml
+- **Tier 2（赛前预览 / 阵容 / 伤停）**：
+  - https://www.sportsmole.co.uk/football/colombia/world-cup-2026/preview/colombia-vs-ghana-prediction-team-news-lineups_600509.html
+  - https://www.thestatszone.com/colombia-vs-ghana-preview-team-news-prediction-fifa-world-cup-2026-round-of-32-203536
+  - https://www.rotowire.com/soccer/article/colombia-vs-ghana-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120687
+  - https://www.am850.com/colombia-absences-surprises-and-news-in-the-26-called-up-of-nestor-lorenzo/
+  - https://worldsoccertalk.com/world-cup/james-rodriguez-and-luis-diaz-headline-colombias-final-26-man-squad-for-the-2026-world-cup/
+  - https://www.espn.com/espn/story/_/id/48878999/antoine-semenyo-thomas-partey-headline-ghana-provisional-fifa-world-cup-squad-injured-mohammed-kudus-out
+  - https://www.channelnewsasia.com/sport/ghana-name-world-cup-squad-after-injuries-force-delay-6154926
+  - https://www.fotmob.com/matches/ghana-vs-colombia/1uqlxk
+- **Tier 3（H2H / 公开强度 / xG）**：
+  - https://www.sportsmole.co.uk/football/colombia/world-cup-2026/head-to-head/colombia-vs-ghana-head-to-head-record-and-past-meetings_600465.html
+  - https://worldfootballrankings.com/country/COL
+  - https://worldfootballrankings.com/country/GHA
+  - https://futbor.com/fifa-rankings/colombia
+  - https://futbor.com/fifa-rankings/ghana
+  - https://playerstats.football/world-cup/colombia/xg
+  - https://playerstats.football/world-cup/ghana/xg
+  - https://footystats.org/international/wc-qualification-south-america/xg
+  - https://futbor.com/team/ghana-national-team/stats/50
 
-数据来源：
-- Tier 1（赔率）：https://odds.500.com/fenxi/ouzhi-1359196.shtml  https://odds.500.com/fenxi/rangqiu-1359196.shtml  https://odds.500.com/fenxi/yazhi-1359196.shtml  https://odds.500.com/fenxi/daxiao-1359196.shtml
-- Tier 5（赛事预览/伤停）：https://www.espn.com/espn/story/_/id/49224579/colombia-vs-ghana-kick-team-news-how-watch-world-cup-round-32-clash  https://www.rotowire.com/soccer/article/colombia-vs-ghana-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-round-of-32-120687  https://www.channelnewsasia.com/sport/ghana-name-world-cup-squad-after-injuries-force-delay-6154926  https://www.reddeportivacentral.com/2026/05/colombia-2026-world-cup-squad-kevin-mier-out.html  https://www.seleccioncolombia.com.co/partidos/historial-colombia-vs-ghana-cuantas-veces-se-han-enfrentado/566/
-- Tier 5/6（强度校验）：https://worldfootballrankings.com/country/COL  https://worldfootballrankings.com/country/GHA  https://www.sportingnews.com/us/soccer/news/fifa-world-cup-rankings-list/f605dbebd60c5eb9e5698bc2  https://www.whereig.com/football/fifa-world-rankings.html
-
-*推理依据：LLM qualitative match-analysis methodology v0.1*
-<!-- probs: {"home": 0.54, "draw": 0.31, "away": 0.15} -->
+<!-- probs: {"home": 0.51, "draw": 0.32, "away": 0.17} -->

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-03T13:14:42.912Z",
-  "count": 96,
+  "generatedAt": "2026-07-04T00:44:55.741Z",
+  "count": 101,
   "reports": [
     {
       "matchId": "6203_2026-06-13",
@@ -2670,71 +2670,90 @@
     },
     {
       "matchId": "6201_2026-07-04",
-      "title": "Anyang FC vs Pohang Steelers",
-      "home": "Anyang FC",
-      "away": "Pohang Steelers",
-      "competition": "K League 1",
+      "title": "安养FC vs 浦项制铁",
+      "home": "安养FC",
+      "away": "浦项制铁",
+      "competition": "韩职K联赛1",
       "kickoff": "2026-07-04T18:30:00+08:00",
       "probs": {
-        "home": 0.318,
-        "draw": 0.309,
-        "away": 0.372
+        "home": 0.3,
+        "draw": 0.31,
+        "away": 0.39
       },
-      "generatedAt": "2026-07-03T12:37:06.144Z",
+      "generatedAt": "2026-07-04T00:30:00.275Z",
       "validationPass": true,
       "current": "reports/6201_2026-07-04/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-07-03T123706Z",
+          "path": "reports/6201_2026-07-04/history/2026-07-03T123706Z.md"
+        }
+      ]
     },
     {
       "matchId": "6202_2026-07-04",
-      "title": "Daejeon Citizen vs Bucheon FC 1995",
-      "home": "Daejeon Citizen",
-      "away": "Bucheon FC 1995",
-      "competition": "K League 1",
+      "title": "大田市民 vs 富川FC",
+      "home": "大田市民",
+      "away": "富川FC",
+      "competition": "韩职K联赛1",
       "kickoff": "2026-07-04T18:30:00+08:00",
       "probs": {
-        "home": 0.526,
-        "draw": 0.27,
-        "away": 0.204
+        "home": 0.46,
+        "draw": 0.3,
+        "away": 0.24
       },
-      "generatedAt": "2026-07-03T12:37:06.144Z",
+      "generatedAt": "2026-07-04T00:30:00.275Z",
       "validationPass": true,
       "current": "reports/6202_2026-07-04/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-07-03T123706Z",
+          "path": "reports/6202_2026-07-04/history/2026-07-03T123706Z.md"
+        }
+      ]
     },
     {
       "matchId": "6203_2026-07-04",
-      "title": "Jeonbuk Hyundai Motors vs Gangwon FC",
-      "home": "Jeonbuk Hyundai Motors",
-      "away": "Gangwon FC",
-      "competition": "K League 1",
+      "title": "全北现代 vs 江原FC",
+      "home": "全北现代",
+      "away": "江原FC",
+      "competition": "韩职K联赛1",
       "kickoff": "2026-07-04T18:30:00+08:00",
       "probs": {
-        "home": 0.412,
-        "draw": 0.306,
-        "away": 0.282
+        "home": 0.4,
+        "draw": 0.31,
+        "away": 0.29
       },
-      "generatedAt": "2026-07-03T12:37:06.144Z",
+      "generatedAt": "2026-07-04T00:30:00.275Z",
       "validationPass": true,
       "current": "reports/6203_2026-07-04/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-07-03T123706Z",
+          "path": "reports/6203_2026-07-04/history/2026-07-03T123706Z.md"
+        }
+      ]
     },
     {
       "matchId": "6089_2026-07-04",
-      "title": "Canada vs Morocco",
-      "home": "Canada",
-      "away": "Morocco",
-      "competition": "FIFA World Cup 2026",
+      "title": "加拿大 vs 摩洛哥",
+      "home": "加拿大",
+      "away": "摩洛哥",
+      "competition": "世界杯",
       "kickoff": "2026-07-05T01:00:00+08:00",
       "probs": {
-        "home": 0.209,
-        "draw": 0.273,
-        "away": 0.518
+        "home": 0.185,
+        "draw": 0.314,
+        "away": 0.501
       },
-      "generatedAt": "2026-07-03T12:37:06.144Z",
+      "generatedAt": "2026-07-04T00:30:00.275Z",
       "validationPass": true,
       "current": "reports/6089_2026-07-04/current.md",
       "history": [
+        {
+          "timestamp": "2026-07-03T123706Z",
+          "path": "reports/6089_2026-07-04/history/2026-07-03T123706Z.md"
+        },
         {
           "timestamp": "2026-07-03T003051Z",
           "path": "reports/6089_2026-07-04/history/2026-07-03T003051Z.md"
@@ -2743,25 +2762,114 @@
     },
     {
       "matchId": "6090_2026-07-04",
-      "title": "Paraguay vs France",
-      "home": "Paraguay",
-      "away": "France",
-      "competition": "FIFA World Cup 2026",
+      "title": "巴拉圭 vs 法国",
+      "home": "巴拉圭",
+      "away": "法国",
+      "competition": "世界杯",
       "kickoff": "2026-07-05T05:00:00+08:00",
       "probs": {
-        "home": 0.068,
-        "draw": 0.142,
-        "away": 0.79
+        "home": 0.0644,
+        "draw": 0.1834,
+        "away": 0.7522
       },
-      "generatedAt": "2026-07-03T12:37:06.144Z",
+      "generatedAt": "2026-07-04T00:30:00.275Z",
       "validationPass": true,
       "current": "reports/6090_2026-07-04/current.md",
       "history": [
+        {
+          "timestamp": "2026-07-03T123706Z",
+          "path": "reports/6090_2026-07-04/history/2026-07-03T123706Z.md"
+        },
         {
           "timestamp": "2026-07-03T003051Z",
           "path": "reports/6090_2026-07-04/history/2026-07-03T003051Z.md"
         }
       ]
+    },
+    {
+      "matchId": "7201_2026-07-05",
+      "title": "首尔FC vs 仁川联",
+      "home": "首尔FC",
+      "away": "仁川联",
+      "competition": "韩职K联赛1",
+      "kickoff": "2026-07-05T18:30:00+08:00",
+      "probs": {
+        "home": 0.49,
+        "draw": 0.29,
+        "away": 0.22
+      },
+      "generatedAt": "2026-07-04T00:30:00.275Z",
+      "validationPass": true,
+      "current": "reports/7201_2026-07-05/current.md",
+      "history": []
+    },
+    {
+      "matchId": "7202_2026-07-05",
+      "title": "光州FC vs 蔚山现代",
+      "home": "光州FC",
+      "away": "蔚山现代",
+      "competition": "韩职K联赛1",
+      "kickoff": "2026-07-05T18:30:00+08:00",
+      "probs": {
+        "home": 0.155,
+        "draw": 0.235,
+        "away": 0.61
+      },
+      "generatedAt": "2026-07-04T00:30:00.275Z",
+      "validationPass": true,
+      "current": "reports/7202_2026-07-05/current.md",
+      "history": []
+    },
+    {
+      "matchId": "7203_2026-07-05",
+      "title": "金泉尚武 vs 济州SK",
+      "home": "金泉尚武",
+      "away": "济州SK",
+      "competition": "韩职K联赛1",
+      "kickoff": "2026-07-05T18:30:00+08:00",
+      "probs": {
+        "home": 0.355,
+        "draw": 0.325,
+        "away": 0.32
+      },
+      "generatedAt": "2026-07-04T00:30:00.275Z",
+      "validationPass": true,
+      "current": "reports/7203_2026-07-05/current.md",
+      "history": []
+    },
+    {
+      "matchId": "7091_2026-07-05",
+      "title": "巴西 vs 挪威",
+      "home": "巴西",
+      "away": "挪威",
+      "competition": "世界杯",
+      "kickoff": "2026-07-06T04:00:00+08:00",
+      "probs": {
+        "home": 0.476,
+        "draw": 0.303,
+        "away": 0.221
+      },
+      "generatedAt": "2026-07-04T00:30:00.275Z",
+      "validationPass": true,
+      "current": "reports/7091_2026-07-05/current.md",
+      "history": []
+    },
+    {
+      "matchId": "7092_2026-07-05",
+      "title": "墨西哥 vs 英格兰",
+      "home": "墨西哥",
+      "away": "英格兰",
+      "competition": "世界杯",
+      "kickoff": "2026-07-06T08:00:00+08:00",
+      "probs": {
+        "home": 0.28,
+        "draw": 0.35,
+        "away": 0.37
+      },
+      "generatedAt": "2026-07-04T00:30:00.275Z",
+      "validationPass": true,
+      "current": "reports/7092_2026-07-05/current.md",
+      "history": []
     }
   ]
 }

@@ -1,56 +1,72 @@
-> 生成时间：2026-07-05T00:30:55.213Z
-# 瑞超分析报告：赫根 VS 佐加顿斯
+> 生成时间：2026-07-05T12:27:45.248Z
+
+Applied priors check:
+- [N] Final-Match Prior (decisive match → draw +3~6pp): reason 这是瑞典超常规赛，不是决赛/淘汰赛/单场定胜负情境。
+- [Y] Fatigue × Motivation offset: reason 公开信息显示赫根联赛开局不败、上轮 3比2 击败哈马比，士气略优；但佐加顿斯阵容接近完整、客场 2胜0平1负，体能与可用人数形成对冲。
+- [N] H2H discount for finals: reason 本场不是决赛或中立场决胜局，历史交锋可正常纳入，但不额外触发“决赛降权”。
+- [N] CN market structure (EPL bias): reason 对阵双方均非 EPL 球队，不满足 `market-structure-cn.md` 的触发条件。
+- [Y] Volume signal (升/降盘): reason 官方 lottery500 时间线无实质变盘，但 fenxi 百家数据显示 bet365 亚盘由赫根平/半退到平手，大小球维持 3 球同时大球降水，构成有效方向信号。
+- [Y] Devig applied per market: reason 已对 1X2、让球胜平负、总进球、比分、半全场，以及百家欧赔共识做去水换算。
+- [Y] Half-Kelly computed: reason 已按最终 1X2 概率计算 Half-Kelly；主胜/平/客胜 Edge 分别约 -4.2%、-9.0%、-21.0%。
+
+Evidence gates check:
+- [Y] Web-research evidence collected (run_research; ≥2 converging sources OR all-blocked fallback explicitly declared): sources FBref、FootyStats、FotMob、Swedish Football News、Transfermarkt、Google News 搜索页均已抓取。
+- [Y] ClubElo public rating checked (intent: "club-elo"; source URL or unavailable reason): BK Häcken 在 elofootball 有 1736；Djurgårdens IF 本次抓取未拿到干净 team-rating 页面，按 unavailable 处理、不估算。
+- [Y] xG public data checked (intent: "xg"; source URL or unavailable reason): Djurgårdens IF 抓到 FootyStats xG 1.88 / xGA 1.32；BK Häcken 仅抓到 FotMob/FBref 的部分公开强度信息，team xG/xGA 未稳定露出。
+- [N] Estimated odds present (must be marked with 估算): 本报告赔率均直接来自 Tier 1 odds MCP 与 fenxi 快照，无估算赔率。
+
+# 瑞典超级联赛 分析报告：BK Häcken VS Djurgårdens IF
 
 ## 基本信息
 
 | 项目 | 详情 |
 |------|------|
-| **赛事** | 2026 瑞典足球超级联赛（Allsvenskan）第11轮 |
-| **对阵** | 赫根（BK Häcken / Bollklubben Häcken）VS 佐加顿斯（Djurgårdens IF / Djurgårdens IF Fotbollsförening） |
-| **竞彩编号** | 周一201 / 1201 |
-| **开球时间** | 2026-07-07T01:00:00+08:00（北京时间） |
-| **比赛地点** | Nordic Wellness Arena，哥德堡（公开赛程页；部分历史资料仍称 Bravida Arena） |
-| **比赛性质** | 常规联赛，90分钟胜平负 |
+| **赛事** | 2026 瑞典超级联赛（Allsvenskan）常规赛 |
+| **对阵** | BK Häcken (赫根) VS Djurgårdens IF (佐加顿斯) |
+| **竞彩编号** | 周一201 |
+| **开球时间** | 2026-07-07T01:00:00+08:00 (北京时间) |
+| **比赛地点** | 哥德堡，Bravida Arena（FootyStats H2H 页面） |
+| **比赛性质** | 常规赛单场积分赛 |
 
 ---
 
 ## 一、赔率分析
 
-### 1.1 主流盘口与即时盘对比
+### 1.1 主流机构初盘与即时盘对比
 
-> **数据来源说明：** 官方体彩与 500 百家欧赔摘要可用；澳门/海外 API 当期快照缺失，因此欧赔横向对比以 500 百家公司共识与官方体彩为主。最近两次官方快照（20:00→21:00）未变动，盘口变化主要参考百家开盘→即时盘。
+> **数据来源说明：** 赔率主数据来自 `china-football-odds` Tier 1：官方 lottery500、fenxi500 百家欧赔/亚盘/大小球，以及官方 lottery500 时间线快照。
 
-| 玩法 | 机构/口径 | 初盘（主） | 初盘（平） | 初盘（客） | 即时盘（主） | 即时盘（平） | 即时盘（客） | 变化方向 |
-|------|-----------|:---------:|:---------:|:---------:|:-----------:|:-----------:|:-----------:|----------|
-| 1X2 欧赔 | 500百家中位数 | 2.41 | 3.60 | 2.57 | 2.30 | 3.60 | 2.565 | 主胜明显压低 |
-| 1X2 欧赔 | 澳门 | 2.30 | 3.55 | 2.45 | 2.27 | 3.73 | 2.40 | 主胜/客胜微压低，平局抬高 |
-| 竞彩胜平负 | 中国体彩 | 2.28 | 3.50 | 2.47 | 2.28 | 3.50 | 2.47 | 最近官方快照持平 |
-| 让球胜平负（赫根-1） | 中国体彩 | 4.65 | 4.20 | 1.48 | 4.65 | 4.20 | 1.48 | 官方快照持平 |
-| 亚盘 | 500百家共识（平手） | 平手 | — | 平手 | 0.845 | — | 0.970 | 盘口不动，主队水位略低 |
-| 大小球 | 500百家共识（3球） | 大0.835 | — | 小0.965 | 大0.835 | — | 小0.965 | 盘口不动 |
+| 玩法 | 机构 | 初盘 (主) | 初盘 (平) | 初盘 (客) | 即时盘 (主) | 即时盘 (平) | 即时盘 (客) | 变化方向 |
+|------|------|:---------:|:--------:|:---------:|:----------:|:-----------:|:----------:|:--------:|
+| **1X2 (欧赔)** | Bet365 | 2.50 | 3.60 | 2.60 | 2.20 | 3.60 | 2.88 | 主胜显著降赔、客胜升赔 |
+| **1X2 (欧赔)** | Pinnacle | 2.48 | 3.59 | 2.65 | 2.28 | 3.64 | 2.84 | 主胜降赔、平客抬高 |
+| **1X2 (欧赔)** | William Hill | 2.45 | 3.40 | 2.60 | 2.45 | 3.50 | 2.50 | 平赔抬高、客胜微降 |
+| **亚盘** | Bet365 | 0.97（赫根 平/半） | — | 0.82 | 0.82（赫根 平手） | — | 0.97 | 退盘到平手，主队赢盘把握回落 |
+| **大小球** | Bet365 | — | 3球（大0.90 / 小0.90） | — | — | 3球（大0.82 / 小0.97） | — | 同盘大球降水 |
+| **竞彩胜平负** | 中国体彩 | — | — | — | 2.28 | 3.50 | 2.47 | 与欧赔均值接近，主队轻热 |
 
 **赔率变化趋势解读：**
 
-1. **欧赔层面出现“主胜压低”**：500 百家中位数主胜从 2.41 压到 2.30，Devig 后主胜公平概率由 **38.36%** 升至 **39.44%**，说明早盘资金更愿意接受赫根主场不败甚至取胜叙事。
-2. **但让球/大小球没有同步加深**：亚盘一直停在平手、大小球一直停在 3 球，说明市场虽然承认赫根基本面略优，却没有把它推到“明显强于佐加顿斯”的级别；这通常意味着**主胜热度存在，但平局与客队偷分空间仍在**。
-3. **官方体彩近两次快照零变化**：20:00 与 21:00 官方胜平负、让球胜平负、总进球、半全场全部不动，因此本场的“Volume Signal（升降盘）”只能算**弱信号**——有方向，但没有形成跨市场共振。
+1. 百家欧赔共识从 **2.41 / 3.60 / 2.57** 漂移到 **2.30 / 3.60 / 2.565**，主胜端明显缩短，说明市场对赫根主场取分的认可度在上升。
+2. 但 bet365 / Pinnacle 亚洲盘却从 **赫根平/半** 退到 **平手**，这不是简单追捧主队，而是把“赫根小优”修正成“更接近五五开”，平局与客队不败的容错空间被重新抬高。
+3. 官方 lottery500 历史快照从 2026-07-04 到 2026-07-05 没有检出实质字段变动，说明官方盘目前更像稳定基线；真正的方向性来自百家市场：**主胜降赔 + 让球退盘 + 大球降水**，对应的是“主队略热，但比赛节奏偏开放，赢球难度未必轻松”。
 
 ### 1.2 隐含概率换算
 
-| 结果 | 竞彩隐含概率 | 欧赔中位数隐含概率 | Devig后公平概率 |
-|------|:-----------:|:----------------:|:---------------:|
-| 赫根胜 | 43.86% | 43.48% | 39.44%（百家即时） / 38.84%（体彩） |
-| 平局 | 28.57% | 27.78% | 25.20%（百家即时） / 25.30%（体彩） |
-| 佐加顿斯胜 | 40.49% | 38.99% | 35.36%（百家即时） / 35.85%（体彩） |
-| **margin** | **12.92%** | **10.24%** | **100.0%** |
+| 结果 | 竞彩隐含概率 | 欧赔均值隐含概率 | Devig后公平概率 |
+|------|:-----------:|:--------------:|:---------------:|
+| 赫根胜 | 43.9% | 43.5% | 39.1% |
+| 平局 | 28.6% | 27.8% | 25.2% |
+| 佐加顿斯胜 | 40.5% | 39.0% | 35.6% |
+| **margin** | **12.9%** | **10.2%** | **100.0%** |
 
-> Devig 结果显示：市场把赫根与佐加顿斯定价成**主队略优、但远非强弱分明**的比赛。体彩与百家欧赔的公平概率差异很小，说明本场并不存在明显的“官方独立定价偏差”。
+> Devig 计算已剔除庄家利润率。两套市场给出的核心画像非常接近：**赫根只是轻微热门，平局处于正常区间，佐加顿斯并没有被做成明显冷门**。这意味着本场是“主场轻热 + 客队强对抗能力”的高波动联赛局，而非单边碾压盘。
 
-### 1.3 中国竞彩市场结构验证（CN market-structure prior）
+### 1.3 中国竞彩市场结构验证 (CN market-structure prior)
 
-- 竞彩 vs EU 即时 Devig 差值：主 **-0.60pp** / 平 **+0.10pp** / 客 **+0.49pp**
-- 结论：**不触发**
-- 原因：本场是瑞超内战，并非 EPL vs 非 EPL；而且体彩与欧赔公平概率差几乎可忽略，不存在结构性错价证据。
+- 本场并非 EPL vs 非 EPL 对阵，`market-structure-cn.md` 的结构性偏差先验 **不触发**。
+- 结论：**NOT CONFIRMED / NOT APPLICABLE**。
+- 因此不对任一结果额外加上“中国市场结构性价值”修正。
 
 ---
 
@@ -58,44 +74,45 @@
 
 ### 2.1 媒体预测汇总
 
-| 媒体/机构 | 预测/倾向 | 倾向 | 预测依据 |
+| 媒体/机构 | 预测比分 | 倾向 | 预测依据 |
 |-----------|:--------:|------|---------|
-| Sports Mole | 赫根 0-1 佐加顿斯 | 客队小优 | 强调佐加顿斯近5次交锋不败、最近一次 6-1 大胜，以及客场拿分能力 |
-| Fotbollsplus | 赫根为赔率热门 | 主队小优 | 赫根联赛前10轮不败、排名第2，主场基本面更稳 |
-| Djurgården 官方（赛前队报） | 阵容可用人数上升、状态回暖 | 偏客队积极 | 6-0 大胜后队内气氛改善，多名球员回归训练与比赛名单 |
+| FBref（BK Häcken 2026 team stats） | 未给出 | 赫根略优 | 2026 赛季前 10 场 **5胜5平0负**，主场 **3胜2平0负**，上轮 **3比2** 击败哈马比。 |
+| Swedish Football News | 未给出 | 佐加顿斯不败拉力 | 文中写明 Djurgården “**almost injury-free**”，主帅可用 **20 名一线队球员**，仅两人缺席训练。 |
+| FootyStats（Häcken vs Djurgården H2H） | 未给出 | 进球偏多、对抗接近 | H2H 页面给出双方 **31 次交锋**：赫根 11 胜、6 平、14 负，且 **Over 2.5 = 66.67%**。 |
 
-**媒体预测倾向：主胜 1 / 平局 0 / 客胜 2（其中 1 条是“客队状态面转暖”，1 条是直接客胜比分）**
+**媒体预测倾向：赫根 Y，平局 N，佐加顿斯 Y**
 
 ### 2.2 球迷情绪分析
 
-**赫根球迷**
-- 整体情绪：**谨慎乐观**
+**BK Häcken 球迷**
+- 整体情绪：偏积极。
 - 关键论点：
-  - 联赛前10轮保持不败，主场基本盘可靠；
-  - 进攻产量高，面对中上游对手也有持续创造机会能力。
-- 担忧点：门将/后场伤停信息较多，若比赛进入高节奏对攻，防线稳定性会被放大检验。
+  - 联赛开局不败，主场稳定。
+  - 百家欧赔主胜降赔，外部市场认可度上升。
+- 担忧点：防线和门将位置有伤情信息，且近年对佐加顿斯交锋不占优。
 
-**佐加顿斯球迷**
-- 整体情绪：**回升中的克制乐观**
+**Djurgårdens IF 球迷**
+- 整体情绪：谨慎乐观。
 - 关键论点：
-  - 瑞典媒体与官方队报都强调“可用球员终于多起来了”；
-  - 近期曾有 6-0 大胜和更健康的训练阵容，支持者会期待反弹。
-- 担忧点：联赛走势仍有波动，最近正式联赛连续失分，使得“恢复健康”尚未完全转化为稳定积分。
+  - Swedish Football News 指向阵容接近完整。
+  - 客场战绩 **2胜0平1负**，并非弱客场。
+- 担忧点：联赛总战绩仅 **4胜1平4负**，上轮还输给 Brommapojkarna，稳定性不足。
 
 **综合舆情情感评分：**
-- 赫根支持度：**6.7/10**
-- 佐加顿斯支持度：**6.8/10**
-- 中立/观望观点比例：**约 45%**（主要集中在“赫根主场强 vs 佐加顿斯交锋压制”的分歧）
+- 赫根 支持度：6.5/10
+- 佐加顿斯 支持度：6.2/10
+- 中立观点比例：约 50%
 
-### 2.3 社交媒体/社区热度
+### 2.3 社交媒体热度
 
-| 渠道代理 | 赫根热度 | 佐加顿斯热度 | 热点话题 |
-|------|:--------:|:------------:|----------|
-| Google News / 赛前聚合 | 中 | 中高 | 赫根不败走势、佐加顿斯阵容恢复 |
-| 俱乐部官方渠道 | 中 | 高 | 佐加顿斯公布比赛名单与回归球员；赫根更偏比赛预告与赛程信息 |
-| 比赛数据站/比分站 | 高 | 高 | H2H、预计首发、赔率主队略热 |
+| 平台 | BK Häcken 相关讨论量 | Djurgårdens IF 相关讨论量 | 热点话题 |
+|------|:------------------:|:------------------:|----------|
+| Twitter/X | 未抓取到稳定公开量化数据 | 未抓取到稳定公开量化数据 | 赛前热度存在，但本次公开抓取没有形成可核验计量 |
+| Reddit | 受限/未量化 | 受限/未量化 | 无法据此下结论 |
+| 微博 | 未抓取到稳定公开量化数据 | 未抓取到稳定公开量化数据 | 中文市场更多体现为竞彩讨论而非英文社媒数据 |
+| 虎扑/懂球帝 | 未直接抓取 | 未直接抓取 | 仅能从百家交易注记侧面观察市场偏好 |
 
-> **舆情结论：** 互联网层面的声音并未形成单边预期。赫根吃到的是“联赛排名+主场”红利，佐加顿斯吃到的是“伤员回归+近年对战优势”红利，因此更像一场**双方都能自洽**的对局。
+> **中国市场特点：** fenxi 的 bettingAnalysis 明确写到“**本场比赛必发交易规模较小，数据参考性不强**”，但同时指出“**成交量倾向于平局，与百家欧赔概率相差不大**”。因此中文市场可以记一笔“平局有人关注”，但不能把它当成强量化证据。
 
 ---
 
@@ -103,68 +120,65 @@
 
 ### 3.1 球队近期状态
 
-**赫根（BK Häcken / Bollklubben Häcken）**
-- 战术风格：高事件量、边路推进和前场持续施压较明显。
-- 近期状态：联赛前10轮 **5胜5平不败**，最近一场联赛 3-2 击败哈马比。
-- 体能状况：**⚠️ 略劣** —— 伤病主要集中在门将/后场，轮换弹性受限。
-- 联赛经验：**✅ 优势** —— 主场赛会经验与联赛节奏适应度更完整。
-- 主场表现：主场不败叙事强，且 xG 与实际进球都处于联赛前列。
+**BK Häcken**
+- 战术风格：从公开数据看属于偏开放型球队，前 10 场联赛打入 **20 球**，官方总进球盘中心也落在 **3球**。
+- 近期状态：FBref 2026 页面显示 **5胜5平0负，20 分，场均 2.00 分**；上轮 **3比2** 击败哈马比。
+- 体能状况：⚠️中性（未抓到额外赛程压榨证据，但防线伤情影响轮换）
+- 瑞超经验：✅优势（主场稳定度更高）
+- 主场表现：**3胜2平0负**。
 
-**佐加顿斯（Djurgårdens IF / Djurgårdens IF Fotbollsförening）**
-- 战术风格：更偏 4-2-3-1 结构，客场愿意先稳住中后场，再利用前场速度与二点球推进。
-- 近期状态：联赛 9 战 **4胜1平4负**，纸面起伏比赫根大，但客场拿分能力不差。
-- 体能状况：**✅ 略优** —— 官方与瑞典媒体均提到可用 senior 球员数量明显增加。
-- 联赛经验：**✅ 优势** —— 阵容厚度与近年强队对抗经验不差。
-- 客场表现：本季联赛客场 3 战 2 胜，具备反击偷分能力。
+**Djurgårdens IF**
+- 战术风格：并非保守死守型，FBref 显示联赛 **19 球 / 13 失球**；FootyStats 给出 **xG 1.88 / xGA 1.32**。
+- 近期状态：FBref 2026 页面显示 **4胜1平4负，13 分**；上轮 **1比2** 负于 Brommapojkarna。
+- 体能状况：✅优势（Swedish Football News 指出阵容接近完整）
+- 瑞超经验：✅优势（老牌强队，比赛管理能力不差）
+- 客场表现：**2胜0平1负**，客场拿分效率明显强于其总排名印象。
 
 ### 3.2 关键球员动态
 
 | 球员 | 俱乐部 | 状态 | 影响 |
 |------|--------|------|------|
-| Ben Engdahl | 赫根 | ❌ 缺阵 | Sports Mole 指其赛季报销，削弱轮换深度 |
-| Etrit Berisha | 赫根 | ⚠️ 待定/大概率赶不上 | 门将位置稳定性受影响 |
-| Leo Väisänen | 赫根 | ⚠️ 仍在恢复 | 中卫线厚度不足 |
-| Gustav Lindgren | 赫根 | ✅ 可出战 | 仍是锋线终结点之一 |
-| Santeri Haarala | 佐加顿斯 | ❌ 缺阵 | 官方队报明确不在比赛名单 |
-| Nino Zugelj | 佐加顿斯 | ❌ 缺阵 | 官方队报明确不在比赛名单 |
-| Mikael Anderson / Daniel Stensson | 佐加顿斯 | ✅ 回归可用 | 提升中前场轮换与压迫质量 |
-| Kristian Lien | 佐加顿斯 | ✅ 可出战 | Sports Mole 预计其领衔锋线 |
+| Etrit Berisha | BK Häcken | ⚠️背伤，回归时间未知 | 若缺席或状态不满，赫根门将稳定性受影响 |
+| Ben Engdahl | BK Häcken | ❌赛季报销 | 边后卫轮换厚度下降 |
+| Leo Väisänen | BK Häcken | ❌十字韧带伤，预计 2026 年 6 月初后仍在恢复窗口 | 中卫线完整性受损 |
+| Adam Ståhl | Djurgårdens IF | ⚠️曾有 illness 记录 | 不是确定性缺阵，但提示右路轮换有过波动 |
+| Malkolm Nilsson Säfqvist | Djurgårdens IF | ⚠️肘伤长期记录 | 门将位置存在长期伤病背景 |
+| Nino Zugelj | Djurgårdens IF | ⚠️unknown injury | 边路冲击力可能受限 |
 
 ### 3.3 战术 matchup 分析
 
 **核心矛盾：**
-1. **赫根的主场主动权 vs 佐加顿斯的反击效率**：赫根会更主动控节奏，但这恰好给佐加顿斯留下快速前插空间。
-2. **赫根后场健康度 vs 佐加顿斯前场可用人数回升**：如果赫根无法把比赛压在对方半场，后场伤停会放大。
-3. **盘口主热 vs 基本面接近**：欧赔主胜压低，但亚盘不升、大小球不动，说明市场没有完全接受“赫根显著强于客队”的叙事。
+1. **赫根主场火力** 对上 **佐加顿斯更健康的比赛名单**：主队有状态，客队有人手。
+2. **欧赔主胜降赔** 与 **亚盘退到平手** 同时出现：市场认可赫根更容易“占优势”，但不认可其轻松拉开差距。
+3. **总进球 3 球中枢 + 大球降水**：节奏并不保守，比赛更像互有机会的对攻局。
 
 **风格克制：**
-- 赫根进攻产量高，但对手如果能把比赛拉回中低位、压缩禁区前空间，赫根会从“连续制造机会”变成“需要更高终结效率”。
-- 佐加顿斯最近几年对这组对抗的适配感更强，说明其转换进攻对赫根后场站位有一定针对性。
+- 如果佐加顿斯把比赛拖进高对抗转换，赫根后场伤病会被放大，客队偷到关键进球的概率不低。
+- 如果赫根利用主场压制先开局，凭借更稳定的赛季曲线，主队仍是最有可能先拿到领先的一方。
 
 ### 3.4 历史交锋记录
 
 | 日期 | 赛事 | 主场 | 比分 | 客场 |
 |------|------|------|:----:|------|
-| 2025赛季 | 瑞超 | 赫根 | 1-6 | 佐加顿斯 |
-| 2025赛季 | 瑞超 | 佐加顿斯 | 1-1 | 赫根 |
-| 2024赛季 | 瑞超 | 赫根 | 1-2 | 佐加顿斯 |
-| 2024赛季 | 瑞超 | 佐加顿斯 | 3-3 | 赫根 |
-| 2023赛季 | 瑞超 | 佐加顿斯 | 1-0 | 赫根 |
+| 2025-07-27 | 瑞超 | BK Häcken | 1-6 | Djurgårdens IF |
+| 2025-05-25 | 瑞超 | Djurgårdens IF | 1-1 | BK Häcken |
+| 2024-09-19 | 瑞超 | BK Häcken | 1-2 | Djurgårdens IF |
+| 2024-04-08 | 瑞超 | Djurgårdens IF | 3-3 | BK Häcken |
 
-**交锋记录：** 最近 5 次正式联赛交锋，佐加顿斯 **3胜2平保持不败**，心理优势客观存在；但本场毕竟是新的赛季节点，不能机械把去年的 6-1 直接线性外推。
+**交锋记录：** FBref 给出总样本 **23 场：Djurgården 12 胜、5 平、6 负**；FootyStats 更宽口径样本为 **31 场：赫根 11 胜、6 平、14 负**。无论用哪套公开口径，佐加顿斯都占据历史微弱优势，而且近四次对话只有一次分差超过 1 球以外（即 2025 年 1比6）。
 
-### 3.5 公开强度数据：ClubElo / xG
+### 3.5 公开强度数据：ClubElo / xG / FIFA 排名
 
 | 球队 | 指标 | 数值 | 来源 | 新鲜度 | 解读 |
 |------|------|------|------|--------|------|
-| 赫根 | ClubElo 镜像值 | 1407.23 | GitHub 历史 ClubElo 镜像 | 2025-06-01（**stale**） | 公共 Elo 镜像略低于佐加顿斯，只能作长期强度参考 |
-| 佐加顿斯 | ClubElo 镜像值 | 1472.85 | GitHub 历史 ClubElo 镜像 | 2025-06-01（**stale**） | 长期公共强度锚点略优于赫根 |
-| 赫根 | xG / xGA / xPTS | 20.39 / 13.60 / 18.11 | OddAlerts Allsvenskan xG Table | 2026-07-04 | 进攻产量联赛前三，主场主动进攻能力强 |
-| 佐加顿斯 | xG / xGA / xPTS | 18.70 / 12.46 / 15.83 | OddAlerts Allsvenskan xG Table | 2026-07-04 | 每90分钟 xG 甚至略高于赫根，说明绝对创造力并不吃亏 |
+| 赫根 | ClubElo rating | 1736 | https://www.elofootball.com/club.php?clubid=411&season=2025-2026 | 2025-2026 赛季页 | 公共强度锚点显示其属于瑞典联赛上游队，但不是绝对碾压级别 |
+| 佐加顿斯 | ClubElo rating | unavailable | `club-elo` intent 本次未返回干净 team-rating 页面，故不估算 | 本次抓取 | 公开 ClubElo 覆盖不足，不能拿缺失值强行替代实力 |
+| 赫根 | FIFA 排名 / 国家队 Elo | 不适用 | 俱乐部赛事 | — | 国家队强度工具不适用 |
+| 佐加顿斯 | FIFA 排名 / 国家队 Elo | 不适用 | 俱乐部赛事 | — | 国家队强度工具不适用 |
+| 赫根 | xG / xGA / recent xG trend | partial only：FotMob 抓到前场球员 xG（Gustav Lindgren 4.9、Silas Andersen 3.8），但 team xG/xGA 未在已抓取快照中稳定露出 | https://www.fotmob.com/teams/8428/stats/bk-hacken ; https://fbref.com/en/squads/8774e267/BK-Hacken-Stats | 2026 赛季页 | 说明赫根创造机会能力不差，但队级 xG 门槛只能作“部分覆盖”记录 |
+| 佐加顿斯 | xG / xGA / recent xG trend | xG 1.88 / xGA 1.32 / xGD +0.56 | https://footystats.org/sweden/allsvenskan/xg ; https://fbref.com/en/squads/9423c05a/Djurgarden-Stats | 2026 赛季页 | 底层表现比“联赛第 8”的印象更强，客队真实威胁高于表面排名 |
 
-> Understat 不覆盖瑞超；FBref 对该联赛 xG 覆盖有限且抓取受阻；StatsBomb Open Data / Wyscout public 未提供这场可直接使用的公开 xG。
->
-> **场地/天气：** 哥德堡比赛时段公开预报大致在 **18-19°C、偏多云、可能有轻微降雨、风力不大**。若仅是普通夏季湿滑场地，对节奏是轻微影响，不足以单独改变胜平负判断。
+> 仅引用公开覆盖数据；未覆盖处明确标注 unavailable / partial only，不估算 ClubElo 或 xG。
 
 ---
 
@@ -173,49 +187,47 @@
 ### 4.1 各维度权重评估
 
 | 维度 | 赫根得分 | 佐加顿斯得分 | 说明 |
-|------|:--------:|:------------:|------|
-| 阵容完整度 | 6.1 | 7.0 | 客队近期可用人数更多 |
-| 体能状态 | 6.3 | 6.8 | 赫根后场伤停拖累持续性 |
-| 战术适配 | 6.6 | 6.7 | 主队控场更强，客队反击更克制对位 |
-| 联赛经验 | 6.6 | 6.8 | 双方都够用，客队厚度略好 |
-| 攻防质量 | 7.0 | 6.9 | 赫根主场与赛季不败加分，佐加顿斯 xG 不落下风 |
-| 士气/动力 | 7.0 | 6.8 | 赫根不败势头在前，客队则因阵容回归而回暖 |
-| 定位球/二点球 | 6.4 | 6.5 | 没有明显压倒性差距 |
-| 边路突破 | 6.9 | 6.7 | 赫根边路推进更主动 |
-| H2H | 4.5 | 5.5 | 佐加顿斯近5战优势明显 |
+|------|:-----------:|:-----------:|------|
+| 阵容深度 | 6.5 | 7.0 | 赫根有明确伤病条目，佐加顿斯名单更完整 |
+| 体能状态 | 6.5 | 7.0 | Djurgården 可用人数更充足 |
+| 战术适配 | 7.2 | 7.0 | 赫根主场环境与赛季稳定性略占优 |
+| 大赛经验 | 6.5 | 6.5 | 联赛常规战，经验差距不大 |
+| 攻防实力 | 7.4 | 7.1 | 赫根积分曲线更稳；Djurg xG 底层不差 |
+| 士气/动力 | 7.4 | 6.6 | 赫根不败且刚赢强敌；Djurg 上轮输球 |
+| 定位球 | 6.5 | 6.5 | 缺少明确公开分项证据，按中性处理 |
+| 边路突破 | 7.0 | 6.8 | 赫根进攻端公开产出略强 |
+| H2H | 5.8 | 7.0 | 常规赛正常计权，Djurg 历史交锋稍占优 |
 
 **加权综合评分：**
-- **赫根：6.6/10**
-- **佐加顿斯：6.7/10**
-
-> 综合评分几乎打平，但盘口把赫根定成更热一侧，因此**平局与“客队不败”方向的性价比更高**。
+- 赫根：6.9/10
+- 佐加顿斯：6.8/10
 
 ### 4.2 比分预测
 
 | 预测比分 | 概率 | 说明 |
 |----------|:----:|------|
-| 1-1 | 18% | 双方创造力都在线，但盘口没有给出强烈单边信号 |
-| 1-2 | 15% | 若赫根压上过深，佐加顿斯反击有兑现空间 |
-| 2-1 | 14% | 若赫根先手并把比赛拉成高节奏，主场也有兑现条件 |
+| 2-1 | 17% | 赫根主场和赛季曲线更稳，若先手进球，最像“小胜收口” |
+| 1-1 | 16% | 亚盘退平手 + 历史对战高频胶着，平局仍是重要防线 |
+| 1-2 | 13% | 佐加顿斯底层 xG 与阵容完整度支持其客场爆冷可能 |
 
 ### 4.3 竞彩推荐
 
 | 玩法 | 推荐选项 | 竞彩赔率 | 置信度 | 说明 |
 |------|---------|:--------:|:------:|------|
-| **胜平负 (SPDF)** | **平局** | **3.50** | ⭐⭐⭐ | 我方校准概率 30%，高于市场 25%左右的公平平局率 |
-| **让球胜平负** | 赫根(-1) 让负 | 1.48 | ⭐⭐⭐ | 市场本就不认为主队有明显穿盘优势，保守选客队受让方向 |
-| **总进球** | 3球 | 3.45 | ⭐⭐⭐ | 1-1、2-1、1-2 都集中在 2-3 球区间，3球最贴近中枢 |
-| **比分** | 1-1 | 7.00 | ⭐⭐⭐ | 与“平局最优价值”主逻辑一致 |
-| **半全场** | 平/平 | 6.00 | ⭐⭐ | 若两队先求不失，半场僵持概率不低 |
+| **胜平负 (SPDF)** | 赫根胜 | 2.28 | ⭐⭐ | 只是结果倾向，不是强价值盘；主胜最可能，但赔率优势有限 |
+| **让球胜平负** | 让球负（赫根 -1） | 1.48 | ⭐⭐⭐ | 市场已把主队优势修正为“只能小优”，若赫根仅小胜/不胜，此项覆盖面更大 |
+| **总进球** | 3球 | 3.45 | ⭐⭐⭐ | 官方总进球最高中心在 3 球，且 bet365 同盘大球降水 |
+| **比分** | 2:1 / 1:1 | — | ⭐⭐⭐ | 兼顾主场小胜与平局高黏性两种主场景 |
+| **半全场** | 平/胜 | 5.70 | ⭐⭐ | 若赫根赢球，更像中后程发力而非上半场直接打穿 |
 
 ### 4.4 Kelly建议
 
-根据 Half-Kelly 公式计算（以竞彩胜平负为例）：
-- **赫根胜：** Edge **-20.2%**，Half-Kelly **0.0%**
-- **平局：** Edge **+5.0%**，Half-Kelly **1.0%**
-- **佐加顿斯胜：** Edge **-13.6%**，Half-Kelly **0.0%**
+根据 Kelly 公式计算（以最终主/平/客概率 **42% / 26% / 32%** 对应竞彩 2.28 / 3.50 / 2.47）：
+- **赫根胜：** Edge **-4.2%**，Half-Kelly **0.0%**
+- **平局：** Edge **-9.0%**，Half-Kelly **0.0%**
+- **佐加顿斯胜：** Edge **-21.0%**，Half-Kelly **0.0%**
 
-> **Kelly建议：仅平局方向值得小注参与（约 1% bankroll 的 Half-Kelly 上限）；其余胜负方向不建议下注。**
+> **Kelly建议：1X2 无明显正 Kelly，单关不宜重注；若必须参与，以“主胜超小注 + 3球/2比1、1比1分散”更合理。**
 
 ---
 
@@ -223,77 +235,70 @@
 
 ### 核心判断
 
-1. **市场共识是赫根略热，但不是强热。** 欧赔主胜压低存在，但亚盘与大小球并未跟随强化。
-2. **公开强度信号支持“双方接近”。** 瑞超当前 xG 表里，两队 xG/xGA/xGD 都在联赛上半区，差距很小。
-3. **佐加顿斯的阵容恢复与交锋优势，抵消了赫根的主场与不败光环。**
-4. **因此最合理的交易思路不是追主胜，而是寻找“市场低估均势”的位置。**
+1. **最核心的赔率信号不是主胜降赔，而是“欧赔主热 + 亚盘退平手”的背离。** 这说明市场认可赫根占优，但不相信其可以轻松兑现。
+2. **赫根的硬优势是赛季稳定性与主场表现。** 开局不败、主场 3胜2平0负，这让它保有主场轻热资格。
+3. **佐加顿斯的硬拉力是阵容完整度和底层 xG。** 其公开 xG/xGA 并不差，客场表现也优于总排名印象。
+4. **总进球方向比单一胜平负更容易讲通。** 3 球中枢、大球降水、近年交锋并不保守，比赛大概率不是低节奏 0比0 型。
 
 ### 风险提示
 
-- ⚠️ 赫根主场若早早进球，比赛会偏离“均势盘”脚本，平局价值将迅速衰减。
-- ⚠️ 佐加顿斯近期联赛波动较大，若“阵容回归”没有转化成稳定执行，客队逻辑会落空。
-- ⚠️ ClubElo 公开镜像数据仅更新到 2025-06-01，属于长期锚点，不可过度依赖。
-- ⚠️ 天气若临场转为明显降雨，可能把总进球中枢从 3 球压向 2 球。
+- ⚠️ 官方 lottery500 时间线几乎无变盘，真正的方向判断主要依赖 fenxi 百家开即对比，属于“市场解释”而非单一官方变盘证据。
+- ⚠️ BK Häcken 的伤情公开页包含明确后场伤病，但未给出最终赛前名单，临场首发可能改变判断。
+- ⚠️ Djurgårdens IF 的 ClubElo 公共覆盖不完整，本报告没有对其做任何数值估算，因此实力锚主要来自 xG 与赛季战绩。
+- ⚠️ 若临场亚盘重新升回赫根让平/半甚至更深，则本报告对“比赛接近”的判断需要下调。
 
 ### 最终结论
 
-**最可能的结果：90分钟平局（首选 1-1）**
-
-**竞彩最优价值：胜平负 平局 3.50**
+**最可能的结果：赫根小胜，但 1-1 是必须重点防范的次主场景。**
+**竞彩最优价值：总进球 3 球（3.45）优先，若只做胜平负则仅保留赫根胜的结果倾向，不建议重注。**
 
 ---
 
 ## 应用的先验清单 (Applied Priors Check)
 
-**Applied priors check：**
-- **[N] Final-Match Prior**：本场是瑞超常规联赛，**不属于决赛/淘汰赛/单场定胜负**，不做平局 +3~6pp 调整。
-- **[Y] Fatigue × Motivation 对冲**：赫根有主场不败与排名优势，但后场伤停更多；佐加顿斯联赛有波动，却因阵容恢复、训练人数回升而提升士气，两者形成对冲。
-- **[N] H2H discount for finals**：本场不是决赛/淘汰赛，不触发 finals discount；交锋仍被记录，但仅作辅助维度。
-- **[N] CN market structure**：非 EPL 相关比赛，且体彩/欧赔 Devig 差异极小，未见结构性偏差。
-- **[Y] Volume signal (升降盘解读)**：百家欧赔主胜从 2.41→2.30，有主队热度；但 AH/OU 不动，所以只是弱信号。
-- **[Y] Devig per market**：已覆盖 **1X2、让球胜平负、总进球、半全场**；比分市场用于中枢参考。
-- **[Y] Half-Kelly applied**：胜平负三选项均已计算，只有“平局”保留正 Edge。
+> 必须在报告末尾显式列出，便于审计推理路径。
 
-### Evidence gates check
-
-- **[Y] Web-research evidence collected**：Sports Mole、Fotbollsplus、Djurgården 官方、SwedishFootballNews、OddAlerts 等至少 2 个以上来源形成可比对证据；被 403/超时阻断的来源已降级处理。
-- **[Y] ClubElo public rating checked**：已检查公共 ClubElo 替代源；使用 GitHub 历史镜像（2025-06-01，stale），未伪造实时值。
-- **[Y] xG public data checked**：已检查 Understat / FBref / StatsBomb / Wyscout 路径；最终采用 OddAlerts 瑞超 xG 表，其他来源标记为 not covered / blocked。
-- **[N] Estimated odds present**：本报告使用的赔率均来自已抓取盘口，**无 (估算)** 数值。
+- **[N] Final-Match Prior**：常规赛联赛，不是决赛/淘汰赛，未做 draw bump。
+- **[Y] Fatigue × Motivation 对冲**：赫根不败 + 上轮赢球带来士气优势；佐加顿斯“almost injury-free”与较完整名单抵消一部分主队势能。
+- **[N] H2H 决赛降权**：不是决赛/中立场，不触发该先验；H2H 按常规低权重使用。
+- **[N] CN 市场结构**：非 EPL 对阵，且未出现需要 Devig 验证的 EPL 偏差条件。
+- **[Y] Volume Signal (升降盘解读)**：Bet365 亚盘 **平/半 → 平手**，大小球 **3球同盘大球降水**，已纳入解读。
+- **[Y] Devig per market**：覆盖市场：**1X2、HHAD、总进球、比分、半全场、百家欧赔共识**。
+- **[Y] Half-Kelly applied**：Edge 汇总：**主 -4.2% / 平 -9.0% / 客 -21.0%**。
 
 ### Public Data Signals Check
 
-- **[Y] ClubElo public rating checked**：https://github.com/xgabora/Club-Football-Match-Data-2000-2025/blob/576752dc48b0d81c9beb59fec27f8cf281647d24/data/EloRatings.csv （2025-06-01，stale but usable as long-term anchor）
-- **[Y] xG public data checked**：OddAlerts Allsvenskan xG Table（2026-07-04）
+- **[Y] ClubElo public rating checked**：BK Häcken = https://www.elofootball.com/club.php?clubid=411&season=2025-2026 ；Djurgårdens IF = 本次 `club-elo` 抓取未返回干净 team-rating 页面，按 unavailable 处理。
+- **[Y] xG public data checked**：Djurgårdens IF = https://footystats.org/sweden/allsvenskan/xg ; https://fbref.com/en/squads/9423c05a/Djurgarden-Stats 。BK Häcken = https://www.fotmob.com/teams/8428/stats/bk-hacken ; https://fbref.com/en/squads/8774e267/BK-Hacken-Stats （team xG 仅部分覆盖）。
 
-**估算赔率统计**：**0 / 22**
-
-**整体置信度**：**Medium**（赔率是真实抓取，但部分舆情/伤停来源存在 403 或二手聚合，需要控制仓位）
+**估算赔率统计**：0 / 27
+**整体置信度**：Medium
 
 ---
 
-*报告生成时间：2026-07-05T00:30:55.213Z*
-*数据截止：2026-07-05T00:35Z 左右抓取快照*
-*推理依据：LLM qualitative match-analysis methodology v0.1*
+### 数据来源
 
-## 数据来源
-
-- **Tier 1（官方赔率/赛程）**：
-  - https://live.500.com/?e=2026-07-05
-  - https://odds.500.com/fenxi/rangqiu-1362690.shtml
-- **Tier 2（赛前预览/阵容伤停）**：
-  - https://www.sportsmole.co.uk/football/hacken/preview/hacken-vs-djurgarden-prediction-team-news-lineups_600657.html
+- Tier 1（赔率）：
+  - china-football-odds 官方 lottery500 当前快照 / 时间线（salesDate=2026-07-06, matchNumber=1201）
+  - fenxi500 百家欧赔 / 亚盘 / 大小球共识与开即变化
+- Tier 2（基本面 / 伤停 / H2H / xG）：
+  - https://fbref.com/en/squads/8774e267/BK-Hacken-Stats
+  - https://fbref.com/en/squads/9423c05a/Djurgarden-Stats
+  - https://fbref.com/en/stathead/matchup/teams/9423c05a/8774e267/Djurgarden-vs-BK-Hacken-History
+  - https://footystats.org/sweden/allsvenskan/xg
+  - https://footystats.org/sweden/djurgardens-if-vs-bk-hacken-h2h-stats
+  - https://www.fotmob.com/en-GB/teams/8428/squad/bk-hacken,teams,players,teams,players
+  - https://www.fotmob.com/en-GB/teams/9802/squad/djurgarden/teams
   - https://swedishfootballnews.com/news/djurgarden-almost-injury-free-aik-derby-honkavaara-luxury-problem
-  - https://www.dif.se/nyheter/2026/infor-aik-djurgarden
-- **Tier 3（赛程/交锋/基本面）**：
-  - https://www.fotbollsplus.se/matcher/bk-hacken-djurgarden-fotboll-herrar/
-  - https://allsvenskanfotboll.se/tidslinje/djurgardens-if-mot-bk-hacken
-  - https://www.fussballdaten.de/vereine/bk-haecken/djurgardens-if/spiele/
-- **Tier 4（公开强度数据）**：
-  - https://github.com/xgabora/Club-Football-Match-Data-2000-2025/blob/576752dc48b0d81c9beb59fec27f8cf281647d24/data/EloRatings.csv
-  - https://www.oddalerts.com/xg/allsvenskan
-- **Tier 5（天气）**：
-  - https://www.meteoblue.com/en/weather/week/gothenburg_sweden_2711537
-  - https://www.accuweather.com/en/se/goteborg/315909/july-weather/315909
+  - https://www.transfermarkt.co.uk/djurgardens-if/sperrenundverletzungen/verein/1044/plus/1
+  - https://www.elofootball.com/club.php?clubid=411&season=2025-2026
+- Tier 3（新闻 / 搜索入口，作赛前线索交叉验证）：
+  - https://news.google.com/search?q=BK%20H%C3%A4cken%20vs%20Djurg%C3%A5rdens%20IF&hl=en-US
+  - https://news.google.com/search?q=BK%20H%C3%A4cken%20injuries%20suspensions%20team%20news%20predicted%20lineup&hl=en-US
+  - https://news.google.com/search?q=Djurg%C3%A5rdens%20IF%20injuries%20suspensions%20team%20news%20predicted%20lineup&hl=en-US
 
-<!-- probs: {"home": 0.35, "draw": 0.30, "away": 0.35} -->
+*报告生成时间：2026-07-05T12:27:45.248Z*
+*数据截止：2026-07-05 20:58（北京时间）*
+*数据来源：Tier 1（赔率）https://news.google.com/search?q=BK%20H%C3%A4cken%20vs%20Djurg%C3%A5rdens%20IF&hl=en-US ；官方/百家赔率与时间线来自已注册的 china-football-odds 跨源快照。Tier 2（基本面/伤停/H2H/xG）https://fbref.com/en/squads/8774e267/BK-Hacken-Stats ; https://fbref.com/en/squads/9423c05a/Djurgarden-Stats ; https://fbref.com/en/stathead/matchup/teams/9423c05a/8774e267/Djurgarden-vs-BK-Hacken-History ; https://footystats.org/sweden/allsvenskan/xg ; https://footystats.org/sweden/djurgardens-if-vs-bk-hacken-h2h-stats ; https://www.fotmob.com/en-GB/teams/8428/squad/bk-hacken,teams,players,teams,players ; https://www.fotmob.com/en-GB/teams/9802/squad/djurgarden/teams ; https://swedishfootballnews.com/news/djurgarden-almost-injury-free-aik-derby-honkavaara-luxury-problem ; https://www.transfermarkt.co.uk/djurgardens-if/sperrenundverletzungen/verein/1044/plus/1 ; https://www.elofootball.com/club.php?clubid=411&season=2025-2026*
+*推理依据：LLM qualitative match-analysis methodology v0.1*
+<!-- probs: {"home": 0.42, "draw": 0.26, "away": 0.32} -->

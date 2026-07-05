@@ -1,17 +1,32 @@
-> 生成时间：2026-07-05T00:30:55.213Z
+> 生成时间：2026-07-05T12:27:45.248Z
 
-# 瑞超分析报告：布鲁马波卡纳 (Brommapojkarna) VS 哥德堡盖斯 (GAIS Gotenberg)
+Applied priors check:
+- [N] Final-Match Prior (decisive match → draw +3~6pp): reason 本场是瑞典超常规赛，不是决赛/淘汰赛/单场定胜负情境，不能做 draw bump。
+- [Y] Fatigue × Motivation offset: reason 赛程压榨证据不强，但公开赛前信息显示 GAIS 上轮 3比0 击败卡尔马、士气略优；Brommapojkarna 主场作战且公开伤停页无新增缺席，形成对冲。
+- [N] H2H discount for finals: reason 本场不是决赛或中立场决胜局，历史交锋可正常低权重纳入，不触发“决赛降权”。
+- [N] CN market structure (EPL bias): reason 对阵双方均非 EPL 球队；且竞彩/百家 Devig 后 1X2 几乎同分布，不存在 EPL 结构性偏差。
+- [Y] Volume signal (升/降盘): reason 百家欧赔主胜 3.115→3.15 漂高、客胜 2.15→2.13 压低，亚盘持续客让 0/0.5，构成弱客队资金信号。
+- [Y] Devig applied per market: reason 已对 1X2、让球胜平负、总进球、比分、半全场，以及百家欧赔/让球共识做去水换算。
+- [Y] Half-Kelly computed: reason 已按最终主/平/客概率 29% / 28% / 43% 计算 Half-Kelly；主胜/平/客胜 Edge 分别约 -12.4%、-9.0%、-12.3%。
+
+Evidence gates check:
+- [Y] Web-research evidence collected (run_research; ≥2 converging sources OR all-blocked fallback explicitly declared): sources Google News 搜索页、Sportsgambler、ScoresFeed、Transfermarkt、OddAlerts、AiScore、ClubElo/elofootball 均已尝试并提取可用证据。
+- [Y] ClubElo public rating checked (intent: "club-elo"; source URL or unavailable reason): Brommapojkarna 在 elofootball/ClubElo 可见 1631；GAIS 可见 1387，但 GAIS 页面是 2026-05-21 的较旧快照，需降权。
+- [Y] xG public data checked (intent: "xg"; source URL or unavailable reason): OddAlerts 提供两队 2026 Allsvenskan xG/xGA/xPTS；Understat 对两队均未覆盖（404），FotMob 公开页对自动抓取有限制。
+- [N] Estimated odds present (must be marked with 估算): 本报告赔率均直接来自 Tier 1 odds MCP 与公开网页，无估算赔率。
+
+# 瑞典超级联赛 分析报告：IF Brommapojkarna VS GAIS
 
 ## 基本信息
 
 | 项目 | 详情 |
 |------|------|
-| **赛事** | 2026 瑞典超级联赛（瑞超）常规赛 |
-| **对阵** | 布鲁马波卡纳 (Brommapojkarna) VS 哥德堡盖斯 (GAIS Gotenberg) |
-| **竞彩编号** | 周一202 / 1202 |
-| **开球时间** | 2026-07-07 01:00 (北京时间) |
-| **比赛地点** | 戈林斯塔IP球场（Grimsta IP，布罗马/斯德哥尔摩） |
-| **比赛性质** | 联赛常规轮次，90分钟决胜 |
+| **赛事** | 2026 瑞典超级联赛（Allsvenskan）常规赛 |
+| **对阵** | IF Brommapojkarna（布鲁马波卡纳）VS GAIS Göteborg（盖斯） |
+| **竞彩编号** | 周一202（cross-source key: 1202） |
+| **开球时间** | 2026-07-07T01:00:00+08:00 (北京时间) |
+| **比赛地点** | 斯德哥尔摩 Bromma，Grimsta IP（戈林斯塔IP球场） |
+| **比赛性质** | 常规赛单场积分赛 |
 
 ---
 
@@ -19,39 +34,39 @@
 
 ### 1.1 主流机构初盘与即时盘对比
 
-> **数据来源说明：** 官方体彩盘口 + 500.com 百家欧赔/亚盘/大小球摘要；最新可用官方快照显示 20:00→21:00 未发生末段异动。
+> **数据来源说明：** 赔率主数据来自 `china-football-odds` Tier 1：官方 lottery500、fenxi500 百家欧赔/让球/亚盘/大小球，以及官方 lottery500 时间线快照。
 
 | 玩法 | 机构 | 初盘 (主) | 初盘 (平) | 初盘 (客) | 即时盘 (主) | 即时盘 (平) | 即时盘 (客) | 变化方向 |
 |------|------|:---------:|:--------:|:---------:|:----------:|:-----------:|:----------:|:--------:|
-| **1X2 (欧赔)** | Bet365 | 3.40 | 3.40 | 2.05 | 3.10 | 3.40 | 2.15 | 主胜显著压低，客胜回抬 |
-| **1X2 (欧赔)** | Pinnacle | 3.25 | 3.48 | 2.15 | 3.30 | 3.42 | 2.12 | 主胜微抬、客胜微降 |
-| **1X2 (欧赔)** | William Hill | 3.10 | 3.25 | 2.15 | 3.20 | 3.20 | 2.15 | 平赔压低，维持客队小热 |
-| **亚盘** | Bet365 | 受平手/半球 0.90 | — | 0.90 | 受平手/半球 0.95 | — | 0.85 | 盘口不变，客队一侧略受捧 |
-| **大小球** | Bet365 | — | 2.5（大0.80 / 小1.00） | — | — | 2.5（大0.85 / 小0.95） | — | 平盘，水位轻微向小球倾斜 |
-| **竞彩胜平负** | 中国体彩 | — | — | — | 3.02 | 3.25 | 2.04 | 与上一官方快照持平 |
+| **1X2 (欧赔)** | Bet365 | 3.20 | 3.40 | 2.20 | 3.10 | 3.40 | 2.15 | 主胜降一点、客胜同步降赔，市场仍偏客队 |
+| **1X2 (欧赔)** | Pinnacle | 3.25 | 3.48 | 2.15 | 3.30 | 3.42 | 2.12 | 主胜漂高、客胜压低，客队信号更清晰 |
+| **1X2 (欧赔)** | William Hill | 3.10 | 3.25 | 2.15 | 3.20 | 3.20 | 2.15 | 主胜抬高、平赔略降，仍是客队轻热 |
+| **亚盘** | Bet365 | 0.90（布鲁马波 受平手/半球） | — | 0.90 | 0.90（布鲁马波 受平手/半球） | — | 0.90 | 盘口不动，五五开偏客 |
+| **大小球** | Bet365 | — | 2.5球（大0.80 / 小1.00） | — | — | 2.5球（大0.85 / 小0.95） | — | 同盘大球升水、小球降水 |
+| **竞彩胜平负** | 中国体彩 | — | — | — | 3.02 | 3.25 | 2.04 | 官方盘与欧赔共识几乎重合，GAIS 轻热 |
 
 **赔率变化趋势解读：**
 
-1. **欧赔共识仍是“GAIS客场小热”**：30家公司欧赔中位数由 3.165/3.40/2.145 变为 3.125/3.40/2.145，Devig 后主胜公平概率约 **29.36%→29.62%（+0.26pp）**，客胜约 **43.32%→43.15%（-0.17pp）**。也就是说，市场没有把 GAIS 热度继续推高，反而给了主队一点修复空间。
-2. **让球框架稳定在“主受让1球 / 亚盘受0.25”**：HHAD 与亚盘都没改线，说明主流市场仍把本场定义为“GAIS略强但优势不大”的结构，而不是单边碾压局。
-3. **总进球没有升降盘，只是水位偏向小球**：Bet365 大小球一直守在 2.5，未出现升盘，配合官方总进球市场中 2球/3球两档概率最高，说明资金更像是在防范 1-1、1-2 这类中等比分，而非追高对攻。
-4. **官方竞彩末段稳定**：体彩 20:00 与 21:00 两个相邻快照完全一致，没有出现临场一分钟级别的急剧拉扯，因此本场“量价”信号更应该看开盘到当前的百家收敛，而不是最后一小时抢跑。
+1. 百家欧赔共识从 **3.115 / 3.40 / 2.15** 漂移到 **3.15 / 3.40 / 2.13**，主胜端轻微变长、客胜端轻微压低，说明市场对 GAIS 的支持更稳定。
+2. 亚盘始终维持 **布鲁马波受平手/半球（+0.25）**，而澳门当前客队一侧低水（0.82），这意味着市场认可 GAIS 更像“略强一档”，但并不支持其形成深让。
+3. 官方 lottery500 时间线最近两个可见快照（12:00 与 13:00）**完全未变盘**；因此官方盘更像稳定基线，真正的方向性来自百家开即对比：**客胜微降 + 亚盘客让不退 + 大小球维持 2.5**，对应的是“客队略占优，但比赛仍在一球范围内”。
 
 ### 1.2 隐含概率换算
 
 | 结果 | 竞彩隐含概率 | 欧赔均值隐含概率 | Devig后公平概率 |
 |------|:-----------:|:--------------:|:---------------:|
-| 布鲁马波卡纳胜 | 33.1% | 32.0% | 29.5% |
+| 布鲁马波胜 | 33.1% | 31.8% | 29.3% |
 | 平局 | 30.8% | 29.4% | 27.2% |
-| 哥德堡盖斯胜 | 49.0% | 46.6% | 43.3% |
-| **margin** | **112.9%** | **108.0%** | **100.0%** |
+| GAIS胜 | 49.0% | 46.9% | 43.4% |
+| **margin** | **12.9%** | **8.1%** | **100.0%** |
 
-> Devig 计算已剔除庄家利润率。综合官方竞彩与百家欧赔后，市场给出的基础结论仍是 **GAIS 客胜为第一概率项，但不是高压热门**；真正的分歧在于主队是否能把比赛拖入平局或只输一球。
+> Devig 计算已剔除庄家利润率。官方与百家欧赔几乎给出同一画像：**GAIS 是轻客热，Brommapojkarna 有主场反抗力，但并非市场主线。**
 
 ### 1.3 中国竞彩市场结构验证 (CN market-structure prior)
 
-- 本场并非 EPL vs 非EPL，对应先验 **不触发**。
-- 竞彩与欧赔的差别更多来自 **官方更高水位/利润率**，而不是联赛文化偏好造成的结构性错价。
+- 竞彩 vs EU 隐含概率 Δ：主 **-0.1pp** / 平 **+0.1pp** / 客 **0.0pp**（四舍五入后）
+- 结论：**NOT CONFIRMED / NOT APPLICABLE**
+- 原因：本场不是 EPL vs 非 EPL，对阵也未出现中国市场对单侧人气队的异常挤压；竞彩与百家 Devig 后几乎同分布。
 
 ---
 
@@ -61,45 +76,43 @@
 
 | 媒体/机构 | 预测比分 | 倾向 | 预测依据 |
 |-----------|:--------:|------|---------|
-| Sports Mole | 1-2 | 偏 GAIS | 强调 GAIS 近6场赢4场、防线 11 轮仅失 11 球，且 Brommapojkarna 主场样本仍偏弱 |
-| Sportsgambler | GAIS 胜 | 偏 GAIS | 认为 GAIS 最近 5 场赢 3 场，且上次作客 Grimsta IP 2-0 取胜 |
-| RatingBet | BTTS / 开放比赛 | 略偏 GAIS不败 | 给出双方都有进球的脚本，核心逻辑是 BP 场均 1.5 球但失 1.6 球，GAIS 场均失球更低 |
+| Sportsgambler | 未给出 | GAIS胜 | 直接给出主推 “GAIS Have the Beating of BP”，并引用 GAIS 最近 5 场赢 3 场、BP 近 5 个主场输 3 场。 |
+| WinComparator（经 web search 汇总） | 未给出 | GAIS不败 | 赔率与赛季数据模型更偏向 X2，认为客队底层表现更稳。 |
+| ScoresFeed | 未给出 | 中性略偏 GAIS | 引述上轮 BP 2比2 Degerfors、GAIS 3比0 Kalmar，并预期比赛取决于中场压迫与转换效率。 |
 
-**媒体预测倾向：主胜 0 / 平局 0 / 客胜或客队不败 3**
+**媒体预测倾向：布鲁马波 N，平局 N，GAIS Y**
 
 ### 2.2 球迷情绪分析
 
-**布鲁马波卡纳 (Brommapojkarna) 相关公开舆情**
-- 整体情绪：**谨慎乐观**
+**布鲁马波卡纳球迷**
+- 整体情绪：谨慎。
 - 关键论点：
-  - 三轮联赛不败，走势比赛季初明显回暖。
-  - Mads Hansen 的进攻状态被多家预览反复提及（4球3助），被视为主队最可依赖的爆点。
-  - 阵容健康，赛前没有明确新增伤停。
-- 担忧点：主场联赛样本只有 3 场 4 分，且防线连续性仍不稳。
+  - 主场作战，公开伤停页没有新增缺席，阵容完整度尚可。
+  - 上轮 2比2 虽然拿分，但防线仍丢了 2 球，无法让人完全放心。
+- 担忧点：最近一次主场对 GAIS 就是 **0比2** 失利，市场也没有把主队做成热门。
 
-**哥德堡盖斯 (GAIS Gotenberg) 相关公开舆情**
-- 整体情绪：**偏积极**
+**GAIS 球迷**
+- 整体情绪：偏积极。
 - 关键论点：
-  - 赛季开局低迷后已反弹，近 6 场联赛 4 胜 1 平 1 负。
-  - 3-0 卡尔马的上一轮胜利强化了“状态回正”的市场叙事。
-  - 防线稳定性优于主队，Anes Cardaklija / Oskar Agren 组合被多次点名。
-- 担忧点：右边锋 Gustav Lundgren 继续因跟腱断裂缺阵，边路爆点少一档。
+  - 上轮 **3比0** 击败 Kalmar，赛前舆论更容易沿着“客队状态更顺”展开。
+  - OddAlerts 的 xG/xPTS 显示 GAIS 的底层表现比当前积分更强。
+- 担忧点：公开预览提到边锋 Gustav Lundgren 缺阵，且客场并非压倒性强势，只是“略优”。
 
 **综合舆情情感评分：**
-- 布鲁马波卡纳 支持度：6.1/10
-- 哥德堡盖斯 支持度：6.9/10
-- 中立观点比例：约 35%
+- 布鲁马波卡纳 支持度：5.8/10
+- GAIS 支持度：6.4/10
+- 中立观点比例：约 52%
 
 ### 2.3 社交媒体热度
 
-| 平台 | 布鲁马波卡纳 相关讨论量 | 哥德堡盖斯 相关讨论量 | 热点话题 |
+| 平台 | 布鲁马波卡纳 相关讨论量 | GAIS 相关讨论量 | 热点话题 |
 |------|:------------------:|:------------------:|----------|
-| Twitter/X | 未稳定获取 | 未稳定获取 | GAIS 反弹走势、BP 主场抗衡能力 |
-| Reddit | 受限/样本不足 | 受限/样本不足 | 无法形成稳定计数 |
-| 微博 | 未见可验证集中讨论 | 未见可验证集中讨论 | 以赛果/赔率转载为主 |
-| 虎扑/懂球帝 | 未稳定获取 | 未稳定获取 | 瑞超关注度有限，更多是竞猜向讨论 |
+| Twitter/X | 未抓取到稳定公开量化数据 | 未抓取到稳定公开量化数据 | 本次公开抓取未形成可核验计量 |
+| Reddit | 受限/未量化 | 受限/未量化 | 无法据此下结论 |
+| 微博 | 未抓取到稳定公开量化数据 | 未抓取到稳定公开量化数据 | 中文市场以竞彩讨论为主，缺少结构化社媒数据 |
+| 虎扑/懂球帝 | 未直接抓取 | 未直接抓取 | 仅能从赔率方向侧面观察客队轻热 |
 
-> **说明：** 直接社媒抓取受平台限制，本节情绪判断主要以可访问的赛前预览、球队页和预测站评论作代理，而不是伪造讨论量。
+> **中国市场特点：** 本场并非 EPL 热门队比赛，竞彩与百家欧赔 Devig 后分布几乎一致，因此没有确认到“中文市场把某一边挤得过短”的结构性偏差。
 
 ---
 
@@ -107,63 +120,63 @@
 
 ### 3.1 球队近期状态
 
-**布鲁马波卡纳 (Brommapojkarna)**
-- 战术风格：预计 4-2-3-1，依赖 Hansen / Bjorklund / Botchway 身后输送，Oppong 顶在最前面。
-- 近期状态：近 5 场联赛 **3胜1平1负**，最近一轮客场 2-2 战平代格福什。
-- 体能状况：**✅优势**（赛前公开信息显示阵容整齐，且比 GAIS 少踢 1 场联赛）
-- 瑞超经验：**⚠️劣势**（上季仅第 12，本季仍以稳固中游为主）
-- 主场表现：联赛主场样本不大，仅 3 场拿 4 分，主场压制力仍需验证。
+**IF Brommapojkarna**
+- 战术风格：公开预览普遍给出 **4-2-3-1**，偏向中路持球与前场轮转换位。
+- 近期状态：Sportsgambler 的最近 10 场联赛样本为 **4胜3平3负**；上轮联赛客场 **2比2** 战平 Degerfors。
+- 体能状况：✅中性略优（未见新增公开伤停）
+- 瑞超经验：⚠️中性（并非经验压制型球队）
+- 主场表现：Sportsgambler 指出最近 10 个联赛主场 **3胜1平6负**，主场名义优势不等于稳定兑现。
 
-**哥德堡盖斯 (GAIS Gotenberg)**
-- 战术风格：预计 4-3-3，更强调中场覆盖、边后卫前插和防线组织稳定性。
-- 近期状态：近 6 场联赛 **4胜1平1负**，上一场 3-0 击败卡尔马，走势更热。
-- 体能状况：**⚠️轻微劣势**（赛季至今已踢 11 轮联赛，但休赛期也安排了两场友谊赛维持节奏）
-- 瑞超经验：**✅优势**（上季第 3，并拿到欧协联资格）
-- 客场表现：赛季客场并不保守，最近联赛客场曾 1-0 胜瓦斯特拉斯。
+**GAIS Göteborg**
+- 战术风格：公开预览在 **4-3-3 / 4-2-3-1** 间略有差异，但共识是强调中场压迫和快速纵向推进。
+- 近期状态：最近 10 场联赛同样为 **4胜3平3负**，但上轮主场 **3比0** 击败 Kalmar，赛前情绪更顺。
+- 体能状况：⚠️中性（未见赛程挤压，但有个别伤停）
+- 瑞超经验：✅优势（比赛管理更成熟，底层数据也更稳）
+- 客场表现：近 10 个联赛客场 **3胜2平5负**，客场不是碾压，但能制造足够威胁。
 
 ### 3.2 关键球员动态
 
 | 球员 | 俱乐部 | 状态 | 影响 |
 |------|--------|------|------|
-| Mads Hansen | 布鲁马波卡纳 | ✅确认 | 4球3助，是主队最稳定的推进与终结点 |
-| Sion Oppong | 布鲁马波卡纳 | ✅确认 | 速度和前场冲击力决定主队能否把比赛拉成开放局 |
-| Samuel Salter | 哥德堡盖斯 | ✅确认 | 上轮进球，3球2助，仍是客队最直接的终结点 |
-| Anes Cardaklija / Oskar Agren | 哥德堡盖斯 | ✅确认 | 客队本季防守基底，直接支撑“客胜小热”定价 |
-| Gustav Lundgren | 哥德堡盖斯 | ❌缺阵 | 跟腱断裂持续缺席，削弱客队右路爆点与一对一能力 |
+| Mads Kristian Hansen | IF Brommapojkarna | ✅可用 | Sportsgambler 记录其近 10 场联赛已进 4 球，是主队最直接的终结点。 |
+| Oliver Berg | IF Brommapojkarna | ✅可用 | 公开预览记为 5 次助攻，是主队串联与最后一传核心。 |
+| Gustav Lundgren | GAIS | ❌缺阵 | 多个公开预览/伤停摘要提到其 Achilles tendon rupture，边路推进与反击深度受影响。 |
+| Samuel Salter | GAIS | ✅可用 | 近 10 场联赛队内 3 球，承担客队锋线终结任务。 |
 
 ### 3.3 战术 matchup 分析
 
 **核心矛盾：**
-1. BP 的前腰/边锋串联能否把 Hansen 的状态转化为持续禁区威胁。
-2. GAIS 的中后场组织是否继续维持“失球少于主队很多”的稳定输出。
-3. 如果比赛进入 60 分钟后仍僵持，主队会更愿意守住 1 分，还是继续拉高节奏抢 3 分。
+1. **BP 主场控球组织** 对上 **GAIS 更高质量的无球压迫与反击**：两队都能打 4-2-3-1，但客队中场更擅长把比赛拖进转换节奏。
+2. **市场把 GAIS 做成轻热，而不是深热。** 这意味着客队优势主要来自整体性与底层数据，不是绝对个人能力差距。
+3. **总进球中枢稳定在 2.5 球附近。** 说明庄家预期不是闷平，而是“有球但不至于打穿”的中等节奏。
 
 **风格克制：**
-- GAIS 的防线结构与中场覆盖更完整，天然适合应对 BP 依赖边路与二点球的推进方式。
-- 但 Lundgren 缺阵后，GAIS 边路爆点少了一层，意味着客队虽然更稳，却未必能把优势迅速扩大成两球以上。
+- 若 BP 先落后，它需要把比赛拉到更开放的纵向对抗，但这正好更适合 GAIS 利用中场压迫偷反击。
+- 若 BP 能借主场先打出定位球或二点球优势，GAIS 缺少 Gustav Lundgren 的边路拉扯，反而会让比赛更贴近 1球差或平局。
 
 ### 3.4 历史交锋记录
 
 | 日期 | 赛事 | 主场 | 比分 | 客场 |
 |------|------|------|:----:|------|
-| 2025-10-28 | 瑞超 | 布洛马波卡纳 | 0-2 | 哥德堡盖斯 |
+| 2025-10-27 | 瑞超 | IF Brommapojkarna | 0-2 | GAIS |
+| 2025-04-24 | 瑞超 | GAIS | 1-1 | IF Brommapojkarna |
+| 2024-10-05 | 瑞超 | IF Brommapojkarna | 2-0 | GAIS |
+| 2024-03-31 | 瑞超 | GAIS | 0-4 | IF Brommapojkarna |
 
-**交锋记录：** AiScore 汇总显示双方自 2004 年以来 **21 次交锋为 7胜7平7负**，总样本极其均衡；Sportsgambler 给出的近 4 次碰面则是 **布鲁马波卡纳 2 胜、1 平、1 负**。因此，单场判断更应该看当下状态与盘口，而不是被 H2H 单独牵着走。
+**交锋记录：** 近四次对话为 **布鲁马波 2胜1平1负**；若放大到更宽样本，AiScore 汇总为 **近 21 次 7胜7平7负**，是一组非常均衡的 H2H。
 
 ### 3.5 公开强度数据：ClubElo / xG / FIFA 排名
 
 | 球队 | 指标 | 数值 | 来源 | 新鲜度 | 解读 |
 |------|------|------|------|--------|------|
-| 布鲁马波卡纳 | ClubElo rating | blocked / inconsistent | elofootball 季内页可见 1619；FootyWow 页面给出 1519.2，量纲不一致 | 赛前一周内 | 说明公开 Elo 源并不完全对齐，只能确认其为中下游偏中游水平，不能直接拿来定价 |
-| 哥德堡盖斯 | ClubElo rating | blocked / inconsistent | 原始 ClubElo 页面过载；公开聚合页只显示 GAIS 具备中游以上 Elo，但数值口径不统一 | 赛前一周内 | 仅能确认 GAIS 不是虚热弱旅，但不把该值直接当概率锚 |
-| 布鲁马波卡纳 | FIFA 排名 / 国家队 Elo | not applicable | 俱乐部赛事不适用 | — | 本行对俱乐部赛无意义 |
-| 哥德堡盖斯 | FIFA 排名 / 国家队 Elo | not applicable | 俱乐部赛事不适用 | — | 本行对俱乐部赛无意义 |
-| 布鲁马波卡纳 | xG / xGA / recent xG trend | xG 1.30/场；xGA 1.64/场；总 xG 14.34 | FootyStats / OddAlerts | 2026赛季前10轮 | 进攻产出与实际 15 球基本匹配，但失球略高于 xGA，说明防线终结质量管理一般 |
-| 哥德堡盖斯 | xG / xGA / recent xG trend | xG 1.62/场；xGA 1.27/场；xGD +0.35 | FootyStats / OddAlerts | 2026赛季前11轮 | 客队 xG 质量与防守底盘都优于主队，支持“GAIS 小热”而非“碾压热” |
+| 布鲁马波卡纳 | ClubElo rating | 1631 | http://www.elofootball.com/club.php?clubid=1797&season=2026-2027 | 2026-2027 赛季页 | 公共 Elo 给主队较高历史/长期评分，但和当前市场、xG 出现分歧，需降权看待。 |
+| GAIS | ClubElo rating | 1387 | http://clubelo.com/2026-05-21/GAIS | 2026-05-21 snapshot（略旧） | 旧快照数值显著低于 BP，但时效性较弱，不能单独推翻当前赔率与 xG。 |
+| 布鲁马波卡纳 | FIFA 排名 / 国家队 Elo | 不适用 | 俱乐部赛事 | — | 国家队强度工具不适用。 |
+| GAIS | FIFA 排名 / 国家队 Elo | 不适用 | 俱乐部赛事 | — | 国家队强度工具不适用。 |
+| 布鲁马波卡纳 | xG / xGA / recent xG trend | xG **14.34** / xGA **12.87** / xPTS **14.9** | https://www.oddalerts.com/xg/allsvenskan | 2026 赛季前 10 场 | 主队底层表现并不差，但防守端 xGA 仍高于 GAIS。 |
+| GAIS | xG / xGA / recent xG trend | xG **17.75** / xGA **11.74** / xPTS **18.88** | https://www.oddalerts.com/xg/allsvenskan | 2026 赛季前 11 场 | 客队在创造机会、限制机会和应得积分三项上都优于 BP，是市场客热的核心支撑。 |
 
-> 仅引用公开覆盖数据；ClubElo 原页在本运行环境下存在过载/口径不一致问题，因此不做数值硬锚。
->
-> **场地/天气：** Bromma 赛时公开天气预报约 **19–21°C、微风、低降雨概率、局部晴到多云**。这更像标准夏夜比赛条件，对总进球和技术发挥都不是显著负面干扰。
+> 仅引用公开覆盖数据；Understat 对两队都未覆盖，FotMob 自动抓取也存在限制，因此以 OddAlerts 的公开 xG/xPTS 表作为主锚，ClubElo 只作辅助 sanity check。
 
 ---
 
@@ -171,48 +184,48 @@
 
 ### 4.1 各维度权重评估
 
-| 维度 | 布鲁马波卡纳得分 | 哥德堡盖斯得分 | 说明 |
+| 维度 | 布鲁马波卡纳得分 | GAIS得分 | 说明 |
 |------|:-----------:|:-----------:|------|
-| 阵容深度 | 6.2 | 6.8 | GAIS 上季第3且整体市场价值更高 |
-| 体能状态 | 6.9 | 6.7 | 主队更整齐，客队则保持更强比赛节奏 |
-| 战术适配 | 6.4 | 7.0 | 客队中后场结构更适合应对主队前场冲击 |
-| 大赛经验 | 5.8 | 6.9 | 这是联赛常规战，但 GAIS 近年上限更高 |
-| 攻防实力 | 6.3 | 7.2 | xG/xGA 与实际失球都更支持客队 |
-| 士气/动力 | 6.8 | 7.4 | 双方都在回暖，但 GAIS 上轮 3-0 更提振市场情绪 |
-| 定位球 | 6.1 | 6.7 | 客队中卫组合和二点保护更稳 |
-| 边路突破 | 6.8 | 6.4 | 主队反而更依赖边路发动；GAIS 因 Lundgren 缺阵受损 |
-| H2H | 5.0 | 5.0 | 样本长期均衡，不额外加权 |
+| 阵容深度 | 6.8 | 6.5 | BP 没有明确新增缺席；GAIS 失去 Gustav Lundgren，边路厚度受损 |
+| 体能状态 | 6.8 | 6.9 | 无显著赛程挤压，GAIS 上轮大胜后心理状态略优 |
+| 战术适配 | 6.6 | 7.2 | 客队更适合把比赛带入压迫+转换的节奏 |
+| 大赛经验 | 6.2 | 6.8 | 联赛常规赛差距不夸张，但 GAIS 比赛管理更稳 |
+| 攻防实力 | 6.6 | 7.4 | xG/xGA/xPTS 三项 GAIS 都更强 |
+| 士气/动力 | 6.3 | 7.2 | BP 上轮 2比2；GAIS 上轮 3比0，更容易延续正反馈 |
+| 定位球 | 6.4 | 6.5 | 缺少明确公开分项数据，按中性稍偏客处理 |
+| 边路突破 | 6.7 | 6.5 | Lundgren 缺阵削弱了 GAIS 的边路爆点 |
+| H2H | 6.6 | 6.6 | 近 21 次 7胜7平7负，H2H 对本场基本中性 |
 
 **加权综合评分：**
-- 布鲁马波卡纳：6.5/10
-- 哥德堡盖斯：7.0/10
+- 布鲁马波卡纳：6.6/10
+- GAIS：7.0/10
 
 ### 4.2 比分预测
 
 | 预测比分 | 概率 | 说明 |
 |----------|:----:|------|
-| 1-1 | 16% | 官方总进球 2/3 球最热，且盘口不支持客队大胜 |
-| 1-2 | 14% | 与媒体主流预判最一致，符合“GAIS小热+客队防线更稳”脚本 |
-| 0-1 | 12% | 若 GAIS 先手后控节奏，最容易落在一球小胜 |
+| 1-2 | 15% | 与 1X2 客热、GAIS 更强 xG/xPTS，以及“客队只强半档”的盘口画像最一致 |
+| 1-1 | 14% | 官方比分盘最高公平概率就是 1:1，且 BP 主场完整阵容足以把比赛拖住 |
+| 0-1 | 12% | 若 GAIS 先打出压迫并控制节奏，最常见的低比分赢法就是一球小胜 |
 
 ### 4.3 竞彩推荐
 
 | 玩法 | 推荐选项 | 竞彩赔率 | 置信度 | 说明 |
 |------|---------|:--------:|:------:|------|
-| **胜平负 (SPDF)** | 客胜 | 2.04 | ⭐⭐ | 方向最顺市场，但按自有概率校准后无明显正 Edge，不宜重注 |
-| **让球胜平负** | 让球平（主队+1） | 3.70 | ⭐⭐⭐ | 若 GAIS 优势兑现，最像净胜 1 球；该脚本兼容 0-1 / 1-2 / 2-3 |
-| **总进球** | 3球 | 3.55 | ⭐⭐ | 2球与3球是官方总进球分布最高两档，3球更贴近 1-2/2-1/1-1+ late goal 路径 |
-| **比分** | 1-1 | 6.20 | ⭐⭐ | 市场未形成客队强穿，平局是主队最现实的抢分方式 |
-| **半全场** | 平/负 | 5.00 | ⭐⭐⭐ | 客队后程强度与主队主场样本偏弱，符合“上半场胶着、下半场分出高下” |
+| **胜平负 (SPDF)** | GAIS胜 | 2.04 | ⭐⭐ | 这是结果倾向而非强价值；赔率已充分体现客队优势 |
+| **让球胜平负** | 让平（布鲁马波 +1） | 3.70 | ⭐⭐⭐ | 若 GAIS 赢球，更像 1 球小胜；与 1-2 / 0-1 场景最贴近 |
+| **总进球** | 2球 | 3.40 | ⭐⭐⭐ | 官方总进球盘最高公平概率落在 2 球，且大小球始终压在 2.5 附近 |
+| **比分** | 1:2 | 7.00 | ⭐⭐⭐ | 与 xG、欧赔客热、H2H 最近一次 0-2 的结构最一致，适合小注 |
+| **半全场** | 平/负 | 5.00 | ⭐⭐⭐ | 客队更像后程兑现优势，而不是开场就深压主队 |
 
 ### 4.4 Kelly建议
 
-根据 Kelly 公式计算（以竞彩胜平负为基准）：
-- **布鲁马波卡纳胜：** Edge = 3.02 × 31% - 1 = **-6.4%**，Kelly Fraction **0%**
-- **平局：** Edge = 3.25 × 28% - 1 = **-9.0%**，Kelly Fraction **0%**
-- **哥德堡盖斯胜：** Edge = 2.04 × 41% - 1 = **-16.4%**，Kelly Fraction **0%**
+根据 Kelly 公式计算（以最终主/平/客概率 **29% / 28% / 43%** 对应竞彩 3.02 / 3.25 / 2.04）：
+- **布鲁马波卡纳胜：** Edge **-12.4%**，Half-Kelly **0.0%**
+- **平局：** Edge **-9.0%**，Half-Kelly **0.0%**
+- **GAIS胜：** Edge **-12.3%**，Half-Kelly **0.0%**
 
-> **Kelly建议：** 胜平负主盘三项都没有正值，不建议在 SPDF 重仓；若必须参与，只考虑 **让球平（主队+1）** 这一路径，按净胜 1 球脚本估算 Edge 约 **+3.6%**，Half-Kelly 约 **0.7%**，属于严格小注级别。
+> **Kelly建议：1X2 没有正 Kelly；如果必须参与，优先做“比分 1:2 小注”或“让平（+1）防一球客胜”，不建议在胜平负单关上重注。**
 
 ---
 
@@ -220,67 +233,68 @@
 
 ### 核心判断
 
-1. 市场与公开基本面一致认为 **GAIS 更强，但强得有限**；这不是“客胜穿盘型”赔率结构。
-2. BP 的伤停面更干净，且进攻端至少有 Hansen 这一条清晰爆点，因此主队并非没有偷分能力。
-3. 盘口真正值得重视的是 **客队可能只赢一球**：1X2 方向偏客，但 HHAD/亚盘都没有把线推深。
-4. 总进球更像 **2-3球区间**，而不是失控对攻或极端闷战。
+1. **赔率、xG 和近期赛果三条线都更偏向 GAIS。** 市场把客队做成 2.04 的轻客热，和 OddAlerts 的 xG/xPTS 更强画像是一致的。
+2. **但这不是深盘。** 亚盘只是 BP 受平/半，说明 GAIS 的优势更像“半档”，不是碾压级优势。
+3. **BP 的主场和阵容完整度让平局仍然可防。** 官方比分盘的最高公平概率就是 1:1，这也是为什么不能把客胜看成强穿盘剧本。
+4. **单一结果不具备明显赔率价值，真正更顺手的玩法是围绕“一球客胜 / 2-3 球比赛”搭结构。**
 
 ### 风险提示
 
-- ⚠️ 公开社媒数据抓取受限，舆情部分主要依赖公开预览/球队页代理，不能等同于真实全网声量。
-- ⚠️ ClubElo 原始公开页在本环境下存在过载或量纲不统一问题，因此强度锚主要依赖 xG、近期战绩和赔率，而非 Elo 单值。
-- ⚠️ 瑞超联赛样本量仍早，10-11 轮数据容易被个别大比分扰动。
-- ⚠️ 若临场确认 GAIS 前场首发轮换或 BP 出现新的后防伤停，当前“客队小热、一球胜最像”的结论会迅速失真。
+- ⚠️ 官方 lottery500 最近可见时间线没有变盘，方向判断主要依赖百家开即差异，属于“市场解释”而非官方强变盘证据。
+- ⚠️ ClubElo 公共页面给出的两队评分与当前赛季 xG/赔率明显分歧，且 GAIS 页面的公开快照较旧，因此该信号只能弱化使用。
+- ⚠️ GAIS 的伤停公开源对除 Gustav Lundgren 以外的缺席信息并不完全一致，本报告没有对未交叉确认的缺阵做扩大推断。
+- ⚠️ 若临场亚盘从 GAIS 客让 0/0.5 继续加深到客让 0.5 甚至更深，则本报告对“平局可防”的判断应下调。
 
 ### 最终结论
 
-**最可能的结果：哥德堡盖斯不败，比分最像 1-1 或 1-2**
-**竞彩最优价值：让球胜平负「让球平（主队+1）」@ 3.70，小注参与**
+**最可能的结果：GAIS小胜，最像 1-2；次主场景是 1-1。**
+**竞彩最优价值：比分 1:2（7.00）小注；更保守可转向让球平（布鲁马波 +1，3.70）。**
 
 ---
 
 ## 应用的先验清单 (Applied Priors Check)
 
-- **[N] Final-Match Prior**：本场为瑞超常规赛，不是决赛/淘汰赛，不做平局+3~6pp修正。
-- **[Y] Fatigue × Motivation 对冲**：双方都经历间歇期；主队体能更整齐，客队情绪与走势更热，二者互相对冲后只给 GAIS 很小优势。
-- **[N] H2H discount for finals**：本场不是决赛，H2H 只作透明披露，不触发“决赛降权”先验。
-- **[N] CN market structure**：非 EPL 相关对阵，不触发中国市场结构先验；竞彩与欧赔差异主要体现为官方水位更厚。
-- **[Y] Volume signal**：官方近两次快照无变化；百家开-即显示 1X2 主胜略缩、亚盘客队受捧但未改线、大小球维持 2.5 且偏小，属于弱量价信号。
-- **[Y] Devig per market**：已覆盖 **1X2、让球胜平负、总进球、半全场**。
-- **[Y] Half-Kelly applied**：SPDF 三项 Edge 均为负；让球平（主队+1）估算 Edge **+3.6%**，Half-Kelly **约0.7%**。
+> 必须在报告末尾显式列出，便于审计推理路径。
+
+- **[N] Final-Match Prior**：常规赛联赛，不是决赛/淘汰赛，未做 draw bump。
+- **[Y] Fatigue × Motivation 对冲**：GAIS 上轮 3比0 带来士气优势；BP 主场 + 无明确新增伤停，形成对冲。
+- **[N] H2H 决赛降权**：不是决赛/中立场，不触发该先验；H2H 仅按常规低权重使用。
+- **[N] CN 市场结构**：非 EPL 对阵，且竞彩/百家 Devig 后 1X2 分布几乎重合。
+- **[Y] Volume Signal (升降盘解读)**：百家欧赔 **主漂客降**，亚盘维持 **BP 受平/半**，已纳入解读。
+- **[Y] Devig per market**：覆盖市场：**1X2、HHAD、总进球、比分、半全场、百家欧赔/让球共识**。
+- **[Y] Half-Kelly applied**：Edge 汇总：**主 -12.4% / 平 -9.0% / 客 -12.3%**。
 
 ### Public Data Signals Check
 
-- **[N] ClubElo public rating checked**：unavailable: blocked / inconsistent；source attempts: http://api.clubelo.com/Brommapojkarna , https://www.eloratings.net/Brommapojkarna , http://api.clubelo.com/GAISGotenberg , https://www.eloratings.net/GAISGotenberg
-- **[Y] xG public data checked**：https://footystats.org/clubs/if-brommapojkarna-672 , https://footystats.org/clubs/gais-679 , https://oddalerts.com/xg/allsvenskan
-- **[N] Estimated odds present**：**0 / 29**；本报告赔率均为实抓数据，无需使用 `(估算)` 标记。
+- **[Y] ClubElo public rating checked**：BP = http://www.elofootball.com/club.php?clubid=1797&season=2026-2027 ；GAIS = http://clubelo.com/2026-05-21/GAIS （旧快照，已降权）。
+- **[Y] xG public data checked**：两队 = https://www.oddalerts.com/xg/allsvenskan ；补充检索还包括 https://footystats.org/sweden/allsvenskan/xg （直抓 403）与 FotMob xG table（公开页限制自动服务）。
 
-**整体置信度**：Medium（赔率真实，但 ClubElo 与社媒信号并不完整）
-**Confidence:** Medium
+**估算赔率统计**：0 / 29
+**整体置信度**：Medium
 
-## 数据来源
+---
 
-- **Tier 1（赔率 / 盘口）**
-  - https://odds.500.com/fenxi/ouzhi-1362686.shtml
-  - https://odds.500.com/fenxi/rangqiu-1362686.shtml
-  - https://odds.500.com/fenxi/yazhi-1362686.shtml
-  - https://odds.500.com/fenxi/daxiao-1362686.shtml
-- **Tier 2（赛前预览 / 伤停 / 阵容）**
-  - https://www.sportsmole.co.uk/football/brommapojkarna/preview/brommapojkarna-vs-gais-prediction-team-news-lineups_600686.html
+### 数据来源
+
+- Tier 1（赔率）：
+  - china-football-odds 官方 lottery500 当前快照 / 时间线（salesDate=2026-07-06, matchNumber=1202）
+  - fenxi500 百家欧赔 / 让球 / 亚盘 / 大小球共识与开即变化
+- Tier 2（基本面 / 伤停 / H2H / xG / 公共强度）：
   - https://www.sportsgambler.com/betting-tips/football/brommapojkarna-vs-gais-prediction-lineups-odds-2026-07-06/
-  - https://ratingbet.com/predictions/brommapojkarna-vs-gais-prediction-expert-analysis-possible-lineups-july-6-2026/
-  - https://swedishfootballnews.com/news/gais-injury-crisis-ahead-goteborg-derby-ekong-sletsjoe-ruled-out
-- **Tier 3（H2H / 基本面）**
+  - https://www.scoresfeed.com/sweden-allsvenskan/brommapojkarna-vs-gais-2026-07-06/live-scores/
+  - https://www.transfermarkt.com/if-brommapojkarna/sperrenundverletzungen/verein/1092
+  - https://www.transfermarkt.co.uk/gais-goteborg/sperrenundverletzungen/verein/7009
+  - https://www.oddalerts.com/xg/allsvenskan
+  - http://www.elofootball.com/club.php?clubid=1797&season=2026-2027
+  - http://clubelo.com/2026-05-21/GAIS
   - https://www.aiscore.com/head-to-head/soccer-brommapojkarna-vs-gais
-  - https://www.fussballdaten.de/vereine/if-brommapojkarna/gais-goeteborg/spiele/
-- **Tier 4（公开强度 / xG / 天气）**
-  - https://footystats.org/clubs/if-brommapojkarna-672
-  - https://footystats.org/clubs/gais-679
-  - https://oddalerts.com/xg/allsvenskan
-  - https://footywow.com/sweden/allsvenskan/2026/teams/if-brommapojkarna/
-  - https://www.foresportia.com/en/prediction/allsvenskan/brommapojkarna-gais-2026-07-06/
-  - https://www.weather2visit.com/europe/sweden/bromma-july.htm
-  - https://www.timeanddate.com/weather/@2719111
-  - https://www.weather-forecast.com/locations/Bromma/forecasts/latest
+- Tier 3（新闻 / 搜索入口，作赛前线索交叉验证）：
+  - https://news.google.com/search?q=IF%20Brommapojkarna%20vs%20GAIS&hl=en-US
+  - https://news.google.com/search?q=IF%20Brommapojkarna%20injuries%20suspensions%20team%20news%20predicted%20lineup&hl=en-US
+  - https://news.google.com/search?q=GAIS%20injuries%20suspensions%20team%20news%20predicted%20lineup&hl=en-US
 
-<!-- probs: {"home": 0.31, "draw": 0.28, "away": 0.41} -->
+*报告生成时间：2026-07-05T12:27:45.248Z*
+*数据截止：2026-07-05 21:03（北京时间）*
+*数据来源：Tier 1（赔率）官方/百家赔率与时间线来自已注册的 china-football-odds 跨源快照；Tier 2（基本面/伤停/H2H/xG/公共强度）https://www.sportsgambler.com/betting-tips/football/brommapojkarna-vs-gais-prediction-lineups-odds-2026-07-06/ ; https://www.scoresfeed.com/sweden-allsvenskan/brommapojkarna-vs-gais-2026-07-06/live-scores/ ; https://www.transfermarkt.com/if-brommapojkarna/sperrenundverletzungen/verein/1092 ; https://www.transfermarkt.co.uk/gais-goteborg/sperrenundverletzungen/verein/7009 ; https://www.oddalerts.com/xg/allsvenskan ; http://www.elofootball.com/club.php?clubid=1797&season=2026-2027 ; http://clubelo.com/2026-05-21/GAIS ; https://www.aiscore.com/head-to-head/soccer-brommapojkarna-vs-gais*
+*推理依据：LLM qualitative match-analysis methodology v0.1*
+<!-- probs: {"home": 0.29, "draw": 0.28, "away": 0.43} -->

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-05T00:45:09.594Z",
-  "count": 106,
+  "generatedAt": "2026-07-05T13:09:18.011Z",
+  "count": 109,
   "reports": [
     {
       "matchId": "6203_2026-06-13",
@@ -2924,21 +2924,42 @@
       ]
     },
     {
+      "matchId": "7206_2026-07-05",
+      "title": "Elfsborg vs Hammarby",
+      "home": "Elfsborg",
+      "away": "Hammarby",
+      "competition": "Allsvenskan",
+      "kickoff": "2026-07-05T22:30:00+08:00",
+      "probs": {
+        "home": 0.29,
+        "draw": 0.27,
+        "away": 0.44
+      },
+      "generatedAt": "2026-07-05T12:27:45.248Z",
+      "validationPass": true,
+      "current": "reports/7206_2026-07-05/current.md",
+      "history": []
+    },
+    {
       "matchId": "7091_2026-07-05",
-      "title": "巴西 vs 挪威",
-      "home": "巴西",
-      "away": "挪威",
-      "competition": "世界杯",
+      "title": "Brazil vs Norway",
+      "home": "Brazil",
+      "away": "Norway",
+      "competition": "2026 FIFA World Cup",
       "kickoff": "2026-07-06T04:00:00+08:00",
       "probs": {
-        "home": 0.5,
-        "draw": 0.3,
-        "away": 0.2
+        "home": 0.475,
+        "draw": 0.31,
+        "away": 0.215
       },
-      "generatedAt": "2026-07-05T00:30:55.213Z",
+      "generatedAt": "2026-07-05T12:27:45.248Z",
       "validationPass": true,
       "current": "reports/7091_2026-07-05/current.md",
       "history": [
+        {
+          "timestamp": "2026-07-05T003055Z",
+          "path": "reports/7091_2026-07-05/history/2026-07-05T003055Z.md"
+        },
         {
           "timestamp": "2026-07-04T122359Z",
           "path": "reports/7091_2026-07-05/history/2026-07-04T122359Z.md"
@@ -2951,20 +2972,24 @@
     },
     {
       "matchId": "7092_2026-07-05",
-      "title": "墨西哥 vs 英格兰",
-      "home": "墨西哥",
-      "away": "英格兰",
-      "competition": "世界杯",
+      "title": "Mexico vs England",
+      "home": "Mexico",
+      "away": "England",
+      "competition": "2026 FIFA World Cup",
       "kickoff": "2026-07-06T08:00:00+08:00",
       "probs": {
-        "home": 0.255,
-        "draw": 0.35,
-        "away": 0.395
+        "home": 0.28,
+        "draw": 0.34,
+        "away": 0.38
       },
-      "generatedAt": "2026-07-05T00:30:55.213Z",
+      "generatedAt": "2026-07-05T12:27:45.248Z",
       "validationPass": true,
       "current": "reports/7092_2026-07-05/current.md",
       "history": [
+        {
+          "timestamp": "2026-07-05T003055Z",
+          "path": "reports/7092_2026-07-05/history/2026-07-05T003055Z.md"
+        },
         {
           "timestamp": "2026-07-04T122359Z",
           "path": "reports/7092_2026-07-05/history/2026-07-04T122359Z.md"
@@ -2977,36 +3002,80 @@
     },
     {
       "matchId": "1201_2026-07-06",
-      "title": "赫根（BK Häcken / Bollklubben Häcken） vs 佐加顿斯（Djurgårdens IF / Djurgårdens IF Fotbollsförening）",
-      "home": "赫根（BK Häcken / Bollklubben Häcken）",
-      "away": "佐加顿斯（Djurgårdens IF / Djurgårdens IF Fotbollsförening）",
-      "competition": "瑞超",
+      "title": "Hacken vs Djurgardens",
+      "home": "Hacken",
+      "away": "Djurgardens",
+      "competition": "Allsvenskan",
       "kickoff": "2026-07-07T01:00:00+08:00",
       "probs": {
-        "home": 0.35,
-        "draw": 0.3,
-        "away": 0.35
+        "home": 0.42,
+        "draw": 0.26,
+        "away": 0.32
       },
-      "generatedAt": "2026-07-05T00:30:55.213Z",
+      "generatedAt": "2026-07-05T12:27:45.248Z",
       "validationPass": true,
       "current": "reports/1201_2026-07-06/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-07-05T003055Z",
+          "path": "reports/1201_2026-07-06/history/2026-07-05T003055Z.md"
+        }
+      ]
     },
     {
       "matchId": "1202_2026-07-06",
-      "title": "布鲁马波卡纳 (Brommapojkarna) vs 哥德堡盖斯 (GAIS Gotenberg)",
-      "home": "布鲁马波卡纳 (Brommapojkarna)",
-      "away": "哥德堡盖斯 (GAIS Gotenberg)",
-      "competition": "瑞超",
+      "title": "Brommapojkarna vs GAIS",
+      "home": "Brommapojkarna",
+      "away": "GAIS",
+      "competition": "Allsvenskan",
       "kickoff": "2026-07-07T01:00:00+08:00",
       "probs": {
-        "home": 0.31,
+        "home": 0.29,
         "draw": 0.28,
-        "away": 0.41
+        "away": 0.43
       },
-      "generatedAt": "2026-07-05T00:30:55.213Z",
+      "generatedAt": "2026-07-05T12:27:45.248Z",
       "validationPass": true,
       "current": "reports/1202_2026-07-06/current.md",
+      "history": [
+        {
+          "timestamp": "2026-07-05T003055Z",
+          "path": "reports/1202_2026-07-06/history/2026-07-05T003055Z.md"
+        }
+      ]
+    },
+    {
+      "matchId": "1093_2026-07-06",
+      "title": "Portugal vs Spain",
+      "home": "Portugal",
+      "away": "Spain",
+      "competition": "2026 FIFA World Cup",
+      "kickoff": "2026-07-07T03:00:00+08:00",
+      "probs": {
+        "home": 0.223,
+        "draw": 0.309,
+        "away": 0.468
+      },
+      "generatedAt": "2026-07-05T12:27:45.248Z",
+      "validationPass": true,
+      "current": "reports/1093_2026-07-06/current.md",
+      "history": []
+    },
+    {
+      "matchId": "1094_2026-07-06",
+      "title": "United States vs Belgium",
+      "home": "United States",
+      "away": "Belgium",
+      "competition": "2026 FIFA World Cup",
+      "kickoff": "2026-07-07T08:00:00+08:00",
+      "probs": {
+        "home": 0.337,
+        "draw": 0.314,
+        "away": 0.349
+      },
+      "generatedAt": "2026-07-05T12:27:45.248Z",
+      "validationPass": true,
+      "current": "reports/1094_2026-07-06/current.md",
       "history": []
     }
   ]

@@ -1,4 +1,4 @@
-> 生成时间：2026-07-04T12:23:59.604Z
+> 生成时间：2026-07-05T00:30:55.213Z
 
 # 世界杯分析报告：墨西哥 VS 英格兰
 
@@ -9,9 +9,9 @@
 | **赛事** | 2026 世界杯 1/8决赛 |
 | **对阵** | 墨西哥 (Mexico) VS 英格兰 (England) |
 | **竞彩编号** | 7092（周日092） |
-| **开球时间** | 2026-07-06 08:00 (北京时间) |
-| **比赛地点** | 墨西哥城阿兹特克球场（Estadio Azteca） |
-| **比赛性质** | 单场淘汰赛（90分钟，平局进入加时/点球） |
+| **开球时间** | 2026-07-06 08:00（北京时间） |
+| **比赛地点** | 墨西哥城 Estadio Azteca |
+| **比赛性质** | 单场淘汰赛；竞彩胜平负按90分钟计，若常规时间打平则进入加时/点球决定晋级 |
 
 ---
 
@@ -19,41 +19,40 @@
 
 ### 1.1 主流机构初盘与即时盘对比
 
-> **数据来源说明：** 体彩官方胜平负/让球胜平负 + 500 百家欧赔/亚盘/大小球摘要，结合 SportsMole / FIFA / TheStatsZone 赛前信息交叉验证。
+> **数据来源说明：** 中国体彩官方盘 + 500/Fenxi 百家欧赔/亚盘/大小球摘要；最近两次体彩快照（20:00→21:00 UTC+0 对应归档）未变化，因此“变化”主要参考百家开盘→即时盘迁移。
 
 | 玩法 | 机构 | 初盘 (主) | 初盘 (平) | 初盘 (客) | 即时盘 (主) | 即时盘 (平) | 即时盘 (客) | 变化方向 |
 |------|------|:---------:|:--------:|:---------:|:----------:|:-----------:|:----------:|:--------:|
-| **1X2 (欧赔)** | bet365 | 3.10 | 3.20 | 2.40 | 3.75 | 3.25 | 2.10 | 墨西哥大幅升赔，英格兰明显降赔 |
-| **1X2 (欧赔)** | 威廉希尔 | 2.90 | 3.00 | 2.45 | 3.80 | 3.40 | 2.00 | 市场持续压低英格兰取胜价格 |
-| **1X2 (欧赔)** | 澳门 | 3.00 | 2.90 | 2.30 | 3.25 | 3.02 | 2.11 | 主胜抬高，客胜压低，平局小幅回补 |
-| **亚盘** | bet365 | 受平/半 1.05 | — | 0.80 | 受平/半 0.83 | — | 1.03 | 盘口未变，但墨西哥受让一方降水 |
-| **大小球** | bet365 | 大 1.03 | 2/2.5 | 小 0.83 | 大 0.75 | 2 | 小 1.05 | 早盘降到 2 球，随后大球一侧降水 |
-| **竞彩胜平负** | 中国体彩 | — | — | — | 3.25 | 3.04 | 2.03 | 今日 11:00-13:00 官方快照未变 |
+| **1X2 (欧赔)** | Bet365 | 3.10 | 3.20 | 2.40 | 3.75 | 3.25 | 2.10 | 主胜明显升水、客胜明显降水 |
+| **1X2 (欧赔)** | Pinnacle | 3.19 | 3.30 | 2.40 | 3.71 | 3.13 | 2.22 | 主胜走弱、平赔微降、客胜走强 |
+| **1X2 (欧赔)** | William Hill | 3.00 | 3.00 | 2.40 | 3.80 | 3.40 | 2.00 | 对英格兰倾斜最明显 |
+| **亚盘** | Bet365 | 受平手/半球 1.05 / 0.80 | — | — | 受平手/半球 0.82 / 1.02 | — | — | 盘口未变，但英格兰让球赔付抬高，市场更接受英格兰让0.25 |
+| **大小球** | Bet365 | 2/2.5球 1.03 / 0.83 | — | — | 2/2.5球 1.10 / 0.78 | — | — | 大球赔付上浮、但主流线已从偏2球抬到2/2.5球 |
+| **竞彩胜平负** | 中国体彩 | — | — | — | 3.25 | 3.04 | 2.03 | 竞彩与最近两次官方快照持平，明显给英格兰更低回报 |
 
 **赔率变化趋势解读：**
 
-1. **欧赔主线明显向英格兰漂移。** 百家欧赔共识从 3.10/3.20/2.41 走到 3.40/3.10/2.24，Devig 后英格兰公平胜率约从 **39.5%** 升到 **42.0%**，说明主流资金更认可英格兰纸面实力与晋级上限。
-2. **但亚洲盘没有同步加深到英格兰让半球以上。** bet365 仍停在墨西哥受平/半，只是墨西哥一侧从 1.05 降到 0.83，说明市场并不看好英格兰在阿兹特克“轻松打穿”，更像是“英格兰略强，但90分钟很难甩开”的定价。
-3. **总进球主线被压回 2 球。** 这意味着市场对开放大比分并不激进，主流预期仍集中在 **1-2 球或 2-3 球** 区间，和淘汰赛谨慎开局、主队靠防守与高原消耗拖节奏的逻辑一致。
+1. **欧赔共识从 3.10/3.20/2.40 漂移到 3.40/3.10/2.24（中位数）**，Devig 后墨西哥胜率约 **30.7%→27.7%（-3.0pp）**，英格兰约 **39.6%→42.0%（+2.4pp）**；这说明资金与定价都在向英格兰一侧集中，但平局并未被抛弃，反而小幅抬升至 **30.3%**。
+2. **让球胜平负与亚盘一起指向“英格兰更像小热而非强热”**：百家让球胜平负从主队受让+1下的客项 4.90 压到 4.10，平项也从 3.80 压到 3.60，意味着市场更偏向“英格兰至少赢球、且1球胜是高频区间”；但亚盘主流仍停在英格兰让0.25，没有扩大到0.5，说明优势被承认、信心却没有彻底拉满。
+3. **总进球线从偏2球抬到2/2.5球**，是典型的轻度升盘：市场不再把比赛完全当成闷战，但由于大小球即时赔仍对小球更友好，主流预期依旧落在 **2球或3球** 区间，而非大开大合。
+4. **体彩最近两个官方历史快照无变化**，因此“即时盘变化”不足以说明临门一脚资金突袭；真正可用的量价信息来自百家公司开盘到当前的连续压缩，属于中期共识，而不是最后一小时的突然异动。
 
 ### 1.2 隐含概率换算
 
 | 结果 | 竞彩隐含概率 | 欧赔均值隐含概率 | Devig后公平概率 |
 |------|:-----------:|:--------------:|:---------------:|
-| 墨西哥胜 | 30.8% | 29.4% | 27.5% |
-| 平局 | 32.9% | 32.3% | 29.7% |
-| 英格兰胜 | 49.3% | 44.6% | 42.8% |
+| 墨西哥胜 | 30.8% | 29.4% | 27.7% |
+| 平局 | 32.9% | 32.3% | 30.3% |
+| 英格兰胜 | 49.3% | 44.6% | 42.0% |
 | **margin** | **112.9%** | **106.3%** | **100.0%** |
 
-> Devig 计算已剔除庄家利润率。基线价格仍给英格兰优势，但平局在官方盘与欧赔盘里都接近 30%，为淘汰赛平局先验留下了足够空间。
+> 按当前盘面做 Devig 后，EU 共识仍给英格兰最高单项概率（42.0%），但并没有把常规时间平局压到很低；这为单场淘汰赛的“平局价值”留下了空间。作为对照，体彩自身 Devig 后约为 **27.3% / 29.1% / 43.6%**，比 EU 共识再多给了英格兰 **+1.6pp**。
 
 ### 1.3 中国竞彩市场结构验证 (CN market-structure prior)
 
-按中国竞彩市场结构验证流程：
-
-- 竞彩 vs EU 隐含概率 Δ：主 **-0.4pp** / 平 **-1.2pp** / 客 **+1.6pp**
-- 结论：**NOT CONFIRMED**
-- 说明：本场是**英格兰国家队**而非 EPL 俱乐部，对“英格兰/英超天然热度”只做验证不做默认套用；从 Devig 差值看，英格兰仅略微偏短，未达到“英格兰被明显高估、平局被明显压低”的触发阈值，因此**不追加 CN 结构性修正**。
+- 竞彩 vs EU Devig 概率 Δ：主 **-0.4pp** / 平 **-1.2pp** / 客 **+1.6pp**
+- 结论：**未确认**
+- 原因：本场是**国家队淘汰赛**而非“EPL vs 非EPL”俱乐部场景；即便考虑英格兰在中文市场的人气，竞彩对英格兰的额外压缩只有 **+1.6pp**，未达到结构性偏差常用阈值（≥3pp）。因此只能记为轻微热度倾向，不能当作可单独下注的 CN 结构性价值。
 
 ---
 
@@ -63,46 +62,48 @@
 
 | 媒体/机构 | 预测比分 | 倾向 | 预测依据 |
 |-----------|:--------:|------|---------|
-| Sports Mole | 1-1（加时后英格兰点球晋级） | 90分钟平局，晋级略偏英格兰 | 强调阿兹特克海拔、墨西哥主场与英格兰近期表现不稳 |
-| TheStatsZone | 未明示（推荐 BTTS） | 双方进球、比赛胶着 | 认为墨西哥主场与英格兰锋线质量会同时兑现 |
-| FIFA 官方预览 | 未明示 | 环境因素偏墨西哥，纸面实力偏英格兰 | 聚焦阿兹特克氛围、海拔以及 Kane/Bellingham 的决定比赛能力 |
+| FIFA 官方前瞻 | — | 英格兰实力略优，但强调墨西哥主场与高原变量 | 关注 Azteca 氛围、淘汰赛经验与 Kane/Bellingham 的决定性 |
+| FOX Sports | — | 认为这是“强强对话”，技术面略偏英格兰 | 强调“两大球迷群体 + Azteca 大教堂效应”，主场噪音是主要变量 |
+| The Standard | — | 英格兰小优 | 核心讨论集中在右后卫伤情、Tuchel 排兵与英格兰是否扛得住高原 |
+| FotMob / Forza 赛前页 | — | 市场倾向英格兰，但阵容面接近 | 预测首发显示英格兰先发质量更高，墨西哥稳定性更强 |
 
-**媒体预测倾向：墨西哥胜 0/3，90分钟平局 2/3，英格兰不败/晋级 2/3**
+**媒体预测倾向：墨西哥胜 0 / 平局 1 / 英格兰胜 3（更多是“英格兰小优”而非一边倒）**
 
 ### 2.2 球迷情绪分析
 
-**墨西哥 球迷**
-- 整体情绪：**偏乐观**
-- 关键论点：
-  - 4 场全胜、0 失球，且刚刚在主场 2-0 淘汰厄瓜多尔，信心显著抬升。
-  - 阿兹特克高原与主场噪音被普遍视为本队最大加成。
-  - Jiménez、Quiñones 的状态得到持续正面提及。
-- 担忧点：右路与门将层面因 Huescas、Malagón 缺席，阵容上限受损；中场是否继续启用年轻球员仍有争议。
+> 说明：未稳定抓到平台级社媒情绪采样，以下为**公开赛前报道、标题聚类与可访问讨论页**的归纳，不等同于全网情绪统计。
 
-**英格兰 球迷**
-- 整体情绪：**谨慎偏紧张**
+**墨西哥球迷**
+- 整体情绪：**偏乐观（8/10）**
 - 关键论点：
-  - Kane、Bellingham、Rice 代表的个人能力仍被视作决定性优势。
-  - 媒体和预览普遍承认英格兰纸面更强、晋级上限更高。
-- 担忧点：
-  - 对阵 DR Congo 的过程并不令人信服，防线与边路效率都遭到质疑。
-  - Rice、Reece James、Quansah 的伤情/体能疑问，加上高原环境，放大了“90分钟内被拖住”的担心。
+  - 主场 Azteca + 高原 + 东道主身份，被视为能显著抹平纸面差距。
+  - 小组赛不失球、淘汰厄瓜多尔后，防守体系和 Aguirre 的临场被高度认可。
+  - Quiñones、Jiménez 的状态被认为足以抓住英格兰边后卫/右路防守问题。
+- 担忧点：历史上墨西哥在世界杯深轮次突破有限，情绪与舆论期望过高反而会带来前20分钟紧张感。
+
+**英格兰球迷**
+- 整体情绪：**谨慎乐观（6.5/10）**
+- 关键论点：
+  - Kane、Bellingham、Rice 的中轴质量仍被视为本场最强单点优势。
+  - 市场和主流媒体普遍承认英格兰是纸面更强的一方。
+  - 许多讨论把本场视作“能否在困难环境中证明冠军相”的测试。
+- 担忧点：右后卫伤病、Azteca 高原与英格兰此前比赛内容并不持续流畅，是最常见焦虑来源。
 
 **综合舆情情感评分：**
-- 墨西哥支持度：**7.5/10**
-- 英格兰支持度：**6.8/10**
-- 中立观点比例：**约 30%**
+- 墨西哥支持度：**8.0/10**
+- 英格兰支持度：**6.5/10**
+- 中立观点比例：**约 30%**（主流中立意见多指向“英格兰稍强，但平局/加时并不意外”）
 
 ### 2.3 社交媒体热度
 
 | 平台 | 墨西哥 相关讨论量 | 英格兰 相关讨论量 | 热点话题 |
 |------|:------------------:|:------------------:|----------|
-| Twitter/X | 高 | 很高 | Kane 状态、阿兹特克海拔、主场噪音 |
-| Reddit | 未直采 | 未直采 | 公开可得预览主要围绕“England can they handle altitude?” |
-| 微博 | 高 | 很高 | 英格兰星味、墨西哥主场、是否拖入加时 |
-| 虎扑/懂球帝 | 高 | 很高 | 平局思路、1-1 / 英格兰小胜、Kane 与 Bellingham |
+| Twitter/X | 未稳定抓取（受限） | 未稳定抓取（受限） | Azteca 氛围、高原、Kane/Bellingham、东道主压力 |
+| Reddit | 未稳定抓取（受限） | 未稳定抓取（受限） | “英格兰技术优势 vs 墨西哥主场变量” |
+| 微博 | 未稳定抓取（受限） | 未稳定抓取（受限） | 英格兰热度、墨西哥主场、90分钟是否平局 |
+| 虎扑/懂球帝 | 未稳定抓取（受限） | 未稳定抓取（受限） | Azteca 加成、英格兰伤病、比分偏1球差距 |
 
-> **中国市场特点：** 英格兰相关讨论热度天然更高，但就实际赔率看，竞彩并未把英格兰压到明显失真区间，更多是“关注度高于墨西哥、价格仍基本合理”。
+> **中国市场观察：** 可访问讨论里，英格兰名气与投注吸引力更强，但“东道主墨西哥 + 高原 + 单场淘汰赛”也使平局/小比分方向被频繁提及。
 
 ---
 
@@ -111,70 +112,70 @@
 ### 3.1 球队近期状态
 
 **墨西哥**
-- 战术风格：4-3-3 / 4-1-4-1 之间切换，前场压迫积极，边后卫参与推进，依赖 Jiménez 支点与 Quiñones 冲击。
-- 近期状态：本届世界杯前 4 战全胜且 **0 失球**，近 6 场各项赛事全胜，近 12 场不败。
-- 体能状况：**✅优势**
-- 世界杯经验：**✅主场环境优势**
-- 主场表现：阿兹特克球场世界杯历史 **8胜2平不败**，常规主客场层面的“高原主场”影响极强。
+- 战术风格：更强调阵型紧凑、边路回收与前场快速直塞，节奏并不盲目求快。
+- 近期状态：本届杯赛至今走势稳定，公开报道一致提到其**小组赛零封收官**，并在淘汰赛击败厄瓜多尔。
+- 体能状况：**✅优势**（少旅行、熟悉高原环境、主场适配更强）
+- 世界杯经验：**⚠️中性偏劣势**（整体阵容经验不差，但和英格兰相比顶级强强对话硬仗样本略少）
+- 主场表现：Azteca + 墨西哥城海拔是最真实的加成项，尤其影响对手后程强度与节奏管理。
 
 **英格兰**
-- 战术风格：4-2-3-1 为主，依赖 Kane 回撤串联、Bellingham 前插与边锋单点爆破。
-- 近期状态：淘汰赛首轮 2-1 逆转 DR Congo，但过程起伏较大；小组赛阶段也有“结果可接受、内容不够稳定”的问题。
-- 体能状况：**⚠️劣势**
-- 世界杯经验：**✅优势**
-- 客场表现：本场并非真正客场联赛语境，但在高海拔主办国球场作战，节奏适应难度显著高于墨西哥。
+- 战术风格：更依赖中轴控制与前场球星决定比赛，能通过 Kane 回撤、Bellingham 前插和边锋单挑制造优势。
+- 近期状态：结果层面合格，但内容层面并非一路碾压；对 DR Congo 一战是逆风后修正，说明上限仍在、稳定性一般。
+- 体能状况：**⚠️小劣势**（长途转场 + 高原适应问题 + 边后卫伤情扰动）
+- 世界杯经验：**✅优势**（大赛深轮次处理球能力、个人天赋与阵容容错都优于墨西哥）
+- 客场/中立表现：本身不惧高压比赛，但 Azteca 近似“墨西哥超主场”，不是普通中立环境。
 
 ### 3.2 关键球员动态
 
 | 球员 | 俱乐部 | 状态 | 影响 |
 |------|--------|------|------|
-| Julián Quiñones | 墨西哥国脚 / Club América系背景 | ✅确认 | 本届杯赛已持续制造进球，是墨西哥最直接的冲击点 |
-| Raúl Jiménez | 富勒姆 | ✅确认 | 支点、点球与禁区终结能力，是墨西哥把比赛拖入低比分肉搏的关键 |
-| Gilberto Mora | 蒂华纳 | ✅确认 | 是否继续首发影响墨西哥中场是“冒险前压”还是“稳守反击” |
-| Rodrigo Huescas | 哥本哈根 | ❌缺阵 | 右路推进与覆盖能力损失明显 |
-| Luis Ángel Malagón | 墨西哥国脚 | ❌缺阵 | 门将稳定性与高球处理上限下降 |
-| Declan Rice | 阿森纳 | ⚠️待定/大概率可出战 | 若状态完整，能显著改善英格兰中场覆盖与二次落点控制 |
-| Reece James | 切尔西 | ⚠️待定 | 右路质量与定位球价值；若缺阵，英格兰边路攻守更不稳定 |
-| Jarell Quansah | 勒沃库森 | ⚠️待定 | 防线轮换厚度受影响 |
-| Harry Kane | 拜仁慕尼黑 | ✅确认 | 英格兰最强终结点，淘汰赛逆转 DR Congo 的直接功臣 |
+| Julián Quiñones | 墨西哥国脚前锋 | ✅确认 | 近期公开报道连续强调其淘汰赛威胁，是墨西哥最直接的纵深点 |
+| Raúl Jiménez | 墨西哥国脚中锋 | ✅确认 | 仍是中路支点与禁区终结核心，若墨西哥先进球，多半与其背身/抢点有关 |
+| Reece James | 英格兰国脚后卫 | ❌缺阵倾向 | 右路出球与定位球质量下降，迫使英格兰改用 Spence/Livramento 等替代方案 |
+| Jarell Quansah | 英格兰国脚后卫 | ⚠️待定 | 伤情使英格兰右后卫/右中卫轮换更紧，压缩 Tuchel 的防线调整空间 |
+| Declan Rice | 英格兰国脚中场 | ⚠️轻伤可出战 | 若其覆盖能力下降，英格兰在高原环境下的二点保护和节奏回收会受影响 |
 
 ### 3.3 战术 matchup 分析
 
 **核心矛盾：**
-1. **墨西哥前场压迫 vs 英格兰后场出球。** 英格兰若在高原环境下出球速率下降，容易被墨西哥在边路和二点球抢断后直接制造机会。
-2. **Kane/Bellingham 中路连线 vs 墨西哥双中卫。** 英格兰最稳定的破局方式仍是 Kane 回撤带出身后空间，再由 Bellingham 或边锋攻击二点。
-3. **高原与比赛节奏。** 英格兰纸面实力更强，但若前 60 分钟无法建立领先，比赛会越来越偏向墨西哥熟悉的消耗战脚本。
+1. **英格兰中轴质量 vs 墨西哥主场环境**：Kane + Bellingham 的个人解决能力是本场最强单点，但 Azteca 的高原与噪音会降低英格兰连续压迫和无球反抢效率。
+2. **墨西哥边路推进 vs 英格兰右路伤病**：若 Spence/Livramento 被持续拉扯，墨西哥左路/肋部前插会成为最现实的爆点。
+3. **比赛前60分钟与后30分钟的节奏差**：墨西哥更可能希望比赛碎片化、让英格兰在高原里多做无效折返；英格兰则希望尽早用个人能力打破僵局，避免拖进情绪化拉锯。
 
 **风格克制：**
-- 墨西哥并不需要压着打，只要把比赛拖成“节奏断裂+身体对抗+定位球”模式，英格兰优势会被削弱。
-- 英格兰若能率先得分，墨西哥必须前提阵线，届时英格兰的个人能力与反击质量会被放大。
+- 墨西哥若能守住前25分钟并把比赛拖成中低比分，英格兰的赔率优势会被明显稀释。
+- 英格兰若先取得领先，墨西哥为了压上会给 Kane、Saka/Bellingham 反击空间，届时“英格兰1球小胜”会是最像盘面的剧情。
+- 天气若出现阵雨/雷暴，地面传控和高压逼抢的稳定性都会下降，更利于平局与偶发定位球波动。
 
 ### 3.4 历史交锋记录
 
 | 日期 | 赛事 | 主场 | 比分 | 客场 |
 |------|------|------|:----:|------|
-| 2010-05-24 | 友谊赛 | 英格兰 | 3-1 | 墨西哥 |
-| 2001-05-25 | 友谊赛 | 英格兰 | 4-0 | 墨西哥 |
-| 1997-03-29 | 友谊赛 | 英格兰 | 2-0 | 墨西哥 |
-| 1985-06-09 | 城市邀请赛 | 墨西哥 | 1-0 | 英格兰 |
+| 1959-05-24 | 友谊赛 | 墨西哥 | 2-1 | 英格兰 |
 | 1966-07-16 | 世界杯 | 英格兰 | 2-0 | 墨西哥 |
+| 1985-06-09 | 友谊赛 | 墨西哥 | 1-0 | 英格兰 |
+| 2001-05-25 | 友谊赛 | 英格兰 | 4-0 | 墨西哥 |
+| 2010-05-24 | 友谊赛 | 英格兰 | 3-1 | 墨西哥 |
 
-**交锋记录：英格兰 9 战 6 胜 1 平 2 负，占据明显上风，且近四次交手全胜。**
+**交锋记录：** 双方成年国家队历史 **9次** 交锋，英格兰 **6胜1平2负**，总进球 **23比4** 占优；但除 1966 世界杯外，多数样本都来自不同时代的友谊赛。
 
-> **决赛降权说明：** 本场虽非决赛，但属于**世界杯单场淘汰赛**，且两队大多数历史交锋是年代久远的友谊赛/完全不同战术周期，H2H 仅保留透明展示价值，在综合评分中按 **≤5%** 低权重处理。
+> **单场淘汰降权说明：** 本场是世界杯一场定胜负场景，且大部分 H2H 样本年代久远、比赛属性不同，因此只保留低权重参考，不把“英格兰历史优势”直接线性外推到本场90分钟。
 
 ### 3.5 公开强度数据：ClubElo / xG / FIFA 排名
 
+- ClubElo public rating checked: unavailable — not covered; attempted http://api.clubelo.com/Mexico and http://api.clubelo.com/England
+- xG public data checked: https://www.fotmob.com/leagues/77/table/world-cup?filter=xg ; https://footystats.org/world-cup ; https://soccer.realgm.com/analysis/559/2026-FIFA-World-Cup-xG-Tracker-Results-Expected-Goals-Of-Every-Match ; https://www.foxsports.com/soccer/england-men-team-stats?category=standard&groupId=12&season=2026&sort=xg&sortOrder=desc
+
 | 球队 | 指标 | 数值 | 来源 | 新鲜度 | 解读 |
 |------|------|------|------|--------|------|
-| 墨西哥 | ClubElo rating | not covered | 国家队不在 ClubElo 覆盖范围 | 当前 | 不估算 |
-| 英格兰 | ClubElo rating | not covered | 国家队不在 ClubElo 覆盖范围 | 当前 | 不估算 |
-| 墨西哥 | FIFA 排名 / 国家队 Elo | FIFA 第14；Elo 第9（1943） | inside.fifa / eloratings.net | 2026-06 ~ 2026-07 | 公开强度弱于英格兰，但已是本届杯赛的高位竞争者 |
-| 英格兰 | FIFA 排名 / 国家队 Elo | FIFA 第4；Elo 第4（2046） | 11v11 / eloratings.net / worldfootballrankings.com | 2026-06 ~ 2026-07 | 纸面实力与长期评级均高于墨西哥 |
-| 墨西哥 | xG / xGA / recent xG trend | not covered / blocked / stale | Understat 国家队 404；FBref 403；StatsBomb Open Data 对当前 2026 世界杯未公开覆盖 | 当前 | 不用猜测型 xG 替代真实公开数据 |
-| 英格兰 | xG / xGA / recent xG trend | not covered / blocked / stale | Understat 国家队 404；FBref 403；StatsBomb Open Data 对当前 2026 世界杯未公开覆盖 | 当前 | 数据缺口存在，因此只把赔率与新闻作为主证据 |
+| 墨西哥 | ClubElo rating | **not covered** | 国家队赛事；`club-elo` 意图已检查，俱乐部 Elo 不覆盖国家队 | 当期检查 | 不估算，改以 FIFA/国家队 Elo 作为强度锚 |
+| 英格兰 | ClubElo rating | **not covered** | 国家队赛事；`club-elo` 意图已检查，俱乐部 Elo 不覆盖国家队 | 当期检查 | 不估算，改以 FIFA/国家队 Elo 作为强度锚 |
+| 墨西哥 | FIFA 排名 / 国家队 Elo | **FIFA 第14；Elo 前15（精确 live 分值抓取受阻）** | WhereIG / WorldFootballRankings / EloRatings | 2026年6-7月 | 纸面强度不差，但与英格兰仍有一档差距 |
+| 英格兰 | FIFA 排名 / 国家队 Elo | **FIFA 第4；Elo 约2041、前5** | FIFA/排名镜像 / WorldFootballRankings / EloRatings | 2026年6-7月 | 公开强度信号明确站在英格兰一边 |
+| 墨西哥 | xG / xGA / recent xG trend | **世界杯3场约 3.7 xG、1.5 xGA；近10场约 1.49 xG / 0.81 xGA** | FotMob xG table / FootyStats / RealGM xG tracker | 当届世界杯 | 防守质量与比赛控制优于外界旧印象，低比分生存能力强 |
+| 英格兰 | xG / xGA / recent xG trend | **世界杯4场约 7.7 xG；公开表中约 2.13 xG / 0.86 xGA** | FOX Sports / FootyStats / RealGM xG tracker | 当届世界杯 | 机会创造上限明显高于墨西哥，说明其“赢面最高”并非只靠名气 |
 
-> 仅引用公开覆盖数据；若来源未覆盖、受阻或过期，明确标注 `not covered / blocked / stale`，不估算 ClubElo 或 xG。
+> **场地/天气：** 墨西哥城晚间约 **17-20°C**，有 **40%+** 阵雨到雷暴风险；若雨势成形，比赛节奏更容易碎片化，进球期望会向 **2球上下** 靠拢。
 
 ---
 
@@ -184,46 +185,49 @@
 
 | 维度 | 墨西哥得分 | 英格兰得分 | 说明 |
 |------|:-----------:|:-----------:|------|
-| 阵容深度 | 7.0 | 8.6 | 英格兰板凳与球星密度更高 |
-| 体能状态 | 8.2 | 6.6 | 墨西哥更适应环境，英格兰有伤病与高原负担 |
-| 战术适配 | 7.8 | 7.4 | 墨西哥更容易把比赛拉入自己擅长的低速肉搏 |
-| 大赛经验 | 7.2 | 8.4 | 英格兰近年大赛淘汰赛经验更完整 |
-| 攻防实力 | 7.5 | 8.4 | 纸面攻击与创造力仍是英格兰更强 |
-| 士气/动力 | 8.3 | 7.5 | 墨西哥主场破除淘汰赛魔咒后，情绪面更强 |
-| 定位球 | 6.9 | 8.1 | 英格兰在角球、任意球与 Kane 终结更有威胁 |
-| 边路突破 | 7.1 | 7.6 | 英格兰若右路人员齐整更有冲击，但目前不确定性较高 |
-| H2H | 4.5 | 5.5 | 权重 5%（单场淘汰赛降权） |
+| 阵容深度 | 6.8 | 8.8 | 英格兰替补质量与顶级单点明显更强 |
+| 体能状态 | 7.8 | 7.0 | 墨西哥少旅行、适应海拔；英格兰有高原与伤病扰动 |
+| 战术适配 | 7.5 | 7.8 | 英格兰解题能力更强，但墨西哥更适合把比赛拖进低节奏 |
+| 大赛经验 | 7.0 | 8.0 | 英格兰近年强强对话经验更足 |
+| 攻防实力 | 7.2 | 8.4 | 公开 xG 与纸面人才都更支持英格兰 |
+| 士气/动力 | 8.0 | 7.6 | 东道主、Azteca、突破历史上限的动机更强 |
+| 定位球 | 6.8 | 8.1 | Kane、Bellingham、Rice 体系更成熟 |
+| 边路突破 | 7.2 | 7.8 | 英格兰个人能力更强，但墨西哥对英格兰右路有针对点 |
+| H2H | 4.8 | 5.2 | **5%权重（单场淘汰降权）** |
 
 **加权综合评分：**
-- 墨西哥：**7.4/10**
-- 英格兰：**7.7/10**
+- 墨西哥：**7.3/10**
+- 英格兰：**7.8/10**
 
 ### 4.2 比分预测
 
 | 预测比分 | 概率 | 说明 |
 |----------|:----:|------|
-| 1-1 | 23% | 最符合“英格兰稍强 + 墨西哥主场高原 + 淘汰赛保守”的主脚本 |
-| 0-1 | 18% | 英格兰个人能力兑现，但过程仍可能艰苦 |
-| 1-2 | 15% | 若英格兰率先破局，比赛后段反击空间会放大 |
+| 1-1 | 15% | 单场淘汰 draw inflation + 墨西哥主场环境，最符合“90分钟胶着” |
+| 0-1 | 13% | 英格兰兑现纸面优势，但进球数不高 |
+| 1-2 | 12% | 若墨西哥后段压上，英格兰反击质量足以拉开成1球差 |
 
 ### 4.3 竞彩推荐
 
 | 玩法 | 推荐选项 | 竞彩赔率 | 置信度 | 说明 |
 |------|---------|:--------:|:------:|------|
-| **胜平负 (SPDF)** | **平局** | **3.04** | ⭐⭐⭐⭐ | 基线平局已接近 30%，再叠加淘汰赛平局先验与墨西哥主场环境后，90 分钟平局被低估 |
-| **让球胜平负** | 让球平（墨西哥 +1） | 3.37 | ⭐⭐ | 对应英格兰仅赢 1 球的脚本，可作为“英格兰小胜”分支思路 |
-| **总进球** | 2 球 | 2.90 | ⭐⭐ | 总进球主线回落到 2，市场中心更像 1-1 / 0-1 / 1-0 |
-| **比分** | 1-1 | 5.00 | ⭐⭐⭐ | 与主推的 90 分钟平局脚本最一致 |
-| **半全场** | 平/平 | 4.30 | ⭐⭐ | 若墨西哥开局先稳节奏、英格兰谨慎试探，此项具备匹配度 |
+| **胜平负 (SPDF)** | **平局** | **3.04** | ⭐⭐⭐⭐ | 市场给英格兰最高胜率，但单场淘汰赛的平局膨胀 + Azteca 变量，使平局成为最明显的价格价值位 |
+| **让球胜平负** | **让球平（英格兰净胜1球）** | **3.37** | ⭐⭐ | 若英格兰兑现优势，更像1球小胜而非打穿；仅作剧情匹配，不是主推价值位 |
+| **总进球** | **2球** | **2.90** | ⭐⭐⭐ | 官方总进球分布中 2球公平概率最高，且大小球主流线落在2/2.5 |
+| **比分** | **1-1** | **5.00** | ⭐⭐⭐ | 与 knockout draw + 天气/高原因素最一致 |
+| **半全场** | **平/平** | **4.30** | ⭐⭐ | 若比赛被拖慢，半场和全场都平的路径成立 |
 
 ### 4.4 Kelly建议
 
-根据 Kelly 公式计算（以当前竞彩胜平负为基准，模型概率采用“Devig 基线 + 先验修正”后的 **27.1% / 34.5% / 38.4%**）：
-- **墨西哥胜：** Edge **-11.95%**, Half-Kelly **0%**
-- **平局：** Edge **+4.99%**, Half-Kelly **1.22%**
-- **英格兰胜：** Edge **-22.11%**, Half-Kelly **0%**
+按当前竞彩胜平负计算（基于本人校准概率 **主 25.5% / 平 35.0% / 客 39.5%**）：
 
-> **Kelly建议：平局方向小注参与（资金 1.0%~1.5%），其余 1X2 结果放弃追价。**
+| 结果 | 模型概率 | 竞彩赔率 | Edge | Half-Kelly |
+|------|:--------:|:--------:|:----:|:----------:|
+| 墨西哥胜 | 25.5% | 3.25 | -17.1% | 0% |
+| 平局 | 35.0% | 3.04 | **+6.4%** | **1.57%** |
+| 英格兰胜 | 39.5% | 2.03 | -19.8% | 0% |
+
+> **Kelly建议：** 仅建议小注参与 **平局 3.04**；其余主胜/客胜在当前官方赔率下都没有正 Edge，不建议硬追“英格兰名气盘”。
 
 ---
 
@@ -231,62 +235,76 @@
 
 ### 核心判断
 
-1. **英格兰仍是纸面更强的一方**，欧赔主线持续向客胜压缩，这一点不能回避。
-2. **但 90 分钟定价里，平局仍然是被低估的结果。** 墨西哥主场、高原、近期零失球状态，以及英格兰伤病/内容层面的不稳定，共同放大了平局厚度。
-3. **CN 市场结构先验未被正式验证通过。** 本场不能简单套用“英格兰热度过高=必反买”的粗暴逻辑，真正支撑平局价值的核心仍是淘汰赛先验和场地环境。
-4. **如果要区分“90 分钟结果”和“最终晋级”，两者应分开看：** 90 分钟更倾向平局；进入加时/点球后，英格兰凭个人能力与阵容厚度，晋级概率略高。
+1. **英格兰仍是单一结果的最高概率方**，但不是“大热”；其优势更多来自阵容与机会创造上限，而非环境全面占优。
+2. **墨西哥最真实的加成不是“情怀”，而是 Azteca 主场 + 海拔 + 熟悉度**，这三项足以把比赛拉回中低比分与高平局区间。
+3. **赔率变化确认了英格兰受追捧**：开盘到即时盘，欧赔和让球都向英格兰方向压缩，但盘口没有扩到更深，让市场看多中仍保留怀疑。
+4. **真正的价值点在“平局价格”，不是“英格兰谁都打得过”**；若只看90分钟，价格和场景最匹配的是 1-1 / 平局。
 
 ### 风险提示
 
-- ⚠️ 一旦英格兰早早领先，墨西哥被迫提速，比赛会迅速偏向英格兰最舒服的转换战。
-- ⚠️ 墨西哥虽整体健康，但 Huescas、Malagón、Luis Chávez 的长期伤缺确实削弱了阵容上限。
-- ⚠️ 若 Rice、Reece James 临场确认状态理想，英格兰中后场稳定性会明显提升。
-- ⚠️ 本场属于淘汰赛，单一定位球、VAR 或红牌事件足以彻底打破平局逻辑。
+- ⚠️ 若英格兰前30分钟率先进球，墨西哥被迫提速，原本对平局有利的低节奏脚本会被破坏。
+- ⚠️ 天气若只是小雨而非雷暴，技术更强的一方（英格兰）反而更容易在后段拉开优势。
+- ⚠️ 英格兰伤员若赛前意外复出，尤其是右路用人改善，会削弱墨西哥最重要的对位突破口。
+- ⚠️ 墨西哥东道主情绪过载也可能导致前场决策过急，给英格兰留下转换空间。
 
 ### 最终结论
 
-**最可能的结果：90分钟平局（首选 1-1），若论晋级略偏英格兰**
-
-**竞彩最优价值：胜平负 平局 3.04**
+**最可能的结果：英格兰90分钟小胜（0-1 / 1-2 区间）**  
+**竞彩最优价值：胜平负 平局 3.04（小注，Half-Kelly 1.57%）**
 
 ---
 
 ## 应用的先验清单 (Applied Priors Check)
 
-- **[Y] Final-Match Prior**：本场虽非决赛，但属于**世界杯单场淘汰赛**，按淘汰赛先验将平局从 **29.7%** 上调到 **33.7%**（+4pp）。
-- **[Y] Fatigue × Motivation 对冲**：墨西哥的主场/高原/连续零封提升体能与情绪面，英格兰纸面实力与晋级信念仍在；最终从客胜端再挪出约 **2pp**，分配给主胜与平局。
-- **[Y] H2H discount for finals / 决赛降权**：历史交锋大多是友谊赛，且年代久远；在世界杯单场淘汰赛语境下仅保留 **≤5%** 低权重。
-- **[N] CN market structure / 中国竞彩结构**：已完成 Devig 验证，但仅出现 **客胜 +1.6pp / 平局 -1.2pp** 的轻微差值，不满足结构性高估触发阈值。
-- **[Y] Volume signal / 升降盘解读**：欧赔明显压低英格兰、亚盘却维持墨西哥受平/半且主队降水，说明“英格兰强于墨西哥”与“比赛可能胶着”并存。
+- **[Y] Final-Match Prior**：本场虽非决赛，但属于世界杯单场淘汰赛，按“decisive single-game”处理；在 EU 当前 Devig 基线 **30.3%** 上，对平局做 **+4pp** 的淘汰赛膨胀校准。
+- **[Y] Fatigue × Motivation**：墨西哥拿到环境/旅行优势，英格兰拿到纸面实力与硬仗经验优势；二者并未单向碾压，而是在最终概率里互相对冲。
+- **[Y] H2H discount for finals**：历史交锋只保留 **≤5%** 低权重，因为样本老旧且大多是友谊赛，不直接外推到 2026 世界杯淘汰赛。
+- **[N] CN market structure**：已做 Devig 验证，但本场不是 EPL vs 非EPL，竞彩对英格兰的额外压缩仅 **+1.6pp**，不足以确认结构性偏差。
+- **[Y] Volume signal**：欧赔与让球、大小球开盘→即时盘均出现一致方向迁移，明确指向“英格兰更受支持、总进球从偏2球抬向2/2.5”。
 - **[Y] Devig per market**：已覆盖 **1X2、让球胜平负、总进球、比分、半全场**。
-- **[Y] Half-Kelly applied**：1X2 中仅平局为正 Edge（**+4.99%**），Half-Kelly **1.22%**。
+- **[Y] Half-Kelly**：SPDF 三项已计算；仅 **平局** 保留正 Edge（**+6.4%**，Half-Kelly **1.57%**）。
 
 ### Public Data Signals Check
 
-- [Y] ClubElo public rating checked — unavailable reason: `not covered` for national teams; checked via ClubElo route and public ranking fallback, do not estimate. Reference URLs: http://api.clubelo.com/EnglandNationalTeam ; http://api.clubelo.com/MexicoNationalTeam ; https://worldfootballrankings.com/country/ENG ; https://worldfootballrankings.com/country/MEX
-- [Y] xG public data checked — unavailable reason: `blocked / stale / not covered`; Understat national-team pages unavailable, FBref search blocked, StatsBomb Open Data not current for this 2026 World Cup. Reference URLs: https://understat.com/team/England_national_team ; https://understat.com/team/Mexico_national_team ; https://fbref.com/en/search/search.fcgi?search=England%20national%20team ; https://fbref.com/en/search/search.fcgi?search=Mexico%20national%20team ; https://github.com/statsbomb/open-data
+- **[N] ClubElo public rating checked**：unavailable — not covered；attempted http://api.clubelo.com/Mexico and http://api.clubelo.com/England
+- **[Y] xG public data checked**：https://www.fotmob.com/leagues/77/table/world-cup?filter=xg ; https://footystats.org/world-cup ; https://soccer.realgm.com/analysis/559/2026-FIFA-World-Cup-xG-Tracker-Results-Expected-Goals-Of-Every-Match ; https://www.foxsports.com/soccer/england-men-team-stats?category=standard&groupId=12&season=2026&sort=xg&sortOrder=desc
 
-**估算赔率统计**：**0 / 30**
-**整体置信度**：**Medium**（赔率是真实抓取，但公开 xG / ClubElo 不可用，社交平台原帖未直接采集）
+**估算赔率统计**：**0 / 35**  
+Estimated odds count: 0/35
+**整体置信度**：**High**（主赔率均为实盘；不确定性主要来自赛前最后伤病与天气）
 
----
+Confidence: High
 
-*数据截止：2026-07-04（赔率快照与公开赛前报道）*
+## 数据来源
+
 *数据来源：*
-- Tier 1（赔率）：中国体彩 / 500.com 百家欧赔、亚盘、大小球（销售日 2026-07-05，周日092）
-- Tier 5（赛事预览/伤停/H2H）：https://www.sportsmole.co.uk/football/england/world-cup-2026/preview/mexico-vs-england-prediction-team-news-lineups_600597.html
-  https://www.sportsmole.co.uk/football/england/world-cup-2026/injuries-and-suspensions/rice-james-quansah-latest-england-injury-suspension-list-vs-mexico_600617.html
-  https://www.sportsmole.co.uk/football/england/world-cup-2026/head-to-head/mexico-vs-england-head-to-head-record-and-past-meetings_600615.html
-  https://www.thestatszone.com/mexico-vs-england-preview-team-news-prediction-fifa-world-cup-2026-round-of-16-203870
-  https://www.si.com/soccer/mexico-national-team-injury-2026-world-cup-plans
-  https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mexico-england-preview-live-stream-team-news-tickets
-- Public strength / weather reference：https://www.eloratings.net/2026_World_Cup
-  https://www.11v11.com/teams/england/tab/opposingTeams/opposition/Mexico/
-  https://www.11v11.com/teams/england/option/ranking/fullranking/true/
-  https://worldfootballrankings.com/country/ENG
-  https://worldfootballrankings.com/country/MEX
-  https://inside.fifa.com/fifa-world-ranking/MEX?gender=men
-  https://github.com/statsbomb/open-data
-  https://www.easeweather.com/north-america/mexico/mexico-city/july
-*推理依据：LLM qualitative match-analysis methodology v0.1*
-<!-- probs: {"home": 0.27, "away": 0.38, "draw": 0.35} -->
+- **Tier 1（赔率 / 市场）**
+  - https://odds.500.com/fenxi/ouzhi-1359173.shtml
+  - https://odds.500.com/fenxi/rangqiu-1359173.shtml
+  - https://odds.500.com/fenxi/yazhi-1359173.shtml
+  - https://odds.500.com/fenxi/daxiao-1359173.shtml
+- **Tier 2（赛前前瞻 / 阵容 / 伤停）**
+  - https://www.standard.co.uk/sport/football/england-xi-vs-mexico-confirmed-team-news-predicted-lineup-injury-latest-world-cup-2026-b1288568.html
+  - https://www.sportsmole.co.uk/football/mexico/world-cup-2026/team-news/mexico-vs-ecuador-injury-suspension-list-predicted-xis_600277.html
+  - https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/mexico-england-preview-live-stream-team-news-tickets
+  - https://www.fotmob.com/matches/mexico-vs-england/1wsny4
+  - https://forzafootball.com/match/mexico-england-1217858431/lineups
+  - https://www.foxsports.com/stories/soccer/mexico-england-world-cup-round-of-16-azteca
+- **Tier 3（历史交锋 / 基本面 / 公开强度）**
+  - https://khelnow.com/football/mexico-vs-england-head-to-head-fifa-world-cup-2026
+  - https://www.olympics.com/es/noticias/mexico-inglaterra-historial-partidos
+  - Tier 3 (ClubElo/Elo national fallback): https://worldfootballrankings.com/country/MEX
+  - Tier 3 (ClubElo/Elo national fallback): https://worldfootballrankings.com/country/ENG
+  - Tier 3 (ClubElo/Elo national fallback): https://www.eloratings.net/Mexico
+  - Tier 3 (ClubElo/Elo national fallback): https://www.eloratings.net/England
+  - https://www.whereig.com/football/fifa-world-rankings.html
+  - Tier 3 (xG public data): https://footystats.org/world-cup
+  - Tier 3 (xG public data): https://www.fotmob.com/leagues/77/table/world-cup?filter=xg
+  - Tier 3 (xG public data): https://soccer.realgm.com/analysis/559/2026-FIFA-World-Cup-xG-Tracker-Results-Expected-Goals-Of-Every-Match
+  - Tier 3 (xG public data): https://www.foxsports.com/soccer/england-men-team-stats?category=standard&groupId=12&season=2026&sort=xg&sortOrder=desc
+- **Tier 4（场地天气）**
+  - https://www.accuweather.com/en/mx/mexico-city/242560/weather-tomorrow/242560
+  - https://www.accuweather.com/en/mx/mexico-city/242560/hourly-weather-forecast/242560
+  - https://satmeteo.com/stadium/mx/226-azteca
+
+<!-- probs: {"home": 0.255, "draw": 0.350, "away": 0.395} -->

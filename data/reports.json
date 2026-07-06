@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-05T13:09:18.011Z",
-  "count": 109,
+  "generatedAt": "2026-07-06T01:07:30.228Z",
+  "count": 111,
   "reports": [
     {
       "matchId": "6203_2026-06-13",
@@ -3002,20 +3002,24 @@
     },
     {
       "matchId": "1201_2026-07-06",
-      "title": "Hacken vs Djurgardens",
-      "home": "Hacken",
-      "away": "Djurgardens",
-      "competition": "Allsvenskan",
+      "title": "赫根 vs 佐加顿斯",
+      "home": "赫根",
+      "away": "佐加顿斯",
+      "competition": "瑞超",
       "kickoff": "2026-07-07T01:00:00+08:00",
       "probs": {
-        "home": 0.42,
-        "draw": 0.26,
+        "home": 0.39,
+        "draw": 0.29,
         "away": 0.32
       },
-      "generatedAt": "2026-07-05T12:27:45.248Z",
+      "generatedAt": "2026-07-06T00:31:33.858Z",
       "validationPass": true,
       "current": "reports/1201_2026-07-06/current.md",
       "history": [
+        {
+          "timestamp": "2026-07-05T122745Z",
+          "path": "reports/1201_2026-07-06/history/2026-07-05T122745Z.md"
+        },
         {
           "timestamp": "2026-07-05T003055Z",
           "path": "reports/1201_2026-07-06/history/2026-07-05T003055Z.md"
@@ -3024,20 +3028,24 @@
     },
     {
       "matchId": "1202_2026-07-06",
-      "title": "Brommapojkarna vs GAIS",
-      "home": "Brommapojkarna",
-      "away": "GAIS",
-      "competition": "Allsvenskan",
+      "title": "布鲁马波卡纳 vs 哥德堡盖斯",
+      "home": "布鲁马波卡纳",
+      "away": "哥德堡盖斯",
+      "competition": "瑞典超级联赛",
       "kickoff": "2026-07-07T01:00:00+08:00",
       "probs": {
-        "home": 0.29,
-        "draw": 0.28,
-        "away": 0.43
+        "home": 0.28,
+        "draw": 0.27,
+        "away": 0.45
       },
-      "generatedAt": "2026-07-05T12:27:45.248Z",
+      "generatedAt": "2026-07-06T00:31:33.858Z",
       "validationPass": true,
       "current": "reports/1202_2026-07-06/current.md",
       "history": [
+        {
+          "timestamp": "2026-07-05T122745Z",
+          "path": "reports/1202_2026-07-06/history/2026-07-05T122745Z.md"
+        },
         {
           "timestamp": "2026-07-05T003055Z",
           "path": "reports/1202_2026-07-06/history/2026-07-05T003055Z.md"
@@ -3046,36 +3054,80 @@
     },
     {
       "matchId": "1093_2026-07-06",
-      "title": "Portugal vs Spain",
-      "home": "Portugal",
-      "away": "Spain",
-      "competition": "2026 FIFA World Cup",
+      "title": "葡萄牙 vs 西班牙",
+      "home": "葡萄牙",
+      "away": "西班牙",
+      "competition": "世界杯",
       "kickoff": "2026-07-07T03:00:00+08:00",
       "probs": {
-        "home": 0.223,
-        "draw": 0.309,
-        "away": 0.468
+        "home": 0.24,
+        "draw": 0.31,
+        "away": 0.45
       },
-      "generatedAt": "2026-07-05T12:27:45.248Z",
+      "generatedAt": "2026-07-06T00:31:33.858Z",
       "validationPass": true,
       "current": "reports/1093_2026-07-06/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-07-05T122745Z",
+          "path": "reports/1093_2026-07-06/history/2026-07-05T122745Z.md"
+        }
+      ]
     },
     {
       "matchId": "1094_2026-07-06",
-      "title": "United States vs Belgium",
-      "home": "United States",
-      "away": "Belgium",
-      "competition": "2026 FIFA World Cup",
+      "title": "美国 vs 比利时",
+      "home": "美国",
+      "away": "比利时",
+      "competition": "世界杯",
       "kickoff": "2026-07-07T08:00:00+08:00",
       "probs": {
-        "home": 0.337,
-        "draw": 0.314,
-        "away": 0.349
+        "home": 0.34,
+        "draw": 0.32,
+        "away": 0.34
       },
-      "generatedAt": "2026-07-05T12:27:45.248Z",
+      "generatedAt": "2026-07-06T00:31:33.858Z",
       "validationPass": true,
       "current": "reports/1094_2026-07-06/current.md",
+      "history": [
+        {
+          "timestamp": "2026-07-05T122745Z",
+          "path": "reports/1094_2026-07-06/history/2026-07-05T122745Z.md"
+        }
+      ]
+    },
+    {
+      "matchId": "2095_2026-07-07",
+      "title": "阿根廷 vs 埃及",
+      "home": "阿根廷",
+      "away": "埃及",
+      "competition": "世界杯",
+      "kickoff": "2026-07-08T00:00:00+08:00",
+      "probs": {
+        "home": 0.71,
+        "draw": 0.2,
+        "away": 0.09
+      },
+      "generatedAt": "2026-07-06T00:31:33.858Z",
+      "validationPass": true,
+      "current": "reports/2095_2026-07-07/current.md",
+      "history": []
+    },
+    {
+      "matchId": "2096_2026-07-07",
+      "title": "瑞士 vs 哥伦比亚",
+      "home": "瑞士",
+      "away": "哥伦比亚",
+      "competition": "世界杯",
+      "kickoff": "2026-07-08T04:00:00+08:00",
+      "probs": {
+        "home": 0.28,
+        "draw": 0.33,
+        "away": 0.39
+      },
+      "generatedAt": "2026-07-06T00:31:33.858Z",
+      "validationPass": true,
+      "current": "reports/2096_2026-07-07/current.md",
       "history": []
     }
   ]

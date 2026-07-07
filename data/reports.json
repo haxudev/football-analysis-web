@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-06T13:41:16.137Z",
+  "generatedAt": "2026-07-07T00:47:48.665Z",
   "count": 111,
   "reports": [
     {
@@ -3114,20 +3114,24 @@
     },
     {
       "matchId": "2095_2026-07-07",
-      "title": "阿根廷 (Argentina) vs 埃及 (Egypt)",
-      "home": "阿根廷 (Argentina)",
-      "away": "埃及 (Egypt)",
-      "competition": "2026世界杯 淘汰赛 16强战",
-      "kickoff": "2026-07-07T16:00:00Z",
+      "title": "Argentina vs Egypt",
+      "home": "Argentina",
+      "away": "Egypt",
+      "competition": "FIFA World Cup 2026 - Round of 16",
+      "kickoff": "2026-07-08T00:00:00+08:00",
       "probs": {
-        "home": 0.6877,
-        "draw": 0.2291,
-        "away": 0.0832
+        "home": 0.69,
+        "draw": 0.228,
+        "away": 0.082
       },
-      "generatedAt": "2026-07-06T13:13:34.308Z",
+      "generatedAt": "2026-07-07T00:32:20.883Z",
       "validationPass": true,
       "current": "reports/2095_2026-07-07/current.md",
       "history": [
+        {
+          "timestamp": "2026-07-06T131334Z",
+          "path": "reports/2095_2026-07-07/history/2026-07-06T131334Z.md"
+        },
         {
           "timestamp": "2026-07-06T003133Z",
           "path": "reports/2095_2026-07-07/history/2026-07-06T003133Z.md"
@@ -3136,20 +3140,24 @@
     },
     {
       "matchId": "2096_2026-07-07",
-      "title": "瑞士 (Switzerland) vs 哥伦比亚 (Colombia)",
-      "home": "瑞士 (Switzerland)",
-      "away": "哥伦比亚 (Colombia)",
-      "competition": "2026世界杯 淘汰赛 16强战",
-      "kickoff": "2026-07-07T20:00:00Z",
+      "title": "Switzerland vs Colombia",
+      "home": "Switzerland",
+      "away": "Colombia",
+      "competition": "FIFA World Cup 2026 - Round of 16",
+      "kickoff": "2026-07-08T04:00:00+08:00",
       "probs": {
-        "home": 0.2833,
-        "draw": 0.3524,
-        "away": 0.3643
+        "home": 0.28,
+        "draw": 0.351,
+        "away": 0.369
       },
-      "generatedAt": "2026-07-06T13:13:34.308Z",
+      "generatedAt": "2026-07-07T00:32:20.883Z",
       "validationPass": true,
       "current": "reports/2096_2026-07-07/current.md",
       "history": [
+        {
+          "timestamp": "2026-07-06T131334Z",
+          "path": "reports/2096_2026-07-07/history/2026-07-06T131334Z.md"
+        },
         {
           "timestamp": "2026-07-06T003133Z",
           "path": "reports/2096_2026-07-07/history/2026-07-06T003133Z.md"

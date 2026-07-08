@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-07T13:10:16.724Z",
-  "count": 114,
+  "generatedAt": "2026-07-08T00:37:52.827Z",
+  "count": 115,
   "reports": [
     {
       "matchId": "6203_2026-06-13",
@@ -3222,6 +3222,23 @@
           "path": "reports/2096_2026-07-07/history/2026-07-06T003133Z.md"
         }
       ]
+    },
+    {
+      "matchId": "4097_2026-07-09",
+      "title": "法国 vs 摩洛哥",
+      "home": "法国",
+      "away": "摩洛哥",
+      "competition": "世界杯",
+      "kickoff": "2026-07-10T04:00:00+08:00",
+      "probs": {
+        "home": 0.58,
+        "draw": 0.28,
+        "away": 0.14
+      },
+      "generatedAt": "2026-07-08T00:26:55.504Z",
+      "validationPass": true,
+      "current": "reports/4097_2026-07-09/current.md",
+      "history": []
     }
   ]
 }

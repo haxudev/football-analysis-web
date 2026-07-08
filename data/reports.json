@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-08T00:37:52.827Z",
-  "count": 115,
+  "generatedAt": "2026-07-08T12:58:26.200Z",
+  "count": 119,
   "reports": [
     {
       "matchId": "6203_2026-06-13",
@@ -3224,6 +3224,74 @@
       ]
     },
     {
+      "matchId": "3201_2026-07-08",
+      "title": "阿拉木图凯拉特 vs 苏捷斯卡",
+      "home": "阿拉木图凯拉特",
+      "away": "苏捷斯卡",
+      "competition": "欧冠资格赛",
+      "kickoff": "2026-07-08T23:00:00+08:00",
+      "probs": {
+        "home": 0.729,
+        "draw": 0.188,
+        "away": 0.083
+      },
+      "generatedAt": "2026-07-08T12:32:58.882Z",
+      "validationPass": true,
+      "current": "reports/3201_2026-07-08/current.md",
+      "history": []
+    },
+    {
+      "matchId": "4201_2026-07-09",
+      "title": "伏伊伏丁那 vs 费伦茨瓦罗斯",
+      "home": "伏伊伏丁那",
+      "away": "费伦茨瓦罗斯",
+      "competition": "欧罗巴联赛",
+      "kickoff": "2026-07-10T02:00:00+08:00",
+      "probs": {
+        "home": 0.171,
+        "draw": 0.24,
+        "away": 0.589
+      },
+      "generatedAt": "2026-07-08T12:32:58.882Z",
+      "validationPass": true,
+      "current": "reports/4201_2026-07-09/current.md",
+      "history": []
+    },
+    {
+      "matchId": "4202_2026-07-09",
+      "title": "索菲亚中央陆军 vs 德里城",
+      "home": "索菲亚中央陆军",
+      "away": "德里城",
+      "competition": "欧罗巴联赛",
+      "kickoff": "2026-07-10T02:00:00+08:00",
+      "probs": {
+        "home": 0.617,
+        "draw": 0.24,
+        "away": 0.143
+      },
+      "generatedAt": "2026-07-08T12:32:58.882Z",
+      "validationPass": true,
+      "current": "reports/4202_2026-07-09/current.md",
+      "history": []
+    },
+    {
+      "matchId": "4203_2026-07-09",
+      "title": "斯普利特海杜克 vs 日利纳",
+      "home": "斯普利特海杜克",
+      "away": "日利纳",
+      "competition": "欧罗巴联赛",
+      "kickoff": "2026-07-10T02:00:00+08:00",
+      "probs": {
+        "home": 0.578,
+        "draw": 0.25,
+        "away": 0.172
+      },
+      "generatedAt": "2026-07-08T12:32:58.882Z",
+      "validationPass": true,
+      "current": "reports/4203_2026-07-09/current.md",
+      "history": []
+    },
+    {
       "matchId": "4097_2026-07-09",
       "title": "法国 vs 摩洛哥",
       "home": "法国",
@@ -3231,14 +3299,19 @@
       "competition": "世界杯",
       "kickoff": "2026-07-10T04:00:00+08:00",
       "probs": {
-        "home": 0.58,
-        "draw": 0.28,
-        "away": 0.14
+        "home": 0.547,
+        "draw": 0.294,
+        "away": 0.159
       },
-      "generatedAt": "2026-07-08T00:26:55.504Z",
+      "generatedAt": "2026-07-08T12:32:58.882Z",
       "validationPass": true,
       "current": "reports/4097_2026-07-09/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-07-08T002655Z",
+          "path": "reports/4097_2026-07-09/history/2026-07-08T002655Z.md"
+        }
+      ]
     }
   ]
 }

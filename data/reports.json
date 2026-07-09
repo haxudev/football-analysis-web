@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-08T12:58:26.200Z",
-  "count": 119,
+  "generatedAt": "2026-07-09T00:47:53.093Z",
+  "count": 120,
   "reports": [
     {
       "matchId": "6203_2026-06-13",
@@ -3248,14 +3248,19 @@
       "competition": "欧罗巴联赛",
       "kickoff": "2026-07-10T02:00:00+08:00",
       "probs": {
-        "home": 0.171,
-        "draw": 0.24,
-        "away": 0.589
+        "home": 0.321,
+        "draw": 0.284,
+        "away": 0.395
       },
-      "generatedAt": "2026-07-08T12:32:58.882Z",
+      "generatedAt": "2026-07-09T00:30:21.873Z",
       "validationPass": true,
       "current": "reports/4201_2026-07-09/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-07-08T123258Z",
+          "path": "reports/4201_2026-07-09/history/2026-07-08T123258Z.md"
+        }
+      ]
     },
     {
       "matchId": "4202_2026-07-09",
@@ -3265,14 +3270,19 @@
       "competition": "欧罗巴联赛",
       "kickoff": "2026-07-10T02:00:00+08:00",
       "probs": {
-        "home": 0.617,
-        "draw": 0.24,
-        "away": 0.143
+        "home": 0.699,
+        "draw": 0.194,
+        "away": 0.108
       },
-      "generatedAt": "2026-07-08T12:32:58.882Z",
+      "generatedAt": "2026-07-09T00:30:21.873Z",
       "validationPass": true,
       "current": "reports/4202_2026-07-09/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-07-08T123258Z",
+          "path": "reports/4202_2026-07-09/history/2026-07-08T123258Z.md"
+        }
+      ]
     },
     {
       "matchId": "4203_2026-07-09",
@@ -3282,14 +3292,19 @@
       "competition": "欧罗巴联赛",
       "kickoff": "2026-07-10T02:00:00+08:00",
       "probs": {
-        "home": 0.578,
-        "draw": 0.25,
-        "away": 0.172
+        "home": 0.655,
+        "draw": 0.204,
+        "away": 0.141
       },
-      "generatedAt": "2026-07-08T12:32:58.882Z",
+      "generatedAt": "2026-07-09T00:30:21.873Z",
       "validationPass": true,
       "current": "reports/4203_2026-07-09/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-07-08T123258Z",
+          "path": "reports/4203_2026-07-09/history/2026-07-08T123258Z.md"
+        }
+      ]
     },
     {
       "matchId": "4097_2026-07-09",
@@ -3299,19 +3314,40 @@
       "competition": "世界杯",
       "kickoff": "2026-07-10T04:00:00+08:00",
       "probs": {
-        "home": 0.547,
-        "draw": 0.294,
-        "away": 0.159
+        "home": 0.57,
+        "draw": 0.285,
+        "away": 0.145
       },
-      "generatedAt": "2026-07-08T12:32:58.882Z",
+      "generatedAt": "2026-07-09T00:30:21.873Z",
       "validationPass": true,
       "current": "reports/4097_2026-07-09/current.md",
       "history": [
+        {
+          "timestamp": "2026-07-08T123258Z",
+          "path": "reports/4097_2026-07-09/history/2026-07-08T123258Z.md"
+        },
         {
           "timestamp": "2026-07-08T002655Z",
           "path": "reports/4097_2026-07-09/history/2026-07-08T002655Z.md"
         }
       ]
+    },
+    {
+      "matchId": "5098_2026-07-10",
+      "title": "西班牙 vs 比利时",
+      "home": "西班牙",
+      "away": "比利时",
+      "competition": "世界杯",
+      "kickoff": "2026-07-11T03:00:00+08:00",
+      "probs": {
+        "home": 0.533,
+        "draw": 0.293,
+        "away": 0.174
+      },
+      "generatedAt": "2026-07-09T00:30:21.873Z",
+      "validationPass": true,
+      "current": "reports/5098_2026-07-10/current.md",
+      "history": []
     }
   ]
 }

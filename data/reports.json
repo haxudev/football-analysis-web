@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-09T00:47:53.093Z",
-  "count": 120,
+  "generatedAt": "2026-07-10T00:58:24.094Z",
+  "count": 123,
   "reports": [
     {
       "matchId": "6203_2026-06-13",
@@ -3333,20 +3333,76 @@
       ]
     },
     {
+      "matchId": "5201_2026-07-10",
+      "title": "瓦萨 (VPS Vaasa) vs 塞伊奈 (SJK Seinäjoki)",
+      "home": "瓦萨 (VPS Vaasa)",
+      "away": "塞伊奈 (SJK Seinäjoki)",
+      "competition": "芬兰超级联赛 Veikkausliiga 第15轮",
+      "kickoff": "2026-07-11T00:00:00+08:00",
+      "probs": {
+        "home": 0.442,
+        "draw": 0.26,
+        "away": 0.298
+      },
+      "generatedAt": "2026-07-10T00:31:29.255Z",
+      "validationPass": true,
+      "current": "reports/5201_2026-07-10/current.md",
+      "history": []
+    },
+    {
       "matchId": "5098_2026-07-10",
-      "title": "西班牙 vs 比利时",
-      "home": "西班牙",
-      "away": "比利时",
-      "competition": "世界杯",
+      "title": "Spain vs Belgium",
+      "home": "Spain",
+      "away": "Belgium",
+      "competition": "FIFA World Cup 2026 - Quarter-final",
       "kickoff": "2026-07-11T03:00:00+08:00",
       "probs": {
-        "home": 0.533,
-        "draw": 0.293,
-        "away": 0.174
+        "home": 0.549,
+        "draw": 0.282,
+        "away": 0.169
       },
-      "generatedAt": "2026-07-09T00:30:21.873Z",
+      "generatedAt": "2026-07-10T00:31:29.255Z",
       "validationPass": true,
       "current": "reports/5098_2026-07-10/current.md",
+      "history": [
+        {
+          "timestamp": "2026-07-09T003021Z",
+          "path": "reports/5098_2026-07-10/history/2026-07-09T003021Z.md"
+        }
+      ]
+    },
+    {
+      "matchId": "6099_2026-07-11",
+      "title": "挪威 (Norway) vs 英格兰 (England)",
+      "home": "挪威 (Norway)",
+      "away": "英格兰 (England)",
+      "competition": "FIFA World Cup 2026 - Quarter-final",
+      "kickoff": "2026-07-12T05:00:00+08:00",
+      "probs": {
+        "home": 0.234,
+        "draw": 0.304,
+        "away": 0.462
+      },
+      "generatedAt": "2026-07-10T00:31:29.255Z",
+      "validationPass": true,
+      "current": "reports/6099_2026-07-11/current.md",
+      "history": []
+    },
+    {
+      "matchId": "6100_2026-07-11",
+      "title": "阿根廷 (Argentina) vs 瑞士 (Switzerland)",
+      "home": "阿根廷 (Argentina)",
+      "away": "瑞士 (Switzerland)",
+      "competition": "FIFA World Cup 2026 - Quarter-final",
+      "kickoff": "2026-07-12T09:00:00+08:00",
+      "probs": {
+        "home": 0.53,
+        "draw": 0.305,
+        "away": 0.165
+      },
+      "generatedAt": "2026-07-10T00:31:29.255Z",
+      "validationPass": true,
+      "current": "reports/6100_2026-07-11/current.md",
       "history": []
     }
   ]

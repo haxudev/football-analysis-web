@@ -1,4 +1,4 @@
-> 生成时间：2026-07-10T00:31:29.255Z
+> 生成时间：2026-07-10T12:44:41.277Z
 
 # 世界杯 分析报告：阿根廷 VS 瑞士
 
@@ -6,204 +6,254 @@
 
 | 项目 | 详情 |
 |------|------|
-| **赛事** | 2026年美加墨世界杯 1/4决赛（淘汰赛单场，加时+点球，1X2市场仅覆盖90分钟） |
-| **对阵** | 阿根廷 (Argentina) VS 瑞士 (Switzerland) |
-| **竞彩编号** | 6100（销售日 2026-07-11，周六100） |
-| **开球时间** | 2026-07-12 09:00（北京时间）／当地（堪萨斯城）2026-07-11 20:00 |
-| **比赛地点** | Kansas City Stadium（中立场地，双方均非东道主） |
-| **比赛性质** | 单场淘汰赛决胜；历史交锋7战阿根廷从未失利（含2次世界杯正赛均取胜） |
+| **赛事** | 2026 FIFA世界杯 淘汰赛·四分之一决赛 |
+| **对阵** | 阿根廷 (ARG) VS 瑞士 (SUI) |
+| **竞彩编号** | 6100 |
+| **开球时间** | 2026-07-12 08:00 北京时间（当地 2026-07-11 20:00 堪萨斯城时间） |
+| **比赛地点** | Arrowhead Stadium，堪萨斯城，美国（中立场地） |
+| **比赛性质** | 单场淘汰赛（90分钟+加时+点球，胜者晋级半决赛对阵挪威/英格兰胜者） |
 
 ---
 
 ## 一、赔率分析
 
-### 1.1 主流机构初盘与即时盘对比
+### 1.1 全天赔率变化对比（2026-07-09 13:00 → 2026-07-10 13:00 UTC，共19次快照）
 
-> **数据来源说明：** 全部赔率均来自已注册的 `china-football-odds` 远程 MCP（中国体彩竞彩官方 + 500.com 百家聚合 fenxi500 + 澳门 cid5），本场未使用任何估算数字。
+> **数据来源说明：** 官方体彩胜平负(HAD)/让球胜平负(HHAD，线-1)/比分(CRS)/总进球(TTG)/半全场(HAFU) 均来自 `china-football-odds` 体彩 lottery500 频道全天快照；本场 `availability: "official"`，暂无澳门/海外交叉源(crossSource为null)，以下均为官方实际抓取赔率，无估算项。
 
-| 玩法 | 机构 | 初盘 (主) | 初盘 (平) | 初盘 (客) | 即时盘 (主) | 即时盘 (平) | 即时盘 (客) | 变化方向 |
-|------|------|:---------:|:--------:|:---------:|:----------:|:-----------:|:----------:|:--------:|
-| **1X2 (竞彩官方 HAD)** | 中国体彩 | 1.58 | 3.25 | 5.30 | 1.56 | 3.30 | 5.40 | 主渐进缩水，客渐进拉长 |
-| **1X2 (欧赔共识, 30家)** | fenxi500 均值 | 1.70 | 3.57 | 5.50 | 1.70 | 3.59 | 5.275 | 主基本持平(0%)，平基本持平(+0.56%)，**客缩水-4.09%(18/21家)** |
-| **1X2 (澳门 cid5)** | 澳门盘 | 1.62 | 3.20 | 5.50 | 1.72 | 3.20 | 4.50 | 主拉长，客大幅缩水-18.18% |
-| **让球胜平负 (官方 HHAD, 让主队-1)** | 中国体彩 | 3.00 | 3.10 | 2.11 | 3.00 | 3.10 | 2.11 | 基本未变（仅供过关，不支持单式） |
-| **让球胜平负 (百家共识16家)** | fenxi500 | 3.00 | 3.30 | 2.10 | 2.80 | 3.425 | 2.225 | **主(阿根廷-1)缩水-6.67%(13/16家)，客(瑞士+1)拉长+5.95%(11/16家)** |
-| **亚洲让球盘 (澳门 cid5)** | 澳门盘 | 半球/一球 (-0.75) | — | — | 半球/一球 (-0.75) 未变 | — | — | 线未移动 |
-| **大小球 (总进球2, 澳门 cid5)** | 澳门盘 | 大0.97/小0.83 | — | — | 大0.92/小0.88 | — | — | 小幅降盘 |
+| 玩法 | 初始快照(07-09 13:00) | 最新快照(07-10 13:00) | 变化方向 |
+|------|:---------------------:|:---------------------:|:--------:|
+| **1X2 (HAD)** | 1.56 / 3.30 / 5.40 | **1.51 / 3.42 / 5.75** | 主队(阿根廷)赔率**持续缩水**(1.56→1.51)，平/客赔率同步走高 |
+| **让球胜平负 (线-1)** | 2.93~3.00 / 3.10 / 2.11 | **2.93 / 3.00 / 2.20** | 让负方(阿根廷-1覆盖)基本持平，客让胜(瑞士+1)赔率走高 |
+| **总进球 (TTG)** | — | 2球@3.00 最热 | 峰值在2球，低进球预期（与阿根廷让球盘、瑞士防守型打法一致） |
+| **比分 (CRS)** | — | 1:0@5.90 / 2:1@6.00 | 阿根廷小胜（1球净胜）最热门比分区间 |
 
 **赔率变化趋势解读（重点）：**
 
-1. **1X2 出赔口径出现"官方 vs 欧赔/澳门"方向不一致的混合信号**：竞彩官方盘显示阿根廷价格渐进缩水（1.58→1.56，主队走强），而30家欧赔共识与澳门盘均显示瑞士(客)价格缩水（欧赔-4.09%，澳门更达-18.18%），阿根廷/平局价格基本持平。**这是本轮四场比赛中唯一未出现单一方向高一致性资金流的市场**——不同数据源指向不完全相同的结论，应判定为"弱信号/暂无强共识"，而非强行解读为某一方向的确定性资金转向（区别于6099场次挪威vs英格兰的高度一致性信号）。
-2. **让球盘方向相对更一致**：百家让球共识显示阿根廷(-1，需净胜2球)价格缩水（3.00→2.80，13/16家同步，-6.67%），瑞士(+1)价格拉长（2.10→2.225，11/16家同步，+5.95%）。这表明**市场对"阿根廷净胜多球"（大比分获胜）的预期正在增强**，但与1X2出赔的"谁会赢"信号并非完全同向——综合看更像是"市场维持阿根廷获胜的基本判断不变，同时略微上修其获胜净胜球数预期"，而非一次方向性的资金转移事件。
-3. **亚盘与大小球盘基本未变**：亚洲让球盘线维持"半球/一球(-0.75)"未移动，总进球2球盘口仅微幅降盘，未见新增的攻防预期冲击信息。
-4. **对该混合信号的定性解读**：结合基本面（阿根廷 FIFA 世界排名第1-2，瑞士第19，两队积分差距约230-270分）与历史交锋（阿根廷7战不败5胜2平，含两次世界杯正赛均取胜），本场并非类似6099场那样存在"强弱关系被舆情事件挑战"的情形，市场对阿根廷夺胜的判断本身足够稳固，故未出现类似的高一致性资金转向，属合理现象。
+1. **1X2 全天呈单向、持续的"阿根廷夺冠热门进一步强化"漂移**：主队(阿根廷)赔率从1.56单调下探至1.51（去水前隐含概率由64.1%升至66.2%，去水后公平概率由56.8%升至58.7%，+1.9pp），平局赔率同步走高(3.30→3.42)，客队(瑞士)赔率走高(5.40→5.75，公平概率由16.4%降至15.4%，-1.0pp)。19次快照中阿根廷赔率无一次反弹，是清晰的单边资金流向信号。
+2. **归因分析（结合舆情面，见二）**：这一漂移窗口与瑞士"头号射手Johan Manzambi膝伤缺阵"的新闻披露时间高度吻合——Manzambi是瑞士本届赛事最大惊喜（3球2助攻，队内并列最高），其因非接触性膝伤缺席直接削弱瑞士的进攻核心；同时阿根廷方面虽有Facundo Medina(左后卫，伤情存疑)、Nico González(边锋，长期脚踝伤病)等多点疑虑，但主帅Scaloni"暂无确诊缺席"的表态、以及球队豪取6连胜(全部赛事)的强势状态盖过了这些疑虑。市场缩水阿根廷赔率，本质是对"瑞士头号攻击点确定缺阵"这一明确利空的定价修正。
+3. **让球盘(线-1)方向验证**：阿根廷-1覆盖赔率全天基本持平(2.93→2.93)，客让胜(瑞士+1)赔率走高(2.11→2.20，隐含概率由47.4%降至45.5%)——说明市场认为"瑞士守住让球"的难度边际增加，与1X2走势方向一致但幅度更温和。
+4. **CN market structure (CN 市场结构) 提示**：HHAD让球盘口`bettingStatus`标记为`pass`（仅可过关，不可单关：`singleAvailable: false`），与match 3(6099)同样受到CN官方渠道的结构性限制，流动性弱于HAD，其价格信号强度应打折看待。
+5. **Volume signal (Volume Signal 升降盘解读)**：19次快照呈现1X2持续单向漂移（阿根廷赔率单调下探），与match 3(挪威vs英格兰)类似的"渐进消化"形态，反映伤病/团队新闻滚动式披露（Manzambi伤情7-9/7-10多篇报道逐步扩散）导致市场分批修正，而非一次性冲击。
 
-### 1.2 隐含概率换算与 Devig 公平概率（Devig per market 已应用）
+### 1.2 隐含概率换算（1X2 / HAD，Devig）
 
-| 市场 | 来源 | 主胜 implied | 平局 implied | 客胜 implied | 总和(overround) | Devig 公平概率(主/平/客) |
-|------|------|:---:|:---:|:---:|:---:|:---:|
-| 1X2 官方 HAD (即时) | 中国体彩 | 64.10% | 30.30% | 18.52% | 112.92% | **56.8% / 26.8% / 16.4%** |
-| 1X2 欧赔共识 (初盘,30家) | fenxi500 | 58.82% | 28.01% | 18.18% | 105.01% | 56.0% / 26.7% / 17.3% |
-| 1X2 欧赔共识 (即时,30家) | fenxi500 | 58.82% | 27.86% | 18.96% | 105.64% | **55.7% / 26.4% / 17.9%** |
-| 让球胜平负 官方 HHAD (即时) | 中国体彩 | 29.5% | 28.6% | 41.9% | 112.98% | 29.5% / 28.6% / 41.9%（原文已为fair值） |
-| 让球胜平负 共识 (初盘,16家) | fenxi500 | — | — | — | ~111.3% | 30.0% / 27.2% / 42.8% |
-| 让球胜平负 共识 (即时,16家) | fenxi500 | — | — | — | ~109.9% | **32.5% / 26.6% / 40.9%** |
+| 结果 | 初始快照隐含概率 | 最新快照隐含概率 | Devig后公平概率(最新) |
+|------|:---------------:|:---------------:|:---------------------:|
+| 阿根廷胜 | 64.10% | 66.23% | **58.7%** |
+| 平局 | 30.30% | 29.24% | **25.9%** |
+| 瑞士胜 | 18.52% | 17.39% | **15.4%** |
+| **margin** | **112.92%** | **112.86%** | **100.0%** |
 
-**Devig 公平概率变动解读**：欧赔共识初盘→即时，阿根廷(主)公平胜率基本持平（56.0%→55.7%，-0.3pp），瑞士(客)公平胜率小幅上升（17.3%→17.9%，+0.6pp），平局基本持平（26.7%→26.4%，-0.3pp）——**变动幅度均在1个百分点以内，显著弱于6099场次约3-4pp的修正幅度**，确认本场1X2市场未出现强方向性信号。让球盘公平概率显示阿根廷(-1)覆盖概率从30.0%升至32.5%（+2.5pp），瑞士(+1)从42.8%降至40.9%（-1.9pp），这一让球盘修正幅度反而略大于1X2市场，印证"市场更倾向调整净胜球数预期而非胜负预期"的判断。
+> Devig 计算：fair_i = (1/odds_i) / Σ(1/odds_j)。体彩margin全天基本稳定在约12.9%（无明显抽水比例变化）。去水前隐含概率变化：阿根廷+2.13pp，平局-1.06pp，瑞士-1.13pp——阿根廷获得的增量来自平局与瑞士两端的均衡让渡，属于典型的"利空瑞士单向消息"驱动的三向再平衡。
+
+### 1.3 让球胜平负（线-1）Devig
+
+| 结果 | 让球盘赔率(最新) | Devig公平概率 |
+|------|:---------------:|:-------------:|
+| 阿根廷 净胜≥2球（covers -1） | 2.93 | 30.2% |
+| 净胜恰好1球（push） | 3.00 | 29.5% |
+| 瑞士 平局或获胜（+1覆盖） | 2.20 | 40.3% |
+
+> 让球盘公平概率显示：阿根廷"净胜2球+大胜"的概率仅30.2%，明显低于其1X2获胜公平概率58.7%——意味着即便阿根廷获胜，市场认为**多数情形是净胜1球的小胜**（"净胜恰好1球"概率29.5%接近"大胜2球+"的30.2%），而非大比分横扫，这与总进球盘"2球"最热门、比分盘"1:0/2:1"阿根廷小胜最热门高度吻合，反映出瑞士虽整体实力逊色但防守体系具备一定韧性。
 
 ---
 
 ## 二、互联网舆情分析
 
-> **舆情信号说明**：本场为世界杯1/4决赛焦点战，英文与西语媒体覆盖均极为充分，Sports Mole、Buenos Aires Herald、OneFootball、deportv.gob.ar、minutouno.com、ole.com.ar、fifa.com、Yahoo Sports、Sporting News 等多个独立信源均可正常访问并相互印证（≥3个独立来源），未触发全阻情形。
+### 2.1 最新消息与团队新闻（近72小时，相对赔率漂移窗口的变化重点）
 
-### 2.1 阿根廷阵容状态（相对16强战对阵埃及的变化）
-- 阿根廷16强战3-2战胜埃及，梅西(Lionel Messi)贡献进球。赛前伤病名单显示 Nicolas Gonzalez(脚踝)、Facundo Medina(抽筋)为"疑似缺阵"级别，均非确定缺阵。
-- 核心防守球员 Cristian Romero 此前因右膝外侧韧带拉伤缺席近两个月，已在世界杯前热身赛复出并表现稳定，无残留伤情迹象；门将 Dibu Martinez 手指骨折已解决，重新以双手正常训练。
-- **整体评估**：阿根廷当前伤病压力低于赛前预期，无确定性核心球员缺阵，阵容完整度良好，此为相对16强战阶段的正面变化。
+**阿根廷（ARG）：**
+- 卫冕冠军，本届赛事本项目**全部赛事6连胜**（W W W W W W），阿根廷FIFA世界排名已重回**第1位**（约1877分，近期从法国手中夺回榜首）。（来源：https://www.sportsmole.co.uk/football/argentina/world-cup-2026/preview/argentina-vs-switzerland-prediction-team-news-lineups_600947.html；https://resources.qa.fifa.com/fifa-world-ranking/men/news/argentina-reclaim-top-spot-mens-world-ranking-fifa-coca-cola）
+- 淘汰赛阶段两次惊险过关：1/8淘汰赛险胜世界杯新军佛得角，1/16决赛对阵埃及一度0-2落后后逆转晋级——显示球队存在阶段性状态起伏。（来源：https://www.sportsmole.co.uk/football/argentina/world-cup-2026/preview/argentina-vs-switzerland-prediction-team-news-lineups_600947.html）
+- **伤病/状态疑虑**：左后卫Facundo Medina伤情存疑（"highly doubtful"），Nicolás Tagliafico随时顶替；边锋Nico González因长期脚踝问题为"major doubt"；锋线Lautaro Martínez状态下滑，Julián Álvarez正在争夺其首发位置；中场Thiago Almada、右后卫Nahuel Molina同样被指出状态有所下滑。主帅Scaloni暂无确诊缺席声明。（来源：https://www.fifaworldcupnews.com/argentina-vs-switzerland-2026-wc-qf/；https://www.rotowire.com/soccer/article/argentina-vs-switzerland-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-quarterfinal-121924）
 
-### 2.2 瑞士阵容状态（相对16强战对阵哥伦比亚的变化）
-- 瑞士16强战加时0-0战平(点球淘汰)哥伦比亚晋级。赛前(对哥伦比亚)出现重要变化：新星 Johan Manzambi、边锋 Ruben Vargas、中场 Djibril Sow 三人提前离场接受检查，主帅 Murat Yakin 直言"若三人无法出战将造成巨大问题"；另有 Michel Aebischer、Luca Jaquez 肌肉伤势存疑。
-- 独立标题确认该悬念延续至本场：《Will Johan Manzambi be fit for Switzerland's World Cup quarter-final against Argentina?》——说明 Manzambi 的出场状态截至报告撰写时点仍未有官方定论，是本场瑞士阵容的核心不确定因素。
-- **整体评估**：瑞士在16强战阶段出现的多点伤病隐忧尚未完全解除，若 Manzambi（球队近期突破/串联的关键球员之一）缺阵，将进一步削弱本已处于绝对劣势的瑞士的进攻创造力。
+**瑞士（SUI）：**
+- 通过点球大战(4-3)淘汰哥伦比亚，历史性晋级**1954年以来首次世界杯八强**，全队士气高涨、创造队史新纪录。（来源：https://www.fifaworldcupnews.com/argentina-vs-switzerland-2026-wc-qf/；https://www.sportsmole.co.uk/football/argentina/world-cup-2026/predicted-lineups/manzambi-fitness-doubt-for-yakin-predicted-switzerland-lineup-vs-argentina_600954.html）
+- **重大利空**：队内头号射手兼本届最大黑马Johan Manzambi（3球2助攻，队内并列最高）在训练中遭遇非接触性膝伤，**确定缺阵本场**——这是"瑞士整个进攻体系的定义性打击"（rotowire原文表述）。（来源：https://www.fifaworldcupnews.com/argentina-vs-switzerland-2026-wc-qf/；https://www.rotowire.com/soccer/article/argentina-vs-switzerland-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-quarterfinal-121924）
+- 替补人选预计为Zeki Amdouni或Cedric Itten顶替Manzambi出任前场核心。（来源：https://www.sportsmole.co.uk/football/argentina/world-cup-2026/predicted-lineups/manzambi-fitness-doubt-for-yakin-predicted-switzerland-lineup-vs-argentina_600954.html）
 
-### 2.3 舆论基调
-- 多篇预测文章标题直接使用"End of the road for the Swiss"（瑞士征程到此为止）等表述，反映英语媒体普遍不看好瑞士晋级。
-- 涉及梅西的专题报道（"两面性"/"爆发之战"）未提及伤停或体能问题，暗示梅西状态良好、无出场风险。
-- 综合来看，舆情基调与赔率端"1X2无强烈资金转向但让球盘净胜预期上修"的现象相互印证：市场与舆论均认为阿根廷获胜概率稳固，分歧主要集中在"赢多少"而非"谁会赢"。
+> **相对上一版本的变化（重点）：** Manzambi伤情报道集中在07-09至07-10（rotowire、sportsmole、fifaworldcupnews三方在此窗口内相继确认"缺阵"），与赔率盘口"阿根廷赔率19次快照持续单向缩水"的时间窗口高度吻合，形成舆情与盘口的交叉印证——市场对瑞士头号攻击点缺阵的利空反应清晰可辨。
+
+### 2.2 球迷/媒体情绪分析
+
+- 英语/西班牙语媒体（Sportsmole、RotoWire、FIFAWorldCupNews、Buenos Aires Herald、442.perfil.com）普遍认为阿根廷作为卫冕冠军仍是绝对热门，但对其淘汰赛阶段"惊险过关"的连续性提出隐忧（"经历了两次惊险逃生"）。
+- 瑞士方媒体氛围整体乐观、视本场为"历史性突破"的延续，但Manzambi伤情报道后舆论普遍认为瑞士争胜难度显著增加。
+- 两队舆情情绪呈现**"阿根廷谨慎乐观、瑞士遗憾但斗志不减"**的态势，与赔率盘口的阿根廷强化方向一致。
+
+### 2.3 预计首发与阵型
+
+- 阿根廷：门将Emiliano Martínez，后防线Molina-Romero-Lisandro Martínez-Tagliafico（Medina随时替补），中场De Paul、Mac Allister领衔，锋线Álvarez与Lautaro Martínez位置存在竞争。（来源：https://www.rotowire.com/soccer/article/argentina-vs-switzerland-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-quarterfinal-121924）
+- 瑞士：门将Kobel，后防Zakaria-Elvedi领衔，前场由Amdouni/Itten顶替Manzambi的空缺。（来源：https://www.sportsmole.co.uk/football/argentina/world-cup-2026/predicted-lineups/manzambi-fitness-doubt-for-yakin-predicted-switzerland-lineup-vs-argentina_600954.html）
 
 ---
 
 ## 三、球队基本面分析
 
-### 3.1 赛程与状态
-- 阿根廷16强战3-2逆转埃及晋级，进攻端表现活跃（梅西、恩佐-费尔南德斯先后建功）。
-- 瑞士16强战0-0战平哥伦比亚，需加时+点球淘汰，过程胶着，且伤病隐忧尚未完全解除。
-- 两队体能与赛程节奏相近（均为16强战后第5天再战），无显著疲劳差异。
+### 3.1 球队近期状态
 
-### 3.2 伤停信息
-见 2.1、2.2：阿根廷仅有非确定性疑似缺阵(Gonzalez、Medina)，核心球员基本齐整；瑞士 Manzambi 出场状态截至报告撰写时仍为悬念，另有 Vargas、Sow、Aebischer、Jaquez 等多点伤情存疑。
+- **阿根廷**：本届赛事全部赛事6连胜，卫冕冠军身份+近期重返FIFA世界第一，整体状态强势但淘汰赛阶段两次"惊险逃生"（对佛得角、对埃及0-2落后逆转）暴露出一定的阶段性波动。
+- **瑞士**：历史性晋级1954年以来首次八强，点球淘汰哥伦比亚，士气正处队史巅峰，但头号射手Manzambi缺阵是重大减员，攻击火力面临严峻考验。
 
-### 3.3 战术风格
-- 阿根廷：Scaloni 体系下攻守平衡，梅西自由人角色配合 De Paul/Mac Allister 中场组织，防线以 Romero/Lisandro Martinez 为核心。
-- 瑞士：Yakin 体系强调防守纪律与整体压缩空间，4-2-3-1 阵型依赖 Xhaka 组织与 Embolo 支点，但对阵顶级强队时创造力储备有限，若 Manzambi 缺阵将进一步削弱由守转攻的效率。
+### 3.2 关键球员动态
 
-### 3.4 历史交锋 (H2H)
-多源交叉确认（sportsmole/deportv.gob.ar/minutouno.com/ole.com.ar/fifa.com西语版共5个独立来源结论完全一致）：
-- 双方共交锋7次：1966世界杯小组赛阿根廷2-0；1980友谊赛阿根廷5-0；1984友谊赛阿根廷2-0；1990友谊赛1-1平；2007友谊赛1-1平；2012友谊赛阿根廷3-1(梅西帽子戏法)；2014世界杯16强战阿根廷1-0(加时迪马利亚绝杀)。
-- **战绩**：阿根廷5胜2平0负，**从未输给瑞士**，且两次世界杯正赛交锋（1966、2014）均取胜。
-- **结论（H2H discount for finals 已应用）**：尽管历史交锋压倒性有利于阿根廷，且样本包含两次大赛正赛交锋（较6099场次"从未在大赛正赛交手"的情形更具参考价值），仍按"H2H discount for finals"先验对其进行适度降权处理——最近一次交锋(2014)已相隔12年，双方阵容已完全更新，不作为概率估算的直接加成依据，仅作为与基本面数据方向一致的背景佐证。
+| 球队 | 球员 | 状态 | 影响 |
+|------|------|------|------|
+| 阿根廷 | Lionel Messi | 健康，金靴榜领跑者(8球) | 核心球星在场，需应对高强度赛程 |
+| 阿根廷 | Facundo Medina | 伤情存疑，"highly doubtful" | 左后卫位置或由Tagliafico顶替 |
+| 阿根廷 | Nico González | major doubt，长期脚踝伤 | 边路创造力可能受限 |
+| 阿根廷 | Lautaro Martínez | 状态下滑 | Julián Álvarez竞争其首发位置 |
+| 瑞士 | Johan Manzambi | **确定缺阵**，非接触性膝伤 | 队内头号射手(3球2助攻)缺席，进攻火力大幅削弱 |
 
-### 3.5 公开强度数据核验（Public Strength Signals：FIFA排名/ELO 替代 ClubElo，national-team 场景 + xG）
+### 3.3 战术 matchup 分析
 
-| 数据源 | 阿根廷 | 瑞士 | 结论 |
-|---|---|---|---|
-| **国家队 ELO/FIFA 排名**（`intent: fifa-ranking`，`https://www.fifa.com/en/world-rankings`、`http://www.eloratings.net/2026_World_Cup`、`https://futbor.com/fifa-rankings/switzerland`） | FIFA世界排名第1-2(约1877-1925分)；ELO世界排名第2(2156分) | FIFA世界排名第19(1650.06分) | **两队客观实力存在巨大差距**（FIFA排名相差约17位，积分差距约230-270分），与赔率端阿根廷大幅占优（官方盘1.56 vs 5.40）及历史交锋7战不败方向完全一致，基本面、历史交锋、市场判断三者高度自洽 |
-| **xG (Understat/FBref)**（`https://understat.com/team/Argentina_national_football_team` 404；`https://fbref.com/en/search/search.fcgi?search=Argentina%20national%20football%20team` 403；瑞士同款查询同样404/403） | not covered/blocked | not covered/blocked | **两队国家队 xG 数据均不可用** — Understat 未收录该类国家队检索路径，FBref 检索接口返回403阻断，StatsBomb open-data 无对应赛事覆盖 |
+- 阿根廷延续控球+定位球+反击效率型打法，Messi仍是节奏掌控核心，防线因Medina伤情存疑而略有调整压力。
+- 瑞士以整体防守纪律+反击效率见长，Manzambi缺阵后前场创造力预计明显下滑，替补(Amdouni/Itten)射门效率历史数据不及Manzambi本届表现，瑞士可能被迫更依赖防守反击而非主动组织进攻。
 
-**Public Data Signals Check（供 validate_report 核验）：**
-- [Y] ClubElo 替代信号（national-team → FIFA排名/ELO排名）可用：阿根廷 FIFA第1-2/ELO第2（`https://www.fifa.com/en/world-rankings`），瑞士 FIFA第19（`https://futbor.com/fifa-rankings/switzerland`），差距客观、来源可核实。
-- [N] xG 数据可用 — unavailable：Understat (`https://understat.com/`) 404，FBref (`https://fbref.com/`) 403 blocked，两队均 not covered/blocked，未使用估算值替代。
+### 3.4 历史交锋记录
+
+| 数据源 | 交锋场次 | 阿根廷胜 | 平局 | 瑞士胜 |
+|--------|:--------:|:--------:|:----:|:------:|
+| 442.perfil.com | 7 | 5 | 2 | 0（阿根廷不败） |
+| aiscore.com | 4 | 3 | 1 | 0 |
+| deportv.gob.ar | 多场（含1966世界杯2-0） | 多数阿根廷占优 | — | — |
+
+> 双方历史交锋阿根廷占绝对优势（**全部交锋未尝一败**，5胜2平或3胜1平不同统计口径），且此前两次世界杯交锋（含1966年、2014年）均以阿根廷获胜告终。**H2H discount for finals (H2H 决赛降权)**：尽管历史交锋结果高度一致地支持阿根廷，但鉴于淘汰赛情境下阵容/状态与历史交锋样本存在时代差异，历史交锋权重仍下调至背景参考级别（≤5%），作为方向性支撑但不作为独立预测变量的主要来源。
+
+### 3.5 公开强度数据：ClubElo / xG / FIFA 排名
+
+| 球队 | 指标 | 数值 | 来源 | 新鲜度 | 解读 |
+|------|------|------|------|--------|------|
+| 阿根廷 | ClubElo rating | not covered（国家队非俱乐部，ClubElo 不覆盖国家队） | 尝试来源：https://clubelo.com （仅覆盖俱乐部，无国家队条目） | — | 改用FIFA排名/国家队Elo替代 |
+| 瑞士 | ClubElo rating | not covered（国家队非俱乐部，ClubElo 不覆盖国家队） | 尝试来源：https://clubelo.com （仅覆盖俱乐部，无国家队条目） | — | 同上 |
+| 阿根廷 | FIFA 排名 / 国家队 Elo | FIFA世界排名第1位（约1877分，近期重返榜首） | https://www.fifa.com/en/world-rankings ；https://resources.qa.fifa.com/fifa-world-ranking/men/news/argentina-reclaim-top-spot-mens-world-ranking-fifa-coca-cola | 2026年4月-7月多期更新 | 卫冕冠军+当前世界第一，实力面绝对领先 |
+| 瑞士 | FIFA 排名 / 国家队 Elo | worldfootballrankings.com Elo排名第14位，1710.88分，胜率80% | https://worldfootballrankings.com/country/SUI | 2026-07-10更新 | 中上游强队，但与阿根廷差距显著(#1 vs #14) |
+| 阿根廷 | xG / xGA / recent xG trend | not covered（blocked，Understat返回404、FBref返回403 blocked，国家队赛事覆盖有限） | 尝试来源：https://understat.com/team/2026 （404 not-found）、https://fbref.com/en/search/search.fcgi （403 blocked） | — | 无法获取，不做估算 |
+| 瑞士 | xG / xGA / recent xG trend | not covered（blocked，同上） | 尝试来源：https://understat.com/team/2026 （404 not-found）、https://fbref.com/en/search/search.fcgi （403 blocked） | — | 无法获取，不做估算 |
+
+> FIFA排名/Elo 差距（阿根廷#1 vs 瑞士Elo#14）与赔率市场公平概率（阿根廷58.7% vs 瑞士15.4%）方向高度一致——市场对底层实力差距的定价本已充分，本场赔率的进一步漂移主要由Manzambi缺阵这一边际信息驱动，而非对基本面差距的重新认知。xG 数据因公开源未覆盖国家队/被阻而缺失，未做估算，仅记录为已知信息缺口。
+
+> **场地/天气（`intent: "venue-weather"`）：** Arrowhead Stadium（堪萨斯城）赛前预报约31°C，有阵雨迹象（"Slight rain showers"）。中等偏热、偶有降雨的环境对双方体能影响相对均衡，非极端天气因素，预计不会显著改变比赛节奏。来源：https://seeyourweather.com/en/events/fifa-world-cup-2026/venue/arrowhead-stadium。
 
 ---
 
 ## 四、综合预测
 
-### 4.1 概率估算（融合 Devig 与已应用先验）
+### 4.1 各维度权重评估
 
-以欧赔30家共识（margin更低，样本量最大）为主要锚点，叠加官方竞彩盘作为次要参照（70%/30%加权）：
+| 维度 | 阿根廷得分 | 瑞士得分 | 说明 |
+|------|:----------:|:--------:|------|
+| 阵容深度 | 8.0 | 6.5 | 阿根廷板凳厚度更强，可应对Medina/Nico González等疑虑 |
+| 体能状态 | 7.5 | 7.5 | 双方均处淘汰赛节奏，体能消耗相近 |
+| 战术适配 | 8.0 | 6.5 | 阿根廷整体体系成熟度更高 |
+| 大赛经验 | 9.0 | 5.5 | 卫冕冠军 vs 72年来首次八强，经验差距巨大 |
+| 攻防实力 | 8.5 | 6.0 | FIFA排名/Elo差距明显支持阿根廷，且瑞士痛失头号射手 |
+| 士气/动力 | 8.0 | 8.5 | 瑞士"历史性突破"叙事带来的士气加成略高 |
+| 定位球 | 7.5 | 7.0 | 暂无显著公开差异信息 |
+| 关键球员状态 | 8.5 | 5.5 | Messi健康在场 vs Manzambi确定缺阵 |
+| H2H | 8.0 | 4.5 | 决赛/淘汰赛降权（权重≤5%），历史阿根廷全面占优但情境参考有限 |
 
-- 主胜（阿根廷）基线：0.70×55.7% + 0.30×56.8% = 56.0%
-- 平局基线：0.70×26.4% + 0.30×26.8% = 26.5%
-- 客胜（瑞士）基线：0.70×17.9% + 0.30×16.4% = 17.5%
+**加权综合评分：**
+- 阿根廷：8.1/10
+- 瑞士：6.4/10
 
-**应用 Final-Match Prior（世界杯1/4决赛，淘汰赛单场决胜 → 平局 +4pp，参照"洲际淘汰赛单场"档位）**：平局由26.5%上调至30.5%，主/客胜按原比例等比例压缩以维持归一化（缩放因子 0.6948/0.7348 ≈ 0.9456）：
+### 4.2 比分预测
 
-- **主胜（阿根廷）：56.0% × 0.9456 ≈ 53.0%**
-- **平局：≈ 30.5%**
-- **客胜（瑞士）：17.5% × 0.9456 ≈ 16.5%**
+| 预测比分 | 概率 | 说明 |
+|----------|:----:|------|
+| 1:0 (阿根廷胜) | ~12.0% | 官方比分盘最热门，符合"阿根廷小胜"主线 |
+| 2:1 (阿根廷胜) | ~11.8% | 小胜情形之一 |
+| 2:0 (阿根廷胜) | ~11.4% | 净胜2球情形 |
+| 0:0 (平局，进120强制加时) | ~8.4% | 瑞士防守型打法+Manzambi缺阵下的低进球情形 |
 
-（三者合计 ≈ 100.0%）未额外叠加让球盘"净胜球数上修"信号至1X2概率（该信号更适用于比分/半全场市场，不改变胜负基本判断）；H2H 已按降权处理，不作为额外加成依据。
+### 4.3 竞彩推荐
 
-### 4.2 价值判断与 Half-Kelly
+| 玩法 | 推荐选项 | 竞彩赔率 | 置信度 | 说明 |
+|------|---------|:--------:|:------:|------|
+| **胜平负 (SPDF)** | 平局（价值参与，非主推） | 3.42 | ⭐⭐⭐ | 应用Final-Match Prior后平局公平概率由25.9%上调至~29.9%，对应小幅正Edge |
+| **让球胜平负** | 观望/不参与 | — | ❌ | 该盘口为CN市场结构限制的pass-only盘口，流动性/信号强度弱于1X2 |
+| **总进球** | 观望，倾向2球区间(低进球) | — | ⭐⭐ | 与官方盘口分布一致，Manzambi缺阵进一步支撑低进球倾向 |
+| **比分** | 1:0 / 2:1 (阿根廷小胜) 娱乐参考 | — | ⭐⭐ | 高赔高方差，仅供参考不建议重仓 |
 
-以最优可得单式价格（named companies 中最高价）逐一核算 Edge = 公平概率 × 最优赔率 − 1：
+### 4.4 Kelly建议
 
-| 市场 | 结果 | 公平概率 | 可得最优赔率 | Edge | Half-Kelly建议仓位 |
-|---|---|---|---|---|---|
-| 1X2 | 主胜 阿根廷 | 53.0% | 1.75（皇冠,欧赔namedCompanies内最高） | 53.0%×1.75−1 = **−7.3%** | 0（负Edge不下注） |
-| 1X2 | **平局** | **30.5%** | **3.85（Interwetten,欧赔namedCompanies内最高）** | 30.5%×3.85−1 = **+17.5%** | **Full Kelly f\*=(2.85×0.305−0.695)/2.85≈6.11% → Half-Kelly ≈ 3.1%** |
-| 1X2 | 客胜 瑞士 | 16.5% | 5.75（Interwetten,欧赔namedCompanies内最高） | 16.5%×5.75−1 = **−5.1%** | 0 |
+根据 Kelly 公式计算（模型概率 = Devig公平概率 + Final-Match Prior 调整后）：
+- **阿根廷胜：** 模型概率55.5% vs 隐含概率66.23%（赔率1.51），Edge = 0.555×1.51−1 = **-16.2%**（负值，不参与）
+- **平局：** 模型概率29.9% vs 隐含概率29.24%（赔率3.42），Edge = 0.299×3.42−1 = **+2.26%**，Kelly f* = (2.42×0.299−0.701)/2.42 = 0.93%，**Half-Kelly = 0.47%**
+- **瑞士胜：** 模型概率14.6% vs 隐含概率17.39%（赔率5.75），Edge = 0.146×5.75−1 = **-16.2%**（负值，不参与）
 
-**核心结论：与6099场次（挪威vs英格兰）类似，平局市场在当前最优价格(3.85)下再次出现显著正期望值（Edge ≈ +17.5%），是本场唯一具备可执行价值的单式方向**，Half-Kelly 建议仓位约为总资金的 3.1%。该结论主要由 Final-Match Prior（淘汰赛平局溢价）驱动——本场并未观测到类似6099场次的强烈资金转向信号，价值来源更纯粹地反映"淘汰赛平局系统性低估"这一先验规律，而非临场基本面/舆情巨变。
-
-### 4.3 补充说明
-- 竞彩官方 HAD 本场 `bettingStatus: single_and_pass`，可通过官方渠道直接单式投注平局，现价3.30亦具备正Edge（30.5%×3.30−1=+0.7%，正值但幅度远低于欧赔最优价，接近盈亏平衡，建议优先考虑百家/欧赔更高price的执行渠道）。
-- 若 Manzambi 最终确认因伤缺阵瑞士首发，将进一步压低瑞士获胜与进球预期，但对本报告"平局"价值判断的方向影响有限（瑞士实力本就大幅落后，进一步减弱更可能压缩瑞士胜率而非平局概率）。
+> **Kelly建议：仅平局方向存在小幅正Edge（+2.26%，⭐⭐⭐），建议以约 0.3-0.5% 半凯利仓位轻度参与；主胜/客胜/让球/总进球方向均无独立信息支撑正Edge，建议观望。Edge幅度进一步弱于match 3(挪威vs英格兰)，因本场阿根廷底层实力优势更为悬殊（FIFA #1 vs Elo #14），Final-Match Prior的平局加成被更大的基础概率差抵消更多。**
 
 ---
 
 ## 五、总结与风险提示
 
-**最终结论（最优价值判断）**：本场世界杯1/4决赛阿根廷（中立场地）迎战瑞士，基本面（FIFA排名第1-2 vs 第19）、历史交锋（7战不败5胜2平，含两次世界杯正赛均取胜）、赔率隐含概率三者高度自洽地指向阿根廷占绝对优势，1X2市场本身未出现类似6099场次的强烈资金转向信号（官方盘与欧赔/澳门方向甚至存在轻微不一致），让球盘则显示市场对阿根廷净胜多球的预期温和上修。经 Devig 与 Final-Match Prior（淘汰赛平局溢价+4pp）核算，**1X2 平局市场在当前最优价格(Interwetten 3.85)下存在约+17.5%的正期望值**，是本场唯一推荐的单式方向，建议 Half-Kelly 仓位约3.1%。不建议直接投注阿根廷胜或瑞士胜（两者Edge均为负）。
+### 核心判断
 
-**风险提示**：
-1. 瑞士核心新星 Johan Manzambi 的出场状态截至报告撰写时点仍为悬念，若确认伤缺，实际比赛可能呈现更悬殊的攻防差距，需在临场确认阵容后重新评估比分类市场（本报告结论主要针对1X2平局，受此影响相对有限）。
-2. 本场1X2市场缺乏类似6099场次的强一致性资金流信号，"平局"价值判断更多依赖 Final-Match Prior 这一统计规律而非临场特异性证据支撑，其可靠性略低于6099场次的平局判断，故整体置信度评级需相应调低。
-3. ClubElo 类客观强度数据源已用 FIFA/ELO 国家队排名替代覆盖，但两队 xG 数据均未覆盖，基本面判断的量化验证存在缺口。
-4. 让球盘的"阿根廷净胜球数上修"信号提示，若比赛呈现阿根廷大比分获胜（如2-0以上），将同时压低"平局"结果发生的实际概率，是本判断的主要反向风险。
-5. 亚洲让球盘与总进球盘均未出现显著变化，若临场发生同向剧烈调整，应重新审视本报告的资金流解读。
+1. 阿根廷在FIFA排名(#1)、大赛经验（卫冕冠军）、整体阵容深度等底层实力维度全面占优，市场赔率公平概率（阿根廷58.7% vs 瑞士15.4%）与此一致。
+2. 瑞士头号射手兼本届最大惊喜Johan Manzambi因膝伤确定缺阵，是近72小时内最重大的团队新闻，与赔率盘口"阿根廷19次快照持续单向强化"的时间窗口高度吻合，形成舆情与盘口的交叉印证。
+3. Final-Match Prior（单场淘汰赛，八强）触发，平局公平概率由25.9%上调至约29.9%，对应竞彩赔率(3.42)产生+2.26%的小幅正Edge，是本场唯一具备量化价值的方向，Edge幅度小于match 1/3，因底层实力差距在四场WC QF中最为悬殊。
+4. H2H历史交锋阿根廷全面占优（不败，5胜2平），但因属两队多为友谊赛/预选赛背景+淘汰赛情境降权，仅作为背景参考。
 
-**置信度**：Medium（1X2平局价值判断建立在 Final-Match Prior 这一在历史案例——如 PSG vs Arsenal 2026欧冠决赛——中已验证有效的统计规律之上，但本场缺乏类似6099场次的临场资金流/舆情强信号佐证，置信度略低于6099场次；基本面数据存在xG缺口；瑞士关键球员出场状态未定，增加了比分类结果的不确定性）。
+### 风险提示
+
+- ⚠️ 阿根廷Facundo Medina、Nico González的伤情最终状态仍待赛前确认，若两人均无法出场，防线/边路创造力可能受到一定影响。
+- ⚠️ 阿根廷本届淘汰赛阶段两次"惊险逃生"（对佛得角、对埃及一度0-2落后）显示球队并非无懈可击，存在被瑞士抓住机会的可能性。
+- ⚠️ 淘汰赛加时赛/点球大战存在固有随机性，瑞士本届正是依靠点球晋级，90分钟1X2市场的"公平概率"无法完全覆盖点球阶段的额外不确定性。
+- ⚠️ Manzambi伤缺后瑞士实际攻击力下降幅度存在不确定性，若替补(Amdouni/Itten)超水平发挥，市场当前定价可能低估瑞士的进攻威胁。
+- ⚠️ xG公开数据（Understat/FBref）均未覆盖或被阻，本场"攻防实力"判断更多依赖排名与战绩描述性数据，存在信息不完整的局限。
+- ⚠️ HHAD让球盘口为CN市场结构下的pass-only品种，其价格信号强度弱于1X2，不宜单独作为方向性依据。
+
+### 最终结论
+
+**最可能的结果：阿根廷小胜（1:0 或 2:1），晋级四强**
+**竞彩最优价值：胜平负-平局 (3.42)，Final-Match Prior 支撑下轻仓半凯利参与（约0.3-0.5%仓位）**
 
 ---
 
 ## 应用的先验清单 (Applied Priors Check)
 
-- **[Y] Final-Match Prior**（决赛/淘汰赛平局溢价 +3~6pp）：本场为世界杯1/4决赛单场淘汰赛决胜，属"洲际淘汰赛单场"档位，已应用 +4pp 平局溢价并等比例压缩主/客胜概率，详见 4.1。
-- **[N] Fatigue × Motivation 对冲**：两队均为16强战后第5天再战，赛程节奏相近，未发现显著疲劳或动机差异（双方均以晋级四强为共同目标），不触发额外调整。
-- **[Y] H2H discount for finals**：历史交锋阿根廷7战不败(5胜2平)且含两次大赛正赛交锋均取胜，样本相对6099场次更具参考价值，但已按该先验适度降权，最近一次交锋已相隔12年，未作为概率估算的直接加成依据，仅作背景佐证（详见 3.4）。
-- **[N] CN market structure**（EPL 品牌偏见）：本场双方均为国家队(非英超俱乐部)，不触发该先验。
-- **[Y] Volume signal (升/降盘解读)**：触发但信号强度中等偏弱。1X2市场官方盘与欧赔/澳门盘方向不完全一致(未形成强共识)；让球盘则呈现较一致的"阿根廷净胜球数预期上修"信号(13-16/16家同步)。已在报告中如实标注该信号的混合/中等特征，未过度解读为强方向性资金转向（见一、1.1/1.2）。
-- **[Y] Devig applied per market**：已对1X2(官方HAD、欧赔共识初盘/即时)、让球胜平负(官方HHAD、fenxi共识初盘/即时)分别计算公平概率，详见 1.2 表格。
-- **[Y] Half-Kelly computed**：已对1X2三项结果逐一计算Edge与Half-Kelly仓位建议，平局市场得出唯一正Edge(+17.5%)并计算Half-Kelly≈3.1%，详见 4.2。
+- **[Y] Final-Match Prior**：本场为2026世界杯八强单场淘汰赛（决胜负，非两回合），触发"Continental KO single-leg"档位，平局+4pp（25.9%→29.9%），home/away按原比例(79.2%/20.8%)分摊扣减
+- **[Y] Fatigue × Motivation 对冲**：双方均处淘汰赛阶段、赛程节奏相近，体能状态评分持平(7.5 vs 7.5)；瑞士"历史性突破"叙事带来的士气加成略高于阿根廷(8.5 vs 8.0)，但幅度不足以抵消整体实力差距
+- **[Y] H2H discount for finals (H2H 决赛降权)**：单场淘汰赛情境，历史交锋(阿根廷全面占优，多口径5胜2平或3胜1平不败)权重下调至≤5%（评分表中列示8.0/4.5但整体加权占比极低）
+- **[N] CN market structure (CN 市场结构)**：本场双方均为国家队，无英超球队参与，该先验本身不直接触发；但注意到HHAD让球盘口存在CN market structure层面的pass-only流动性限制（见1.1第4点），已在盘口解读中单独说明
+- **[Y] Volume signal (Volume Signal 升降盘解读)**：19次快照呈现1X2持续单向漂移（阿根廷赔率单调缩水），解读为"Manzambi伤情滚动式披露、市场渐进消化"，而非一次性利好/利空冲击
+- **[Y] Devig per market**：覆盖市场：1X2(HAD)、让球胜平负(HHAD)，均使用官方体彩赔率完成fair_prob = (1/odds_i)/Σ(1/odds_j)计算
+- **[Y] Half-Kelly applied**：Edge值汇总——主胜-16.2%(不参与)、平局+2.26%(半凯利0.47%⭐⭐⭐)、客胜-16.2%(不参与)
 
-**Evidence gates check：**
-- [Y] Web-research evidence collected：match-context/h2h/squad-injuries 均由 Sports Mole、Buenos Aires Herald、OneFootball、deportv.gob.ar、minutouno.com、ole.com.ar、fifa.com、Yahoo Sports、Sporting News 等≥3个独立来源交叉印证，未触发全阻。
-- [Y] ClubElo public rating checked（national-team 场景以 fifa-ranking 替代）：已核查，阿根廷 FIFA第1-2/ELO第2，瑞士 FIFA第19，来源URL见 3.5。
-- [N] xG public data checked：已核查，结果为 unavailable/not covered/blocked（Understat 404、FBref 403），已在 3.5 节声明并附 `https://understat.com/`、`https://fbref.com/` 来源URL。
-- [Y] Estimated odds present：本场全部赔率均为实际抓取值，无估算(估算)数字。
+**估算赔率统计**：0 / 全部（本场所有赔率均为实际抓取，无估算项）
+**整体置信度**：Medium-High（赔率为官方单源[无crossSource]但全天19次快照趋势清晰一致；舆情证据≥2独立信源相互印证[Sportsmole/RotoWire/FIFAWorldCupNews]；ClubElo/xG因国家队公开覆盖限制缺失，已如实标注；FIFA排名数据存在1-2周新鲜度延迟）
+
+### Public Data Signals Check
+
+- **[Y] ClubElo public rating checked**：国家队非俱乐部，ClubElo不覆盖，改用FIFA排名/Elo（fifa.com/en/world-rankings；worldfootballrankings.com/country/SUI）；阿根廷FIFA#1 vs 瑞士Elo#14
+- **[Y] xG public data checked**：understat.com返回404，fbref.com返回403 blocked，均未覆盖/被阻，未做估算，明确标注"not covered / blocked"
 
 ---
 
+*报告生成时间：2026-07-10T12:44:41.277Z*
+*数据截止：2026-07-10T13:00:00Z（体彩最新快照）*
+*数据来源：见下方"数据来源"分层日志*
+*推理依据：LLM qualitative match-analysis methodology v0.1*
+
 ## 数据来源
 
-**Tier 1（赔率,china-football-odds MCP）**
-- ✅ 中国体彩竞彩官方 HAD/HHAD/比分/总进球/半全场（`get_match_markets`）
-- ✅ fenxi500 百家欧赔/让球/亚盘/大小球共识与逐公司明细（`get_handicap_odds`, `get_match_fenxi`）：https://odds.500.com/fenxi/rangqiu-1359175.shtml
-- ✅ 澳门 cid5 盘口（欧赔/亚盘/大小球）
-- ✅ 快照级赔率变动扫描（`get_odds_changes`, 22快照）
+- **赔率（Tier: odds-official）**：中国体彩 lottery500（`china-football-odds` MCP，2026-07-09 13:00 至 2026-07-10 13:00 UTC，共19次快照），无crossSource(该场无澳门/海外交叉数据)
+- **新闻/阵容/伤停（Tier: squad-data/news）**：
+  - https://www.fifaworldcupnews.com/argentina-vs-switzerland-2026-wc-qf/
+  - https://www.rotowire.com/soccer/article/argentina-vs-switzerland-preview-predicted-lineups-team-news-tactical-analysis-2026-world-cup-quarterfinal-121924
+  - https://www.sportsmole.co.uk/football/argentina/world-cup-2026/preview/argentina-vs-switzerland-prediction-team-news-lineups_600947.html
+  - https://www.sportsmole.co.uk/football/argentina/world-cup-2026/predicted-lineups/manzambi-fitness-doubt-for-yakin-predicted-switzerland-lineup-vs-argentina_600954.html
+- **历史交锋（Tier: h2h）**：
+  - https://www.sportsmole.co.uk/football/argentina/world-cup-2026/head-to-head/argentina-vs-switzerland-head-to-head-record-and-past-meetings--world-cup-2026_600957.html
+  - https://442.perfil.com/noticias/mundial-2026/historial-invicto-y-recuerdos-imborrables-como-le-fue-a-la-seleccion-argentina-cada-vez-que-enfrento-a-suiza.phtml
+  - https://www.aiscore.com/head-to-head/soccer-argentina-vs-switzerland
+- **FIFA排名/国家队Elo（Tier: fifa-ranking）**：
+  - https://www.fifa.com/en/world-rankings
+  - https://resources.qa.fifa.com/fifa-world-ranking/men/news/argentina-reclaim-top-spot-mens-world-ranking-fifa-coca-cola
+  - https://worldfootballrankings.com/country/SUI
+- **xG（Tier: xg-data，未覆盖/被阻）**：understat.com（404）、fbref.com（403 blocked）——未采纳，明确标注不可用
+- **场地天气（Tier: venue-weather）**：
+  - https://seeyourweather.com/en/events/fifa-world-cup-2026/venue/arrowhead-stadium
 
-**Tier 2（舆情与基本面,web-research MCP）**
-- ✅ https://www.sportsmole.co.uk/football/argentina/world-cup-2026/head-to-head/argentina-vs-switzerland-head-to-head-record-and-past-meetings--world-cup-2026_600957.html
-- ✅ https://deportv.gob.ar/futbol/argentina-vs-suiza-historial-completo-cruce-cuartos-final-mundial-2026-nid:14870
-- ✅ https://www.minutouno.com/deportes/asi-esta-el-historial-argentina-suiza-del-triunfo-1966-al-gol-agonico-angel-di-maria-n6297645
-- ✅ https://www.ole.com.ar/mundial/mundial-2026/antecedentes-argentina-suiza-historial-mundial-2026_0_6K7RWW5c5y.html
-- ✅ https://www.fifa.com/es/tournaments/mens/worldcup/canadamexicousa2026/articles/historial-argentina-suiza-partidos-resultados
-- ✅ https://www.sportsmole.co.uk/football/argentina/world-cup-2026/team-news/argentina-vs-egypt-injury-suspension-list-predicted-xis_600710.html
-- ✅ https://buenosairesherald.com/sports/football/2026-world-cup/returns-concerns-and-changes-the-latest-on-argentina-before-its-world-cup-debut
-- ✅ https://onefootball.com/en/news/argentina-squad-whos-carrying-knocks-into-the-world-cup-42947404
-- ✅ https://www.sportsmole.co.uk/football/switzerland/world-cup-2026/team-news/switzerland-vs-colombia-injury-suspension-list-predicted-xis_600750.html
-- ✅ https://thefootballfaithful.com/switzerland-vs-colombia-match-preview-and-team-news/
-- ✅ https://uk.sports.yahoo.com/news/switzerland-vs-colombia-lineups-confirmed-145616441.html
-
-**Tier 3（公开强度数据）**
-- ✅ https://www.fifa.com/en/world-rankings （FIFA排名替代信号,已覆盖）
-- ✅ http://www.eloratings.net/2026_World_Cup （ELO排名替代信号,已覆盖）
-- ✅ https://futbor.com/fifa-rankings/switzerland （FIFA排名替代信号,已覆盖）
-- ❌ https://understat.com/team/Argentina_national_football_team （404）
-- ❌ https://understat.com/team/Switzerland_national_football_team （404）
-- ❌ https://fbref.com/en/search/search.fcgi?search=Argentina%20national%20football%20team （403 blocked）
-- ❌ https://fbref.com/en/search/search.fcgi?search=Switzerland%20national%20football%20team （403 blocked）
-
-<!-- probs: {"home": 0.530, "draw": 0.305, "away": 0.165} -->
+<!-- probs: {"home": 0.555, "draw": 0.299, "away": 0.146} -->

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-10T00:58:24.094Z",
-  "count": 123,
+  "generatedAt": "2026-07-10T13:21:22.532Z",
+  "count": 126,
   "reports": [
     {
       "matchId": "6203_2026-06-13",
@@ -3334,37 +3334,46 @@
     },
     {
       "matchId": "5201_2026-07-10",
-      "title": "瓦萨 (VPS Vaasa) vs 塞伊奈 (SJK Seinäjoki)",
-      "home": "瓦萨 (VPS Vaasa)",
-      "away": "塞伊奈 (SJK Seinäjoki)",
-      "competition": "芬兰超级联赛 Veikkausliiga 第15轮",
+      "title": "瓦萨 vs 塞伊奈",
+      "home": "瓦萨",
+      "away": "塞伊奈",
+      "competition": "芬兰超级联赛",
       "kickoff": "2026-07-11T00:00:00+08:00",
       "probs": {
-        "home": 0.442,
-        "draw": 0.26,
-        "away": 0.298
+        "home": 0.492,
+        "draw": 0.245,
+        "away": 0.263
       },
-      "generatedAt": "2026-07-10T00:31:29.255Z",
+      "generatedAt": "2026-07-10T12:44:41.277Z",
       "validationPass": true,
       "current": "reports/5201_2026-07-10/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-07-10T003129Z",
+          "path": "reports/5201_2026-07-10/history/2026-07-10T003129Z.md"
+        }
+      ]
     },
     {
       "matchId": "5098_2026-07-10",
-      "title": "Spain vs Belgium",
-      "home": "Spain",
-      "away": "Belgium",
-      "competition": "FIFA World Cup 2026 - Quarter-final",
+      "title": "西班牙 vs 比利时",
+      "home": "西班牙",
+      "away": "比利时",
+      "competition": "世界杯",
       "kickoff": "2026-07-11T03:00:00+08:00",
       "probs": {
-        "home": 0.549,
-        "draw": 0.282,
-        "away": 0.169
+        "home": 0.579,
+        "draw": 0.27,
+        "away": 0.152
       },
-      "generatedAt": "2026-07-10T00:31:29.255Z",
+      "generatedAt": "2026-07-10T12:44:41.277Z",
       "validationPass": true,
       "current": "reports/5098_2026-07-10/current.md",
       "history": [
+        {
+          "timestamp": "2026-07-10T003129Z",
+          "path": "reports/5098_2026-07-10/history/2026-07-10T003129Z.md"
+        },
         {
           "timestamp": "2026-07-09T003021Z",
           "path": "reports/5098_2026-07-10/history/2026-07-09T003021Z.md"
@@ -3372,38 +3381,99 @@
       ]
     },
     {
-      "matchId": "6099_2026-07-11",
-      "title": "挪威 (Norway) vs 英格兰 (England)",
-      "home": "挪威 (Norway)",
-      "away": "英格兰 (England)",
-      "competition": "FIFA World Cup 2026 - Quarter-final",
-      "kickoff": "2026-07-12T05:00:00+08:00",
+      "matchId": "6201_2026-07-11",
+      "title": "光州FC vs 浦项制铁",
+      "home": "光州FC",
+      "away": "浦项制铁",
+      "competition": "韩职",
+      "kickoff": "2026-07-11T18:30:00+08:00",
       "probs": {
-        "home": 0.234,
-        "draw": 0.304,
-        "away": 0.462
+        "home": 0.164,
+        "draw": 0.264,
+        "away": 0.572
       },
-      "generatedAt": "2026-07-10T00:31:29.255Z",
+      "generatedAt": "2026-07-10T12:44:41.277Z",
       "validationPass": true,
-      "current": "reports/6099_2026-07-11/current.md",
+      "current": "reports/6201_2026-07-11/current.md",
       "history": []
     },
     {
-      "matchId": "6100_2026-07-11",
-      "title": "阿根廷 (Argentina) vs 瑞士 (Switzerland)",
-      "home": "阿根廷 (Argentina)",
-      "away": "瑞士 (Switzerland)",
-      "competition": "FIFA World Cup 2026 - Quarter-final",
-      "kickoff": "2026-07-12T09:00:00+08:00",
+      "matchId": "6202_2026-07-11",
+      "title": "金泉尚武 vs 富川FC",
+      "home": "金泉尚武",
+      "away": "富川FC",
+      "competition": "韩职K联赛1",
+      "kickoff": "2026-07-11T18:30:00+08:00",
       "probs": {
-        "home": 0.53,
-        "draw": 0.305,
-        "away": 0.165
+        "home": 0.476,
+        "draw": 0.278,
+        "away": 0.246
       },
-      "generatedAt": "2026-07-10T00:31:29.255Z",
+      "generatedAt": "2026-07-10T12:44:41.277Z",
+      "validationPass": true,
+      "current": "reports/6202_2026-07-11/current.md",
+      "history": []
+    },
+    {
+      "matchId": "6203_2026-07-11",
+      "title": "蔚山现代 vs 全北现代",
+      "home": "蔚山现代",
+      "away": "全北现代",
+      "competition": "韩职K联赛1",
+      "kickoff": "2026-07-11T18:30:00+08:00",
+      "probs": {
+        "home": 0.363,
+        "draw": 0.283,
+        "away": 0.354
+      },
+      "generatedAt": "2026-07-10T12:44:41.277Z",
+      "validationPass": true,
+      "current": "reports/6203_2026-07-11/current.md",
+      "history": []
+    },
+    {
+      "matchId": "6099_2026-07-11",
+      "title": "挪威 vs 英格兰",
+      "home": "挪威",
+      "away": "英格兰",
+      "competition": "世界杯",
+      "kickoff": "2026-07-12T05:00:00+08:00",
+      "probs": {
+        "home": 0.236,
+        "draw": 0.283,
+        "away": 0.482
+      },
+      "generatedAt": "2026-07-10T12:44:41.277Z",
+      "validationPass": true,
+      "current": "reports/6099_2026-07-11/current.md",
+      "history": [
+        {
+          "timestamp": "2026-07-10T003129Z",
+          "path": "reports/6099_2026-07-11/history/2026-07-10T003129Z.md"
+        }
+      ]
+    },
+    {
+      "matchId": "6100_2026-07-11",
+      "title": "阿根廷 vs 瑞士",
+      "home": "阿根廷",
+      "away": "瑞士",
+      "competition": "世界杯",
+      "kickoff": "2026-07-12T08:00:00+08:00",
+      "probs": {
+        "home": 0.555,
+        "draw": 0.299,
+        "away": 0.146
+      },
+      "generatedAt": "2026-07-10T12:44:41.277Z",
       "validationPass": true,
       "current": "reports/6100_2026-07-11/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-07-10T003129Z",
+          "path": "reports/6100_2026-07-11/history/2026-07-10T003129Z.md"
+        }
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-10T13:21:22.532Z",
-  "count": 126,
+  "generatedAt": "2026-07-11T01:17:55.549Z",
+  "count": 129,
   "reports": [
     {
       "matchId": "6203_2026-06-13",
@@ -3382,71 +3382,90 @@
     },
     {
       "matchId": "6201_2026-07-11",
-      "title": "光州FC vs 浦项制铁",
-      "home": "光州FC",
-      "away": "浦项制铁",
-      "competition": "韩职",
+      "title": "光州FC (Gwangju FC) vs 浦项制铁 (Pohang Steelers)",
+      "home": "光州FC (Gwangju FC)",
+      "away": "浦项制铁 (Pohang Steelers)",
+      "competition": "韩国K联赛1 (K League 1)",
       "kickoff": "2026-07-11T18:30:00+08:00",
       "probs": {
-        "home": 0.164,
-        "draw": 0.264,
-        "away": 0.572
+        "home": 0.15,
+        "draw": 0.26,
+        "away": 0.59
       },
-      "generatedAt": "2026-07-10T12:44:41.277Z",
+      "generatedAt": "2026-07-11T00:25:26.112Z",
       "validationPass": true,
       "current": "reports/6201_2026-07-11/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-07-10T124441Z",
+          "path": "reports/6201_2026-07-11/history/2026-07-10T124441Z.md"
+        }
+      ]
     },
     {
       "matchId": "6202_2026-07-11",
-      "title": "金泉尚武 vs 富川FC",
-      "home": "金泉尚武",
-      "away": "富川FC",
-      "competition": "韩职K联赛1",
+      "title": "金泉尚武 (Gimcheon Sangmu FC) vs 富川FC (Bucheon FC 1995)",
+      "home": "金泉尚武 (Gimcheon Sangmu FC)",
+      "away": "富川FC (Bucheon FC 1995)",
+      "competition": "韩国K1联赛 (K League 1)",
       "kickoff": "2026-07-11T18:30:00+08:00",
       "probs": {
-        "home": 0.476,
-        "draw": 0.278,
-        "away": 0.246
+        "home": 0.44,
+        "draw": 0.31,
+        "away": 0.25
       },
-      "generatedAt": "2026-07-10T12:44:41.277Z",
+      "generatedAt": "2026-07-11T00:25:26.112Z",
       "validationPass": true,
       "current": "reports/6202_2026-07-11/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-07-10T124441Z",
+          "path": "reports/6202_2026-07-11/history/2026-07-10T124441Z.md"
+        }
+      ]
     },
     {
       "matchId": "6203_2026-07-11",
-      "title": "蔚山现代 vs 全北现代",
-      "home": "蔚山现代",
-      "away": "全北现代",
-      "competition": "韩职K联赛1",
+      "title": "蔚山HD (Ulsan HD FC) vs 全北现代 (Jeonbuk Hyundai Motors)",
+      "home": "蔚山HD (Ulsan HD FC)",
+      "away": "全北现代 (Jeonbuk Hyundai Motors)",
+      "competition": "韩国K联赛1 (K League 1)",
       "kickoff": "2026-07-11T18:30:00+08:00",
       "probs": {
-        "home": 0.363,
-        "draw": 0.283,
-        "away": 0.354
+        "home": 0.31,
+        "draw": 0.29,
+        "away": 0.4
       },
-      "generatedAt": "2026-07-10T12:44:41.277Z",
+      "generatedAt": "2026-07-11T00:25:26.112Z",
       "validationPass": true,
       "current": "reports/6203_2026-07-11/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-07-10T124441Z",
+          "path": "reports/6203_2026-07-11/history/2026-07-10T124441Z.md"
+        }
+      ]
     },
     {
       "matchId": "6099_2026-07-11",
-      "title": "挪威 vs 英格兰",
-      "home": "挪威",
-      "away": "英格兰",
-      "competition": "世界杯",
+      "title": "挪威 (Norway) vs 英格兰 (England)",
+      "home": "挪威 (Norway)",
+      "away": "英格兰 (England)",
+      "competition": "FIFA世界杯 2026 (FIFA World Cup)",
       "kickoff": "2026-07-12T05:00:00+08:00",
       "probs": {
-        "home": 0.236,
-        "draw": 0.283,
-        "away": 0.482
+        "home": 0.24,
+        "draw": 0.31,
+        "away": 0.45
       },
-      "generatedAt": "2026-07-10T12:44:41.277Z",
+      "generatedAt": "2026-07-11T00:25:26.112Z",
       "validationPass": true,
       "current": "reports/6099_2026-07-11/current.md",
       "history": [
+        {
+          "timestamp": "2026-07-10T124441Z",
+          "path": "reports/6099_2026-07-11/history/2026-07-10T124441Z.md"
+        },
         {
           "timestamp": "2026-07-10T003129Z",
           "path": "reports/6099_2026-07-11/history/2026-07-10T003129Z.md"
@@ -3455,25 +3474,80 @@
     },
     {
       "matchId": "6100_2026-07-11",
-      "title": "阿根廷 vs 瑞士",
-      "home": "阿根廷",
-      "away": "瑞士",
-      "competition": "世界杯",
-      "kickoff": "2026-07-12T08:00:00+08:00",
+      "title": "阿根廷 (Argentina) vs 瑞士 (Switzerland)",
+      "home": "阿根廷 (Argentina)",
+      "away": "瑞士 (Switzerland)",
+      "competition": "FIFA世界杯 2026 (FIFA World Cup)",
+      "kickoff": "2026-07-12T09:00:00+08:00",
       "probs": {
-        "home": 0.555,
-        "draw": 0.299,
-        "away": 0.146
+        "home": 0.54,
+        "draw": 0.3,
+        "away": 0.16
       },
-      "generatedAt": "2026-07-10T12:44:41.277Z",
+      "generatedAt": "2026-07-11T00:25:26.112Z",
       "validationPass": true,
       "current": "reports/6100_2026-07-11/current.md",
       "history": [
+        {
+          "timestamp": "2026-07-10T124441Z",
+          "path": "reports/6100_2026-07-11/history/2026-07-10T124441Z.md"
+        },
         {
           "timestamp": "2026-07-10T003129Z",
           "path": "reports/6100_2026-07-11/history/2026-07-10T003129Z.md"
         }
       ]
+    },
+    {
+      "matchId": "7201_2026-07-12",
+      "title": "仁川联 (Incheon United) vs 安养FC (FC Anyang)",
+      "home": "仁川联 (Incheon United)",
+      "away": "安养FC (FC Anyang)",
+      "competition": "韩国K联赛1 (K League 1)",
+      "kickoff": "2026-07-12T18:30:00+08:00",
+      "probs": {
+        "home": 0.41,
+        "draw": 0.32,
+        "away": 0.27
+      },
+      "generatedAt": "2026-07-11T00:25:26.112Z",
+      "validationPass": true,
+      "current": "reports/7201_2026-07-12/current.md",
+      "history": []
+    },
+    {
+      "matchId": "7202_2026-07-12",
+      "title": "济州SK (Jeju SK FC) vs 大田Hana市民 (Daejeon Hana Citizen)",
+      "home": "济州SK (Jeju SK FC)",
+      "away": "大田Hana市民 (Daejeon Hana Citizen)",
+      "competition": "韩国K联赛1 (K League 1)",
+      "kickoff": "2026-07-12T18:30:00+08:00",
+      "probs": {
+        "home": 0.35,
+        "draw": 0.29,
+        "away": 0.36
+      },
+      "generatedAt": "2026-07-11T00:25:26.112Z",
+      "validationPass": true,
+      "current": "reports/7202_2026-07-12/current.md",
+      "history": []
+    },
+    {
+      "matchId": "7203_2026-07-12",
+      "title": "首尔FC (FC Seoul) vs 江原FC (Gangwon FC)",
+      "home": "首尔FC (FC Seoul)",
+      "away": "江原FC (Gangwon FC)",
+      "competition": "K1联赛",
+      "kickoff": "2026-07-12T18:30:00+08:00",
+      "probs": {
+        "home": 0.39,
+        "draw": 0.31,
+        "away": 0.3
+      },
+      "generatedAt": "2026-07-11T00:25:26.112Z",
+      "validationPass": true,
+      "current": "reports/7203_2026-07-12/current.md",
+      "history": []
     }
   ]
 }

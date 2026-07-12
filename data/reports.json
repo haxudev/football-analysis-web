@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-12T00:43:28.903Z",
-  "count": 135,
+  "generatedAt": "2026-07-12T12:29:05.143Z",
+  "count": 138,
   "reports": [
     {
       "matchId": "6203_2026-06-13",
@@ -3656,6 +3656,10 @@
       "current": "reports/7204_2026-07-12/current.md",
       "history": [
         {
+          "timestamp": "2026-07-12T002642Z",
+          "path": "reports/7204_2026-07-12/history/2026-07-12T002642Z.md"
+        },
+        {
           "timestamp": "2026-07-11T121728Z",
           "path": "reports/7204_2026-07-12/history/2026-07-11T121728Z.md"
         }
@@ -3678,27 +3682,87 @@
       "current": "reports/7205_2026-07-12/current.md",
       "history": [
         {
+          "timestamp": "2026-07-12T002642Z",
+          "path": "reports/7205_2026-07-12/history/2026-07-12T002642Z.md"
+        },
+        {
           "timestamp": "2026-07-11T121728Z",
           "path": "reports/7205_2026-07-12/history/2026-07-11T121728Z.md"
         }
       ]
     },
     {
+      "matchId": "7207_2026-07-12",
+      "title": "KFUM Oslo vs Bodø/Glimt",
+      "home": "KFUM Oslo",
+      "away": "Bodø/Glimt",
+      "competition": "挪超 Eliteserien",
+      "kickoff": "2026-07-12T20:30:00+08:00",
+      "probs": {
+        "home": 0.17,
+        "draw": 0.22,
+        "away": 0.61
+      },
+      "generatedAt": "2026-07-12T12:17:28.375Z",
+      "validationPass": true,
+      "current": "reports/7207_2026-07-12/current.md",
+      "history": []
+    },
+    {
+      "matchId": "7208_2026-07-12",
+      "title": "GAIS vs IF Elfsborg",
+      "home": "GAIS",
+      "away": "IF Elfsborg",
+      "competition": "瑞超 Allsvenskan",
+      "kickoff": "2026-07-12T22:30:00+08:00",
+      "probs": {
+        "home": 0.45,
+        "draw": 0.29,
+        "away": 0.26
+      },
+      "generatedAt": "2026-07-12T12:17:28.375Z",
+      "validationPass": true,
+      "current": "reports/7208_2026-07-12/current.md",
+      "history": []
+    },
+    {
+      "matchId": "7211_2026-07-12",
+      "title": "Rosenborg BK vs Kristiansund BK",
+      "home": "Rosenborg BK",
+      "away": "Kristiansund BK",
+      "competition": "挪超 Eliteserien",
+      "kickoff": "2026-07-12T23:00:00+08:00",
+      "probs": {
+        "home": 0.57,
+        "draw": 0.25,
+        "away": 0.18
+      },
+      "generatedAt": "2026-07-12T12:17:28.375Z",
+      "validationPass": true,
+      "current": "reports/7211_2026-07-12/current.md",
+      "history": []
+    },
+    {
       "matchId": "1201_2026-07-13",
-      "title": "佐加顿斯 (Djurgårdens IF) vs 哈尔姆斯 (Halmstads BK)",
-      "home": "佐加顿斯 (Djurgårdens IF)",
-      "away": "哈尔姆斯 (Halmstads BK)",
-      "competition": "瑞典超级联赛 (Allsvenskan)",
+      "title": "Djurgårdens IF vs Halmstads BK",
+      "home": "Djurgårdens IF",
+      "away": "Halmstads BK",
+      "competition": "瑞超 Allsvenskan",
       "kickoff": "2026-07-14T01:00:00+08:00",
       "probs": {
-        "home": 0.737,
-        "draw": 0.166,
-        "away": 0.097
+        "home": 0.71,
+        "draw": 0.18,
+        "away": 0.11
       },
-      "generatedAt": "2026-07-12T00:26:42.270Z",
+      "generatedAt": "2026-07-12T12:17:28.375Z",
       "validationPass": true,
       "current": "reports/1201_2026-07-13/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-07-12T002642Z",
+          "path": "reports/1201_2026-07-13/history/2026-07-12T002642Z.md"
+        }
+      ]
     }
   ]
 }

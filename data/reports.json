@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-11T12:31:29.952Z",
-  "count": 134,
+  "generatedAt": "2026-07-12T00:43:28.903Z",
+  "count": 135,
   "reports": [
     {
       "matchId": "6203_2026-06-13",
@@ -3544,6 +3544,10 @@
       "current": "reports/6100_2026-07-11/current.md",
       "history": [
         {
+          "timestamp": "2026-07-11T121728Z",
+          "path": "reports/6100_2026-07-11/history/2026-07-11T121728Z.md"
+        },
+        {
           "timestamp": "2026-07-11T002526Z",
           "path": "reports/6100_2026-07-11/history/2026-07-11T002526Z.md"
         },
@@ -3565,14 +3569,18 @@
       "competition": "韩国K联赛1",
       "kickoff": "2026-07-12T18:30:00+08:00",
       "probs": {
-        "home": 0.41,
-        "draw": 0.34,
-        "away": 0.25
+        "home": 0.46,
+        "draw": 0.3,
+        "away": 0.24
       },
-      "generatedAt": "2026-07-11T12:17:28.839Z",
+      "generatedAt": "2026-07-12T00:26:42.270Z",
       "validationPass": true,
       "current": "reports/7201_2026-07-12/current.md",
       "history": [
+        {
+          "timestamp": "2026-07-11T121728Z",
+          "path": "reports/7201_2026-07-12/history/2026-07-11T121728Z.md"
+        },
         {
           "timestamp": "2026-07-11T002526Z",
           "path": "reports/7201_2026-07-12/history/2026-07-11T002526Z.md"
@@ -3581,20 +3589,24 @@
     },
     {
       "matchId": "7202_2026-07-12",
-      "title": "济州SK vs 大田市民",
-      "home": "济州SK",
-      "away": "大田市民",
-      "competition": "韩国K联赛1",
+      "title": "济州SK (Jeju SK) vs 大田市民 (Daejeon Hana Citizen)",
+      "home": "济州SK (Jeju SK)",
+      "away": "大田市民 (Daejeon Hana Citizen)",
+      "competition": "韩国K联赛1 (K League 1)",
       "kickoff": "2026-07-12T18:30:00+08:00",
       "probs": {
-        "home": 0.37,
+        "home": 0.33,
         "draw": 0.29,
-        "away": 0.34
+        "away": 0.38
       },
-      "generatedAt": "2026-07-11T12:17:28.839Z",
+      "generatedAt": "2026-07-12T00:26:42.270Z",
       "validationPass": true,
       "current": "reports/7202_2026-07-12/current.md",
       "history": [
+        {
+          "timestamp": "2026-07-11T121728Z",
+          "path": "reports/7202_2026-07-12/history/2026-07-11T121728Z.md"
+        },
         {
           "timestamp": "2026-07-11T002526Z",
           "path": "reports/7202_2026-07-12/history/2026-07-11T002526Z.md"
@@ -3603,20 +3615,24 @@
     },
     {
       "matchId": "7203_2026-07-12",
-      "title": "首尔FC vs 江原FC",
-      "home": "首尔FC",
-      "away": "江原FC",
-      "competition": "韩国K联赛1",
+      "title": "首尔FC (FC Seoul) vs 江原FC (Gangwon FC)",
+      "home": "首尔FC (FC Seoul)",
+      "away": "江原FC (Gangwon FC)",
+      "competition": "韩国K联赛1 (K League 1)",
       "kickoff": "2026-07-12T18:30:00+08:00",
       "probs": {
         "home": 0.38,
-        "draw": 0.32,
-        "away": 0.3
+        "draw": 0.31,
+        "away": 0.31
       },
-      "generatedAt": "2026-07-11T12:17:28.839Z",
+      "generatedAt": "2026-07-12T00:26:42.270Z",
       "validationPass": true,
       "current": "reports/7203_2026-07-12/current.md",
       "history": [
+        {
+          "timestamp": "2026-07-11T121728Z",
+          "path": "reports/7203_2026-07-12/history/2026-07-11T121728Z.md"
+        },
         {
           "timestamp": "2026-07-11T002526Z",
           "path": "reports/7203_2026-07-12/history/2026-07-11T002526Z.md"
@@ -3625,36 +3641,63 @@
     },
     {
       "matchId": "7204_2026-07-12",
-      "title": "马尔默 vs 哥德堡",
-      "home": "马尔默",
-      "away": "哥德堡",
-      "competition": "瑞典超级联赛",
-      "kickoff": "2026-07-12T20:00:00+08:00",
+      "title": "马尔默FF (Malmö FF) vs 哥德堡IFK (IFK Göteborg)",
+      "home": "马尔默FF (Malmö FF)",
+      "away": "哥德堡IFK (IFK Göteborg)",
+      "competition": "瑞典超级联赛 (Allsvenskan)",
+      "kickoff": "2026-07-12T20:30:00+08:00",
       "probs": {
-        "home": 0.46,
-        "draw": 0.26,
-        "away": 0.28
+        "home": 0.48,
+        "draw": 0.25,
+        "away": 0.27
       },
-      "generatedAt": "2026-07-11T12:17:28.839Z",
+      "generatedAt": "2026-07-12T00:26:42.270Z",
       "validationPass": true,
       "current": "reports/7204_2026-07-12/current.md",
-      "history": []
+      "history": [
+        {
+          "timestamp": "2026-07-11T121728Z",
+          "path": "reports/7204_2026-07-12/history/2026-07-11T121728Z.md"
+        }
+      ]
     },
     {
       "matchId": "7205_2026-07-12",
-      "title": "哈马比 vs 卡尔马",
-      "home": "哈马比",
-      "away": "卡尔马",
-      "competition": "瑞典超级联赛",
-      "kickoff": "2026-07-12T20:00:00+08:00",
+      "title": "哈马比IF (Hammarby IF) vs 卡尔马FF (Kalmar FF)",
+      "home": "哈马比IF (Hammarby IF)",
+      "away": "卡尔马FF (Kalmar FF)",
+      "competition": "瑞典超级联赛 (Allsvenskan)",
+      "kickoff": "2026-07-12T20:30:00+08:00",
       "probs": {
-        "home": 0.63,
-        "draw": 0.22,
-        "away": 0.15
+        "home": 0.665,
+        "draw": 0.194,
+        "away": 0.142
       },
-      "generatedAt": "2026-07-11T12:17:28.839Z",
+      "generatedAt": "2026-07-12T00:26:42.270Z",
       "validationPass": true,
       "current": "reports/7205_2026-07-12/current.md",
+      "history": [
+        {
+          "timestamp": "2026-07-11T121728Z",
+          "path": "reports/7205_2026-07-12/history/2026-07-11T121728Z.md"
+        }
+      ]
+    },
+    {
+      "matchId": "1201_2026-07-13",
+      "title": "佐加顿斯 (Djurgårdens IF) vs 哈尔姆斯 (Halmstads BK)",
+      "home": "佐加顿斯 (Djurgårdens IF)",
+      "away": "哈尔姆斯 (Halmstads BK)",
+      "competition": "瑞典超级联赛 (Allsvenskan)",
+      "kickoff": "2026-07-14T01:00:00+08:00",
+      "probs": {
+        "home": 0.737,
+        "draw": 0.166,
+        "away": 0.097
+      },
+      "generatedAt": "2026-07-12T00:26:42.270Z",
+      "validationPass": true,
+      "current": "reports/1201_2026-07-13/current.md",
       "history": []
     }
   ]
